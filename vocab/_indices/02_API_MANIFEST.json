@@ -1,0 +1,4733 @@
+{
+  "api_version": "1.0",
+  "generated": "2026-01-22T10:33:16.097624",
+  "endpoints": {
+    "word_of_day": "/api/v1/word-of-day",
+    "random_word": "/api/v1/word/random",
+    "word_by_name": "/api/v1/word/{word}",
+    "words_by_category": "/api/v1/category/{category}",
+    "words_by_letter": "/api/v1/letter/{letter}",
+    "search": "/api/v1/search?q={query}",
+    "rss_feed": "/rss/daily-word.xml"
+  },
+  "word_count": 999,
+  "categories_canonical": [
+    "Abandonment/Isolation",
+    "Abandonment/Neglect",
+    "Absorbed/Distracted",
+    "Absorption/Deep Focus",
+    "Abuse/Victimization",
+    "Acceptance/Patience",
+    "Acceptance/Surrender",
+    "Accepting/Submissive",
+    "Accountable/Reliable",
+    "Accusation/Responsibility",
+    "Achievement/Self-Worth",
+    "Achieving/Accomplished",
+    "Acknowledged/Appreciated",
+    "Acknowledged/Recognized",
+    "Acknowledged/Understood",
+    "Act of Refusing/Dismissal",
+    "Activation/Excitement",
+    "Activity/Engagement",
+    "Adaptability/Openness",
+    "Adaptable/Flexible",
+    "Adequacy/Neutrality",
+    "Admiration/Appreciation",
+    "Aesthetic Appreciation/Attractiveness",
+    "Affection Given/Caring",
+    "Affection/Acceptance",
+    "Affection/Appeal",
+    "Affection/Preciousness",
+    "Affection/Warmth",
+    "Afflicted/Distressed",
+    "Aggressive Antagonism/Opposition",
+    "Aggressive Opposition/Animosity",
+    "Aggressively Demanding/Forceful",
+    "Agitated/Excited",
+    "Agitation/Unease",
+    "Agreeable/Enjoyable",
+    "Alarm/Distress",
+    "Alcoholic/Intoxicating",
+    "Alertness/Vigilance",
+    "Alone/Isolated",
+    "Amazed/Astounded",
+    "Amazed/Delighted",
+    "Amazed/Impressed",
+    "Amazed/Overwhelmed",
+    "Amazed/Reverent",
+    "Anger/Annoyance",
+    "Anger/Assertion",
+    "Anger/Bitterness",
+    "Anger/Frustration",
+    "Anger/Fury",
+    "Anger/Hostility",
+    "Anger/Intensity",
+    "Anger/Irritability",
+    "Anger/Irritation",
+    "Anger/Rage",
+    "Anger/Rage (Provisional: overlaps with Sadness/Grief, Fear/Anxiety)",
+    "Angry/Furious",
+    "Annoyance/Agitation",
+    "Annoyed/Frustrated",
+    "Anticipation/Enthusiasm",
+    "Anticipation/Readiness",
+    "Anxiety/Apprehension",
+    "Anxiety/Concern",
+    "Anxiety/Discomfort",
+    "Anxiety/Nervousness",
+    "Anxiety/Worry",
+    "Apathy/Disinterest",
+    "Apathy/Indifference",
+    "Apathy/Lethargy",
+    "Appeal/Attractiveness",
+    "Appeal/Magnetism",
+    "Appealing to Senses/Luxurious",
+    "Appetite/Need",
+    "Appreciation/Recognition",
+    "Appreciation/Thankfulness",
+    "Argumentative/Contentious",
+    "Arrogance/Pride",
+    "Arrogant/Self-important",
+    "Astonishment/Wonder",
+    "Attention/Focus Difficulty",
+    "Attractive/Appealing",
+    "Attractive/Pleasant",
+    "Authority/Command",
+    "Authority/Control",
+    "Avarice/Excessive Desire",
+    "Avaricious/Selfish",
+    "Aversion/Antipathy",
+    "Avoidance/Rejection",
+    "Awakened/Stirred Up",
+    "Awe/Curiosity",
+    "Awe/Wonder",
+    "Awful/Dreadful",
+    "Balance/Serenity",
+    "Balance/Unity",
+    "Balanced/Composed",
+    "Balanced/Impartial",
+    "Bare/Exposed",
+    "Beautiful/Delightful",
+    "Belief That Universe Conspires to Help",
+    "Bereavement/Loss",
+    "Betrayal/Deception",
+    "Bewildered/Amazed",
+    "Bleakness/Gloom",
+    "Blessing/Luck",
+    "Blocked Progress/Annoyance",
+    "Bonding/Unity",
+    "Boring/Tiresome",
+    "Bound by Duty/Required",
+    "Bravery/Strength",
+    "Bravery/Valor",
+    "Bright/Glowing with Joy",
+    "Burden/Weight",
+    "Burdened/Overwhelmed",
+    "Calm/Control",
+    "Calm/Peaceful",
+    "Calm/Restful",
+    "Calm/Tolerant",
+    "Calm/Unaffected",
+    "Calmed/Comforted",
+    "Cannot Be Resisted/Compelling",
+    "Captivating/Overwhelming",
+    "Carefree/Unconcerned",
+    "Careless/Impulsive",
+    "Caring/Benevolent",
+    "Casually Indifferent/Cool",
+    "Caution/Defensiveness",
+    "Caution/Suspicion",
+    "Cautious/Suspicious",
+    "Celebration/Joy",
+    "Changeable Temperament/Irritability",
+    "Chaos/Disorder",
+    "Charmed/Delighted",
+    "Cheerful/Joyful",
+    "Cheerful/Merry",
+    "Childlike/Innocent",
+    "Choked/Constrained",
+    "Choked/Restrained",
+    "Clarity/Understanding",
+    "Clean/Untainted",
+    "Clear-Headed/Serious",
+    "Cleared/Justified",
+    "Clinical Condition/Mood Disorder",
+    "Close Personal Connection/Privacy",
+    "Coercion/Pressure",
+    "Collaboration/Teamwork",
+    "Comfort from Distress/Ease",
+    "Comforted/Confident",
+    "Communication/Authenticity",
+    "Compassion/Concern",
+    "Compassion/Empathy",
+    "Compassion/Understanding",
+    "Compassionate Sorrow/Sympathy",
+    "Competence/Ability",
+    "Competence/Mastery",
+    "Competent/Business-like",
+    "Complacent/Smug",
+    "Complaining/Fretful",
+    "Complete Separation/Loneliness",
+    "Composure/Detachment",
+    "Compulsively Preoccupied/Fixated",
+    "Conceited/Futile",
+    "Concentration/Attention",
+    "Condescended To/Belittled",
+    "Confidence/Assurance",
+    "Confidence/Authority",
+    "Confidence/Certainty",
+    "Confidence/Conviction",
+    "Confident/Certain",
+    "Confined/Restricted",
+    "Confinement/Restriction",
+    "Confirmed/Affirmed",
+    "Conflict/Division",
+    "Confused/Perplexed",
+    "Confusion/Agitation",
+    "Confusion/Aimlessness",
+    "Confusion/Bewilderment",
+    "Confusion/Conflict",
+    "Confusion/Disorientation",
+    "Confusion/Obscurity",
+    "Confusion/Perplexity",
+    "Connected/Associated",
+    "Connection/Bonding",
+    "Considerate/Reflective",
+    "Contempt/Disdain",
+    "Contempt/Hatred",
+    "Controlling/Jealous",
+    "Convincing/Influential",
+    "Correct/Appropriate",
+    "Corrupt/Mercenary",
+    "Courage/Boldness",
+    "Courage/Bravery",
+    "Courage/Confidence",
+    "Courage/Empowerment",
+    "Courage/Nobility",
+    "Courage/Valor",
+    "Courteous/Well-Mannered",
+    "Creativity/Abundance",
+    "Criticism/Censure",
+    "Cruelty/Harshness",
+    "Curiosity/Engagement",
+    "Curiosity/Interest",
+    "Curious/Inquisitive",
+    "Cynically Mocking/Scornful",
+    "Cynicism/Weariness",
+    "Damage/Fragmentation",
+    "Damaged/Burned",
+    "Deception/Foolishness",
+    "Dedication/Loyalty",
+    "Deep Affection/Profound Connection",
+    "Deep Desire/Yearning",
+    "Deep Happiness/Delight",
+    "Deep Regret/Sorrow",
+    "Deep Sorrow/Grief",
+    "Deep Suffering/Wretchedness",
+    "Deeply Sad/Pensive",
+    "Deeply Thoughtful/Reflective",
+    "Defeat/Exhaustion",
+    "Defeated/Conquered",
+    "Defiant/Rebellious",
+    "Defiant/Resistant",
+    "Dejected/Dispirited",
+    "Dejection/Discouragement",
+    "Dejection/Discouragment",
+    "Dejection/Moodiness",
+    "Dependable/Trustworthy",
+    "Depletion/Exhaustion",
+    "Depression/Low Mood",
+    "Depression/Sadness",
+    "Deserving/Valuable",
+    "Desire/Longing",
+    "Despair/Desperation",
+    "Despair/Futility",
+    "Destruction/Devastation",
+    "Destruction/Ruin",
+    "Detachment/Disconnection",
+    "Detachment/Remoteness",
+    "Determined/Settled",
+    "Devastation/Annihilation",
+    "Devastation/Defeat",
+    "Difficulty/Growth Opportunity",
+    "Difficulty/Toughness",
+    "Diminishment/Powerlessness",
+    "Diminutive/Little",
+    "Disappointment/Frustration",
+    "Discomfort/Unease",
+    "Discouraged/Deflated",
+    "Discouragement/Hopelessness",
+    "Disdain/Scorn",
+    "Disgraceful/Dishonorable",
+    "Disgust/Aversion",
+    "Disgust/Revulsion",
+    "Disgusted/Repulsed",
+    "Disillusionment/Loss of Faith",
+    "Disinterest/Apathy",
+    "Disorientation/Uncertainty",
+    "Disquiet/Restlessness",
+    "Disruption/Unease",
+    "Dissatisfaction/Annoyance",
+    "Dissatisfied/Restless",
+    "Distracted/Absent-minded",
+    "Distraction/Lack of Focus",
+    "Distress/Consternation",
+    "Distrust/Wariness",
+    "Disturbance/Agitation",
+    "Disturbance/Worry",
+    "Disturbed/Shaken",
+    "Disturbed/Unsettled",
+    "Disturbed/Upset",
+    "Dominance/Manipulation",
+    "Doubt/Ambiguity",
+    "Doubted/Discredited",
+    "Doubtful/Questioning",
+    "Drive/Rivalry",
+    "Dull/Unimaginative",
+    "Ease/Calm",
+    "Ease/Security",
+    "Ecstasy/Divine Joy",
+    "Ecstasy/Joy",
+    "Effective/Fruitful",
+    "Effervescence/Enthusiasm",
+    "Elevated/Euphoric",
+    "Emotional (General emotional impact)",
+    "Emotional Detachment/Cruelty",
+    "Emotional Distance/Detachment",
+    "Emotional Emptiness/Neutrality",
+    "Emotional Fluctuation/Temperament",
+    "Emotionally Affected/Touched",
+    "Emotionally Nostalgic/Tender",
+    "Empathy/Caring",
+    "Empathy/Kindness",
+    "Emptiness/Bleakness",
+    "Emptiness/Void",
+    "Enchantment/Charm",
+    "Enchantment/Delight",
+    "Enchantment/Fascination",
+    "Enduring/Unemotional",
+    "Energetic Joy/Invigoration",
+    "Energetic/Strong",
+    "Energy/Enthusiasm",
+    "Energy/Liveliness",
+    "Energy/Passion",
+    "Energy/Vitality",
+    "Engaged/Participating",
+    "Enjoyable/Satisfying",
+    "Enjoyment/Satisfaction",
+    "Enlarged/Inflated",
+    "Entertained/Delighted",
+    "Enthusiasm/Anticipation",
+    "Enthusiasm/Energy",
+    "Enthusiasm/Passion",
+    "Enthusiasm/Sharpness",
+    "Envious Possessiveness/Resentment",
+    "Envy/Possessiveness",
+    "Esteemed/Honored",
+    "Excellence/Intelligence",
+    "Excessive Load/Overload",
+    "Excessive Sentimentality/Mushiness",
+    "Excessively Emotional/Dramatic",
+    "Excessively Labored/Exhausted",
+    "Excited/Aroused",
+    "Excitement/Elation",
+    "Excitement/Enthusiasm (Provisional: overlaps with Anger/Rage, Passion)",
+    "Excitement/Exhilaration",
+    "Excitement/Future-Focus",
+    "Excitement/Jubilation",
+    "Excitement/Passion",
+    "Exclusion/Dismissal",
+    "Exclusion/Isolation",
+    "Exhaustion/Depletion",
+    "Experiencing Pain/Distress",
+    "Exposed/Vulnerable",
+    "Extreme Anger/Fury",
+    "Extreme Anger/Indignation",
+    "Extreme Anger/Outrage",
+    "Extreme Anger/Rage",
+    "Extreme Anxiety/Panic",
+    "Extreme Embarrassment/Shame",
+    "Extreme Emotion/Loss of Control",
+    "Extreme Emotional Disturbance/Panic",
+    "Extreme Excitement/Confusion",
+    "Extreme Fear/Panic",
+    "Extreme Fear/Terror",
+    "Extreme Happiness/Bliss",
+    "Extreme Indignation/Moral Anger",
+    "Extreme Joy/Rapture",
+    "Extreme Rage/Wrath",
+    "Extreme Upset/Agitation",
+    "Extreme Urgency/Crisis",
+    "Extremely Distasteful/Revolting",
+    "Extremely Enthusiastic/Fanatical",
+    "Extremely Frightened/Paralyzed with Fear",
+    "Extremely Happy/Elated",
+    "Extremely Impressive/Astounding",
+    "Failure/Surrender",
+    "Faith/Reliance",
+    "Fascinated/Curious",
+    "Fascinated/Enchanted",
+    "Fascination/Captivation",
+    "Fatigue/Depletion",
+    "Fatigue/Exhaustion",
+    "Fatigue/Sluggishness",
+    "Fear/Alert",
+    "Fear/Anticipatory Anxiety",
+    "Fear/Anxiety",
+    "Fear/Apprehension",
+    "Fear/Crisis",
+    "Fear/Submission",
+    "Fear/Terror",
+    "Fear/Vulnerability",
+    "Fearful/Avoiding",
+    "Feeble/Fragile",
+    "Feeling Expression/Sensitivity",
+    "Feeling Lonely/Solitary",
+    "Feeling Remorse/Sorry",
+    "Flexible/Pliant",
+    "Fluctuating/Unstable",
+    "Foolish/Unintelligent",
+    "Forbidden/Prohibited",
+    "Formal/Authorized",
+    "Fortunate/Blessed",
+    "Freed/Emancipated",
+    "Freedom/Relief",
+    "Friendliness/Harmony",
+    "Friendly/Outgoing",
+    "Frightened/Startled",
+    "Frustration/Annoyance",
+    "Frustration/Irritation",
+    "Frustration/Saturation",
+    "Fulfillment/Contentment",
+    "Full of Deep Sadness/Grief",
+    "Full of Grief/Sorrowful",
+    "Full of Malicious Intent/Vindictive",
+    "Full of Sexual Desire/Passionate",
+    "Gentle Affection/Care",
+    "Gentle/Soft",
+    "Gentle/Tender",
+    "Genuine/Honest",
+    "Genuineness/Truth",
+    "Giving/Kindness",
+    "Good-Humored/Cheerful",
+    "Gratitude/Appreciation",
+    "Gratitude/Divine Grace",
+    "Gratitude/Recognition",
+    "Grave/Earnest",
+    "Grief/Loss",
+    "Grief/Sadness",
+    "Grounded/Established",
+    "Happiness/Delight",
+    "Happiness/Pleasure",
+    "Harmed/Exploited",
+    "Harmony/Cooperation",
+    "Hatred/Contempt",
+    "Hatred/Loathing",
+    "Having Been Ignored/Overlooked",
+    "Having Clear Intent/Directed",
+    "Having Negative Outlook/Cynical",
+    "Heat/Temperature",
+    "Helplessness/Impotence",
+    "Hesitancy/Unwillingness",
+    "Hesitant/Unwilling",
+    "High Ideals/Vision",
+    "High Intensity/Concentration",
+    "High Joy/Euphoria",
+    "Higher/Dominant",
+    "Hindered/Obstructed",
+    "Holy/Revered",
+    "Honesty/Openness",
+    "Honoring/Considerate",
+    "Hope/Positivity",
+    "Hopeful/Positive Outlook",
+    "Hopelessness/Anguish",
+    "Hopelessness/Despair",
+    "Hostility/Cruelty",
+    "Hostility/Malice",
+    "Humble/Unassuming",
+    "Humor/Delight",
+    "Humor/Lightness",
+    "Humorous/Playful",
+    "Hurt/Insulted",
+    "Hurt/Suffering",
+    "Idealistic/Dreamy",
+    "Ignorance/Confusion",
+    "Ill Will/Spite",
+    "Ill/Unwell",
+    "Immaturity/Playfulness",
+    "Impaired/Under Influence",
+    "Impulsive Anger/Rashness",
+    "Impulsive/Natural",
+    "In a Kind Manner/Benevolently",
+    "Inactive/Submissive",
+    "Inactivity/Lethargy",
+    "Inadequacy/Emptiness",
+    "Inattention/Diversion",
+    "Indecisive/Uncertain",
+    "Infatuated/Charmed",
+    "Inflexible/Stiff",
+    "Injured/Hurt",
+    "Inner Tension/Ambivalence",
+    "Innovation/Expression",
+    "Insatiable/Unending",
+    "Insecure/Uncertain",
+    "Insufficiency/Self-Doubt",
+    "Intelligence/Ingenuity",
+    "Intelligence/Perceptiveness",
+    "Intelligence/Radiance",
+    "Intense Aggression/Power",
+    "Intense Anger/Rage",
+    "Intense Desire/Fervor",
+    "Intense Disgust/Aversion",
+    "Intense Dislike/Loathing",
+    "Intense Energy/Drive",
+    "Intense Hatred/Disgust",
+    "Intense Interest/Wonder",
+    "Intense Joy/Ecstasy",
+    "Intense Joy/Elation",
+    "Intense Joy/Rapture",
+    "Intense Joy/Transcendence",
+    "Intense Romantic Obsession/Attraction",
+    "Intense Romantic Obsession/Fixation",
+    "Intense Sexual Desire/Craving",
+    "Intensely Angry/Boiling",
+    "Intensity/Fervor",
+    "Intensity/Pain",
+    "Intensity/Unconventionality",
+    "Interest/Desire",
+    "Interest/Wonder",
+    "Intimacy/Connection",
+    "Intoxicated by Love/Romance",
+    "Invigorated/Activated",
+    "Inward-Focused/Reserved",
+    "Irritability/Bad Mood",
+    "Irritability/Crankiness",
+    "Irritability/Grumpiness",
+    "Irritable/Defensive",
+    "Irritable/Sharp",
+    "Irritated/Agitated",
+    "Irritation/Bad Mood",
+    "Irritation/Blocked Goals",
+    "Irritation/Disturbance",
+    "Irritation/Frustration",
+    "Irritation/Grumpiness",
+    "Irritation/Vexation",
+    "Isolation/Rejection",
+    "Isolation/Separation",
+    "Jealousy/Resentment",
+    "Joy/Cheerfulness",
+    "Joy/Contentment",
+    "Joy/Empathy",
+    "Joy/Encouragement",
+    "Joy/Energy",
+    "Joy/Exhilaration",
+    "Joy/Happiness",
+    "Joy/Lightheartedness",
+    "Joy/Pleasure",
+    "Joy/Positivity",
+    "Joy/Radiance",
+    "Joy/Vitality",
+    "Judgment/Rejection",
+    "Knowledge/Learning",
+    "Lack of Care/Abandonment",
+    "Lack of Sensitivity/Callousness",
+    "Lacking Energy/Dejected",
+    "Liberation/Independence",
+    "Liberation/Lightheartedness",
+    "Lightheaded Joy/Excitement",
+    "Lively/Cheerful",
+    "Lively/Energetic",
+    "Lively/Spirited",
+    "Loneliness/Sadness",
+    "Longing/Craving",
+    "Longing/Desire",
+    "Longing/Reminiscence",
+    "Longing/Want",
+    "Loss of Faith/Ideals",
+    "Loss of Hope/Demoralization",
+    "Loss/Mourning",
+    "Loud/Powerful",
+    "Love/Affection",
+    "Love/Affection (Provisional: overlaps with Awe/Reverence)",
+    "Love/Affection (Provisional: overlaps with Satisfaction/Contentment)",
+    "Love/Sexuality",
+    "Love/Value",
+    "Lower Status/Inadequacy",
+    "Madness/Frenzy",
+    "Malevolence/Corruption",
+    "Malicious Intent/Vindictiveness",
+    "Malicious Satisfaction/Superiority",
+    "Masculine/Strong",
+    "Maturity/Development",
+    "Melancholy/Pessimism",
+    "Memory/Attention",
+    "Menaced/Intimidated",
+    "Menacing/Intimidating",
+    "Mental Confusion/Unclear Thinking",
+    "Mentally Sharp/Clever",
+    "Mentally Sound/Rational",
+    "Mildly Annoyed/Irritated",
+    "Mildly Bad/Mischievous",
+    "Miserly/Ungenerous",
+    "Mistreated/Unjustly-treated",
+    "Mocked/Made Fun Of",
+    "Mockery/Scorn",
+    "Mocking/Ironic",
+    "Modesty/Humility",
+    "Monumental/Overwhelming Task",
+    "Moody/Resentful",
+    "Moral Distress/Shame",
+    "Motivated/Supported",
+    "Motivation/Creativity",
+    "Motivation/Determination",
+    "Motivation/Drive",
+    "Moved/Affected",
+    "Mutual/Collective",
+    "Naturally Compassionate/Generous",
+    "Nauseous/Uncomfortable",
+    "Negative Assessment/Displeasure",
+    "Negative Outlook/Hopelessness",
+    "Negligence/Inattention",
+    "Nervous/Easily Startled",
+    "Nostalgic Displacement/Yearning",
+    "Nostalgic Longing/Displacement",
+    "Not Properly Understood/Misjudged",
+    "Noteworthy/Outstanding",
+    "Numbness/Disconnection",
+    "Observed/Acknowledged",
+    "Obstinate/Inflexible",
+    "Obstruction/Impediment",
+    "Offended/Disrespected",
+    "Offense/Disrespect",
+    "Old/Lacking Freshness",
+    "Open/Accepting",
+    "Openness/Exposure",
+    "Optimism/Affirmation",
+    "Optimism/Brightness",
+    "Optimism/Expectation",
+    "Overburdened/Weighted",
+    "Overlooked/Ignored",
+    "Overwhelm/Exhaustion",
+    "Overwhelm/Siege",
+    "Overwhelmed/Conquered",
+    "Overwhelmed/Inundated",
+    "Overwhelming Loss/Devastation",
+    "Overwhelming/Intolerable",
+    "Pain/Injury",
+    "Pampered/Corrupted",
+    "Panic/Urgency",
+    "Paralysis/Incapacity",
+    "Passion/Fervor",
+    "Passive/Yielding",
+    "Peace/Comfort",
+    "Peace/Serenity",
+    "Peace/Tranquility",
+    "Peaceful/Relaxing",
+    "Peaceful/Undisturbed",
+    "Pensive Sadness/Contemplation",
+    "Persecution/Torment",
+    "Persistent Bitterness/Grudge",
+    "Persistent/Determined",
+    "Persuasion/Attraction",
+    "Physical Depletion/Tiredness",
+    "Physical Intensity/Overwhelm",
+    "Physical Need/Hunger",
+    "Physical/Emotional Turmoil",
+    "Physical/Sensory Pleasure",
+    "Physical/Strength",
+    "Physical/Vigor",
+    "Planned/Tactical",
+    "Playful Joy/Delight",
+    "Playful Laughter/Silliness",
+    "Playful/Fanciful",
+    "Playfulness/Energy",
+    "Playfulness/Frivolity",
+    "Pleasant/Agreeable",
+    "Pleased Recognition/Compliment",
+    "Pleasure/Satisfaction",
+    "Power/Assertiveness",
+    "Power/Control",
+    "Power/Impact",
+    "Powerful/Robust",
+    "Powerful/Strong",
+    "Powerlessness/Ineffectiveness",
+    "Powerlessness/Vulnerability",
+    "Preference/Affinity",
+    "Pressure/Force",
+    "Pride/Confidence (Provisional: overlaps with Love/Affection received)",
+    "Pride/Futility",
+    "Protection/Guard",
+    "Proud/Dignified",
+    "Prudence/Wariness",
+    "Purity/Naivety",
+    "Pursued/Hunted",
+    "Pursued/Tracked",
+    "Quick Anger/Irritability",
+    "Radiance/Vitality",
+    "Rebellion/Resistance",
+    "Receptive/Available",
+    "Recognition/Status",
+    "Redirection/Distraction",
+    "Reduction/Lessening",
+    "Reflection/Thoughtfulness",
+    "Regret/Apology",
+    "Regret/Contrition",
+    "Rejected/Abandoned",
+    "Rejected/Uncared",
+    "Rejected/Undesired",
+    "Relating to Physical Intimacy",
+    "Relaxation/Flexibility",
+    "Relaxed/Easygoing",
+    "Relaxed/Informal",
+    "Release/Liberation",
+    "Reliance/Attachment",
+    "Reliance/Need",
+    "Remorse/Self-Reproach",
+    "Renewal/Restoration",
+    "Renewed/Energized",
+    "Renewed/Refreshed",
+    "Reproductive Inability/Barrenness",
+    "Requiring Support/Dependent",
+    "Resentment/Acrimony",
+    "Resentment/Harshness",
+    "Resignation/Determinism",
+    "Resilience/Strength",
+    "Resolve/Commitment",
+    "Resolved/Established",
+    "Restlessness/Anxiety",
+    "Restlessness/Disconnection",
+    "Restlessness/Impatience",
+    "Restrained/Cautious",
+    "Restrained/Quiet",
+    "Restrained/Restricted",
+    "Restricted/Constrained",
+    "Restriction/Limitation",
+    "Retaliatory/Vindictive",
+    "Revenge/Vindictiveness",
+    "Revulsion/Aversion",
+    "Revulsion/Distress",
+    "Revulsion/Repulsion",
+    "Rich/Prosperous",
+    "Righteous Anger/Outrage",
+    "Righteous/Vindicated",
+    "Rigid/Inflexible",
+    "Ruined/Destroyed",
+    "Sacred/Transcendent",
+    "Sad/Discontented",
+    "Sadness/Dejection",
+    "Sadness/Discontent",
+    "Sadness/Discouragement",
+    "Sadness/Grief (Provisional: overlaps with Physical discomfort)",
+    "Sadness/Grief (Provisional: overlaps with Suffering/Distress)",
+    "Sadness/Melancholy",
+    "Safety/Stability",
+    "Satisfaction/Completion",
+    "Satisfaction/Contentment",
+    "Satisfaction/Fulfillment",
+    "Satisfaction/Peace",
+    "Satisfaction/Stagnation",
+    "Satisfied/Content",
+    "Security/Nurture",
+    "Self-Assurance/Conviction",
+    "Self-Aware/Embarrassed",
+    "Self-Centered/Egotistical",
+    "Self-Conscious Humiliation/Guilt",
+    "Self-Critical/Uncertain",
+    "Self-Doubt/Vulnerability",
+    "Self-Esteem/Dignity",
+    "Self-Hatred/Contempt",
+    "Self-Indulgent Sorrow/Wallowing",
+    "Self-Judgment/Inadequacy",
+    "Self-Positive/Affirming",
+    "Self-Praising/Boastful",
+    "Self-Satisfied/Complacent",
+    "Separated/Isolated",
+    "Separation/Isolation",
+    "Separation/Loneliness",
+    "Serious/Painful",
+    "Sexual Arousal/Desire",
+    "Sexual Violation/Assault",
+    "Sexuality/Desire",
+    "Shame/Degradation",
+    "Shame/Dishonor",
+    "Shame/Guilt",
+    "Shame/Humiliation",
+    "Shame/Self-Consciousness",
+    "Shame/Social Discomfort",
+    "Shaped/Formed",
+    "Shock/Bewilderment",
+    "Shock/Disgust",
+    "Shocked/Dazed",
+    "Shocked/Startled",
+    "Shocking/Excessive",
+    "Shy/Fearful",
+    "Shyness/Fearfulness",
+    "Shyness/Lack of Confidence",
+    "Shyness/Modesty",
+    "Sick to Stomach/Disgusted",
+    "Significance/Value",
+    "Silencing/Restriction",
+    "Silent/Peaceful",
+    "Simple/Ordinary",
+    "Sincere Regret/Remorse",
+    "Sincerity/Seriousness",
+    "Skeptical/Doubtful",
+    "Skepticism/Distrust",
+    "Skepticism/Mistrust",
+    "Skill/Effectiveness",
+    "Skilled/Prepared",
+    "Slow/Lethargic",
+    "Sociable/Extroverted",
+    "Social Anxiety/Introversion",
+    "Social Discomfort/Misalignment",
+    "Social Energy/Outward Focus",
+    "Social Isolation/Detachment",
+    "Solace/Relief",
+    "Solitude/Disconnection",
+    "Soothed/Calmed",
+    "Sorrow/Catastrophic",
+    "Sorrow/Distress",
+    "Sorrow/Melancholy",
+    "Sorrow/Remorse",
+    "Sorrowful/Melancholic",
+    "Sorrowful/Pitiful",
+    "Spiteful/Vengeful",
+    "Spontaneous Action/Rashness",
+    "Stability/Centeredness",
+    "Stable/Reliable",
+    "State of Being Alone/Peaceful Isolation",
+    "State of Being Anxious/Agitated",
+    "State of Being Clear-Headed/Serious",
+    "State of Being Content/Fulfillment",
+    "State of Being Dark/Grave",
+    "State of Being Emotionally Nostalgic/Tender",
+    "State of Being Gentle/Tender",
+    "State of Being Genuine/Honest",
+    "State of Being Kind/Compassion",
+    "State of Being Modest/Humility",
+    "State of Being Needy/Dependency",
+    "State of Being Peaceful/Tranquil",
+    "State of Being Sacred/Transcendent",
+    "State of Being Self-Satisfied/Complacent",
+    "State of Being Timid/Reserved",
+    "State of Being Unhappy/Sorrow",
+    "State of Cheerfulness/Merriment",
+    "State of Good Humor/Cheerfulness",
+    "State of Isolation/Solitude",
+    "State of Preference/Enjoyment",
+    "State of Tranquility/Calm",
+    "State of Triumphant Joy/Celebration",
+    "Static/Unchanging",
+    "Steady/Reliable",
+    "Stern/Forbidding",
+    "Stifling/Congested",
+    "Stimulated to Anger/Irritated",
+    "Stimulating/Challenging",
+    "Strange/Unusual",
+    "Strategy/Analysis",
+    "Strengthened/Supported",
+    "Stress/Rigidity",
+    "Stress/Tightness",
+    "Stress/Weight",
+    "Stressed/Coerced",
+    "Stressed/Rushed",
+    "Strong/Influential",
+    "Strong/Robust",
+    "Strong/Sturdy",
+    "Strongly Disgusted/Revolted",
+    "Stubborn/Determined",
+    "Stubborn/Irritable",
+    "Stubbornness/Resistance",
+    "Stunned/Emotionally Paralyzed",
+    "Subdued/Controlled",
+    "Subjugation/Powerlessness",
+    "Submission/Conformity",
+    "Sudden Overwhelming Fear/Terror",
+    "Suddenly Overwhelmed by Love/Infatuated",
+    "Suddenly Surprised/Shocked",
+    "Suffering from Unrequited Love/Longing",
+    "Suffering/Anguish",
+    "Suffering/Distress",
+    "Suffering/Wretchedness",
+    "Sullen/Gloomy",
+    "Supportive/Motivating",
+    "Suppressed/Constrained",
+    "Surliness/Irritability",
+    "Surprise/Shock",
+    "Surprise/Trauma",
+    "Surprise/Wonder",
+    "Surprised/Startled",
+    "Suspicion/Distrust",
+    "Suspicion/Uncertainty",
+    "Tediously Repetitive/Dull",
+    "Tendency/Inclination",
+    "Tender Affection/Touching",
+    "Tense/Anxious",
+    "Tension/Nervousness",
+    "Tension/Pressure",
+    "Terrible/Dreadful",
+    "Terror/Revulsion",
+    "Terror/Shock",
+    "Threat Response/Anxiety",
+    "Threatened/In Danger",
+    "Torn/Damaged",
+    "Traffic-Related Anger/Fury",
+    "Tranquility/Peace",
+    "Tranquility/Serenity",
+    "Transcendent Bliss/Enlightenment",
+    "Transgressed/Abused",
+    "Trauma/Damage",
+    "Travel-longing/Restless",
+    "Treasured/Appreciated",
+    "Trembling/Shaking with Fear",
+    "Triumphantly Joyful/Exuberant",
+    "Trivial/Small-minded",
+    "Trust Violation/Hurt",
+    "Unable to Move/Act",
+    "Unable to Speak/Stunned",
+    "Unaffected/Indifferent",
+    "Unbreakable/Absolute",
+    "Uncertainty/Doubt",
+    "Uncertainty/Hesitation",
+    "Uncertainty/Reluctance",
+    "Uncertainty/Skepticism",
+    "Uncertainty/Vulnerability",
+    "Unconventional/Eccentric",
+    "Undermined/Destroyed",
+    "Understanding/Compassion",
+    "Undeserving/Inadequate",
+    "Unexpected/Astonishing",
+    "Unfulfillment/Discontent",
+    "Unimportant/Trivial",
+    "Unique/Exceptional",
+    "Unknown/Strange",
+    "Unlucky/Regrettable",
+    "Unmet Expectations/Letdown",
+    "Unpleasant/Disagreeable",
+    "Unpleasant/Repulsive",
+    "Unpredictability/Whim",
+    "Unready/Caught-off-guard",
+    "Unrecognized/Undervalued",
+    "Unseen/Unnoticed",
+    "Unstable/Disturbed",
+    "Unsteady/Volatile",
+    "Unwilling to Accept/Prejudiced",
+    "Urgency/Restlessness",
+    "Utilized/Employed",
+    "Valueless/Inadequate",
+    "Very Angry/Extremely Irritated",
+    "Victorious/Celebratory",
+    "Victory/Achievement",
+    "Victory/Domination",
+    "Vitality/Energy",
+    "Vitality/Vigor",
+    "Void/Depletion",
+    "Vulnerability/Delicacy",
+    "Vulnerability/Openness",
+    "Warmth/Friendliness",
+    "Warmth/Sociability",
+    "Watchful/Alert",
+    "Wealthy/Abundant",
+    "Weariness/Exhaustion",
+    "Well-being/Satisfaction",
+    "Well-liked/Accepted",
+    "Wellness/Vitality",
+    "Wistful/Ethereal",
+    "Without Direction/Confused",
+    "Without Life/Vitality",
+    "Wonder-filled/Amazed",
+    "Wonder/Astonishment",
+    "Wonder/Reverence",
+    "Wonderful/Amazing",
+    "Worry/Care",
+    "Worthless/Ineffective",
+    "Worthy of Love/Endearing",
+    "Yearning/Nostalgic",
+    "Yielding/Compliant",
+    "Yielding/Surrender"
+  ],
+  "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "Y",
+    "Z"
+  ],
+  "categories": [
+    {
+      "name": "Abandonment/Isolation",
+      "word_count": 1
+    },
+    {
+      "name": "Abandonment/Neglect",
+      "word_count": 1
+    },
+    {
+      "name": "Absorbed/Distracted",
+      "word_count": 1
+    },
+    {
+      "name": "Absorption/Deep Focus",
+      "word_count": 1
+    },
+    {
+      "name": "Abuse/Victimization",
+      "word_count": 1
+    },
+    {
+      "name": "Acceptance/Patience",
+      "word_count": 1
+    },
+    {
+      "name": "Acceptance/Surrender",
+      "word_count": 1
+    },
+    {
+      "name": "Accepting/Submissive",
+      "word_count": 1
+    },
+    {
+      "name": "Accountable/Reliable",
+      "word_count": 1
+    },
+    {
+      "name": "Accusation/Responsibility",
+      "word_count": 1
+    },
+    {
+      "name": "Achievement/Self-Worth",
+      "word_count": 1
+    },
+    {
+      "name": "Achieving/Accomplished",
+      "word_count": 1
+    },
+    {
+      "name": "Acknowledged/Appreciated",
+      "word_count": 1
+    },
+    {
+      "name": "Acknowledged/Recognized",
+      "word_count": 1
+    },
+    {
+      "name": "Acknowledged/Understood",
+      "word_count": 1
+    },
+    {
+      "name": "Act of Refusing/Dismissal",
+      "word_count": 1
+    },
+    {
+      "name": "Activation/Excitement",
+      "word_count": 1
+    },
+    {
+      "name": "Activity/Engagement",
+      "word_count": 1
+    },
+    {
+      "name": "Adaptability/Openness",
+      "word_count": 1
+    },
+    {
+      "name": "Adaptable/Flexible",
+      "word_count": 1
+    },
+    {
+      "name": "Adequacy/Neutrality",
+      "word_count": 1
+    },
+    {
+      "name": "Admiration/Appreciation",
+      "word_count": 1
+    },
+    {
+      "name": "Aesthetic Appreciation/Attractiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Affection Given/Caring",
+      "word_count": 1
+    },
+    {
+      "name": "Affection/Acceptance",
+      "word_count": 1
+    },
+    {
+      "name": "Affection/Appeal",
+      "word_count": 1
+    },
+    {
+      "name": "Affection/Preciousness",
+      "word_count": 1
+    },
+    {
+      "name": "Affection/Warmth",
+      "word_count": 1
+    },
+    {
+      "name": "Afflicted/Distressed",
+      "word_count": 1
+    },
+    {
+      "name": "Aggressive Antagonism/Opposition",
+      "word_count": 1
+    },
+    {
+      "name": "Aggressive Opposition/Animosity",
+      "word_count": 1
+    },
+    {
+      "name": "Aggressively Demanding/Forceful",
+      "word_count": 1
+    },
+    {
+      "name": "Agitated/Excited",
+      "word_count": 1
+    },
+    {
+      "name": "Agitation/Unease",
+      "word_count": 1
+    },
+    {
+      "name": "Agreeable/Enjoyable",
+      "word_count": 1
+    },
+    {
+      "name": "Alarm/Distress",
+      "word_count": 1
+    },
+    {
+      "name": "Alcoholic/Intoxicating",
+      "word_count": 1
+    },
+    {
+      "name": "Alertness/Vigilance",
+      "word_count": 1
+    },
+    {
+      "name": "Alone/Isolated",
+      "word_count": 1
+    },
+    {
+      "name": "Amazed/Astounded",
+      "word_count": 1
+    },
+    {
+      "name": "Amazed/Delighted",
+      "word_count": 1
+    },
+    {
+      "name": "Amazed/Impressed",
+      "word_count": 1
+    },
+    {
+      "name": "Amazed/Overwhelmed",
+      "word_count": 1
+    },
+    {
+      "name": "Amazed/Reverent",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Annoyance",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Assertion",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Bitterness",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Frustration",
+      "word_count": 2
+    },
+    {
+      "name": "Anger/Fury",
+      "word_count": 2
+    },
+    {
+      "name": "Anger/Hostility",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Intensity",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Irritability",
+      "word_count": 1
+    },
+    {
+      "name": "Anger/Irritation",
+      "word_count": 2
+    },
+    {
+      "name": "Anger/Rage",
+      "word_count": 2
+    },
+    {
+      "name": "Anger/Rage (Provisional: overlaps with Sadness/Grief, Fear/Anxiety)",
+      "word_count": 1
+    },
+    {
+      "name": "Angry/Furious",
+      "word_count": 1
+    },
+    {
+      "name": "Annoyance/Agitation",
+      "word_count": 2
+    },
+    {
+      "name": "Annoyed/Frustrated",
+      "word_count": 1
+    },
+    {
+      "name": "Anticipation/Enthusiasm",
+      "word_count": 1
+    },
+    {
+      "name": "Anticipation/Readiness",
+      "word_count": 1
+    },
+    {
+      "name": "Anxiety/Apprehension",
+      "word_count": 3
+    },
+    {
+      "name": "Anxiety/Concern",
+      "word_count": 2
+    },
+    {
+      "name": "Anxiety/Discomfort",
+      "word_count": 1
+    },
+    {
+      "name": "Anxiety/Nervousness",
+      "word_count": 1
+    },
+    {
+      "name": "Anxiety/Worry",
+      "word_count": 1
+    },
+    {
+      "name": "Apathy/Disinterest",
+      "word_count": 1
+    },
+    {
+      "name": "Apathy/Indifference",
+      "word_count": 1
+    },
+    {
+      "name": "Apathy/Lethargy",
+      "word_count": 1
+    },
+    {
+      "name": "Appeal/Attractiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Appeal/Magnetism",
+      "word_count": 1
+    },
+    {
+      "name": "Appealing to Senses/Luxurious",
+      "word_count": 1
+    },
+    {
+      "name": "Appetite/Need",
+      "word_count": 1
+    },
+    {
+      "name": "Appreciation/Recognition",
+      "word_count": 1
+    },
+    {
+      "name": "Appreciation/Thankfulness",
+      "word_count": 1
+    },
+    {
+      "name": "Argumentative/Contentious",
+      "word_count": 1
+    },
+    {
+      "name": "Arrogance/Pride",
+      "word_count": 1
+    },
+    {
+      "name": "Arrogant/Self-important",
+      "word_count": 1
+    },
+    {
+      "name": "Astonishment/Wonder",
+      "word_count": 1
+    },
+    {
+      "name": "Attention/Focus Difficulty",
+      "word_count": 1
+    },
+    {
+      "name": "Attractive/Appealing",
+      "word_count": 1
+    },
+    {
+      "name": "Attractive/Pleasant",
+      "word_count": 1
+    },
+    {
+      "name": "Authority/Command",
+      "word_count": 1
+    },
+    {
+      "name": "Authority/Control",
+      "word_count": 1
+    },
+    {
+      "name": "Avarice/Excessive Desire",
+      "word_count": 1
+    },
+    {
+      "name": "Avaricious/Selfish",
+      "word_count": 1
+    },
+    {
+      "name": "Aversion/Antipathy",
+      "word_count": 1
+    },
+    {
+      "name": "Avoidance/Rejection",
+      "word_count": 1
+    },
+    {
+      "name": "Awakened/Stirred Up",
+      "word_count": 1
+    },
+    {
+      "name": "Awe/Curiosity",
+      "word_count": 1
+    },
+    {
+      "name": "Awe/Wonder",
+      "word_count": 2
+    },
+    {
+      "name": "Awful/Dreadful",
+      "word_count": 1
+    },
+    {
+      "name": "Balance/Serenity",
+      "word_count": 1
+    },
+    {
+      "name": "Balance/Unity",
+      "word_count": 1
+    },
+    {
+      "name": "Balanced/Composed",
+      "word_count": 1
+    },
+    {
+      "name": "Balanced/Impartial",
+      "word_count": 1
+    },
+    {
+      "name": "Bare/Exposed",
+      "word_count": 1
+    },
+    {
+      "name": "Beautiful/Delightful",
+      "word_count": 1
+    },
+    {
+      "name": "Belief That Universe Conspires to Help",
+      "word_count": 1
+    },
+    {
+      "name": "Bereavement/Loss",
+      "word_count": 1
+    },
+    {
+      "name": "Betrayal/Deception",
+      "word_count": 2
+    },
+    {
+      "name": "Bewildered/Amazed",
+      "word_count": 1
+    },
+    {
+      "name": "Bleakness/Gloom",
+      "word_count": 1
+    },
+    {
+      "name": "Blessing/Luck",
+      "word_count": 1
+    },
+    {
+      "name": "Blocked Progress/Annoyance",
+      "word_count": 1
+    },
+    {
+      "name": "Bonding/Unity",
+      "word_count": 1
+    },
+    {
+      "name": "Boring/Tiresome",
+      "word_count": 1
+    },
+    {
+      "name": "Bound by Duty/Required",
+      "word_count": 1
+    },
+    {
+      "name": "Bravery/Strength",
+      "word_count": 1
+    },
+    {
+      "name": "Bravery/Valor",
+      "word_count": 1
+    },
+    {
+      "name": "Bright/Glowing with Joy",
+      "word_count": 1
+    },
+    {
+      "name": "Burden/Weight",
+      "word_count": 1
+    },
+    {
+      "name": "Burdened/Overwhelmed",
+      "word_count": 1
+    },
+    {
+      "name": "Calm/Control",
+      "word_count": 1
+    },
+    {
+      "name": "Calm/Peaceful",
+      "word_count": 1
+    },
+    {
+      "name": "Calm/Restful",
+      "word_count": 1
+    },
+    {
+      "name": "Calm/Tolerant",
+      "word_count": 1
+    },
+    {
+      "name": "Calm/Unaffected",
+      "word_count": 1
+    },
+    {
+      "name": "Calmed/Comforted",
+      "word_count": 1
+    },
+    {
+      "name": "Cannot Be Resisted/Compelling",
+      "word_count": 1
+    },
+    {
+      "name": "Captivating/Overwhelming",
+      "word_count": 1
+    },
+    {
+      "name": "Carefree/Unconcerned",
+      "word_count": 1
+    },
+    {
+      "name": "Careless/Impulsive",
+      "word_count": 1
+    },
+    {
+      "name": "Caring/Benevolent",
+      "word_count": 1
+    },
+    {
+      "name": "Casually Indifferent/Cool",
+      "word_count": 1
+    },
+    {
+      "name": "Caution/Defensiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Caution/Suspicion",
+      "word_count": 1
+    },
+    {
+      "name": "Cautious/Suspicious",
+      "word_count": 1
+    },
+    {
+      "name": "Celebration/Joy",
+      "word_count": 1
+    },
+    {
+      "name": "Changeable Temperament/Irritability",
+      "word_count": 1
+    },
+    {
+      "name": "Chaos/Disorder",
+      "word_count": 1
+    },
+    {
+      "name": "Charmed/Delighted",
+      "word_count": 1
+    },
+    {
+      "name": "Cheerful/Joyful",
+      "word_count": 1
+    },
+    {
+      "name": "Cheerful/Merry",
+      "word_count": 1
+    },
+    {
+      "name": "Childlike/Innocent",
+      "word_count": 1
+    },
+    {
+      "name": "Choked/Constrained",
+      "word_count": 1
+    },
+    {
+      "name": "Choked/Restrained",
+      "word_count": 1
+    },
+    {
+      "name": "Clarity/Understanding",
+      "word_count": 1
+    },
+    {
+      "name": "Clean/Untainted",
+      "word_count": 1
+    },
+    {
+      "name": "Clear-Headed/Serious",
+      "word_count": 1
+    },
+    {
+      "name": "Cleared/Justified",
+      "word_count": 1
+    },
+    {
+      "name": "Clinical Condition/Mood Disorder",
+      "word_count": 1
+    },
+    {
+      "name": "Close Personal Connection/Privacy",
+      "word_count": 1
+    },
+    {
+      "name": "Coercion/Pressure",
+      "word_count": 1
+    },
+    {
+      "name": "Collaboration/Teamwork",
+      "word_count": 1
+    },
+    {
+      "name": "Comfort from Distress/Ease",
+      "word_count": 1
+    },
+    {
+      "name": "Comforted/Confident",
+      "word_count": 1
+    },
+    {
+      "name": "Communication/Authenticity",
+      "word_count": 1
+    },
+    {
+      "name": "Compassion/Concern",
+      "word_count": 1
+    },
+    {
+      "name": "Compassion/Empathy",
+      "word_count": 1
+    },
+    {
+      "name": "Compassion/Understanding",
+      "word_count": 1
+    },
+    {
+      "name": "Compassionate Sorrow/Sympathy",
+      "word_count": 1
+    },
+    {
+      "name": "Competence/Ability",
+      "word_count": 1
+    },
+    {
+      "name": "Competence/Mastery",
+      "word_count": 1
+    },
+    {
+      "name": "Competent/Business-like",
+      "word_count": 1
+    },
+    {
+      "name": "Complacent/Smug",
+      "word_count": 1
+    },
+    {
+      "name": "Complaining/Fretful",
+      "word_count": 1
+    },
+    {
+      "name": "Complete Separation/Loneliness",
+      "word_count": 1
+    },
+    {
+      "name": "Composure/Detachment",
+      "word_count": 1
+    },
+    {
+      "name": "Compulsively Preoccupied/Fixated",
+      "word_count": 1
+    },
+    {
+      "name": "Conceited/Futile",
+      "word_count": 1
+    },
+    {
+      "name": "Concentration/Attention",
+      "word_count": 1
+    },
+    {
+      "name": "Condescended To/Belittled",
+      "word_count": 1
+    },
+    {
+      "name": "Confidence/Assurance",
+      "word_count": 1
+    },
+    {
+      "name": "Confidence/Authority",
+      "word_count": 1
+    },
+    {
+      "name": "Confidence/Certainty",
+      "word_count": 1
+    },
+    {
+      "name": "Confidence/Conviction",
+      "word_count": 1
+    },
+    {
+      "name": "Confident/Certain",
+      "word_count": 1
+    },
+    {
+      "name": "Confined/Restricted",
+      "word_count": 1
+    },
+    {
+      "name": "Confinement/Restriction",
+      "word_count": 1
+    },
+    {
+      "name": "Confirmed/Affirmed",
+      "word_count": 1
+    },
+    {
+      "name": "Conflict/Division",
+      "word_count": 1
+    },
+    {
+      "name": "Confused/Perplexed",
+      "word_count": 1
+    },
+    {
+      "name": "Confusion/Agitation",
+      "word_count": 1
+    },
+    {
+      "name": "Confusion/Aimlessness",
+      "word_count": 1
+    },
+    {
+      "name": "Confusion/Bewilderment",
+      "word_count": 4
+    },
+    {
+      "name": "Confusion/Conflict",
+      "word_count": 1
+    },
+    {
+      "name": "Confusion/Disorientation",
+      "word_count": 2
+    },
+    {
+      "name": "Confusion/Obscurity",
+      "word_count": 1
+    },
+    {
+      "name": "Confusion/Perplexity",
+      "word_count": 2
+    },
+    {
+      "name": "Connected/Associated",
+      "word_count": 1
+    },
+    {
+      "name": "Connection/Bonding",
+      "word_count": 1
+    },
+    {
+      "name": "Considerate/Reflective",
+      "word_count": 1
+    },
+    {
+      "name": "Contempt/Disdain",
+      "word_count": 1
+    },
+    {
+      "name": "Contempt/Hatred",
+      "word_count": 1
+    },
+    {
+      "name": "Controlling/Jealous",
+      "word_count": 1
+    },
+    {
+      "name": "Convincing/Influential",
+      "word_count": 1
+    },
+    {
+      "name": "Correct/Appropriate",
+      "word_count": 1
+    },
+    {
+      "name": "Corrupt/Mercenary",
+      "word_count": 1
+    },
+    {
+      "name": "Courage/Boldness",
+      "word_count": 1
+    },
+    {
+      "name": "Courage/Bravery",
+      "word_count": 1
+    },
+    {
+      "name": "Courage/Confidence",
+      "word_count": 1
+    },
+    {
+      "name": "Courage/Empowerment",
+      "word_count": 1
+    },
+    {
+      "name": "Courage/Nobility",
+      "word_count": 1
+    },
+    {
+      "name": "Courage/Valor",
+      "word_count": 1
+    },
+    {
+      "name": "Courteous/Well-Mannered",
+      "word_count": 1
+    },
+    {
+      "name": "Creativity/Abundance",
+      "word_count": 1
+    },
+    {
+      "name": "Criticism/Censure",
+      "word_count": 1
+    },
+    {
+      "name": "Cruelty/Harshness",
+      "word_count": 1
+    },
+    {
+      "name": "Curiosity/Engagement",
+      "word_count": 1
+    },
+    {
+      "name": "Curiosity/Interest",
+      "word_count": 1
+    },
+    {
+      "name": "Curious/Inquisitive",
+      "word_count": 1
+    },
+    {
+      "name": "Cynically Mocking/Scornful",
+      "word_count": 1
+    },
+    {
+      "name": "Cynicism/Weariness",
+      "word_count": 1
+    },
+    {
+      "name": "Damage/Fragmentation",
+      "word_count": 1
+    },
+    {
+      "name": "Damaged/Burned",
+      "word_count": 1
+    },
+    {
+      "name": "Deception/Foolishness",
+      "word_count": 1
+    },
+    {
+      "name": "Dedication/Loyalty",
+      "word_count": 2
+    },
+    {
+      "name": "Deep Affection/Profound Connection",
+      "word_count": 1
+    },
+    {
+      "name": "Deep Desire/Yearning",
+      "word_count": 1
+    },
+    {
+      "name": "Deep Happiness/Delight",
+      "word_count": 1
+    },
+    {
+      "name": "Deep Regret/Sorrow",
+      "word_count": 1
+    },
+    {
+      "name": "Deep Sorrow/Grief",
+      "word_count": 1
+    },
+    {
+      "name": "Deep Suffering/Wretchedness",
+      "word_count": 1
+    },
+    {
+      "name": "Deeply Sad/Pensive",
+      "word_count": 1
+    },
+    {
+      "name": "Deeply Thoughtful/Reflective",
+      "word_count": 1
+    },
+    {
+      "name": "Defeat/Exhaustion",
+      "word_count": 1
+    },
+    {
+      "name": "Defeated/Conquered",
+      "word_count": 1
+    },
+    {
+      "name": "Defiant/Rebellious",
+      "word_count": 1
+    },
+    {
+      "name": "Defiant/Resistant",
+      "word_count": 1
+    },
+    {
+      "name": "Dejected/Dispirited",
+      "word_count": 1
+    },
+    {
+      "name": "Dejection/Discouragement",
+      "word_count": 2
+    },
+    {
+      "name": "Dejection/Discouragment",
+      "word_count": 1
+    },
+    {
+      "name": "Dejection/Moodiness",
+      "word_count": 1
+    },
+    {
+      "name": "Dependable/Trustworthy",
+      "word_count": 1
+    },
+    {
+      "name": "Depletion/Exhaustion",
+      "word_count": 1
+    },
+    {
+      "name": "Depression/Low Mood",
+      "word_count": 1
+    },
+    {
+      "name": "Depression/Sadness",
+      "word_count": 2
+    },
+    {
+      "name": "Deserving/Valuable",
+      "word_count": 1
+    },
+    {
+      "name": "Desire/Longing",
+      "word_count": 1
+    },
+    {
+      "name": "Despair/Desperation",
+      "word_count": 1
+    },
+    {
+      "name": "Despair/Futility",
+      "word_count": 1
+    },
+    {
+      "name": "Destruction/Devastation",
+      "word_count": 1
+    },
+    {
+      "name": "Destruction/Ruin",
+      "word_count": 1
+    },
+    {
+      "name": "Detachment/Disconnection",
+      "word_count": 1
+    },
+    {
+      "name": "Detachment/Remoteness",
+      "word_count": 1
+    },
+    {
+      "name": "Determined/Settled",
+      "word_count": 1
+    },
+    {
+      "name": "Devastation/Annihilation",
+      "word_count": 1
+    },
+    {
+      "name": "Devastation/Defeat",
+      "word_count": 1
+    },
+    {
+      "name": "Difficulty/Growth Opportunity",
+      "word_count": 1
+    },
+    {
+      "name": "Difficulty/Toughness",
+      "word_count": 1
+    },
+    {
+      "name": "Diminishment/Powerlessness",
+      "word_count": 1
+    },
+    {
+      "name": "Diminutive/Little",
+      "word_count": 1
+    },
+    {
+      "name": "Disappointment/Frustration",
+      "word_count": 1
+    },
+    {
+      "name": "Discomfort/Unease",
+      "word_count": 1
+    },
+    {
+      "name": "Discouraged/Deflated",
+      "word_count": 1
+    },
+    {
+      "name": "Discouragement/Hopelessness",
+      "word_count": 1
+    },
+    {
+      "name": "Disdain/Scorn",
+      "word_count": 2
+    },
+    {
+      "name": "Disgraceful/Dishonorable",
+      "word_count": 1
+    },
+    {
+      "name": "Disgust/Aversion",
+      "word_count": 2
+    },
+    {
+      "name": "Disgust/Revulsion",
+      "word_count": 1
+    },
+    {
+      "name": "Disgusted/Repulsed",
+      "word_count": 2
+    },
+    {
+      "name": "Disillusionment/Loss of Faith",
+      "word_count": 1
+    },
+    {
+      "name": "Disinterest/Apathy",
+      "word_count": 1
+    },
+    {
+      "name": "Disorientation/Uncertainty",
+      "word_count": 1
+    },
+    {
+      "name": "Disquiet/Restlessness",
+      "word_count": 1
+    },
+    {
+      "name": "Disruption/Unease",
+      "word_count": 1
+    },
+    {
+      "name": "Dissatisfaction/Annoyance",
+      "word_count": 2
+    },
+    {
+      "name": "Dissatisfied/Restless",
+      "word_count": 1
+    },
+    {
+      "name": "Distracted/Absent-minded",
+      "word_count": 1
+    },
+    {
+      "name": "Distraction/Lack of Focus",
+      "word_count": 1
+    },
+    {
+      "name": "Distress/Consternation",
+      "word_count": 1
+    },
+    {
+      "name": "Distrust/Wariness",
+      "word_count": 1
+    },
+    {
+      "name": "Disturbance/Agitation",
+      "word_count": 1
+    },
+    {
+      "name": "Disturbance/Worry",
+      "word_count": 1
+    },
+    {
+      "name": "Disturbed/Shaken",
+      "word_count": 1
+    },
+    {
+      "name": "Disturbed/Unsettled",
+      "word_count": 1
+    },
+    {
+      "name": "Disturbed/Upset",
+      "word_count": 1
+    },
+    {
+      "name": "Dominance/Manipulation",
+      "word_count": 1
+    },
+    {
+      "name": "Doubt/Ambiguity",
+      "word_count": 1
+    },
+    {
+      "name": "Doubted/Discredited",
+      "word_count": 1
+    },
+    {
+      "name": "Doubtful/Questioning",
+      "word_count": 1
+    },
+    {
+      "name": "Drive/Rivalry",
+      "word_count": 1
+    },
+    {
+      "name": "Dull/Unimaginative",
+      "word_count": 1
+    },
+    {
+      "name": "Ease/Calm",
+      "word_count": 1
+    },
+    {
+      "name": "Ease/Security",
+      "word_count": 1
+    },
+    {
+      "name": "Ecstasy/Divine Joy",
+      "word_count": 1
+    },
+    {
+      "name": "Ecstasy/Joy",
+      "word_count": 1
+    },
+    {
+      "name": "Effective/Fruitful",
+      "word_count": 1
+    },
+    {
+      "name": "Effervescence/Enthusiasm",
+      "word_count": 1
+    },
+    {
+      "name": "Elevated/Euphoric",
+      "word_count": 1
+    },
+    {
+      "name": "Emotional (General emotional impact)",
+      "word_count": 1
+    },
+    {
+      "name": "Emotional Detachment/Cruelty",
+      "word_count": 1
+    },
+    {
+      "name": "Emotional Distance/Detachment",
+      "word_count": 1
+    },
+    {
+      "name": "Emotional Emptiness/Neutrality",
+      "word_count": 1
+    },
+    {
+      "name": "Emotional Fluctuation/Temperament",
+      "word_count": 1
+    },
+    {
+      "name": "Emotionally Affected/Touched",
+      "word_count": 1
+    },
+    {
+      "name": "Emotionally Nostalgic/Tender",
+      "word_count": 1
+    },
+    {
+      "name": "Empathy/Caring",
+      "word_count": 1
+    },
+    {
+      "name": "Empathy/Kindness",
+      "word_count": 1
+    },
+    {
+      "name": "Emptiness/Bleakness",
+      "word_count": 1
+    },
+    {
+      "name": "Emptiness/Void",
+      "word_count": 1
+    },
+    {
+      "name": "Enchantment/Charm",
+      "word_count": 1
+    },
+    {
+      "name": "Enchantment/Delight",
+      "word_count": 1
+    },
+    {
+      "name": "Enchantment/Fascination",
+      "word_count": 1
+    },
+    {
+      "name": "Enduring/Unemotional",
+      "word_count": 1
+    },
+    {
+      "name": "Energetic Joy/Invigoration",
+      "word_count": 1
+    },
+    {
+      "name": "Energetic/Strong",
+      "word_count": 1
+    },
+    {
+      "name": "Energy/Enthusiasm",
+      "word_count": 2
+    },
+    {
+      "name": "Energy/Liveliness",
+      "word_count": 1
+    },
+    {
+      "name": "Energy/Passion",
+      "word_count": 1
+    },
+    {
+      "name": "Energy/Vitality",
+      "word_count": 1
+    },
+    {
+      "name": "Engaged/Participating",
+      "word_count": 1
+    },
+    {
+      "name": "Enjoyable/Satisfying",
+      "word_count": 1
+    },
+    {
+      "name": "Enjoyment/Satisfaction",
+      "word_count": 1
+    },
+    {
+      "name": "Enlarged/Inflated",
+      "word_count": 1
+    },
+    {
+      "name": "Entertained/Delighted",
+      "word_count": 1
+    },
+    {
+      "name": "Enthusiasm/Anticipation",
+      "word_count": 2
+    },
+    {
+      "name": "Enthusiasm/Energy",
+      "word_count": 1
+    },
+    {
+      "name": "Enthusiasm/Passion",
+      "word_count": 1
+    },
+    {
+      "name": "Enthusiasm/Sharpness",
+      "word_count": 1
+    },
+    {
+      "name": "Envious Possessiveness/Resentment",
+      "word_count": 1
+    },
+    {
+      "name": "Envy/Possessiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Esteemed/Honored",
+      "word_count": 1
+    },
+    {
+      "name": "Excellence/Intelligence",
+      "word_count": 1
+    },
+    {
+      "name": "Excessive Load/Overload",
+      "word_count": 1
+    },
+    {
+      "name": "Excessive Sentimentality/Mushiness",
+      "word_count": 1
+    },
+    {
+      "name": "Excessively Emotional/Dramatic",
+      "word_count": 1
+    },
+    {
+      "name": "Excessively Labored/Exhausted",
+      "word_count": 1
+    },
+    {
+      "name": "Excited/Aroused",
+      "word_count": 1
+    },
+    {
+      "name": "Excitement/Elation",
+      "word_count": 1
+    },
+    {
+      "name": "Excitement/Enthusiasm (Provisional: overlaps with Anger/Rage, Passion)",
+      "word_count": 1
+    },
+    {
+      "name": "Excitement/Exhilaration",
+      "word_count": 1
+    },
+    {
+      "name": "Excitement/Future-Focus",
+      "word_count": 1
+    },
+    {
+      "name": "Excitement/Jubilation",
+      "word_count": 1
+    },
+    {
+      "name": "Excitement/Passion",
+      "word_count": 1
+    },
+    {
+      "name": "Exclusion/Dismissal",
+      "word_count": 2
+    },
+    {
+      "name": "Exclusion/Isolation",
+      "word_count": 1
+    },
+    {
+      "name": "Exhaustion/Depletion",
+      "word_count": 2
+    },
+    {
+      "name": "Experiencing Pain/Distress",
+      "word_count": 1
+    },
+    {
+      "name": "Exposed/Vulnerable",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Anger/Fury",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Anger/Indignation",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Anger/Outrage",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Anger/Rage",
+      "word_count": 2
+    },
+    {
+      "name": "Extreme Anxiety/Panic",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Embarrassment/Shame",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Emotion/Loss of Control",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Emotional Disturbance/Panic",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Excitement/Confusion",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Fear/Panic",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Fear/Terror",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Happiness/Bliss",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Indignation/Moral Anger",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Joy/Rapture",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Rage/Wrath",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Upset/Agitation",
+      "word_count": 1
+    },
+    {
+      "name": "Extreme Urgency/Crisis",
+      "word_count": 1
+    },
+    {
+      "name": "Extremely Distasteful/Revolting",
+      "word_count": 1
+    },
+    {
+      "name": "Extremely Enthusiastic/Fanatical",
+      "word_count": 1
+    },
+    {
+      "name": "Extremely Frightened/Paralyzed with Fear",
+      "word_count": 1
+    },
+    {
+      "name": "Extremely Happy/Elated",
+      "word_count": 1
+    },
+    {
+      "name": "Extremely Impressive/Astounding",
+      "word_count": 1
+    },
+    {
+      "name": "Failure/Surrender",
+      "word_count": 1
+    },
+    {
+      "name": "Faith/Reliance",
+      "word_count": 1
+    },
+    {
+      "name": "Fascinated/Curious",
+      "word_count": 1
+    },
+    {
+      "name": "Fascinated/Enchanted",
+      "word_count": 1
+    },
+    {
+      "name": "Fascination/Captivation",
+      "word_count": 2
+    },
+    {
+      "name": "Fatigue/Depletion",
+      "word_count": 1
+    },
+    {
+      "name": "Fatigue/Exhaustion",
+      "word_count": 3
+    },
+    {
+      "name": "Fatigue/Sluggishness",
+      "word_count": 1
+    },
+    {
+      "name": "Fear/Alert",
+      "word_count": 2
+    },
+    {
+      "name": "Fear/Anticipatory Anxiety",
+      "word_count": 1
+    },
+    {
+      "name": "Fear/Anxiety",
+      "word_count": 4
+    },
+    {
+      "name": "Fear/Apprehension",
+      "word_count": 1
+    },
+    {
+      "name": "Fear/Crisis",
+      "word_count": 1
+    },
+    {
+      "name": "Fear/Submission",
+      "word_count": 1
+    },
+    {
+      "name": "Fear/Terror",
+      "word_count": 2
+    },
+    {
+      "name": "Fear/Vulnerability",
+      "word_count": 1
+    },
+    {
+      "name": "Fearful/Avoiding",
+      "word_count": 1
+    },
+    {
+      "name": "Feeble/Fragile",
+      "word_count": 1
+    },
+    {
+      "name": "Feeling Expression/Sensitivity",
+      "word_count": 1
+    },
+    {
+      "name": "Feeling Lonely/Solitary",
+      "word_count": 1
+    },
+    {
+      "name": "Feeling Remorse/Sorry",
+      "word_count": 1
+    },
+    {
+      "name": "Flexible/Pliant",
+      "word_count": 1
+    },
+    {
+      "name": "Fluctuating/Unstable",
+      "word_count": 1
+    },
+    {
+      "name": "Foolish/Unintelligent",
+      "word_count": 1
+    },
+    {
+      "name": "Forbidden/Prohibited",
+      "word_count": 1
+    },
+    {
+      "name": "Formal/Authorized",
+      "word_count": 1
+    },
+    {
+      "name": "Fortunate/Blessed",
+      "word_count": 1
+    },
+    {
+      "name": "Freed/Emancipated",
+      "word_count": 1
+    },
+    {
+      "name": "Freedom/Relief",
+      "word_count": 1
+    },
+    {
+      "name": "Friendliness/Harmony",
+      "word_count": 1
+    },
+    {
+      "name": "Friendly/Outgoing",
+      "word_count": 1
+    },
+    {
+      "name": "Frightened/Startled",
+      "word_count": 1
+    },
+    {
+      "name": "Frustration/Annoyance",
+      "word_count": 1
+    },
+    {
+      "name": "Frustration/Irritation",
+      "word_count": 2
+    },
+    {
+      "name": "Frustration/Saturation",
+      "word_count": 1
+    },
+    {
+      "name": "Fulfillment/Contentment",
+      "word_count": 1
+    },
+    {
+      "name": "Full of Deep Sadness/Grief",
+      "word_count": 1
+    },
+    {
+      "name": "Full of Grief/Sorrowful",
+      "word_count": 1
+    },
+    {
+      "name": "Full of Malicious Intent/Vindictive",
+      "word_count": 1
+    },
+    {
+      "name": "Full of Sexual Desire/Passionate",
+      "word_count": 1
+    },
+    {
+      "name": "Gentle Affection/Care",
+      "word_count": 1
+    },
+    {
+      "name": "Gentle/Soft",
+      "word_count": 1
+    },
+    {
+      "name": "Gentle/Tender",
+      "word_count": 1
+    },
+    {
+      "name": "Genuine/Honest",
+      "word_count": 1
+    },
+    {
+      "name": "Genuineness/Truth",
+      "word_count": 1
+    },
+    {
+      "name": "Giving/Kindness",
+      "word_count": 1
+    },
+    {
+      "name": "Good-Humored/Cheerful",
+      "word_count": 1
+    },
+    {
+      "name": "Gratitude/Appreciation",
+      "word_count": 1
+    },
+    {
+      "name": "Gratitude/Divine Grace",
+      "word_count": 1
+    },
+    {
+      "name": "Gratitude/Recognition",
+      "word_count": 1
+    },
+    {
+      "name": "Grave/Earnest",
+      "word_count": 1
+    },
+    {
+      "name": "Grief/Loss",
+      "word_count": 2
+    },
+    {
+      "name": "Grief/Sadness",
+      "word_count": 1
+    },
+    {
+      "name": "Grounded/Established",
+      "word_count": 1
+    },
+    {
+      "name": "Happiness/Delight",
+      "word_count": 1
+    },
+    {
+      "name": "Happiness/Pleasure",
+      "word_count": 1
+    },
+    {
+      "name": "Harmed/Exploited",
+      "word_count": 1
+    },
+    {
+      "name": "Harmony/Cooperation",
+      "word_count": 1
+    },
+    {
+      "name": "Hatred/Contempt",
+      "word_count": 1
+    },
+    {
+      "name": "Hatred/Loathing",
+      "word_count": 1
+    },
+    {
+      "name": "Having Been Ignored/Overlooked",
+      "word_count": 1
+    },
+    {
+      "name": "Having Clear Intent/Directed",
+      "word_count": 1
+    },
+    {
+      "name": "Having Negative Outlook/Cynical",
+      "word_count": 1
+    },
+    {
+      "name": "Heat/Temperature",
+      "word_count": 1
+    },
+    {
+      "name": "Helplessness/Impotence",
+      "word_count": 1
+    },
+    {
+      "name": "Hesitancy/Unwillingness",
+      "word_count": 1
+    },
+    {
+      "name": "Hesitant/Unwilling",
+      "word_count": 1
+    },
+    {
+      "name": "High Ideals/Vision",
+      "word_count": 1
+    },
+    {
+      "name": "High Intensity/Concentration",
+      "word_count": 1
+    },
+    {
+      "name": "High Joy/Euphoria",
+      "word_count": 1
+    },
+    {
+      "name": "Higher/Dominant",
+      "word_count": 1
+    },
+    {
+      "name": "Hindered/Obstructed",
+      "word_count": 1
+    },
+    {
+      "name": "Holy/Revered",
+      "word_count": 1
+    },
+    {
+      "name": "Honesty/Openness",
+      "word_count": 1
+    },
+    {
+      "name": "Honoring/Considerate",
+      "word_count": 1
+    },
+    {
+      "name": "Hope/Positivity",
+      "word_count": 1
+    },
+    {
+      "name": "Hopeful/Positive Outlook",
+      "word_count": 1
+    },
+    {
+      "name": "Hopelessness/Anguish",
+      "word_count": 1
+    },
+    {
+      "name": "Hopelessness/Despair",
+      "word_count": 1
+    },
+    {
+      "name": "Hostility/Cruelty",
+      "word_count": 1
+    },
+    {
+      "name": "Hostility/Malice",
+      "word_count": 1
+    },
+    {
+      "name": "Humble/Unassuming",
+      "word_count": 1
+    },
+    {
+      "name": "Humor/Delight",
+      "word_count": 1
+    },
+    {
+      "name": "Humor/Lightness",
+      "word_count": 1
+    },
+    {
+      "name": "Humorous/Playful",
+      "word_count": 1
+    },
+    {
+      "name": "Hurt/Insulted",
+      "word_count": 1
+    },
+    {
+      "name": "Hurt/Suffering",
+      "word_count": 1
+    },
+    {
+      "name": "Idealistic/Dreamy",
+      "word_count": 1
+    },
+    {
+      "name": "Ignorance/Confusion",
+      "word_count": 1
+    },
+    {
+      "name": "Ill Will/Spite",
+      "word_count": 1
+    },
+    {
+      "name": "Ill/Unwell",
+      "word_count": 1
+    },
+    {
+      "name": "Immaturity/Playfulness",
+      "word_count": 1
+    },
+    {
+      "name": "Impaired/Under Influence",
+      "word_count": 1
+    },
+    {
+      "name": "Impulsive Anger/Rashness",
+      "word_count": 1
+    },
+    {
+      "name": "Impulsive/Natural",
+      "word_count": 1
+    },
+    {
+      "name": "In a Kind Manner/Benevolently",
+      "word_count": 1
+    },
+    {
+      "name": "Inactive/Submissive",
+      "word_count": 1
+    },
+    {
+      "name": "Inactivity/Lethargy",
+      "word_count": 1
+    },
+    {
+      "name": "Inadequacy/Emptiness",
+      "word_count": 1
+    },
+    {
+      "name": "Inattention/Diversion",
+      "word_count": 1
+    },
+    {
+      "name": "Indecisive/Uncertain",
+      "word_count": 1
+    },
+    {
+      "name": "Infatuated/Charmed",
+      "word_count": 1
+    },
+    {
+      "name": "Inflexible/Stiff",
+      "word_count": 1
+    },
+    {
+      "name": "Injured/Hurt",
+      "word_count": 1
+    },
+    {
+      "name": "Inner Tension/Ambivalence",
+      "word_count": 1
+    },
+    {
+      "name": "Innovation/Expression",
+      "word_count": 1
+    },
+    {
+      "name": "Insatiable/Unending",
+      "word_count": 1
+    },
+    {
+      "name": "Insecure/Uncertain",
+      "word_count": 1
+    },
+    {
+      "name": "Insufficiency/Self-Doubt",
+      "word_count": 1
+    },
+    {
+      "name": "Intelligence/Ingenuity",
+      "word_count": 1
+    },
+    {
+      "name": "Intelligence/Perceptiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Intelligence/Radiance",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Aggression/Power",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Anger/Rage",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Desire/Fervor",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Disgust/Aversion",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Dislike/Loathing",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Energy/Drive",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Hatred/Disgust",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Interest/Wonder",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Joy/Ecstasy",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Joy/Elation",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Joy/Rapture",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Joy/Transcendence",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Romantic Obsession/Attraction",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Romantic Obsession/Fixation",
+      "word_count": 1
+    },
+    {
+      "name": "Intense Sexual Desire/Craving",
+      "word_count": 1
+    },
+    {
+      "name": "Intensely Angry/Boiling",
+      "word_count": 1
+    },
+    {
+      "name": "Intensity/Fervor",
+      "word_count": 1
+    },
+    {
+      "name": "Intensity/Pain",
+      "word_count": 1
+    },
+    {
+      "name": "Intensity/Unconventionality",
+      "word_count": 1
+    },
+    {
+      "name": "Interest/Desire",
+      "word_count": 2
+    },
+    {
+      "name": "Interest/Wonder",
+      "word_count": 2
+    },
+    {
+      "name": "Intimacy/Connection",
+      "word_count": 2
+    },
+    {
+      "name": "Intoxicated by Love/Romance",
+      "word_count": 1
+    },
+    {
+      "name": "Invigorated/Activated",
+      "word_count": 1
+    },
+    {
+      "name": "Inward-Focused/Reserved",
+      "word_count": 1
+    },
+    {
+      "name": "Irritability/Bad Mood",
+      "word_count": 1
+    },
+    {
+      "name": "Irritability/Crankiness",
+      "word_count": 1
+    },
+    {
+      "name": "Irritability/Grumpiness",
+      "word_count": 1
+    },
+    {
+      "name": "Irritable/Defensive",
+      "word_count": 1
+    },
+    {
+      "name": "Irritable/Sharp",
+      "word_count": 1
+    },
+    {
+      "name": "Irritated/Agitated",
+      "word_count": 1
+    },
+    {
+      "name": "Irritation/Bad Mood",
+      "word_count": 1
+    },
+    {
+      "name": "Irritation/Blocked Goals",
+      "word_count": 1
+    },
+    {
+      "name": "Irritation/Disturbance",
+      "word_count": 1
+    },
+    {
+      "name": "Irritation/Frustration",
+      "word_count": 1
+    },
+    {
+      "name": "Irritation/Grumpiness",
+      "word_count": 1
+    },
+    {
+      "name": "Irritation/Vexation",
+      "word_count": 1
+    },
+    {
+      "name": "Isolation/Rejection",
+      "word_count": 1
+    },
+    {
+      "name": "Isolation/Separation",
+      "word_count": 1
+    },
+    {
+      "name": "Jealousy/Resentment",
+      "word_count": 2
+    },
+    {
+      "name": "Joy/Cheerfulness",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Contentment",
+      "word_count": 3
+    },
+    {
+      "name": "Joy/Empathy",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Encouragement",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Energy",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Exhilaration",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Happiness",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Lightheartedness",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Pleasure",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Positivity",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Radiance",
+      "word_count": 1
+    },
+    {
+      "name": "Joy/Vitality",
+      "word_count": 1
+    },
+    {
+      "name": "Judgment/Rejection",
+      "word_count": 1
+    },
+    {
+      "name": "Knowledge/Learning",
+      "word_count": 1
+    },
+    {
+      "name": "Lack of Care/Abandonment",
+      "word_count": 1
+    },
+    {
+      "name": "Lack of Sensitivity/Callousness",
+      "word_count": 1
+    },
+    {
+      "name": "Lacking Energy/Dejected",
+      "word_count": 1
+    },
+    {
+      "name": "Liberation/Independence",
+      "word_count": 1
+    },
+    {
+      "name": "Liberation/Lightheartedness",
+      "word_count": 1
+    },
+    {
+      "name": "Lightheaded Joy/Excitement",
+      "word_count": 1
+    },
+    {
+      "name": "Lively/Cheerful",
+      "word_count": 1
+    },
+    {
+      "name": "Lively/Energetic",
+      "word_count": 1
+    },
+    {
+      "name": "Lively/Spirited",
+      "word_count": 1
+    },
+    {
+      "name": "Loneliness/Sadness",
+      "word_count": 1
+    },
+    {
+      "name": "Longing/Craving",
+      "word_count": 1
+    },
+    {
+      "name": "Longing/Desire",
+      "word_count": 1
+    },
+    {
+      "name": "Longing/Reminiscence",
+      "word_count": 1
+    },
+    {
+      "name": "Longing/Want",
+      "word_count": 1
+    },
+    {
+      "name": "Loss of Faith/Ideals",
+      "word_count": 1
+    },
+    {
+      "name": "Loss of Hope/Demoralization",
+      "word_count": 1
+    },
+    {
+      "name": "Loss/Mourning",
+      "word_count": 1
+    },
+    {
+      "name": "Loud/Powerful",
+      "word_count": 1
+    },
+    {
+      "name": "Love/Affection",
+      "word_count": 4
+    },
+    {
+      "name": "Love/Affection (Provisional: overlaps with Awe/Reverence)",
+      "word_count": 1
+    },
+    {
+      "name": "Love/Affection (Provisional: overlaps with Satisfaction/Contentment)",
+      "word_count": 1
+    },
+    {
+      "name": "Love/Sexuality",
+      "word_count": 1
+    },
+    {
+      "name": "Love/Value",
+      "word_count": 1
+    },
+    {
+      "name": "Lower Status/Inadequacy",
+      "word_count": 1
+    },
+    {
+      "name": "Madness/Frenzy",
+      "word_count": 1
+    },
+    {
+      "name": "Malevolence/Corruption",
+      "word_count": 1
+    },
+    {
+      "name": "Malicious Intent/Vindictiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Malicious Satisfaction/Superiority",
+      "word_count": 1
+    },
+    {
+      "name": "Masculine/Strong",
+      "word_count": 1
+    },
+    {
+      "name": "Maturity/Development",
+      "word_count": 1
+    },
+    {
+      "name": "Melancholy/Pessimism",
+      "word_count": 1
+    },
+    {
+      "name": "Memory/Attention",
+      "word_count": 1
+    },
+    {
+      "name": "Menaced/Intimidated",
+      "word_count": 1
+    },
+    {
+      "name": "Menacing/Intimidating",
+      "word_count": 1
+    },
+    {
+      "name": "Mental Confusion/Unclear Thinking",
+      "word_count": 1
+    },
+    {
+      "name": "Mentally Sharp/Clever",
+      "word_count": 1
+    },
+    {
+      "name": "Mentally Sound/Rational",
+      "word_count": 1
+    },
+    {
+      "name": "Mildly Annoyed/Irritated",
+      "word_count": 1
+    },
+    {
+      "name": "Mildly Bad/Mischievous",
+      "word_count": 1
+    },
+    {
+      "name": "Miserly/Ungenerous",
+      "word_count": 1
+    },
+    {
+      "name": "Mistreated/Unjustly-treated",
+      "word_count": 1
+    },
+    {
+      "name": "Mocked/Made Fun Of",
+      "word_count": 1
+    },
+    {
+      "name": "Mockery/Scorn",
+      "word_count": 1
+    },
+    {
+      "name": "Mocking/Ironic",
+      "word_count": 1
+    },
+    {
+      "name": "Modesty/Humility",
+      "word_count": 1
+    },
+    {
+      "name": "Monumental/Overwhelming Task",
+      "word_count": 1
+    },
+    {
+      "name": "Moody/Resentful",
+      "word_count": 1
+    },
+    {
+      "name": "Moral Distress/Shame",
+      "word_count": 1
+    },
+    {
+      "name": "Motivated/Supported",
+      "word_count": 1
+    },
+    {
+      "name": "Motivation/Creativity",
+      "word_count": 1
+    },
+    {
+      "name": "Motivation/Determination",
+      "word_count": 1
+    },
+    {
+      "name": "Motivation/Drive",
+      "word_count": 1
+    },
+    {
+      "name": "Moved/Affected",
+      "word_count": 1
+    },
+    {
+      "name": "Mutual/Collective",
+      "word_count": 1
+    },
+    {
+      "name": "Naturally Compassionate/Generous",
+      "word_count": 1
+    },
+    {
+      "name": "Nauseous/Uncomfortable",
+      "word_count": 1
+    },
+    {
+      "name": "Negative Assessment/Displeasure",
+      "word_count": 1
+    },
+    {
+      "name": "Negative Outlook/Hopelessness",
+      "word_count": 1
+    },
+    {
+      "name": "Negligence/Inattention",
+      "word_count": 1
+    },
+    {
+      "name": "Nervous/Easily Startled",
+      "word_count": 1
+    },
+    {
+      "name": "Nostalgic Displacement/Yearning",
+      "word_count": 1
+    },
+    {
+      "name": "Nostalgic Longing/Displacement",
+      "word_count": 1
+    },
+    {
+      "name": "Not Properly Understood/Misjudged",
+      "word_count": 1
+    },
+    {
+      "name": "Noteworthy/Outstanding",
+      "word_count": 1
+    },
+    {
+      "name": "Numbness/Disconnection",
+      "word_count": 3
+    },
+    {
+      "name": "Observed/Acknowledged",
+      "word_count": 1
+    },
+    {
+      "name": "Obstinate/Inflexible",
+      "word_count": 1
+    },
+    {
+      "name": "Obstruction/Impediment",
+      "word_count": 1
+    },
+    {
+      "name": "Offended/Disrespected",
+      "word_count": 1
+    },
+    {
+      "name": "Offense/Disrespect",
+      "word_count": 1
+    },
+    {
+      "name": "Old/Lacking Freshness",
+      "word_count": 1
+    },
+    {
+      "name": "Open/Accepting",
+      "word_count": 1
+    },
+    {
+      "name": "Openness/Exposure",
+      "word_count": 1
+    },
+    {
+      "name": "Optimism/Affirmation",
+      "word_count": 1
+    },
+    {
+      "name": "Optimism/Brightness",
+      "word_count": 1
+    },
+    {
+      "name": "Optimism/Expectation",
+      "word_count": 1
+    },
+    {
+      "name": "Overburdened/Weighted",
+      "word_count": 1
+    },
+    {
+      "name": "Overlooked/Ignored",
+      "word_count": 1
+    },
+    {
+      "name": "Overwhelm/Exhaustion",
+      "word_count": 1
+    },
+    {
+      "name": "Overwhelm/Siege",
+      "word_count": 1
+    },
+    {
+      "name": "Overwhelmed/Conquered",
+      "word_count": 1
+    },
+    {
+      "name": "Overwhelmed/Inundated",
+      "word_count": 1
+    },
+    {
+      "name": "Overwhelming Loss/Devastation",
+      "word_count": 1
+    },
+    {
+      "name": "Overwhelming/Intolerable",
+      "word_count": 1
+    },
+    {
+      "name": "Pain/Injury",
+      "word_count": 2
+    },
+    {
+      "name": "Pampered/Corrupted",
+      "word_count": 1
+    },
+    {
+      "name": "Panic/Urgency",
+      "word_count": 1
+    },
+    {
+      "name": "Paralysis/Incapacity",
+      "word_count": 1
+    },
+    {
+      "name": "Passion/Fervor",
+      "word_count": 1
+    },
+    {
+      "name": "Passive/Yielding",
+      "word_count": 1
+    },
+    {
+      "name": "Peace/Comfort",
+      "word_count": 1
+    },
+    {
+      "name": "Peace/Serenity",
+      "word_count": 1
+    },
+    {
+      "name": "Peace/Tranquility",
+      "word_count": 1
+    },
+    {
+      "name": "Peaceful/Relaxing",
+      "word_count": 1
+    },
+    {
+      "name": "Peaceful/Undisturbed",
+      "word_count": 1
+    },
+    {
+      "name": "Pensive Sadness/Contemplation",
+      "word_count": 1
+    },
+    {
+      "name": "Persecution/Torment",
+      "word_count": 1
+    },
+    {
+      "name": "Persistent Bitterness/Grudge",
+      "word_count": 1
+    },
+    {
+      "name": "Persistent/Determined",
+      "word_count": 1
+    },
+    {
+      "name": "Persuasion/Attraction",
+      "word_count": 1
+    },
+    {
+      "name": "Physical Depletion/Tiredness",
+      "word_count": 1
+    },
+    {
+      "name": "Physical Intensity/Overwhelm",
+      "word_count": 1
+    },
+    {
+      "name": "Physical Need/Hunger",
+      "word_count": 1
+    },
+    {
+      "name": "Physical/Emotional Turmoil",
+      "word_count": 1
+    },
+    {
+      "name": "Physical/Sensory Pleasure",
+      "word_count": 1
+    },
+    {
+      "name": "Physical/Strength",
+      "word_count": 1
+    },
+    {
+      "name": "Physical/Vigor",
+      "word_count": 1
+    },
+    {
+      "name": "Planned/Tactical",
+      "word_count": 1
+    },
+    {
+      "name": "Playful Joy/Delight",
+      "word_count": 1
+    },
+    {
+      "name": "Playful Laughter/Silliness",
+      "word_count": 1
+    },
+    {
+      "name": "Playful/Fanciful",
+      "word_count": 1
+    },
+    {
+      "name": "Playfulness/Energy",
+      "word_count": 1
+    },
+    {
+      "name": "Playfulness/Frivolity",
+      "word_count": 1
+    },
+    {
+      "name": "Pleasant/Agreeable",
+      "word_count": 1
+    },
+    {
+      "name": "Pleased Recognition/Compliment",
+      "word_count": 1
+    },
+    {
+      "name": "Pleasure/Satisfaction",
+      "word_count": 1
+    },
+    {
+      "name": "Power/Assertiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Power/Control",
+      "word_count": 1
+    },
+    {
+      "name": "Power/Impact",
+      "word_count": 1
+    },
+    {
+      "name": "Powerful/Robust",
+      "word_count": 1
+    },
+    {
+      "name": "Powerful/Strong",
+      "word_count": 1
+    },
+    {
+      "name": "Powerlessness/Ineffectiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Powerlessness/Vulnerability",
+      "word_count": 2
+    },
+    {
+      "name": "Preference/Affinity",
+      "word_count": 1
+    },
+    {
+      "name": "Pressure/Force",
+      "word_count": 1
+    },
+    {
+      "name": "Pride/Confidence (Provisional: overlaps with Love/Affection received)",
+      "word_count": 1
+    },
+    {
+      "name": "Pride/Futility",
+      "word_count": 1
+    },
+    {
+      "name": "Protection/Guard",
+      "word_count": 1
+    },
+    {
+      "name": "Proud/Dignified",
+      "word_count": 1
+    },
+    {
+      "name": "Prudence/Wariness",
+      "word_count": 1
+    },
+    {
+      "name": "Purity/Naivety",
+      "word_count": 1
+    },
+    {
+      "name": "Pursued/Hunted",
+      "word_count": 1
+    },
+    {
+      "name": "Pursued/Tracked",
+      "word_count": 1
+    },
+    {
+      "name": "Quick Anger/Irritability",
+      "word_count": 1
+    },
+    {
+      "name": "Radiance/Vitality",
+      "word_count": 1
+    },
+    {
+      "name": "Rebellion/Resistance",
+      "word_count": 1
+    },
+    {
+      "name": "Receptive/Available",
+      "word_count": 1
+    },
+    {
+      "name": "Recognition/Status",
+      "word_count": 1
+    },
+    {
+      "name": "Redirection/Distraction",
+      "word_count": 1
+    },
+    {
+      "name": "Reduction/Lessening",
+      "word_count": 1
+    },
+    {
+      "name": "Reflection/Thoughtfulness",
+      "word_count": 1
+    },
+    {
+      "name": "Regret/Apology",
+      "word_count": 1
+    },
+    {
+      "name": "Regret/Contrition",
+      "word_count": 2
+    },
+    {
+      "name": "Rejected/Abandoned",
+      "word_count": 1
+    },
+    {
+      "name": "Rejected/Uncared",
+      "word_count": 1
+    },
+    {
+      "name": "Rejected/Undesired",
+      "word_count": 1
+    },
+    {
+      "name": "Relating to Physical Intimacy",
+      "word_count": 1
+    },
+    {
+      "name": "Relaxation/Flexibility",
+      "word_count": 1
+    },
+    {
+      "name": "Relaxed/Easygoing",
+      "word_count": 1
+    },
+    {
+      "name": "Relaxed/Informal",
+      "word_count": 1
+    },
+    {
+      "name": "Release/Liberation",
+      "word_count": 1
+    },
+    {
+      "name": "Reliance/Attachment",
+      "word_count": 1
+    },
+    {
+      "name": "Reliance/Need",
+      "word_count": 1
+    },
+    {
+      "name": "Remorse/Self-Reproach",
+      "word_count": 1
+    },
+    {
+      "name": "Renewal/Restoration",
+      "word_count": 1
+    },
+    {
+      "name": "Renewed/Energized",
+      "word_count": 1
+    },
+    {
+      "name": "Renewed/Refreshed",
+      "word_count": 1
+    },
+    {
+      "name": "Reproductive Inability/Barrenness",
+      "word_count": 1
+    },
+    {
+      "name": "Requiring Support/Dependent",
+      "word_count": 1
+    },
+    {
+      "name": "Resentment/Acrimony",
+      "word_count": 1
+    },
+    {
+      "name": "Resentment/Harshness",
+      "word_count": 1
+    },
+    {
+      "name": "Resignation/Determinism",
+      "word_count": 1
+    },
+    {
+      "name": "Resilience/Strength",
+      "word_count": 1
+    },
+    {
+      "name": "Resolve/Commitment",
+      "word_count": 1
+    },
+    {
+      "name": "Resolved/Established",
+      "word_count": 1
+    },
+    {
+      "name": "Restlessness/Anxiety",
+      "word_count": 2
+    },
+    {
+      "name": "Restlessness/Disconnection",
+      "word_count": 1
+    },
+    {
+      "name": "Restlessness/Impatience",
+      "word_count": 1
+    },
+    {
+      "name": "Restrained/Cautious",
+      "word_count": 1
+    },
+    {
+      "name": "Restrained/Quiet",
+      "word_count": 1
+    },
+    {
+      "name": "Restrained/Restricted",
+      "word_count": 1
+    },
+    {
+      "name": "Restricted/Constrained",
+      "word_count": 1
+    },
+    {
+      "name": "Restriction/Limitation",
+      "word_count": 1
+    },
+    {
+      "name": "Retaliatory/Vindictive",
+      "word_count": 1
+    },
+    {
+      "name": "Revenge/Vindictiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Revulsion/Aversion",
+      "word_count": 1
+    },
+    {
+      "name": "Revulsion/Distress",
+      "word_count": 1
+    },
+    {
+      "name": "Revulsion/Repulsion",
+      "word_count": 1
+    },
+    {
+      "name": "Rich/Prosperous",
+      "word_count": 1
+    },
+    {
+      "name": "Righteous Anger/Outrage",
+      "word_count": 1
+    },
+    {
+      "name": "Righteous/Vindicated",
+      "word_count": 1
+    },
+    {
+      "name": "Rigid/Inflexible",
+      "word_count": 1
+    },
+    {
+      "name": "Ruined/Destroyed",
+      "word_count": 1
+    },
+    {
+      "name": "Sacred/Transcendent",
+      "word_count": 1
+    },
+    {
+      "name": "Sad/Discontented",
+      "word_count": 1
+    },
+    {
+      "name": "Sadness/Dejection",
+      "word_count": 1
+    },
+    {
+      "name": "Sadness/Discontent",
+      "word_count": 1
+    },
+    {
+      "name": "Sadness/Discouragement",
+      "word_count": 1
+    },
+    {
+      "name": "Sadness/Grief (Provisional: overlaps with Physical discomfort)",
+      "word_count": 1
+    },
+    {
+      "name": "Sadness/Grief (Provisional: overlaps with Suffering/Distress)",
+      "word_count": 1
+    },
+    {
+      "name": "Sadness/Melancholy",
+      "word_count": 1
+    },
+    {
+      "name": "Safety/Stability",
+      "word_count": 1
+    },
+    {
+      "name": "Satisfaction/Completion",
+      "word_count": 1
+    },
+    {
+      "name": "Satisfaction/Contentment",
+      "word_count": 1
+    },
+    {
+      "name": "Satisfaction/Fulfillment",
+      "word_count": 1
+    },
+    {
+      "name": "Satisfaction/Peace",
+      "word_count": 2
+    },
+    {
+      "name": "Satisfaction/Stagnation",
+      "word_count": 1
+    },
+    {
+      "name": "Satisfied/Content",
+      "word_count": 1
+    },
+    {
+      "name": "Security/Nurture",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Assurance/Conviction",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Aware/Embarrassed",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Centered/Egotistical",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Conscious Humiliation/Guilt",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Critical/Uncertain",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Doubt/Vulnerability",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Esteem/Dignity",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Hatred/Contempt",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Indulgent Sorrow/Wallowing",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Judgment/Inadequacy",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Positive/Affirming",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Praising/Boastful",
+      "word_count": 1
+    },
+    {
+      "name": "Self-Satisfied/Complacent",
+      "word_count": 1
+    },
+    {
+      "name": "Separated/Isolated",
+      "word_count": 1
+    },
+    {
+      "name": "Separation/Isolation",
+      "word_count": 2
+    },
+    {
+      "name": "Separation/Loneliness",
+      "word_count": 1
+    },
+    {
+      "name": "Serious/Painful",
+      "word_count": 1
+    },
+    {
+      "name": "Sexual Arousal/Desire",
+      "word_count": 1
+    },
+    {
+      "name": "Sexual Violation/Assault",
+      "word_count": 1
+    },
+    {
+      "name": "Sexuality/Desire",
+      "word_count": 1
+    },
+    {
+      "name": "Shame/Degradation",
+      "word_count": 2
+    },
+    {
+      "name": "Shame/Dishonor",
+      "word_count": 1
+    },
+    {
+      "name": "Shame/Guilt",
+      "word_count": 1
+    },
+    {
+      "name": "Shame/Humiliation",
+      "word_count": 1
+    },
+    {
+      "name": "Shame/Self-Consciousness",
+      "word_count": 1
+    },
+    {
+      "name": "Shame/Social Discomfort",
+      "word_count": 1
+    },
+    {
+      "name": "Shaped/Formed",
+      "word_count": 1
+    },
+    {
+      "name": "Shock/Bewilderment",
+      "word_count": 1
+    },
+    {
+      "name": "Shock/Disgust",
+      "word_count": 1
+    },
+    {
+      "name": "Shocked/Dazed",
+      "word_count": 1
+    },
+    {
+      "name": "Shocked/Startled",
+      "word_count": 1
+    },
+    {
+      "name": "Shocking/Excessive",
+      "word_count": 1
+    },
+    {
+      "name": "Shy/Fearful",
+      "word_count": 1
+    },
+    {
+      "name": "Shyness/Fearfulness",
+      "word_count": 1
+    },
+    {
+      "name": "Shyness/Lack of Confidence",
+      "word_count": 1
+    },
+    {
+      "name": "Shyness/Modesty",
+      "word_count": 1
+    },
+    {
+      "name": "Sick to Stomach/Disgusted",
+      "word_count": 1
+    },
+    {
+      "name": "Significance/Value",
+      "word_count": 1
+    },
+    {
+      "name": "Silencing/Restriction",
+      "word_count": 1
+    },
+    {
+      "name": "Silent/Peaceful",
+      "word_count": 1
+    },
+    {
+      "name": "Simple/Ordinary",
+      "word_count": 1
+    },
+    {
+      "name": "Sincere Regret/Remorse",
+      "word_count": 1
+    },
+    {
+      "name": "Sincerity/Seriousness",
+      "word_count": 1
+    },
+    {
+      "name": "Skeptical/Doubtful",
+      "word_count": 2
+    },
+    {
+      "name": "Skepticism/Distrust",
+      "word_count": 1
+    },
+    {
+      "name": "Skepticism/Mistrust",
+      "word_count": 1
+    },
+    {
+      "name": "Skill/Effectiveness",
+      "word_count": 1
+    },
+    {
+      "name": "Skilled/Prepared",
+      "word_count": 1
+    },
+    {
+      "name": "Slow/Lethargic",
+      "word_count": 1
+    },
+    {
+      "name": "Sociable/Extroverted",
+      "word_count": 1
+    },
+    {
+      "name": "Social Anxiety/Introversion",
+      "word_count": 1
+    },
+    {
+      "name": "Social Discomfort/Misalignment",
+      "word_count": 1
+    },
+    {
+      "name": "Social Energy/Outward Focus",
+      "word_count": 1
+    },
+    {
+      "name": "Social Isolation/Detachment",
+      "word_count": 1
+    },
+    {
+      "name": "Solace/Relief",
+      "word_count": 1
+    },
+    {
+      "name": "Solitude/Disconnection",
+      "word_count": 1
+    },
+    {
+      "name": "Soothed/Calmed",
+      "word_count": 1
+    },
+    {
+      "name": "Sorrow/Catastrophic",
+      "word_count": 1
+    },
+    {
+      "name": "Sorrow/Distress",
+      "word_count": 1
+    },
+    {
+      "name": "Sorrow/Melancholy",
+      "word_count": 2
+    },
+    {
+      "name": "Sorrow/Remorse",
+      "word_count": 1
+    },
+    {
+      "name": "Sorrowful/Melancholic",
+      "word_count": 1
+    },
+    {
+      "name": "Sorrowful/Pitiful",
+      "word_count": 1
+    },
+    {
+      "name": "Spiteful/Vengeful",
+      "word_count": 1
+    },
+    {
+      "name": "Spontaneous Action/Rashness",
+      "word_count": 1
+    },
+    {
+      "name": "Stability/Centeredness",
+      "word_count": 1
+    },
+    {
+      "name": "Stable/Reliable",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Alone/Peaceful Isolation",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Anxious/Agitated",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Clear-Headed/Serious",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Content/Fulfillment",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Dark/Grave",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Emotionally Nostalgic/Tender",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Gentle/Tender",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Genuine/Honest",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Kind/Compassion",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Modest/Humility",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Needy/Dependency",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Peaceful/Tranquil",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Sacred/Transcendent",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Self-Satisfied/Complacent",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Timid/Reserved",
+      "word_count": 1
+    },
+    {
+      "name": "State of Being Unhappy/Sorrow",
+      "word_count": 1
+    },
+    {
+      "name": "State of Cheerfulness/Merriment",
+      "word_count": 1
+    },
+    {
+      "name": "State of Good Humor/Cheerfulness",
+      "word_count": 1
+    },
+    {
+      "name": "State of Isolation/Solitude",
+      "word_count": 1
+    },
+    {
+      "name": "State of Preference/Enjoyment",
+      "word_count": 1
+    },
+    {
+      "name": "State of Tranquility/Calm",
+      "word_count": 1
+    },
+    {
+      "name": "State of Triumphant Joy/Celebration",
+      "word_count": 1
+    },
+    {
+      "name": "Static/Unchanging",
+      "word_count": 1
+    },
+    {
+      "name": "Steady/Reliable",
+      "word_count": 1
+    },
+    {
+      "name": "Stern/Forbidding",
+      "word_count": 1
+    },
+    {
+      "name": "Stifling/Congested",
+      "word_count": 1
+    },
+    {
+      "name": "Stimulated to Anger/Irritated",
+      "word_count": 1
+    },
+    {
+      "name": "Stimulating/Challenging",
+      "word_count": 1
+    },
+    {
+      "name": "Strange/Unusual",
+      "word_count": 1
+    },
+    {
+      "name": "Strategy/Analysis",
+      "word_count": 1
+    },
+    {
+      "name": "Strengthened/Supported",
+      "word_count": 1
+    },
+    {
+      "name": "Stress/Rigidity",
+      "word_count": 1
+    },
+    {
+      "name": "Stress/Tightness",
+      "word_count": 1
+    },
+    {
+      "name": "Stress/Weight",
+      "word_count": 1
+    },
+    {
+      "name": "Stressed/Coerced",
+      "word_count": 1
+    },
+    {
+      "name": "Stressed/Rushed",
+      "word_count": 1
+    },
+    {
+      "name": "Strong/Influential",
+      "word_count": 1
+    },
+    {
+      "name": "Strong/Robust",
+      "word_count": 1
+    },
+    {
+      "name": "Strong/Sturdy",
+      "word_count": 1
+    },
+    {
+      "name": "Strongly Disgusted/Revolted",
+      "word_count": 1
+    },
+    {
+      "name": "Stubborn/Determined",
+      "word_count": 1
+    },
+    {
+      "name": "Stubborn/Irritable",
+      "word_count": 1
+    },
+    {
+      "name": "Stubbornness/Resistance",
+      "word_count": 1
+    },
+    {
+      "name": "Stunned/Emotionally Paralyzed",
+      "word_count": 1
+    },
+    {
+      "name": "Subdued/Controlled",
+      "word_count": 1
+    },
+    {
+      "name": "Subjugation/Powerlessness",
+      "word_count": 1
+    },
+    {
+      "name": "Submission/Conformity",
+      "word_count": 1
+    },
+    {
+      "name": "Sudden Overwhelming Fear/Terror",
+      "word_count": 1
+    },
+    {
+      "name": "Suddenly Overwhelmed by Love/Infatuated",
+      "word_count": 1
+    },
+    {
+      "name": "Suddenly Surprised/Shocked",
+      "word_count": 1
+    },
+    {
+      "name": "Suffering from Unrequited Love/Longing",
+      "word_count": 1
+    },
+    {
+      "name": "Suffering/Anguish",
+      "word_count": 3
+    },
+    {
+      "name": "Suffering/Distress",
+      "word_count": 3
+    },
+    {
+      "name": "Suffering/Wretchedness",
+      "word_count": 1
+    },
+    {
+      "name": "Sullen/Gloomy",
+      "word_count": 1
+    },
+    {
+      "name": "Supportive/Motivating",
+      "word_count": 1
+    },
+    {
+      "name": "Suppressed/Constrained",
+      "word_count": 1
+    },
+    {
+      "name": "Surliness/Irritability",
+      "word_count": 1
+    },
+    {
+      "name": "Surprise/Shock",
+      "word_count": 1
+    },
+    {
+      "name": "Surprise/Trauma",
+      "word_count": 1
+    },
+    {
+      "name": "Surprise/Wonder",
+      "word_count": 3
+    },
+    {
+      "name": "Surprised/Startled",
+      "word_count": 1
+    },
+    {
+      "name": "Suspicion/Distrust",
+      "word_count": 1
+    },
+    {
+      "name": "Suspicion/Uncertainty",
+      "word_count": 1
+    },
+    {
+      "name": "Tediously Repetitive/Dull",
+      "word_count": 1
+    },
+    {
+      "name": "Tendency/Inclination",
+      "word_count": 1
+    },
+    {
+      "name": "Tender Affection/Touching",
+      "word_count": 1
+    },
+    {
+      "name": "Tense/Anxious",
+      "word_count": 1
+    },
+    {
+      "name": "Tension/Nervousness",
+      "word_count": 1
+    },
+    {
+      "name": "Tension/Pressure",
+      "word_count": 1
+    },
+    {
+      "name": "Terrible/Dreadful",
+      "word_count": 1
+    },
+    {
+      "name": "Terror/Revulsion",
+      "word_count": 1
+    },
+    {
+      "name": "Terror/Shock",
+      "word_count": 1
+    },
+    {
+      "name": "Threat Response/Anxiety",
+      "word_count": 1
+    },
+    {
+      "name": "Threatened/In Danger",
+      "word_count": 1
+    },
+    {
+      "name": "Torn/Damaged",
+      "word_count": 1
+    },
+    {
+      "name": "Traffic-Related Anger/Fury",
+      "word_count": 1
+    },
+    {
+      "name": "Tranquility/Peace",
+      "word_count": 1
+    },
+    {
+      "name": "Tranquility/Serenity",
+      "word_count": 1
+    },
+    {
+      "name": "Transcendent Bliss/Enlightenment",
+      "word_count": 1
+    },
+    {
+      "name": "Transgressed/Abused",
+      "word_count": 1
+    },
+    {
+      "name": "Trauma/Damage",
+      "word_count": 1
+    },
+    {
+      "name": "Travel-longing/Restless",
+      "word_count": 1
+    },
+    {
+      "name": "Treasured/Appreciated",
+      "word_count": 1
+    },
+    {
+      "name": "Trembling/Shaking with Fear",
+      "word_count": 1
+    },
+    {
+      "name": "Triumphantly Joyful/Exuberant",
+      "word_count": 1
+    },
+    {
+      "name": "Trivial/Small-minded",
+      "word_count": 1
+    },
+    {
+      "name": "Trust Violation/Hurt",
+      "word_count": 1
+    },
+    {
+      "name": "Unable to Move/Act",
+      "word_count": 1
+    },
+    {
+      "name": "Unable to Speak/Stunned",
+      "word_count": 1
+    },
+    {
+      "name": "Unaffected/Indifferent",
+      "word_count": 1
+    },
+    {
+      "name": "Unbreakable/Absolute",
+      "word_count": 1
+    },
+    {
+      "name": "Uncertainty/Doubt",
+      "word_count": 1
+    },
+    {
+      "name": "Uncertainty/Hesitation",
+      "word_count": 1
+    },
+    {
+      "name": "Uncertainty/Reluctance",
+      "word_count": 1
+    },
+    {
+      "name": "Uncertainty/Skepticism",
+      "word_count": 1
+    },
+    {
+      "name": "Uncertainty/Vulnerability",
+      "word_count": 1
+    },
+    {
+      "name": "Unconventional/Eccentric",
+      "word_count": 1
+    },
+    {
+      "name": "Undermined/Destroyed",
+      "word_count": 1
+    },
+    {
+      "name": "Understanding/Compassion",
+      "word_count": 2
+    },
+    {
+      "name": "Undeserving/Inadequate",
+      "word_count": 1
+    },
+    {
+      "name": "Unexpected/Astonishing",
+      "word_count": 1
+    },
+    {
+      "name": "Unfulfillment/Discontent",
+      "word_count": 1
+    },
+    {
+      "name": "Unimportant/Trivial",
+      "word_count": 1
+    },
+    {
+      "name": "Unique/Exceptional",
+      "word_count": 1
+    },
+    {
+      "name": "Unknown/Strange",
+      "word_count": 1
+    },
+    {
+      "name": "Unlucky/Regrettable",
+      "word_count": 1
+    },
+    {
+      "name": "Unmet Expectations/Letdown",
+      "word_count": 2
+    },
+    {
+      "name": "Unpleasant/Disagreeable",
+      "word_count": 1
+    },
+    {
+      "name": "Unpleasant/Repulsive",
+      "word_count": 1
+    },
+    {
+      "name": "Unpredictability/Whim",
+      "word_count": 1
+    },
+    {
+      "name": "Unready/Caught-off-guard",
+      "word_count": 1
+    },
+    {
+      "name": "Unrecognized/Undervalued",
+      "word_count": 1
+    },
+    {
+      "name": "Unseen/Unnoticed",
+      "word_count": 1
+    },
+    {
+      "name": "Unstable/Disturbed",
+      "word_count": 1
+    },
+    {
+      "name": "Unsteady/Volatile",
+      "word_count": 1
+    },
+    {
+      "name": "Unwilling to Accept/Prejudiced",
+      "word_count": 1
+    },
+    {
+      "name": "Urgency/Restlessness",
+      "word_count": 1
+    },
+    {
+      "name": "Utilized/Employed",
+      "word_count": 1
+    },
+    {
+      "name": "Valueless/Inadequate",
+      "word_count": 1
+    },
+    {
+      "name": "Very Angry/Extremely Irritated",
+      "word_count": 1
+    },
+    {
+      "name": "Victorious/Celebratory",
+      "word_count": 1
+    },
+    {
+      "name": "Victory/Achievement",
+      "word_count": 1
+    },
+    {
+      "name": "Victory/Domination",
+      "word_count": 1
+    },
+    {
+      "name": "Vitality/Energy",
+      "word_count": 1
+    },
+    {
+      "name": "Vitality/Vigor",
+      "word_count": 1
+    },
+    {
+      "name": "Void/Depletion",
+      "word_count": 1
+    },
+    {
+      "name": "Vulnerability/Delicacy",
+      "word_count": 1
+    },
+    {
+      "name": "Vulnerability/Openness",
+      "word_count": 1
+    },
+    {
+      "name": "Warmth/Friendliness",
+      "word_count": 1
+    },
+    {
+      "name": "Warmth/Sociability",
+      "word_count": 1
+    },
+    {
+      "name": "Watchful/Alert",
+      "word_count": 1
+    },
+    {
+      "name": "Wealthy/Abundant",
+      "word_count": 1
+    },
+    {
+      "name": "Weariness/Exhaustion",
+      "word_count": 1
+    },
+    {
+      "name": "Well-being/Satisfaction",
+      "word_count": 1
+    },
+    {
+      "name": "Well-liked/Accepted",
+      "word_count": 1
+    },
+    {
+      "name": "Wellness/Vitality",
+      "word_count": 1
+    },
+    {
+      "name": "Wistful/Ethereal",
+      "word_count": 1
+    },
+    {
+      "name": "Without Direction/Confused",
+      "word_count": 1
+    },
+    {
+      "name": "Without Life/Vitality",
+      "word_count": 1
+    },
+    {
+      "name": "Wonder-filled/Amazed",
+      "word_count": 1
+    },
+    {
+      "name": "Wonder/Astonishment",
+      "word_count": 1
+    },
+    {
+      "name": "Wonder/Reverence",
+      "word_count": 1
+    },
+    {
+      "name": "Wonderful/Amazing",
+      "word_count": 1
+    },
+    {
+      "name": "Worry/Care",
+      "word_count": 1
+    },
+    {
+      "name": "Worthless/Ineffective",
+      "word_count": 1
+    },
+    {
+      "name": "Worthy of Love/Endearing",
+      "word_count": 1
+    },
+    {
+      "name": "Yearning/Nostalgic",
+      "word_count": 1
+    },
+    {
+      "name": "Yielding/Compliant",
+      "word_count": 1
+    },
+    {
+      "name": "Yielding/Surrender",
+      "word_count": 1
+    }
+  ],
+  "category_count": 934,
+  "response_format": {
+    "word": "string - word title",
+    "category": "string - emotional category",
+    "precision_level": "string - precision classification",
+    "somatic_integration": "string - somatic requirement",
+    "temporal_translation": "string - temporal translation",
+    "cultural_bridge": "string - cultural bridge requirement",
+    "sections": {
+      "1": "Etymology & Historical Development",
+      "2": "Contemporary Common Usage",
+      "3": "Precise Evocation Intent",
+      "4": "Conceptual Explanation",
+      "5": "Cultural Translation Contexts",
+      "6": "TLV Protocol Application",
+      "7": "Somatic Signature Documentation"
+    }
+  }
+}

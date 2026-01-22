@@ -1,0 +1,18 @@
+{
+  "generated": "2026-01-22T10:33:16.134355",
+  "files": {
+    "table_of_contents": "00_TABLE_OF_CONTENTS.md",
+    "index_json": "01_INDEX.json",
+    "api_manifest": "02_API_MANIFEST.json",
+    "vocabulary_csv": "03_VOCABULARY_FULL.csv",
+    "word_of_day_csv": "04_WORD_OF_DAY.csv",
+    "rss_feed_csv": "05_RSS_FEED_DATA.csv"
+  },
+  "statistics": {
+    "total_words": 999,
+    "total_letters": 25,
+    "total_categories": 934,
+    "total_categories_with_words": 934,
+    "vocabulary_files": 25
+  }
+}
