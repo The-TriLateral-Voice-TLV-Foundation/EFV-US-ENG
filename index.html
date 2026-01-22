@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TriLateral Voice (TLV) Emotional and Feeling Vocabulary API - Precise language for authentic human experience.">
+    <meta name="keywords" content="emotional vocabulary, communication, TLV, feelings, somatic, authenticity">
+    <meta name="theme-color" content="#1a3a52">
+    <title>TLV Emotional & Feeling Vocabulary | Word of the Day</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a3a52;        /* Deep teal-navy - grounded, authoritative */
+            --primary-light: #2d5a7b;
+            --accent: #d4a574;         /* Warm gold - organic, authentic */
+            --accent-light: #e8c7a6;
+            --secondary: #4a7c99;      /* Soft teal - accessible, calm */
+            --success: #6ba376;        /* Muted green - growth, embodiment */
+            --warning: #d9a166;        /* Warm amber - contemplative */
+            --error: #a86b5d;          /* Muted rust - grounded concern */
+            --bg-primary: #f5f3f0;     /* Warm cream - human-centered */
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #efefec;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-light: #6d6d6d;
+            --border: #d4cfc9;
+            --shadow: rgba(26, 58, 82, 0.08);
+            --shadow-md: rgba(26, 58, 82, 0.12);
+            
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+            
+            --font-serif: 'Georgia', 'Garamond', serif;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            --font-mono: 'Courier New', monospace;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* ============ Header ============ */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: var(--spacing-xl) var(--spacing-md);
+            text-align: center;
+            box-shadow: 0 4px 12px var(--shadow-md);
+        }
+
+        header h1 {
+            font-family: var(--font-serif);
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+            letter-spacing: -0.5px;
+        }
+
+        header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 300;
+            margin-bottom: var(--spacing-md);
+        }
+
+        header .tagline {
+            font-size: 0.95rem;
+            opacity: 0.85;
+            font-style: italic;
+            color: var(--accent-light);
+        }
+
+        /* ============ Navigation ============ */
+        nav {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: var(--spacing-md);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: var(--spacing-lg);
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+            background: var(--bg-tertiary);
+        }
+
+        /* ============ Main Container ============ */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--spacing-xl) var(--spacing-md);
+        }
+
+        /* ============ Word of the Day ============ */
+        .wotd-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: var(--spacing-lg);
+            margin-bottom: var(--spacing-xl);
+            box-shadow: 0 2px 8px var(--shadow);
+        }
+
+        .wotd-header {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+            padding-bottom: var(--spacing-lg);
+            border-bottom: 2px solid var(--accent);
+        }
+
+        .wotd-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            flex-shrink: 0;
+        }
+
+        .wotd-title h2 {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .wotd-subtitle {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .wotd-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .meta-item {
+            background: var(--bg-tertiary);
+            padding: var(--spacing-md);
+            border-radius: 6px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .meta-label {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 600;
+        }
+
+        .meta-value {
+            font-size: 1.1rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .wotd-description {
+            background: linear-gradient(to right, rgba(212, 165, 116, 0.08), transparent);
+            padding: var(--spacing-md);
+            border-radius: 6px;
+            margin-bottom: var(--spacing-lg);
+            border-left: 4px solid var(--accent);
+        }
+
+        .wotd-description h3 {
+            color: var(--primary);
+            margin-bottom: var(--spacing-sm);
+            font-size: 1.1rem;
+        }
+
+        .wotd-description p {
+            color: var(--text-secondary);
+            font-style: italic;
+            line-height: 1.8;
+        }
+
+        /* ============ Tabs ============ */
+        .tabs {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-lg);
+            border-bottom: 2px solid var(--border);
+            flex-wrap: wrap;
+        }
+
+        .tab-button {
+            background: none;
+            border: none;
+            padding: var(--spacing-md) var(--spacing-lg);
+            cursor: pointer;
+            font-size: 1rem;
+            color: var(--text-secondary);
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .tab-button:hover {
+            color: var(--primary);
+        }
+
+        .tab-button.active {
+            color: var(--primary);
+            border-bottom-color: var(--accent);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .section h3 {
+            color: var(--primary);
+            margin-bottom: var(--spacing-md);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .section p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+        }
+
+        /* ============ Search ============ */
+        .search-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: var(--spacing-lg);
+            margin-bottom: var(--spacing-xl);
+            box-shadow: 0 2px 8px var(--shadow);
+        }
+
+        .search-box {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .search-box input {
+            flex: 1;
+            min-width: 250px;
+            padding: var(--spacing-md);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: var(--font-sans);
+            transition: all 0.2s ease;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
+        }
+
+        .btn {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(26, 58, 82, 0.2);
+        }
+
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--border);
+        }
+
+        .btn-small {
+            padding: var(--spacing-sm) var(--spacing-md);
+            font-size: 0.9rem;
+        }
+
+        /* ============ Results ============ */
+        .results-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: var(--spacing-lg);
+            box-shadow: 0 2px 8px var(--shadow);
+        }
+
+        .result-item {
+            padding: var(--spacing-md);
+            border-left: 3px solid var(--secondary);
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+            margin-bottom: var(--spacing-md);
+            transition: all 0.2s ease;
+        }
+
+        .result-item:hover {
+            border-left-color: var(--accent);
+            transform: translateX(4px);
+            background: white;
+        }
+
+        .result-word {
+            font-family: var(--font-serif);
+            font-size: 1.3rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .result-category {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .result-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: var(--spacing-xl);
+            color: var(--text-secondary);
+        }
+
+        .no-results p {
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        /* ============ Footer ============ */
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: var(--spacing-lg) var(--spacing-md);
+            text-align: center;
+            margin-top: var(--spacing-xl);
+            border-top: 3px solid var(--accent);
+        }
+
+        footer h3 {
+            margin-bottom: var(--spacing-md);
+            font-size: 1.1rem;
+        }
+
+        footer ul {
+            list-style: none;
+            display: flex;
+            gap: var(--spacing-lg);
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: var(--spacing-md);
+        }
+
+        footer a {
+            color: var(--accent-light);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        footer a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            font-size: 0.9rem;
+            opacity: 0.85;
+            padding-top: var(--spacing-md);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* ============ Loading & Status ============ */
+        .loading {
+            text-align: center;
+            padding: var(--spacing-lg);
+            color: var(--text-secondary);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: var(--spacing-md);
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status-success {
+            background: rgba(107, 163, 118, 0.2);
+            color: var(--success);
+        }
+
+        .status-beta {
+            background: rgba(212, 165, 116, 0.2);
+            color: var(--warning);
+        }
+
+        /* ============ Features Grid ============ */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+        }
+
+        .feature-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: var(--spacing-lg);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px var(--shadow-md);
+            border-color: var(--accent);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* ============ Responsive ============ */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: var(--spacing-sm);
+            }
+
+            nav a {
+                font-size: 0.85rem;
+                padding: var(--spacing-xs) var(--spacing-sm);
+            }
+
+            .wotd-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .wotd-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+
+            .wotd-title h2 {
+                font-size: 1.5rem;
+            }
+
+            .tabs {
+                gap: var(--spacing-xs);
+            }
+
+            .tab-button {
+                padding: var(--spacing-md) var(--spacing-sm);
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            footer ul {
+                gap: var(--spacing-md);
+            }
+        }
+
+        /* ============ Accessibility ============ */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TriLateral Voice (TLV)</h1>
+        <p class="subtitle">Emotional and Feeling Vocabulary</p>
+        <p class="tagline">Precise language for authentic human experience</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#wotd">Word of the Day</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#about">About EFV</a></li>
+            <li><a href="#api">API Docs</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Word of the Day -->
+        <section id="wotd" class="wotd-container">
+            <div class="wotd-header">
+                <div class="wotd-icon">✨</div>
+                <div class="wotd-title">
+                    <h2 id="wotd-word">Loading...</h2>
+                    <p class="wotd-subtitle" id="wotd-date"></p>
+                </div>
+            </div>
+
+            <div class="wotd-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Category</div>
+                    <div class="meta-value" id="wotd-category">—</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Precision Level</div>
+                    <div class="meta-value" id="wotd-precision">—</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Total Vocabulary</div>
+                    <div class="meta-value" id="wotd-total">—</div>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-button active" data-tab="etymology">Etymology</button>
+                <button class="tab-button" data-tab="usage">Contemporary Usage</button>
+                <button class="tab-button" data-tab="somatic">Somatic Signature</button>
+                <button class="tab-button" data-tab="cultural">Cultural Bridge</button>
+            </div>
+
+            <div id="etymology" class="tab-content active">
+                <div class="wotd-description">
+                    <h3>Etymology & Historical Development</h3>
+                    <p id="etymology-content">Explore the roots and evolution of this word across cultures and centuries.</p>
+                </div>
+            </div>
+
+            <div id="usage" class="tab-content">
+                <div class="wotd-description">
+                    <h3>Contemporary Common Usage</h3>
+                    <p id="usage-content">How this word is understood and used in modern communication.</p>
+                </div>
+            </div>
+
+            <div id="somatic" class="tab-content">
+                <div class="wotd-description">
+                    <h3>Somatic Signature Documentation</h3>
+                    <p id="somatic-content"><strong>Somatic Integration:</strong> <span id="somatic-integration">—</span></p>
+                </div>
+            </div>
+
+            <div id="cultural" class="tab-content">
+                <div class="wotd-description">
+                    <h3>Cultural Translation Contexts</h3>
+                    <p id="cultural-content"><strong>Cultural Bridge:</strong> <span id="cultural-bridge">—</span></p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: var(--spacing-lg);">
+                <button class="btn btn-secondary btn-small" id="random-btn">Get Random Word</button>
+                <button class="btn btn-secondary btn-small" id="export-btn">Export to CSV</button>
+            </div>
+        </section>
+
+        <!-- Search -->
+        <section id="search" class="search-container">
+            <h2 style="color: var(--primary); margin-bottom: var(--spacing-md);">Search Vocabulary</h2>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search words by name or category (e.g., 'fear', 'joy')...">
+                <button class="btn btn-primary" id="search-btn">Search</button>
+            </div>
+
+            <div id="search-results" style="display: none;">
+                <h3 style="color: var(--primary); margin-bottom: var(--spacing-md);">Results</h3>
+                <div id="results-list" class="results-container"></div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="about">
+            <h2 style="color: var(--primary); margin: var(--spacing-xl) 0 var(--spacing-lg); font-size: 1.8rem;">About the Emotional and Feeling Vocabulary</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>38 Emotional Categories</h3>
+                    <p>Complete spectrum of human emotional experience, from joy to despair, calm to excitement.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Six-Dimensional Documentation</h3>
+                    <p>Etymology, contemporary usage, precise intent, conceptual explanation, cultural translation, and TLV application.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
+                    <h3>Somatic Signature Mapping</h3>
+                    <p>Physical sensations, kinesthetic patterns, and embodied understanding linked to each emotion.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Cultural Translation</h3>
+                    <p>How emotions authentically translate across Western, Eastern, Indigenous, Clinical, and Spiritual frameworks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚖️</div>
+                    <h3>Intensity Calibration</h3>
+                    <p>1-10 scale for precise emotional depth, calibrated to individual speaker baselines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Temporal Translation</h3>
+                    <p>Understanding how emotions remain meaningful across time, adapting to contemporary contexts.</p>
+                </div>
+            </div>
+
+            <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: var(--spacing-lg); margin: var(--spacing-xl) 0; border-left: 4px solid var(--accent);">
+                <h3 style="color: var(--primary); margin-bottom: var(--spacing-md);">What is TLV?</h3>
+                <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+                    The <strong>TriLateral Voice (TLV)</strong> is a comprehensive communication framework that honors the full dimensionality of human experience by attending to three integrated voices:
+                </p>
+                <ul style="list-style: none; color: var(--text-secondary);">
+                    <li style="margin-bottom: var(--spacing-sm);">
+                        <strong style="color: var(--primary);">Speaker's Voice</strong> — What you say (the technical content)
+                    </li>
+                    <li style="margin-bottom: var(--spacing-sm);">
+                        <strong style="color: var(--primary);">Emotional/Somatic Voice</strong> — How it feels (the embodied experience)
+                    </li>
+                    <li>
+                        <strong style="color: var(--primary);">Observer's Voice</strong> — Why it matters (the contextual significance and witness)
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- API Documentation -->
+        <section id="api" style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: var(--spacing-lg); margin: var(--spacing-xl) 0;">
+            <h2 style="color: var(--primary); margin-bottom: var(--spacing-lg);">API Integration</h2>
+            
+            <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; margin-bottom: var(--spacing-lg); border-left: 3px solid var(--secondary);">
+                <p style="color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
+                    <strong>API Base URL:</strong>
+                </p>
+                <code style="background: white; padding: var(--spacing-sm); display: block; border-radius: 4px; font-family: var(--font-mono); color: var(--primary); overflow-x: auto;">
+                    https://efv-us-eng.onrender.com/api/v1
+                </code>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-lg);">
+                <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; border-left: 3px solid var(--success);">
+                    <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Word of the Day</h4>
+                    <code style="font-size: 0.85rem; color: var(--text-secondary);">GET /word-of-day</code>
+                </div>
+                <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; border-left: 3px solid var(--success);">
+                    <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Random Word</h4>
+                    <code style="font-size: 0.85rem; color: var(--text-secondary);">GET /word/random</code>
+                </div>
+                <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; border-left: 3px solid var(--success);">
+                    <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Specific Word</h4>
+                    <code style="font-size: 0.85rem; color: var(--text-secondary);">GET /word/{word}</code>
+                </div>
+                <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; border-left: 3px solid var(--success);">
+                    <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">By Category</h4>
+                    <code style="font-size: 0.85rem; color: var(--text-secondary);">GET /category/{cat}</code>
+                </div>
+                <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; border-left: 3px solid var(--success);">
+                    <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Search</h4>
+                    <code style="font-size: 0.85rem; color: var(--text-secondary);">GET /search?q={query}</code>
+                </div>
+                <div style="background: var(--bg-tertiary); padding: var(--spacing-md); border-radius: 6px; border-left: 3px solid var(--success);">
+                    <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">RSS Feed</h4>
+                    <code style="font-size: 0.85rem; color: var(--text-secondary);">GET /rss/daily-word.xml</code>
+                </div>
+            </div>
+
+            <p style="color: var(--text-secondary); margin-top: var(--spacing-lg); font-size: 0.95rem;">
+                Full documentation available at <a href="https://github.com/your-repo" style="color: var(--accent); text-decoration: none; font-weight: 500;">GitHub</a> or <a href="https://tlvfoundation.org" style="color: var(--accent); text-decoration: none; font-weight: 500;">TLV Foundation</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <h3>TriLateral Voice (TLV) Foundation</h3>
+        <ul>
+            <li><a href="https://tlvfoundation.org">Website</a></li>
+            <li><a href="https://github.com/your-repo">GitHub</a></li>
+            <li><a href="mailto:info@tlvfoundation.org">Contact</a></li>
+            <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></li>
+        </ul>
+        <div class="footer-bottom">
+            <p>© 2025 The TriLateral Voice (TLV) Foundation Series | Licensed under CC BY-NC-SA 4.0</p>
+            <p style="font-size: 0.85rem; margin-top: var(--spacing-sm);">Non-commercial use is free. <a href="mailto:licensing@tlvfoundation.org" style="color: var(--accent-light);">Commercial licensing available.</a></p>
+        </div>
+    </footer>
+
+    <script>
+        const API_BASE = 'https://efv-us-eng.onrender.com/api/v1';
+
+        // Tab functionality
+        document.querySelectorAll('.tab-button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabName = btn.dataset.tab;
+                document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(tabName).classList.add('active');
+            });
+        });
+
+        // Load Word of the Day
+        async function loadWordOfDay() {
+            try {
+                const response = await fetch(`${API_BASE}/word-of-day`);
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const word = data.word;
+                    document.getElementById('wotd-word').textContent = word.word;
+                    document.getElementById('wotd-date').textContent = new Date(data.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                    document.getElementById('wotd-category').textContent = word.category || '—';
+                    document.getElementById('wotd-precision').textContent = word.precision_level || '—';
+                    document.getElementById('wotd-total').textContent = data.total_words.toLocaleString();
+                    
+                    // Tab content
+                    document.getElementById('etymology-content').textContent = 'Explore the roots and evolution of this word across cultures and centuries.';
+                    document.getElementById('usage-content').textContent = 'How this word is understood and used in modern communication.';
+                    document.getElementById('somatic-integration').textContent = word.somatic_integration || 'Explore embodied understanding.';
+                    document.getElementById('cultural-bridge').textContent = word.cultural_bridge || 'Explore cross-cultural translation.';
+                }
+            } catch (error) {
+                console.error('Error loading word of day:', error);
+                document.getElementById('wotd-word').textContent = 'Connection Error';
+                document.getElementById('wotd-date').textContent = 'Check your internet connection';
+            }
+        }
+
+        // Random word
+        document.getElementById('random-btn').addEventListener('click', async () => {
+            try {
+                const response = await fetch(`${API_BASE}/word/random`);
+                const data = await response.json();
+                if (data.status === 'success') {
+                    document.getElementById('wotd-word').textContent = data.word.word;
+                    document.getElementById('wotd-category').textContent = data.word.category || '—';
+                    document.getElementById('wotd-precision').textContent = data.word.precision_level || '—';
+                }
+            } catch (error) {
+                console.error('Error loading random word:', error);
+            }
+        });
+
+        // Search functionality
+        document.getElementById('search-btn').addEventListener('click', search);
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') search();
+        });
+
+        async function search() {
+            const query = document.getElementById('search-input').value.trim();
+            if (!query) return;
+
+            try {
+                const response = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}`);
+                const data = await response.json();
+
+                const resultsDiv = document.getElementById('search-results');
+                const resultsList = document.getElementById('results-list');
+
+                if (data.status === 'success' && data.results.length > 0) {
+                    resultsList.innerHTML = data.results.map(result => `
+                        <div class="result-item">
+                            <div class="result-word">${result.word}</div>
+                            <span class="result-category">${result.category}</span>
+                            <p class="result-description">Found in vocabulary database</p>
+                        </div>
+                    `).join('');
+                    resultsDiv.style.display = 'block';
+                } else {
+                    resultsList.innerHTML = `
+                        <div class="no-results">
+                            <p>No words found matching "${query}"</p>
+                            <p style="font-size: 0.95rem;">Try searching by category name (e.g., "Joy", "Fear") or word fragment.</p>
+                        </div>
+                    `;
+                    resultsDiv.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Search error:', error);
+                document.getElementById('results-list').innerHTML = '<div class="no-results"><p>Search unavailable</p></div>';
+                document.getElementById('search-results').style.display = 'block';
+            }
+        }
+
+        // Export CSV
+        document.getElementById('export-btn').addEventListener('click', () => {
+            window.location.href = 'https://efv-us-eng.onrender.com/export/csv?format=full';
+        });
+
+        // Load on page load
+        window.addEventListener('load', loadWordOfDay);
+    </script>
+</body>
+</html>

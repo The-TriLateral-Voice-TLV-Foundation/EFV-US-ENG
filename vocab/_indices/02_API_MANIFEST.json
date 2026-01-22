@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "generated": "2026-01-22T10:33:16.097624",
+  "generated": "2026-01-22T14:23:23.535240",
   "endpoints": {
     "word_of_day": "/api/v1/word-of-day",
     "random_word": "/api/v1/word/random",

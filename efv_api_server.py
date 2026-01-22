@@ -33,6 +33,9 @@ from functools import lru_cache
 import hashlib
 import sys
 
+from flask import send_from_directory
+import os
+
 from flask import Flask, jsonify, request, Response, send_from_directory
 from flask_cors import CORS
 from feedgen.feed import FeedGenerator
@@ -192,6 +195,17 @@ def create_app(index_dir: Path = None) -> Flask:
         return None
 
     # ========== ROUTES DEFINED HERE (inside create_app) ==========
+    @app.route('/')
+    def serve_index():
+        """Serve the frontend index.html"""
+        return send_from_directory(os.getcwd(), 'index.html')
+
+    @app.route('/<path:path>')
+    def serve_static(path):
+        """Serve other static files"""
+        if os.path.exists(os.path.join(os.getcwd(), path)):
+            return send_from_directory(os.getcwd(), path)
+        return send_from_directory(os.getcwd(), 'index.html')
 
     @app.route("/api/v1/word-of-day", methods=["GET"])
     def word_of_day():
