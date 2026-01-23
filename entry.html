@@ -923,12 +923,12 @@
             console.log('SECTIONMAP titles:');
             Object.values(SECTIONMAP).forEach(title => {
                 console.log(`  "${title}"`);
-            });
+            }); // Remove in production 
             
             console.log('Children titles:');
             children.forEach(child => {
                 console.log(`  "${child.title}"`);
-            });
+            }); // Remove in production 
             
             tabIds.forEach((tabId, index) => {
                 const tabContent = document.createElement('div');
@@ -936,17 +936,22 @@
                 tabContent.id = `tab-${tabId}`;
                 tabContent.dataset.tab = tabId;
                
-                const sectionTitle = SECTIONMAP[tabId];
+
                 
                 //Old
                 // const sectionData = children.find(child => 
                 //     child.title === sectionTitle
                 // );
+
                 //New
-                // Extract section number (1, 2, 3, etc)
-                const sectionNumber = index + 3;
+                const sectionNumber = index + 1;
+
+                // Find section by number prefix instead of exact title match
+                const sectionData = findSectionByNumber(children, sectionNumber); 
                 
-                console.log(`Looking for: "${sectionTitle}" => ${sectionData ? 'FOUND' : 'NOT FOUND'}`);
+                const sectionTitle = SECTIONMAP[tabId];
+
+                console.log(`Looking for: "${sectionTitle}" => ${sectionData ? 'FOUND' : 'NOT FOUND'}`); //Remove in Production AHAHAHAHA
                 
                 if (sectionData && sectionData.content) {
                     tabContent.innerHTML = renderSectionContent({
