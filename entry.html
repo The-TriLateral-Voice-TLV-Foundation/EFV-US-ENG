@@ -868,26 +868,46 @@
         }
 
 // Old
+ 
         // function renderAllTabs() {
         //     const container = document.getElementById('tabContent');
         //     container.innerHTML = '';
             
         //     const children = entryData.children || [];
-
-        //     const sectionData = findSectionByNumber(children, index + 1);
-
-        //     Object.keys(SECTIONMAP).forEach((tabId, index) => {
+            
+        //     if (!Array.isArray(children)) {
+        //         container.innerHTML = '<div class="error"><strong>Error:</strong> Invalid data structure - children is not an array</div>';
+        //         return;
+        //     }
+            
+        //     console.log('===== DEBUGGING RENDERTABS =====');
+        //     console.log('Children array:', children);
+        //     console.log('SECTIONMAP:', SECTIONMAP);
+            
+        //     const tabIds = Object.keys(SECTIONMAP);
+            
+        //     tabIds.forEach((tabId, index) => {
         //         const tabContent = document.createElement('div');
         //         tabContent.className = 'tab-content';
         //         tabContent.id = `tab-${tabId}`;
         //         tabContent.dataset.tab = tabId;
-
-        //         // Find matching section in children
+                
         //         const sectionTitle = SECTIONMAP[tabId];
-        //         const sectionData = children.find(c => 
-        //             c.title && c.title.includes(sectionTitle.split('. ')[1])
-        //         );
-
+        //         const searchTerm = sectionTitle.split('.')[1];
+                
+        //         console.log(`\nTab ${index}: ${tabId}`);
+        //         console.log(`  Section Title: ${sectionTitle}`);
+        //         console.log(`  Search Term: ${searchTerm}`);
+                
+        //         // Find matching section in children
+        //         const sectionData = children.find(c => {
+        //             const matches = c.title && c.title.includes(searchTerm);
+        //             console.log(`    Checking "${c.title}" - includes "${searchTerm}"? ${matches}`);
+        //             return matches;
+        //         });
+                
+        //         console.log(`  Found: ${sectionData ? 'YES' : 'NO'}`);
+                
         //         if (sectionData && sectionData.content) {
         //             tabContent.innerHTML = renderSectionContent(sectionData);
         //         } else {
@@ -898,52 +918,39 @@
         //                 </div>
         //             `;
         //         }
-
+                
         //         container.appendChild(tabContent);
         //     });
         // }
-// New 
+
+        // New
         function renderAllTabs() {
             const container = document.getElementById('tabContent');
             container.innerHTML = '';
             
-            const children = entryData.children || [];
-            
-            if (!Array.isArray(children)) {
-                container.innerHTML = '<div class="error"><strong>Error:</strong> Invalid data structure - children is not an array</div>';
-                return;
-            }
-            
             console.log('===== DEBUGGING RENDERTABS =====');
-            console.log('Children array:', children);
-            console.log('SECTIONMAP:', SECTIONMAP);
+            console.log('Full Entry Data:', entryData);
             
             const tabIds = Object.keys(SECTIONMAP);
             
-            tabIds.forEach((tabId, index) => {
+            tabIds.forEach((tabId) => {
                 const tabContent = document.createElement('div');
                 tabContent.className = 'tab-content';
                 tabContent.id = `tab-${tabId}`;
                 tabContent.dataset.tab = tabId;
                 
                 const sectionTitle = SECTIONMAP[tabId];
-                const searchTerm = sectionTitle.split('.')[1];
                 
-                console.log(`\nTab ${index}: ${tabId}`);
-                console.log(`  Section Title: ${sectionTitle}`);
-                console.log(`  Search Term: ${searchTerm}`);
+                // ✅ Access the section data directly from entryData using the tabId
+                const sectionData = entryData[tabId];
                 
-                // Find matching section in children
-                const sectionData = children.find(c => {
-                    const matches = c.title && c.title.includes(searchTerm);
-                    console.log(`    Checking "${c.title}" - includes "${searchTerm}"? ${matches}`);
-                    return matches;
-                });
+                console.log(`Tab: ${tabId}`, sectionData ? 'FOUND' : 'NOT FOUND');
                 
-                console.log(`  Found: ${sectionData ? 'YES' : 'NO'}`);
-                
-                if (sectionData && sectionData.content) {
-                    tabContent.innerHTML = renderSectionContent(sectionData);
+                if (sectionData) {
+                    tabContent.innerHTML = renderSectionContent({
+                        title: sectionTitle,
+                        content: sectionData
+                    });
                 } else {
                     tabContent.innerHTML = `
                         <div class="section-card">
@@ -956,7 +963,6 @@
                 container.appendChild(tabContent);
             });
         }
-
 
         function renderSectionContent(section) {
             const content = parseMarkdownContent(section.content);
