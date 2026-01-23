@@ -685,19 +685,38 @@
                 const response = await fetch(`${API_URL}/word-of-day`);
                 const data = await response.json();
                 
+                // Log the actual response for debugging
+                console.log('API Response:', data);
+                
+                // Your API returns a flat structure, not nested
+                const word = data;
+                const date = data.date || new Date().toISOString();
+                
                 container.innerHTML = `
                     <p style="color: var(--subtle); font-size: 0.9rem; margin-bottom: 1rem;">Today's Featured Word</p>
-                    <div class="word-pos">${data.pos || 'word'}</div>
-                    <div class="word-main">${data.word}</div>
-                    <div class="word-definition">"${data.definition}"</div>
-                    ${data.emotional_context ? `
+                    <div class="word-pos">${word.pos || word.category || 'word'}</div>
+                    <div class="word-main">${word.word || 'Word'}</div>
+                    <div class="word-definition">"${word.definition || 'Definition not available'}"</div>
+                    ${word.emotional_context ? `
                         <div class="word-emotion">
                             <small>Emotional Context</small>
-                            ${data.emotional_context}
+                            ${word.emotional_context}
+                        </div>
+                    ` : ''}
+                    ${word.somatic_integration ? `
+                        <div class="word-emotion">
+                            <small>Somatic Signature</small>
+                            ${word.somatic_integration}
+                        </div>
+                    ` : ''}
+                    ${word.usage_example ? `
+                        <div class="word-emotion">
+                            <small>Example Usage</small>
+                            "${word.usage_example}"
                         </div>
                     ` : ''}
                     <div class="word-usage">
-                        <small>Selected on ${new Date(data.date).toLocaleDateString('en-US', { 
+                        <small>Selected on ${new Date(date).toLocaleDateString('en-US', { 
                             weekday: 'long', 
                             year: 'numeric', 
                             month: 'long', 
@@ -706,13 +725,14 @@
                     </div>
                 `;
             } catch (error) {
+                console.error('Full Error:', error);
                 container.innerHTML = `
                     <div class="error">
                         <strong>Unable to load word of day</strong>
-                        <p style="margin-top: 0.5rem; font-size: 0.9rem;">The API may be temporarily unavailable. Please try again later.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Error: ${error.message}</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.85rem; font-family: monospace;">Check browser console (F12) for details</p>
                     </div>
                 `;
-                console.error('Error:', error);
             }
         }
 

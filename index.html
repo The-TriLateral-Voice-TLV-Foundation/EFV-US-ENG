@@ -129,6 +129,83 @@
             padding: var(--spacing-xl) var(--spacing-md);
         }
 
+        /* Section Layout */
+        .section {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--accent);
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+                /* Word of Day Display */
+        .word-card {
+            background: linear-gradient(135deg, #f9f7f4 0%, #f5f3f0 100%);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .word-card .word-main {
+            font-size: 2.5rem;
+            color: var(--primary);
+            font-weight: 300;
+            margin: 1rem 0;
+            letter-spacing: -0.5px;
+        }
+
+        .word-card .word-pos {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--white);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin: 0.5rem 0;
+        }
+
+        .word-card .word-definition {
+            font-size: 1.1rem;
+            color: var(--dark-text);
+            margin: 1.5rem 0;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        .word-card .word-emotion {
+            background: var(--white);
+            border-left: 3px solid var(--secondary);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .word-card .word-emotion small {
+            display: block;
+            color: var(--subtle);
+            margin-bottom: 0.5rem;
+        }
+
+        .word-card .word-usage {
+            font-size: 0.95rem;
+            color: var(--subtle);
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+
         /* ============ Word of the Day ============ */
         .wotd-container {
             background: var(--bg-secondary);
@@ -619,6 +696,7 @@
 
     <nav>
         <ul>
+            <li><a href="#home">Home</a></li>
             <li><a href="#wotd">Word of the Day</a></li>
             <li><a href="#search">Search</a></li>
             <li><a href="#about">About EFV</a></li>
@@ -627,6 +705,40 @@
     </nav>
 
     <main>
+
+
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <h2>What is the Emotional & Feeling Vocabulary API</h2>
+            
+            <h3>Purpose</h3>
+            <p>The Emotional and Feeling Vocabulary (EFV) is a curated collection of words designed to enrich and clarify how we communicate about our inner emotional states. Developed as part of the <strong>TriLateral Voice (TLV) Communication Framework</strong>, it serves as a bridge between feeling and expression.</p>
+
+            <h3>The TriLateral Voice Framework</h3>
+            <p>TLV is a comprehensive communication system that emphasizes <strong>clarity, authenticity, and mutual understanding</strong>. The framework recognizes that effective communication requires:</p>
+            <ul style="margin: 1rem 0 1.5rem 2rem; line-height: 2;">
+                <li><strong>Emotional Articulation:</strong> The ability to name and describe what you're feeling</li>
+                <li><strong>Authentic Expression:</strong> Speaking from genuine internal states</li>
+                <li><strong>Mutual Recognition:</strong> Acknowledging and validating the emotional experience of others</li>
+            </ul>
+
+            <h3>How EFV Helps</h3>
+            <p>By providing precise vocabulary for emotional and feeling states, EFV enables:</p>
+            <ul style="margin: 1rem 0 1.5rem 2rem; line-height: 2;">
+                <li>More precise communication of internal experiences</li>
+                <li>Deeper emotional self-awareness</li>
+                <li>Enhanced empathy and interpersonal understanding</li>
+                <li>A shared language for emotional discussion</li>
+            </ul>
+
+            <h3>Current Status</h3>
+            <p>The EFV API is in <strong>Release Candidate (RC0001)</strong> phase. We're actively gathering feedback and refining the vocabulary based on user input. The vocabulary set will continue to expand and evolve.</p>
+
+            <div style="background: #f0fdf4; border-left: 4px solid var(--success); padding: 1.5rem; margin-top: 2rem; border-radius: 6px;">
+                <strong style="color: #166534;">Contribute</strong>
+                <p style="margin-top: 0.5rem; color: #166534;">Have a word that captures an important emotional nuance? We'd love to hear from you. <a href="mailto:vocabulary@tlvfoundation.org" style="color: #059669; text-decoration: underline;">Share your suggestions</a>.</p>
+            </div>
+        </section>
         <!-- Word of the Day -->
         <section id="wotd" class="wotd-container">
             <div class="wotd-header">
@@ -637,6 +749,22 @@
                 </div>
             </div>
 
+            <!-- Word of Day Section -->
+
+                <div id="wordOfDay" class="word-card">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading today's word...</p>
+                    </div>
+                </div>
+
+
+            <div id="etymology" class="tab-content active">
+                <div class="wotd-description">
+                    <h3>Etymology & Historical Development</h3>
+                    <p id="etymology-content">Explore the roots and evolution of this word across cultures and centuries.</p>
+                </div>
+            </div>
             <div class="wotd-meta">
                 <div class="meta-item">
                     <div class="meta-label">Category</div>
@@ -651,19 +779,11 @@
                     <div class="meta-value" id="wotd-total">—</div>
                 </div>
             </div>
-
             <div class="tabs">
                 <button class="tab-button active" data-tab="etymology">Etymology</button>
                 <button class="tab-button" data-tab="usage">Contemporary Usage</button>
                 <button class="tab-button" data-tab="somatic">Somatic Signature</button>
                 <button class="tab-button" data-tab="cultural">Cultural Bridge</button>
-            </div>
-
-            <div id="etymology" class="tab-content active">
-                <div class="wotd-description">
-                    <h3>Etymology & Historical Development</h3>
-                    <p id="etymology-content">Explore the roots and evolution of this word across cultures and centuries.</p>
-                </div>
             </div>
 
             <div id="usage" class="tab-content">
@@ -745,7 +865,7 @@
             </div>
 
             <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: var(--spacing-lg); margin: var(--spacing-xl) 0; border-left: 4px solid var(--accent);">
-                <h3 style="color: var(--primary); margin-bottom: var(--spacing-md);">What is TLV?</h3>
+                <!-- <h3 style="color: var(--primary); margin-bottom: var(--spacing-md);">What is TLV?</h3>
                 <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
                     The <strong>TriLateral Voice (TLV)</strong> is a comprehensive communication framework that honors the full dimensionality of human experience by attending to three integrated voices:
                 </p>
@@ -759,7 +879,37 @@
                     <li>
                         <strong style="color: var(--primary);">Observer's Voice</strong> — Why it matters (the contextual significance and witness)
                     </li>
-                </ul>
+                </ul> -->
+            
+            <h2>What is the Emotional & Feeling Vocabulary API</h2>
+            
+            <h3>Purpose</h3>
+            <p>The Emotional and Feeling Vocabulary (EFV) is a curated collection of words designed to enrich and clarify how we communicate about our inner emotional states. Developed as part of the <strong>TriLateral Voice (TLV) Communication Framework</strong>, it serves as a bridge between feeling and expression.</p>
+
+            <h3>The TriLateral Voice Framework</h3>
+            <p>TLV is a comprehensive communication system that emphasizes <strong>clarity, authenticity, and mutual understanding</strong>. The framework recognizes that effective communication requires:</p>
+            <ul style="margin: 1rem 0 1.5rem 2rem; line-height: 2;">
+                <li><strong>Emotional Articulation:</strong> The ability to name and describe what you're feeling</li>
+                <li><strong>Authentic Expression:</strong> Speaking from genuine internal states</li>
+                <li><strong>Mutual Recognition:</strong> Acknowledging and validating the emotional experience of others</li>
+            </ul>
+
+            <h3>How EFV Helps</h3>
+            <p>By providing precise vocabulary for emotional and feeling states, EFV enables:</p>
+            <ul style="margin: 1rem 0 1.5rem 2rem; line-height: 2;">
+                <li>More precise communication of internal experiences</li>
+                <li>Deeper emotional self-awareness</li>
+                <li>Enhanced empathy and interpersonal understanding</li>
+                <li>A shared language for emotional discussion</li>
+            </ul>
+
+            <h3>Current Status</h3>
+            <p>The EFV API is in <strong>Release Candidate (RC0001)</strong> phase. We're actively gathering feedback and refining the vocabulary based on user input. The vocabulary set will continue to expand and evolve.</p>
+
+            <div style="background: #f0fdf4; border-left: 4px solid var(--success); padding: 1.5rem; margin-top: 2rem; border-radius: 6px;">
+                <strong style="color: #166534;">Contribute</strong>
+                <p style="margin-top: 0.5rem; color: #166534;">Have a word that captures an important emotional nuance? We'd love to hear from you. <a href="mailto:vocabulary@tlvfoundation.org" style="color: #059669; text-decoration: underline;">Share your suggestions</a>.</p>
+            </div>
             </div>
         </section>
 
@@ -824,7 +974,19 @@
     </footer>
 
     <script>
-        const API_BASE = 'https://efv-us-eng.onrender.com/api/v1';
+                // With this (auto-detects local vs production):
+        const API_BASE = (() => {
+            const host = window.location.hostname;
+            const port = window.location.port;
+            
+            if (host === 'localhost' || host === '127.0.0.1') {
+                return `http://${host}:${port || 5000}/api/v1`;
+            }
+            return 'https://efv-us-eng.onrender.com/api/v1';
+        })();
+
+        // Also log it for debugging:
+        console.log('EFV API Endpoint:', API_BASE);
 
         // Tab functionality
         document.querySelectorAll('.tab-button').forEach(btn => {
@@ -928,6 +1090,220 @@
 
         // Load on page load
         window.addEventListener('load', loadWordOfDay);
+        // Auto-detect API URL: local development vs production deployment
+        const API_URL = (() => {
+            const host = window.location.hostname;
+            const port = window.location.port;
+            
+            // Local development: localhost:5000
+            if (host === 'localhost' || host === '127.0.0.1') {
+                return `http://${host}:${port || 5000}/api/v1`;
+            }
+            
+            // Production: Render deployment
+            return 'https://efv-us-eng.onrender.com/api/v1';
+        })();
+
+        // Log API endpoint for debugging
+        console.log('EFV API Endpoint:', API_URL);
+
+        // Navigation
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+            
+            if (sectionId === 'home') {
+                fetchWordOfDay();
+            } else if (sectionId === 'search') {
+                loadBrowseData();
+            }
+        }
+
+        // Word of Day
+        async function fetchWordOfDay() {
+            const container = document.getElementById('wordOfDay');
+            container.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading...</p></div>';
+
+            try {
+                const response = await fetch(`${API_URL}/word-of-day`);
+                const data = await response.json();
+                
+                // Log the actual response for debugging
+                console.log('API Response:', data);
+                
+                // Your API returns a flat structure, not nested
+                const word = data;
+                const date = data.date || new Date().toISOString();
+                
+                container.innerHTML = `
+                    <p style="color: var(--subtle); font-size: 0.9rem; margin-bottom: 1rem;">Today's Featured Word</p>
+                    <div class="word-pos">${word.pos || word.category || 'word'}</div>
+                    <div class="word-main">${word.word || 'Word'}</div>
+                    <div class="word-definition">"${word.definition || 'Definition not available'}"</div>
+                    ${word.emotional_context ? `
+                        <div class="word-emotion">
+                            <small>Emotional Context</small>
+                            ${word.emotional_context}
+                        </div>
+                    ` : ''}
+                    ${word.somatic_integration ? `
+                        <div class="word-emotion">
+                            <small>Somatic Signature</small>
+                            ${word.somatic_integration}
+                        </div>
+                    ` : ''}
+                    ${word.usage_example ? `
+                        <div class="word-emotion">
+                            <small>Example Usage</small>
+                            "${word.usage_example}"
+                        </div>
+                    ` : ''}
+                    <div class="word-usage">
+                        <small>Selected on ${new Date(date).toLocaleDateString('en-US', { 
+                            weekday: 'long', 
+                            year: 'numeric', 
+                            month: 'long', 
+                            day: 'numeric' 
+                        })}</small>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Full Error:', error);
+                container.innerHTML = `
+                    <div class="error">
+                        <strong>Unable to load word of day</strong>
+                        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Error: ${error.message}</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.85rem; font-family: monospace;">Check browser console (F12) for details</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Browse functionality
+        async function loadBrowseData() {
+            const container = document.getElementById('browseResults');
+            container.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading vocabulary...</p></div>';
+
+            try {
+                const response = await fetch(`${API_URL}/metadata`);
+                const data = await response.json();
+                
+                // Fetch actual words - this would need an endpoint or we display placeholder
+                displayBrowseResults([]);
+                loadMetadataStats(data);
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('browseEmpty').style.display = 'block';
+                container.innerHTML = '';
+            }
+        }
+
+        function displayBrowseResults(words) {
+            const container = document.getElementById('browseResults');
+            const empty = document.getElementById('browseEmpty');
+
+            if (words.length === 0) {
+                container.innerHTML = '';
+                empty.style.display = 'block';
+                return;
+            }
+
+            empty.style.display = 'none';
+            container.innerHTML = words.map(word => `
+                <div class="word-item">
+                    <div class="item-word">${word.word}</div>
+                    <div class="item-def">${word.definition.substring(0, 80)}...</div>
+                    <small>${word.emotional_context || 'Emotion not specified'}</small>
+                </div>
+            `).join('');
+        }
+
+        function filterBrowse() {
+            // Placeholder for filter functionality
+            const input = document.getElementById('browseInput').value;
+            // In production, filter loaded words based on input
+        }
+
+        function switchTab(tabName, button) {
+            document.querySelectorAll('.tab-content').forEach(tab => tab.style.display = 'none');
+            document.querySelectorAll('.tabs button').forEach(btn => btn.classList.remove('active'));
+            
+            document.getElementById(tabName + '-tab').style.display = 'block';
+            button.classList.add('active');
+
+            if (tabName === 'stats') {
+                loadStatsData();
+            }
+        }
+
+        async function loadMetadataStats(data) {
+            const container = document.getElementById('statsContainer');
+            const apiEndpoint = API_URL.replace('/api/v1', ''); // Show user the deployment
+            
+            container.innerHTML = `
+                <div class="stat-card">
+                    <div class="label">Total Words</div>
+                    <div class="number">${data.total_words || '—'}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Emotional Categories</div>
+                    <div class="number">${data.total_emotions || '—'}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Last Updated</div>
+                    <div class="number" style="font-size: 0.95rem;">${data.last_updated ? new Date(data.last_updated).toLocaleDateString() : '—'}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Version</div>
+                    <div class="number" style="font-size: 1.3rem;">${data.version || 'RC0001'}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">API Endpoint</div>
+                    <div class="number" style="font-size: 0.85rem; word-break: break-all; color: var(--subtle);">${window.location.hostname === 'localhost' ? '🏠 Local' : '🚀 Production'}</div>
+                </div>
+            `;
+        }
+
+        async function loadStatsData() {
+            try {
+                const response = await fetch(`${API_URL}/metadata`);
+                const data = await response.json();
+                loadMetadataStats(data);
+                
+                document.getElementById('statsDescription').innerHTML = `
+                    The EFV vocabulary is continuously expanding. Current release focuses on core emotional states, transitions, and nuanced feeling descriptions. The system uses a dimensional approach to emotion, capturing the spectrum between related emotional states.
+                `;
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+
+        function searchVocabulary() {
+            const query = document.getElementById('searchInput').value;
+            const resultsContainer = document.getElementById('searchResults');
+            
+            if (!query) {
+                resultsContainer.innerHTML = '<p style="color: var(--subtle);">Enter a search term to find words</p>';
+                return;
+            }
+
+            resultsContainer.innerHTML = '<div class="loading"><div class="spinner"></div><p>Searching...</p></div>';
+            
+            // Placeholder for search functionality
+            setTimeout(() => {
+                resultsContainer.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Search functionality coming soon</h3>
+                        <p>The vocabulary database will be fully searchable in the next release</p>
+                    </div>
+                `;
+            }, 500);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchWordOfDay();
+        });
     </script>
 </body>
 </html>

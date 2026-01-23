@@ -33,6 +33,9 @@ from functools import lru_cache
 import hashlib
 import sys
 
+# At the top of your file, add:
+from flask_cors import CORS
+
 from flask import send_from_directory
 import os
 
@@ -171,11 +174,61 @@ class EFVDatabase:
         """Get all words starting with letter"""
         return self.by_letter.get(letter.upper(), [])
 
+    # inside EFVDatabase
+
+    from functools import lru_cache
+
+    def _vocab_dir(self) -> Path:
+        repo_root = find_git_root()
+        return repo_root / "vocab"
+
+    @lru_cache(maxsize=64)
+    def _load_letter_file(self, letter: str) -> dict:
+        p = self._vocab_dir() / f"{letter.lower()}.json"
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    def _find_subsection_by_title(self, node, title_upper: str):
+        if isinstance(node, dict):
+            if node.get("type") == "subsection" and (node.get("title","").upper() == title_upper):
+                return node
+            for ch in node.get("children", []) or []:
+                hit = self._find_subsection_by_title(ch, title_upper)
+                if hit:
+                    return hit
+        elif isinstance(node, list):
+            for it in node:
+                hit = self._find_subsection_by_title(it, title_upper)
+                if hit:
+                    return hit
+        return None
+
+    def get_word_full(self, word_name: str) -> Optional[Dict]:
+        meta = self.get_word(word_name)
+        if not meta:
+            return None
+
+        letter = meta.get("letter")
+        if not letter:
+            return None
+
+        letter_root = self._load_letter_file(letter)
+        subsection = self._find_subsection_by_title(letter_root, word_name.upper())
+        if not subsection:
+            return None
+
+        # merge metadata + full tree
+        full = dict(meta)
+        full["children"] = subsection.get("children", [])
+        full["content"] = subsection.get("content", "")
+        full["type"] = subsection.get("type", "subsection")
+        full["level"] = subsection.get("level", 3)
+        return full
 
 def create_app(index_dir: Path = None) -> Flask:
     """Create Flask application with portable path resolution."""
     app = Flask(__name__)
-    CORS(app)
+    CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
     @app.route("/favicon.ico")
@@ -198,14 +251,14 @@ def create_app(index_dir: Path = None) -> Flask:
     @app.route('/')
     def serve_index():
         """Serve the frontend index.html"""
-        return send_from_directory(os.getcwd(), 'index.html')
+        return send_from_directory(os.getcwd(), 'EFV Vocabulary Interface.html')
 
     @app.route('/<path:path>')
     def serve_static(path):
         """Serve other static files"""
         if os.path.exists(os.path.join(os.getcwd(), path)):
             return send_from_directory(os.getcwd(), path)
-        return send_from_directory(os.getcwd(), 'index.html')
+        return send_from_directory(os.getcwd(), 'EFV Vocabulary Interface.html')
 
     @app.route("/api/v1/word-of-day", methods=["GET"])
     def word_of_day():
@@ -259,6 +312,10 @@ def create_app(index_dir: Path = None) -> Flask:
     @app.route("/api/v1/word/<word_name>", methods=["GET"])
     def get_word(word_name):
         """Get specific word details"""
+        full = db.get_word_full(word_name)
+        if not full:
+            return jsonify(status="error", message=f"Word not found: {word_name}"), 404
+        return jsonify(status="success", data=full)
         try:
             word_data = db.get_word(word_name)
             if not word_data:
