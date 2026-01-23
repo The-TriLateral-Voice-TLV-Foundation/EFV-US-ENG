@@ -931,6 +931,7 @@
             console.log('===== DEBUGGING RENDERTABS =====');
             console.log('Full Entry Data:', entryData);
             
+            const children = entryData.children || [];
             const tabIds = Object.keys(SECTIONMAP);
             
             tabIds.forEach((tabId) => {
@@ -941,15 +942,17 @@
                 
                 const sectionTitle = SECTIONMAP[tabId];
                 
-                // ✅ Access the section data directly from entryData using the tabId
-                const sectionData = entryData[tabId];
+                // ✅ Find the matching section in the children array by title
+                const sectionData = children.find(child => 
+                    child.title === sectionTitle
+                );
                 
                 console.log(`Tab: ${tabId}`, sectionData ? 'FOUND' : 'NOT FOUND');
                 
-                if (sectionData) {
+                if (sectionData && sectionData.content) {
                     tabContent.innerHTML = renderSectionContent({
                         title: sectionTitle,
-                        content: sectionData
+                        content: sectionData.content
                     });
                 } else {
                     tabContent.innerHTML = `
