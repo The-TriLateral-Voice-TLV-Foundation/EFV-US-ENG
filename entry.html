@@ -930,7 +930,7 @@
                 console.log(`  "${child.title}"`);
             });
             
-            tabIds.forEach((tabId) => {
+            tabIds.forEach((tabId, index) => {
                 const tabContent = document.createElement('div');
                 tabContent.className = 'tab-content';
                 tabContent.id = `tab-${tabId}`;
