@@ -944,10 +944,12 @@
                 // );
 
                 //New
-                const sectionNumber = index + 8;
+                const sectionNumber = index + 5;
 
                 // Find section by number prefix instead of exact title match
-                const sectionData = findSectionByNumber(children, sectionNumber); 
+                //Old const sectionData = findSectionByNumber(children, sectionNumber); 
+                //test
+                const sectionData = findSectionByNumber(child => child.title ===  sectionTitle); 
                 
                 const sectionTitle = SECTIONMAP[tabId];
 
