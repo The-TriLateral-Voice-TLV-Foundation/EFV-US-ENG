@@ -147,9 +147,9 @@ class EFVDatabase:
         selected = random.choice(words)
         return selected
     
-    def get_word(self, word_name: str) -> Optional[Dict]:
-        """Get specific word"""
-        return self.all_words.get(word_name.upper())
+    # def get_word(self, word_name: str) -> Optional[Dict]:
+    #     """Get specific word"""
+    #     return self.all_words.get(word_name.upper())
     
     def search_words(self, query: str) -> List[Dict]:
         """Search words by name or category"""
@@ -311,16 +311,10 @@ def create_app(index_dir: Path = None) -> Flask:
 
     @app.route("/api/v1/word/<word_name>", methods=["GET"])
     def get_word(word_name):
-        """Get specific word details"""
-        full = db.get_word_full(word_name)
-        if not full:
-            return jsonify(status="error", message=f"Word not found: {word_name}"), 404
-        return jsonify(status="success", data=full)
-       
+        """Get specific word details with full content"""
         try:
             # Load full entry with all children sections
             full = db.get_word_full(word_name)
-            
             if not full:
                 return jsonify(
                     status="error",
@@ -328,7 +322,7 @@ def create_app(index_dir: Path = None) -> Flask:
                 ), 404
             
             return jsonify(status="success", data=full)
-            
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
 
