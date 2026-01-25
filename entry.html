@@ -870,32 +870,47 @@
             switchTab('etymology');
         }
 
-// Old
- 
+        // Old
         // function renderAllTabs() {
         //     const container = document.getElementById('tabContent');
         //     container.innerHTML = '';
             
-        //     console.log('===== DEBUGGING RENDERTABS =====');
-        //     console.log('Full Entry Data:', entryData);
-            
         //     const children = entryData.children || [];
         //     const tabIds = Object.keys(SECTIONMAP);
             
-        //     tabIds.forEach((tabId) => {
+        //     console.log('SECTIONMAP titles:');
+        //     Object.values(SECTIONMAP).forEach(title => {
+        //         console.log(`  "${title}"`);
+        //     }); // Remove in production 
+            
+        //     console.log('Children titles:');
+        //     children.forEach(child => {
+        //         console.log(`  "${child.title}"`);
+        //     }); // Remove in production 
+            
+        //     tabIds.forEach((tabId, index) => {
         //         const tabContent = document.createElement('div');
         //         tabContent.className = 'tab-content';
         //         tabContent.id = `tab-${tabId}`;
         //         tabContent.dataset.tab = tabId;
+               
+
+                
+        //         //Old
+        //         // const sectionData = children.find(child => 
+        //         //     child.title === sectionTitle
+        //         // );
+
+        //         //New
+        //         const sectionNumber = index + 5;
+
+        //         // Find section by number prefix instead of exact title match
+        //         const sectionData = findSectionByNumber(children, sectionNumber); 
+        //         //test
                 
         //         const sectionTitle = SECTIONMAP[tabId];
-                
-        //         // ✅ Find the matching section in the children array by title
-        //         const sectionData = children.find(child => 
-        //             child.title === sectionTitle
-        //         );
-                
-        //         console.log(`Tab: ${tabId}`, sectionData ? 'FOUND' : 'NOT FOUND');
+
+        //         console.log(`Looking for: "${sectionTitle}" => ${sectionData ? 'FOUND' : 'NOT FOUND'}`); //Remove in Production AHAHAHAHA
                 
         //         if (sectionData && sectionData.content) {
         //             tabContent.innerHTML = renderSectionContent({
@@ -914,67 +929,57 @@
         //         container.appendChild(tabContent);
         //     });
         // }
-
-        // New
+        
+        //New
         function renderAllTabs() {
             const container = document.getElementById('tabContent');
             container.innerHTML = '';
             
+            console.log('===== RENDERING ALL TABS =====');
+            console.log('Full Entry Data:', entryData);
+            
             const children = entryData.children || [];
             const tabIds = Object.keys(SECTIONMAP);
             
-            console.log('SECTIONMAP titles:');
-            Object.values(SECTIONMAP).forEach(title => {
-                console.log(`  "${title}"`);
-            }); // Remove in production 
+            console.log(`Found ${children.length} child sections`);
+            console.log(`Expected ${tabIds.length} tabs`);
             
-            console.log('Children titles:');
-            children.forEach(child => {
-                console.log(`  "${child.title}"`);
-            }); // Remove in production 
-            
+            // ✅ FIXED: Direct array indexing instead of searching
             tabIds.forEach((tabId, index) => {
                 const tabContent = document.createElement('div');
                 tabContent.className = 'tab-content';
                 tabContent.id = `tab-${tabId}`;
                 tabContent.dataset.tab = tabId;
-               
-
                 
-                //Old
-                // const sectionData = children.find(child => 
-                //     child.title === sectionTitle
-                // );
-
-                //New
-                const sectionNumber = index + 5;
-
-                // Find section by number prefix instead of exact title match
-                const sectionData = findSectionByNumber(children, sectionNumber); 
-                //test
-                
+                // Direct access to children array
+                const sectionData = children[index];
                 const sectionTitle = SECTIONMAP[tabId];
-
-                console.log(`Looking for: "${sectionTitle}" => ${sectionData ? 'FOUND' : 'NOT FOUND'}`); //Remove in Production AHAHAHAHA
+                
+                console.log(`Tab ${index} (${tabId}):`, sectionData ? 'FOUND' : 'NOT FOUND');
                 
                 if (sectionData && sectionData.content) {
+                    // Section found and has content
                     tabContent.innerHTML = renderSectionContent({
                         title: sectionTitle,
                         content: sectionData.content
                     });
+                    console.log(`  ✓ Rendered with content from: "${sectionData.title}"`);
                 } else {
+                    // Section not found - show placeholder
                     tabContent.innerHTML = `
                         <div class="section-card">
                             <h3>${sectionTitle}</h3>
                             <p>Content not available for this section.</p>
                         </div>
                     `;
+                    console.log(`  ✗ Content not available`);
                 }
                 
                 container.appendChild(tabContent);
             });
+            
+            console.log('===== TAB RENDERING COMPLETE =====');
         }
-
         function renderSectionContent(section) {
             const content = parseMarkdownContent(section.content);
             return `

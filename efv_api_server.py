@@ -316,14 +316,19 @@ def create_app(index_dir: Path = None) -> Flask:
         if not full:
             return jsonify(status="error", message=f"Word not found: {word_name}"), 404
         return jsonify(status="success", data=full)
+       
         try:
-            word_data = db.get_word(word_name)
-            if not word_data:
+            # Load full entry with all children sections
+            full = db.get_word_full(word_name)
+            
+            if not full:
                 return jsonify(
                     status="error",
-                    message=f"Word not found: {word_name}",
+                    message=f"Word not found: {word_name}"
                 ), 404
-            return jsonify(status="success", data=word_data)
+            
+            return jsonify(status="success", data=full)
+            
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
 
