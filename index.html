@@ -427,21 +427,21 @@
             document.getElementById('entryTitle').textContent = entryData.word || 'UNKNOWN';
             document.getElementById('entryCategory').textContent = entryData.category;
 
-            // ✅ FIXED: Use snake_case to match API response
-            const precisionEl = document.getElementById('precisionLevel');
-            precisionEl.textContent = entryData.precision_level;  // was: precisionLevel
+            // ✅ FIXED: Use snake_case IDs to match HTML
+            const precisionEl = document.getElementById('precision_level');
+            precisionEl.textContent = entryData.precision_level;
             precisionEl.className = `meta-value ${entryData.precision_level?.toLowerCase()}`;
 
-            const somaticEl = document.getElementById('somaticIntegration');
-            somaticEl.textContent = entryData.somatic_integration;  // was: somaticIntegration
+            const somaticEl = document.getElementById('somatic_integration');
+            somaticEl.textContent = entryData.somatic_integration;
             somaticEl.className = `meta-value ${entryData.somatic_integration?.toLowerCase()}`;
 
-            const culturalEl = document.getElementById('culturalBridge');
-            culturalEl.textContent = entryData.cultural_bridge;  // was: culturalBridge
+            const culturalEl = document.getElementById('cultural_bridge');
+            culturalEl.textContent = entryData.cultural_bridge;
             culturalEl.className = `meta-value ${entryData.cultural_bridge?.toLowerCase()}`;
 
-            const temporalEl = document.getElementById('temporalTranslation');
-            temporalEl.textContent = entryData.temporal_translation;  // was: temporalTranslation
+            const temporalEl = document.getElementById('temporal_translation');
+            temporalEl.textContent = entryData.temporal_translation;
             temporalEl.className = `meta-value ${entryData.temporal_translation?.toLowerCase()}`;
             
             // Update page title
