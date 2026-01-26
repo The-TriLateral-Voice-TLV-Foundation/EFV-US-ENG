@@ -478,6 +478,44 @@
 
         // ============ Rendering ============
 
+        function renderEntry() {
+            // Update header
+            document.getElementById('entryTitle').textContent = entryData.word || 'UNKNOWN';
+            document.getElementById('entryCategory').textContent = entryData.category;
+
+            // ✅ FIXED: Use snake_case IDs to match HTML
+            const precisionEl = document.getElementById('precision_level');
+            precisionEl.textContent = entryData.precision_level;
+            precisionEl.className = `meta-value ${entryData.precision_level?.toLowerCase()}`;
+
+            const somaticEl = document.getElementById('somatic_integration');
+            somaticEl.textContent = entryData.somatic_integration;
+            somaticEl.className = `meta-value ${entryData.somatic_integration?.toLowerCase()}`;
+
+            const culturalEl = document.getElementById('cultural_bridge');
+            culturalEl.textContent = entryData.cultural_bridge;
+            culturalEl.className = `meta-value ${entryData.cultural_bridge?.toLowerCase()}`;
+
+            const temporalEl = document.getElementById('temporal_translation');
+            temporalEl.textContent = entryData.temporal_translation;
+            temporalEl.className = `meta-value ${entryData.temporal_translation?.toLowerCase()}`;
+            
+            // Update page title
+            document.title = `${entryData.word} - EFV Entry`;
+            
+            // DEBUG: Log the ENTIRE entryData structure
+            console.log('===== FULL ENTRY DATA =====');
+            console.log(JSON.stringify(entryData, null, 2));
+            console.log('===== OBJECT KEYS =====');
+            console.log(Object.keys(entryData));
+            
+            // Render all tabs
+            renderAllTabs();
+            
+            // Show first tab
+            switchTab('etymology');
+        }
+
         function renderAllTabs() {
             const container = document.getElementById('tabContent');
             container.innerHTML = '';
@@ -546,44 +584,6 @@
         }
 
         
-        function renderEntry() {
-            // Update header
-            document.getElementById('entryTitle').textContent = entryData.word || 'UNKNOWN';
-            document.getElementById('entryCategory').textContent = entryData.category;
-
-            // ✅ FIXED: Use snake_case IDs to match HTML
-            const precisionEl = document.getElementById('precision_level');
-            precisionEl.textContent = entryData.precision_level;
-            precisionEl.className = `meta-value ${entryData.precision_level?.toLowerCase()}`;
-
-            const somaticEl = document.getElementById('somatic_integration');
-            somaticEl.textContent = entryData.somatic_integration;
-            somaticEl.className = `meta-value ${entryData.somatic_integration?.toLowerCase()}`;
-
-            const culturalEl = document.getElementById('cultural_bridge');
-            culturalEl.textContent = entryData.cultural_bridge;
-            culturalEl.className = `meta-value ${entryData.cultural_bridge?.toLowerCase()}`;
-
-            const temporalEl = document.getElementById('temporal_translation');
-            temporalEl.textContent = entryData.temporal_translation;
-            temporalEl.className = `meta-value ${entryData.temporal_translation?.toLowerCase()}`;
-            
-            // Update page title
-            document.title = `${entryData.word} - EFV Entry`;
-            
-            // DEBUG: Log the ENTIRE entryData structure
-            console.log('===== FULL ENTRY DATA =====');
-            console.log(JSON.stringify(entryData, null, 2));
-            console.log('===== OBJECT KEYS =====');
-            console.log(Object.keys(entryData));
-            
-            // Render all tabs
-            renderAllTabs();
-            
-            // Show first tab
-            switchTab('etymology');
-        }
-
         function renderSectionContent(section) {
             const content = parseMarkdownContent(section.content);
             return `
