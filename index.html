@@ -663,8 +663,9 @@
                 const data = await response.json();
                 
                 if (data.results && data.results.length > 0) {
-                    // Load the first result
-                    displayWord(data.results[0]);
+                    // ✅ FIXED: Extract word name and load full word data
+                    const wordName = data.results[0].word;
+                    await loadWord(wordName);  // This loads the full entry with all 7 sections
                 } else {
                     showError('No results found for your search.');
                 }
@@ -673,6 +674,7 @@
                 showError('Search failed. Please try again.');
             }
         }
+
 
         // ============================================
         // DISPLAY FUNCTIONS
