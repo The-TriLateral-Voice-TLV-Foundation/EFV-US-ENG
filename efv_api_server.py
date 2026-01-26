@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """
 TriLateral Voice (TLV) Emotional and Feeling Vocabulary
 REST API Server
@@ -12,15 +13,16 @@ Provides endpoints for:
 - CSV exports
 
 Usage:
-    pip install flask python-dateutil feedgen
-    python efv_api_server.py
+pip install flask python-dateutil feedgen flask-cors
+
+python efv_api_server.py
 
 Then access:
-    http://localhost:5000/api/v1/word-of-day
-    http://localhost:5000/api/v1/word/random
-    http://localhost:5000/api/v1/word/ABHORRED
-    http://localhost:5000/api/v1/category/Disgust
-    http://localhost:5000/rss/daily-word.xml
+http://localhost:5000/api/v1/word-of-day
+http://localhost:5000/api/v1/word/random
+http://localhost:5000/api/v1/word/ABHORRED
+http://localhost:5000/api/v1/category/Disgust
+http://localhost:5000/rss/daily-word.xml
 """
 
 import json
@@ -47,13 +49,13 @@ def find_git_root(start_path: Path = None) -> Path:
     """
     if start_path is None:
         start_path = Path(__file__).resolve().parent
-
+    
     current = start_path.resolve()
     while current != current.parent:
         if (current / ".git").exists():
             return current
         current = current.parent
-
+    
     raise FileNotFoundError(
         f"Git repository root not found starting from {start_path}"
     )
@@ -61,11 +63,11 @@ def find_git_root(start_path: Path = None) -> Path:
 
 class EFVDatabase:
     """Load and manage vocabulary data with portable path resolution."""
-
+    
     def __init__(self, index_dir: Path = None):
         """
         Load indices from a directory.
-
+        
         Args:
             index_dir: where to find 01_INDEX.json (defaults to /vocab/_indices)
         """
@@ -80,95 +82,71 @@ class EFVDatabase:
             except FileNotFoundError:
                 # Fallback: use script's sibling vocab/_indices
                 self.index_dir = Path(__file__).resolve().parent / "vocab/_indices"
-
+        
         self.index_data = None
         self.by_letter = {}
         self.by_category = {}
         self.all_words = {}
         self.load_indices()
-
+    
     def load_indices(self):
         """Load JSON indices from self.index_dir."""
         index_file = self.index_dir / "01_INDEX.json"
-
+        
         if not index_file.exists():
             raise FileNotFoundError(
                 f"Index file not found: {index_file}\n"
                 f"Make sure to run: python3 efv_index_generator.py"
             )
-
+        
         print(f"📂 Loading indices from: {self.index_dir}")
-
+        
         with open(index_file, "r", encoding="utf-8") as f:
             self.index_data = json.load(f)
-
+        
         # Build lookups
         for word_data in self.index_data.get("all_words", []):
             word = word_data["word"].upper()
             self.all_words[word] = word_data
-
+        
         # By letter
         for letter, words in self.index_data.get("by_letter", {}).items():
             self.by_letter[letter] = words
-
+        
         # By category
         for category, words in self.index_data.get("by_category", {}).items():
             self.by_category[category] = words
-
+        
         print(f"✓ Loaded {len(self.all_words)} words")
-
+    
     @lru_cache(maxsize=512)
     def get_word_of_day(self, specific_date: Optional[date] = None) -> Dict:
         """Get deterministic word for specific date"""
         target_date = specific_date or date.today()
-
+        
         # Use date as seed for reproducible daily word
         seed_str = target_date.isoformat()
         seed_hash = int(hashlib.md5(seed_str.encode()).hexdigest(), 16)
-
+        
         words = self.index_data['all_words']
         selected = words[seed_hash % len(words)]
-
+        
         return {
             'word': selected,
             'date': target_date.isoformat(),
             'total_words': len(words)
         }
-
+    
     def get_random_word(self) -> Dict:
         """Get random word"""
         words = self.index_data['all_words']
         selected = random.choice(words)
         return selected
-
+    
     def get_word(self, word_name: str) -> Optional[Dict]:
         """Get specific word"""
         return self.all_words.get(word_name.upper())
-
-    def search_words(self, query: str) -> List[Dict]:
-        """Search words by name or category"""
-        query_lower = query.lower()
-        results = []
-
-        for word_data in self.index_data['all_words']:
-            if (query_lower in word_data['word'].lower() or
-                query_lower in word_data['category'].lower()):
-                results.append(word_data)
-
-        return results[:20]  # Limit to 20 results
-
-    def get_category(self, category_name: str) -> List[Dict]:
-        """Get all words in category"""
-        for cat, words in self.index_data['by_category'].items():
-            if category_name.lower() in cat.lower():
-                return words
-        return []
-
-    def get_letter(self, letter: str) -> List[Dict]:
-        """Get all words starting with letter"""
-        return self.by_letter.get(letter.upper(), [])
-
-    # Get Full Word
+    
     def get_full_word(self, word_name: str) -> Optional[Dict]:
         """Get full word entry including all 7 sections from letter JSON files"""
         word_name_upper = word_name.upper()
@@ -183,7 +161,7 @@ class EFVDatabase:
         letter_file = vocab_dir / f"{letter.lower()}.json"
         
         if not letter_file.exists():
-            print(f"⚠️  Warning: {letter_file} not found")
+            print(f"⚠️ Warning: {letter_file} not found")
             return basic_info  # Return basic info if full file doesn't exist
         
         try:
@@ -196,68 +174,106 @@ class EFVDatabase:
                 print(f"✓ Loaded full entry for {word_name_upper} from {letter_file.name}")
                 return full_entry
             else:
-                print(f"⚠️  {word_name_upper} not found in {letter_file.name}")
+                print(f"⚠️ {word_name_upper} not found in {letter_file.name}")
                 return basic_info
-                
+        
         except Exception as e:
-            print(f"⚠️  Error loading {letter_file}: {e}")
+            print(f"⚠️ Error loading {letter_file}: {e}")
             return basic_info
+    
+    def search_words(self, query: str) -> List[Dict]:
+        """Search words by name or category"""
+        query_lower = query.lower()
+        results = []
+        
+        for word_data in self.index_data['all_words']:
+            if (query_lower in word_data['word'].lower() or
+                query_lower in word_data['category'].lower()):
+                results.append(word_data)
+        
+        return results[:20]  # Limit to 20 results
+    
+    def get_category(self, category_name: str) -> List[Dict]:
+        """Get all words in category"""
+        for cat, words in self.index_data['by_category'].items():
+            if category_name.lower() in cat.lower():
+                return words
+        return []
+    
+    def get_letter(self, letter: str) -> List[Dict]:
+        """Get all words starting with letter"""
+        return self.by_letter.get(letter.upper(), [])
+
 
 def create_app(index_dir: Path = None) -> Flask:
     """Create Flask application with portable path resolution."""
-    app = Flask(__name__)
-    CORS(app, resources={r"/api/*": {"origins": "*"}})
-
+    app = Flask(__name__, static_folder='.', static_url_path='')
+    
+    # Configure CORS for all routes
+    CORS(app, resources={r"/*": {"origins": "*"}})
+    
     try:
         db = EFVDatabase(index_dir)
     except FileNotFoundError as e:
         print(f"❌ Error: {e}")
         return None
-
+    
+    # Get the directory where static files are located
+    app_root = Path(__file__).resolve().parent
+    
     # ========== STATIC FILE SERVING ==========
-
+    
     @app.route('/')
     def serve_index():
         """Serve the frontend index.html"""
-        return send_from_directory(os.getcwd(), 'index.html')
-
+        index_path = app_root / 'index.html'
+        if index_path.exists():
+            return send_from_directory(app_root, 'index.html')
+        else:
+            return jsonify(
+                status="error",
+                message="index.html not found"
+            ), 404
+    
     @app.route('/<path:path>')
     def serve_static(path):
         """Serve static files or fallback to index.html for SPA routing"""
-        file_path = os.path.join(os.getcwd(), path)
-
+        file_path = app_root / path
+        
         # If file exists as-is, serve it
-        if os.path.isfile(file_path):
-            return send_from_directory(os.getcwd(), path)
-
+        if file_path.is_file():
+            return send_from_directory(app_root, path)
+        
         # Otherwise fallback to index.html (for SPA routing)
-        return send_from_directory(os.getcwd(), 'index.html')
-
+        return serve_index()
+    
     @app.route('/favicon.ico')
     def favicon():
-        """Serve favicon"""
-        app_root = Path(__file__).resolve().parent
-        return send_from_directory(
-            app_root,
-            'favicon.ico',
-            mimetype='image/vnd.microsoft.icon',
-        )
-
+        """Serve favicon if it exists"""
+        favicon_path = app_root / 'favicon.ico'
+        if favicon_path.exists():
+            return send_from_directory(
+                app_root,
+                'favicon.ico',
+                mimetype='image/vnd.microsoft.icon'
+            )
+        return '', 404
+    
     # ========== API ROUTES ==========
-
+    
     @app.route("/api/v1/word-of-day", methods=["GET"])
     def word_of_day():
         """Daily word with deterministic selection and manifest-aligned schema."""
         try:
             specific_date_str = request.args.get("date")
             specific_date = None
-
+            
             if specific_date_str:
                 specific_date = datetime.fromisoformat(specific_date_str).date()
-
+            
             wotd_info = db.get_word_of_day(specific_date)
             word_data = wotd_info["word"]
-
+            
             return jsonify(
                 status="success",
                 date=wotd_info["date"],
@@ -276,12 +292,12 @@ def create_app(index_dir: Path = None) -> Flask:
                     "5": "Cultural Translation Contexts",
                     "6": "TLV Protocol Application",
                     "7": "Somatic Signature Documentation",
-                },
+                }
             )
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/api/v1/word/random", methods=["GET"])
     def random_word():
         """Get random word with full content"""
@@ -300,10 +316,10 @@ def create_app(index_dir: Path = None) -> Flask:
                 status="success",
                 data=full_data if full_data else basic_word_data
             )
-            
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/api/v1/word/<word_name>", methods=["GET"])
     def get_word_endpoint(word_name):
         """Get specific word details with full content including all 7 sections"""
@@ -318,78 +334,78 @@ def create_app(index_dir: Path = None) -> Flask:
                 ), 404
             
             return jsonify(status="success", data=word_data)
-            
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/api/v1/category/<category_name>", methods=["GET"])
-    def get_category(category_name):
+    def get_category_endpoint(category_name):
         """Get all words in category"""
         try:
             words = db.get_category(category_name)
-
+            
             if not words:
                 return jsonify(
                     status="error",
                     message=f"Category not found: {category_name}",
                 ), 404
-
+            
             return jsonify(
                 status="success",
                 category=category_name,
                 word_count=len(words),
                 words=[{"word": w.get("word"), "precision_level": w.get("precision_level")} for w in words],
             )
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/api/v1/letter/<letter>", methods=["GET"])
-    def get_letter(letter):
+    def get_letter_endpoint(letter):
         """Get all words starting with letter"""
         try:
             words = db.get_letter(letter)
-
+            
             if not words:
                 return jsonify(
                     status="error",
                     message=f"No words found for letter: {letter}",
                 ), 404
-
+            
             return jsonify(
                 status="success",
                 letter=letter.upper(),
                 word_count=len(words),
                 words=[{"word": w.get("word")} for w in words],
             )
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/api/v1/search", methods=["GET"])
     def search():
         """Search words by name or category"""
         try:
             query = request.args.get("q", "")
-
+            
             if not query or len(query) < 2:
                 return jsonify(
                     status="error",
                     message="Query must be at least 2 characters",
                 ), 400
-
+            
             results = db.search_words(query)
-
+            
             return jsonify(
                 status="success",
                 query=query,
                 result_count=len(results),
                 results=[{"word": w.get("word"), "category": w.get("category")} for w in results],
             )
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/rss/daily-word.xml", methods=["GET"])
     def rss_feed():
         """RSS feed for daily word"""
@@ -400,12 +416,12 @@ def create_app(index_dir: Path = None) -> Flask:
             fg.link(href="https://tlvfoundation.org", rel="alternate")
             fg.description("Daily emotional and feeling vocabulary from TLV")
             fg.language("en")
-
+            
             for i in range(30):
                 target_date = date.today() - timedelta(days=i)
                 wotd_info = db.get_word_of_day(target_date)
                 word_data = wotd_info["word"]
-
+                
                 fe = fg.add_entry()
                 fe.id(f"word-{target_date.isoformat()}")
                 fe.title(f"Word of the Day: {word_data.get('word')}")
@@ -414,28 +430,28 @@ def create_app(index_dir: Path = None) -> Flask:
                     f"Category: {word_data.get('category', 'N/A')} | "
                     f"Precision Level: {word_data.get('precision_level', 'N/A')}"
                 )
-
+                
                 # Create timezone-aware datetime (UTC)
                 aware_datetime = datetime.combine(
                     target_date,
                     datetime.min.time()
                 ).replace(tzinfo=timezone.utc)
-
+                
                 fe.published(aware_datetime)
                 fe.link(href=f"https://tlvfoundation.org/word/{word_data.get('word')}")
-
+            
             return Response(fg.rss_str(pretty=True), mimetype="application/rss+xml")
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/export/csv", methods=["GET"])
     def export_csv():
         """Export vocabulary as CSV"""
         try:
             format_type = request.args.get("format", "full")
             output = StringIO()
-
+            
             if format_type == "full":
                 fieldnames = [
                     "word",
@@ -447,30 +463,31 @@ def create_app(index_dir: Path = None) -> Flask:
                     "temporal_translation",
                     "cultural_bridge",
                 ]
-
+            
             elif format_type == "wotd":
                 fieldnames = ["word", "category", "precision_level"]
+            
             else:
                 fieldnames = ["word", "category"]
-
+            
             writer = csv.DictWriter(output, fieldnames=fieldnames)
             writer.writeheader()
-
+            
             for word_data in db.index_data.get("all_words", []):
                 row = {f: word_data.get(f, "") for f in fieldnames}
                 writer.writerow(row)
-
+            
             csv_content = output.getvalue()
-
+            
             return Response(
                 csv_content,
                 mimetype="text/csv",
                 headers={"Content-Disposition": "attachment; filename=efv_vocabulary.csv"},
             )
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/api/v1/metadata", methods=["GET"])
     def metadata():
         """Get API metadata"""
@@ -492,10 +509,10 @@ def create_app(index_dir: Path = None) -> Flask:
                     "csv_export": "/export/csv",
                 },
             )
-
+        
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
-
+    
     @app.route("/health", methods=["GET"])
     def health():
         """Health check endpoint"""
@@ -504,72 +521,73 @@ def create_app(index_dir: Path = None) -> Flask:
             timestamp=datetime.now().isoformat(),
             words_loaded=len(db.all_words),
         )
-
+    
     return app
 
 
 def main():
     import argparse
-
+    
     parser = argparse.ArgumentParser(
         description="TLV EFV API Server"
     )
-
+    
     parser.add_argument(
         "--index-dir",
         type=Path,
         default=None,
         help="Directory containing generated indices (defaults to /vocab/_indices)"
     )
-
+    
     parser.add_argument(
         "--host",
         default="0.0.0.0",
         help="Host to bind to"
     )
-
+    
     parser.add_argument(
         "--port",
         type=int,
         default=5000,
         help="Port to bind to"
     )
-
+    
     parser.add_argument(
         "--debug",
         action="store_true",
         help="Enable debug mode"
     )
-
+    
     args = parser.parse_args()
-
+    
     print("=" * 60)
     print("TLV Emotional and Feeling Vocabulary (EFV)")
     print("API Server")
     print("=" * 60)
     print()
-
+    
     app = create_app(args.index_dir)
-
+    
     if app:
         print(f"✓ API Server ready!")
         print(f"🚀 Starting on {args.host}:{args.port}")
         print(f"📖 Visit http://{args.host}:{args.port}/api/v1/metadata for API info")
         print()
         print("Endpoints:")
-        print(f" - GET /api/v1/word-of-day       Daily word")
-        print(f" - GET /api/v1/word/random       Random word")
-        print(f" - GET /api/v1/word/<word>       Specific word")
-        print(f" - GET /api/v1/category/<cat>    Words by category")
-        print(f" - GET /api/v1/letter/<letter>   Words by letter")
-        print(f" - GET /api/v1/search?q=<query>  Search")
-        print(f" - GET /rss/daily-word.xml       RSS feed")
-        print(f" - GET /export/csv               CSV export")
-        print(f" - GET /api/v1/metadata          API metadata")
+        print(f" - GET /api/v1/word-of-day          Daily word")
+        print(f" - GET /api/v1/word/random          Random word")
+        print(f" - GET /api/v1/word/{{word}}           Specific word")
+        print(f" - GET /api/v1/category/{{cat}}      Words by category")
+        print(f" - GET /api/v1/letter/{{letter}}    Words by letter")
+        print(f" - GET /api/v1/search?q={{query}}   Search")
+        print(f" - GET /rss/daily-word.xml          RSS feed")
+        print(f" - GET /export/csv                  CSV export")
+        print(f" - GET /api/v1/metadata             API metadata")
         print("=" * 60)
         print()
-
+        
         app.run(host=args.host, port=args.port, debug=args.debug)
+    
     else:
         print("❌ Failed to create app. Check index directory.")
         sys.exit(1)
