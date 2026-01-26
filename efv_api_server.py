@@ -170,7 +170,7 @@ class EFVDatabase:
 
     # Get Full Word
     def get_full_word(self, word_name: str) -> Optional[Dict]:
-        """Get full word entry including all 7 sections"""
+        """Get full word entry including all 7 sections from letter JSON files"""
         word_name_upper = word_name.upper()
         basic_info = self.all_words.get(word_name_upper)
         
@@ -192,11 +192,16 @@ class EFVDatabase:
             
             # Find the word in the letter file
             if word_name_upper in letter_data:
-                return letter_data[word_name_upper]
+                full_entry = letter_data[word_name_upper]
+                print(f"✓ Loaded full entry for {word_name_upper} from {letter_file.name}")
+                return full_entry
+            else:
+                print(f"⚠️  {word_name_upper} not found in {letter_file.name}")
+                return basic_info
+                
         except Exception as e:
             print(f"⚠️  Error loading {letter_file}: {e}")
-        
-        return basic_info
+            return basic_info
 
 def create_app(index_dir: Path = None) -> Flask:
     """Create Flask application with portable path resolution."""
@@ -281,22 +286,30 @@ def create_app(index_dir: Path = None) -> Flask:
     def random_word():
         """Get random word with full content"""
         try:
-            word_data = db.get_random_word()
-            # Load full content for the random word
-            full_data = db.get_full_word(word_data.get("word"))
+            # First get a random word from the index
+            basic_word_data = db.get_random_word()
+            
+            if not basic_word_data:
+                return jsonify(status="error", message="No words available"), 500
+            
+            # Then load its full content from the letter file
+            word_name = basic_word_data.get("word")
+            full_data = db.get_full_word(word_name)
             
             return jsonify(
                 status="success",
-                data=full_data
+                data=full_data if full_data else basic_word_data
             )
+            
         except Exception as e:
             return jsonify(status="error", message=str(e)), 500
 
     @app.route("/api/v1/word/<word_name>", methods=["GET"])
     def get_word_endpoint(word_name):
-        """Get specific word details with full content"""
+        """Get specific word details with full content including all 7 sections"""
         try:
-            word_data = db.get_full_word(word_name)  # ← Use new method!
+            # Use get_full_word() instead of get_word()
+            word_data = db.get_full_word(word_name)
             
             if not word_data:
                 return jsonify(
@@ -304,11 +317,6 @@ def create_app(index_dir: Path = None) -> Flask:
                     message=f"Word not found: {word_name}"
                 ), 404
             
-            # If it has children (full content), return as-is
-            if "children" in word_data:
-                return jsonify(status="success", data=word_data)
-            
-            # Otherwise return basic info with a note
             return jsonify(status="success", data=word_data)
             
         except Exception as e:
