@@ -87,6 +87,7 @@ class EFVDatabase:
         self.by_letter = {}
         self.by_category = {}
         self.all_words = {}
+        self.vocab_dir = None
         self.load_indices()
     
     def load_indices(self):
@@ -100,6 +101,9 @@ class EFVDatabase:
             )
         
         print(f"📂 Loading indices from: {self.index_dir}")
+        
+        # Set vocab_dir for later use
+        self.vocab_dir = self.index_dir.parent
         
         with open(index_file, "r", encoding="utf-8") as f:
             self.index_data = json.load(f)
@@ -146,7 +150,9 @@ class EFVDatabase:
     def get_word(self, word_name: str) -> Optional[Dict]:
         """Get specific word"""
         return self.all_words.get(word_name.upper())
-    
+    # Old
+
+    # New
     def get_full_word(self, word_name: str) -> Optional[Dict]:
         """Get full word entry including all 7 sections from letter JSON files"""
         word_name_upper = word_name.upper()
@@ -154,33 +160,66 @@ class EFVDatabase:
         
         if not basic_info:
             return None
-        
-        # Get the letter-based JSON file path
+
         letter = basic_info.get('letter', word_name_upper[0])
-        vocab_dir = self.index_dir.parent  # Go up from _indices to vocab/
-        letter_file = vocab_dir / f"{letter.lower()}.json"
-        
+        letter_file = self.vocab_dir / f"{letter.lower()}.json"
+
         if not letter_file.exists():
             print(f"⚠️ Warning: {letter_file} not found")
-            return basic_info  # Return basic info if full file doesn't exist
-        
+            return basic_info
+
         try:
             with open(letter_file, 'r', encoding='utf-8') as f:
                 letter_data = json.load(f)
-            
-            # Find the word in the letter file
+
+            # Handle flat format (word as key)
             if word_name_upper in letter_data:
-                full_entry = letter_data[word_name_upper]
-                print(f"✓ Loaded full entry for {word_name_upper} from {letter_file.name}")
-                return full_entry
-            else:
+                return letter_data[word_name_upper]
+
+            # Nested format: recursively search for the word entry
+            def find_word(node):
+                if isinstance(node, dict):
+                    title = node.get('title', '').strip().upper()
+                    if node.get('level') == 3 and title == word_name_upper:
+                        # ✅ FIX: Build complete entry with correct word field
+                        result = {
+                            'word': title,  # Use the title as the word name
+                            'type': node.get('type'),
+                            'level': node.get('level'),
+                            'title': node.get('title'),
+                            'children': node.get('children', []),
+                            # Merge in index metadata
+                            'category': basic_info.get('category'),
+                            'precision_level': basic_info.get('precision_level'),
+                            'somatic_integration': basic_info.get('somatic_integration'),
+                            'cultural_bridge': basic_info.get('cultural_bridge'),
+                            'temporal_translation': basic_info.get('temporal_translation'),
+                            'letter': basic_info.get('letter'),
+                        }
+                        return result
+                    for child in node.get('children', []):
+                        found = find_word(child)
+                        if found:
+                            return found
+                elif isinstance(node, list):
+                    for item in node:
+                        found = find_word(item)
+                        if found:
+                            return found
+                return None
+
+                found = find_word(letter_data)
+                if found:
+                    print(f"✓ Loaded full entry for {word_name_upper} from {letter_file.name}")
+                    return found
+
                 print(f"⚠️ {word_name_upper} not found in {letter_file.name}")
                 return basic_info
-        
+
         except Exception as e:
             print(f"⚠️ Error loading {letter_file}: {e}")
             return basic_info
-    
+
     def search_words(self, query: str) -> List[Dict]:
         """Search words by name or category"""
         query_lower = query.lower()
@@ -324,7 +363,14 @@ def create_app(index_dir: Path = None) -> Flask:
     def get_word_endpoint(word_name):
         """Get specific word details with full content including all 7 sections"""
         try:
-            # Use get_full_word() instead of get_word()
+            # ✅ FIX: Validate word_name is not None before calling toUpperCase equivalent
+            if not word_name:
+                return jsonify(
+                    status="error",
+                    message="Word parameter is required"
+                ), 400
+            
+            # Use get_full_word() to load full entry with 7 sections
             word_data = db.get_full_word(word_name)
             
             if not word_data:
