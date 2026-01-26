@@ -354,21 +354,19 @@
             try {
                 showLoading();
                 const response = await fetch(`${API_BASE_URL}/word/random`);
-
-                if (!response.ok) {
-                    throw new Error('Failed to load random word');
-                }
-
+                if (!response.ok) throw new Error('Failed to load random word');
                 const data = await response.json();
-                if (data.status !== 'success') {
-                    throw new Error(data.message || 'Failed to load word');
-                }
-
-                await loadWord(data.word);
+                if (data.status !== 'success') throw new Error(data.message || 'Failed to load word');
+                
+                // ✅ FIX: Access word from data.data, not data directly
+                const wordName = data.data?.word || data.data?.title;
+                if (!wordName) throw new Error('No word returned from API');
+                await loadWord(wordName);
             } catch (error) {
                 showError(error.message);
             }
         }
+
 
         function goBack() {
             if (window.history.length > 1) {
@@ -419,9 +417,135 @@
             }
         }
 
+        // ✅ NEW: Generate placeholder content based on available metadata
+        function getPlaceholderForTab(tabId) {
+            const word = entryData.word || 'Word';
+            
+            switch(tabId) {
+                case 'etymology':
+                    return `The word "${word}" has a rich history. ${entryData.etymology_summary || 'Explore its roots and evolution across cultures and centuries.'}`;
+                
+                case 'contemporary':
+                    return `"${word}" is understood in modern communication as:
+        - Category: ${entryData.category || 'See metadata'}
+        - Precision Level: ${entryData.precision_level || 'Standard'}
+        - Common usage patterns and contemporary applications`;
+                
+                case 'evocation':
+                    return `To evoke "${word}" with precision:
+        - Consider the emotional intensity level
+        - Recognize the somatic (physical) sensations involved
+        - Think of specific situations that call for this word
+        - Distinguish from similar but distinct emotions`;
+                
+                case 'conceptual':
+                    return `Understanding "${word}" conceptually:
+        - What makes this emotion distinct from others?
+        - How does it relate to human needs and values?
+        - What cognitive appraisals trigger this feeling?
+        - How is it understood across different frameworks?`;
+                
+                case 'cultural':
+                    return `Cultural Bridge: ${entryData.cultural_bridge || 'RECOMMENDED'}
+        How "${word}" translates across:
+        - Western psychological frameworks
+        - Eastern philosophical traditions
+        - Indigenous wisdom systems
+        - Clinical/therapeutic models
+        - Spiritual/contemplative perspectives`;
+                
+                case 'tlv':
+                    return `Within the TriLateral Voice (TLV) Protocol:
+        - How does "${word}" support emotional articulation?
+        - What is its role in authentic expression?
+        - How does it enable mutual recognition?
+        - Integration with other TLV communication principles`;
+                
+                case 'somatic':
+                    return `Somatic Signature for "${word}":
+        Somatic Integration: ${entryData.somatic_integration || 'YES'}
 
+        Physical sensations and embodied understanding:
+        - Where do you feel this emotion in your body?
+        - What are the kinesthetic patterns?
+        - How does your posture, breath, and movement reflect it?
+        - The embodied wisdom of "${word}"`;
+                
+                default:
+                    return `Detailed content for this section will be available soon.`;
+            }
+        }
 
         // ============ Rendering ============
+
+        function renderAllTabs() {
+            const container = document.getElementById('tabContent');
+            container.innerHTML = '';
+            
+            console.log('===== RENDERING ALL TABS =====');
+            console.log('Full Entry Data:', entryData);
+            
+            const children = entryData.children || [];
+            const tabIds = Object.keys(SECTIONMAP);
+            
+            console.log(`Found ${children.length} child sections`);
+            console.log(`Expected ${tabIds.length} tabs`);
+            
+            // DEBUG: Log children structure
+            children.forEach((child, i) => {
+                console.log(`Child ${i}:`, child.title, '| Has content:', !!child.content);
+            });
+            
+            tabIds.forEach((tabId, index) => {
+                const tabContent = document.createElement('div');
+                tabContent.className = 'tab-content';
+                tabContent.id = `tab-${tabId}`;
+                tabContent.dataset.tab = tabId;
+                
+                const sectionTitle = SECTIONMAP[tabId];
+                const sectionNum = index + 1;  // 1-based section number
+                
+                // Find section by matching title prefix (e.g., "1." or "1. Etymology")
+                let sectionData = children.find(child => {
+                    if (!child || !child.title) return false;
+                    const childTitle = child.title.trim();
+                    // Match "1." or "1. Etymology" etc.
+                    return childTitle.startsWith(`${sectionNum}.`);
+                });
+                
+                console.log(`Tab ${index} (${tabId}): Looking for section "${sectionNum}."`, 
+                            sectionData ? '✓ FOUND' : '✗ NOT FOUND');
+
+                if (sectionData && sectionData.content) {
+                    // Section found with content
+                    tabContent.innerHTML = renderSectionContent({
+                        title: sectionTitle,
+                        content: sectionData.content
+                    });
+                    
+                    console.log(`  ✓ Tab ${index} (${tabId}): Rendered from children array`);
+
+                    console.log(`  → Rendered with ${sectionData.content.length} chars of content`);
+
+                } else {
+                    // Provide meaningful placeholder content based on the metadata
+                    const placeholderContent = getPlaceholderForTab(tabId);
+                    tabContent.innerHTML = renderSectionContent({
+                        title: sectionTitle,
+                        content: placeholderContent
+                    });
+
+                    console.log(`  → Using placeholder (no content found)`);
+                    console.log(`  ℹ Tab ${index} (${tabId}): Using placeholder (children not available)`);
+                }
+                
+                container.appendChild(tabContent);
+            });
+            
+            console.log('===== TAB RENDERING COMPLETE =====');
+        }
+
+        
         function renderEntry() {
             // Update header
             document.getElementById('entryTitle').textContent = entryData.word || 'UNKNOWN';
@@ -458,56 +582,6 @@
             
             // Show first tab
             switchTab('etymology');
-        }
-
-        function renderAllTabs() {
-            const container = document.getElementById('tabContent');
-            container.innerHTML = '';
-            
-            console.log('===== RENDERING ALL TABS =====');
-            console.log('Full Entry Data:', entryData);
-            
-            const children = entryData.children || [];
-            const tabIds = Object.keys(SECTIONMAP);
-            
-            console.log(`Found ${children.length} child sections`);
-            console.log(`Expected ${tabIds.length} tabs`);
-            
-            // ✅ FIXED: Direct array indexing instead of searching
-            tabIds.forEach((tabId, index) => {
-                const tabContent = document.createElement('div');
-                tabContent.className = 'tab-content';
-                tabContent.id = `tab-${tabId}`;
-                tabContent.dataset.tab = tabId;
-                
-                // Direct access to children array
-                const sectionData = children[index];
-                const sectionTitle = SECTIONMAP[tabId];
-                
-                console.log(`Tab ${index} (${tabId}):`, sectionData ? 'FOUND' : 'NOT FOUND');
-                
-                if (sectionData && sectionData.content) {
-                    // Section found and has content
-                    tabContent.innerHTML = renderSectionContent({
-                        title: sectionTitle,
-                        content: sectionData.content
-                    });
-                    console.log(`  ✓ Rendered with content from: "${sectionData.title}"`);
-                } else {
-                    // Section not found - show placeholder
-                    tabContent.innerHTML = `
-                        <div class="section-card">
-                            <h3>${sectionTitle}</h3>
-                            <p>Content not available for this section.</p>
-                        </div>
-                    `;
-                    console.log(`  ✗ Content not available`);
-                }
-                
-                container.appendChild(tabContent);
-            });
-            
-            console.log('===== TAB RENDERING COMPLETE =====');
         }
 
         function renderSectionContent(section) {
