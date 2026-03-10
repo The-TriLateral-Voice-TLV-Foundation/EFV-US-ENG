@@ -633,7 +633,9 @@ footer strong { color: var(--tv-accent-warm); font-weight: 600; }
   </div>
 </main>
 
-<footer>TLV Emotional &amp; Feeling Vocabulary · <strong>ISA Version TLV-EFV-ISA-RC0001</strong> · 999 Entries · Trilateral Voice Foundation</footer>
+<footer> © 2025-2026 The TriLateral Voice (TLV) Foundation Series - Emotional &amp; Feeling Vocabulary · <strong>TLV-EFV-RC0001</strong> · 999 Entries ·
+
+</footer>
 </div>
 
 <script>
@@ -725,8 +727,8 @@ async function loadEntry(term, el) {
         <span class="badge-somatic">🫀 Somatic Mapped</span>
         <span class="badge-tier">★ Tier ${(e.meta?.conversion_quality?.tier)||1}</span>
       </div>
-      <div class="dt-def">${e.etymology.original_meaning || ''}</div>
-      <div class="dt-usage">${e.etymology.semantic_evolution || ''}</div>
+      <div class="dt-def">Original Meaning: ${e.etymology.original_meaning || ''}</div>
+      <div class="dt-usage">Semantic Evolution: ${e.etymology.semantic_evolution || ''}</div>
     </div>
 
     <div class="section">
