@@ -1,0 +1,99 @@
+{
+  "term": "affectionate",
+  "source_file": "affectionate.md",
+  "source_hash": "348291009fa93726",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"affectiōnātus\" meaning \"disposed toward, inclined\"",
+      "original_meaning": "Meaning**: Having a disposition or inclination toward tender feeling",
+      "semantic_evolution": "Evolution**: Emotional disposition → tender behavior → caring expression → warm demeanor",
+      "cultural_shifts": "Shifts**: Character trait → behavioral description → relational style"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Showing or expressing tender feelings; demonstrating care and love",
+      "colloquial_usage": "Usage**: \"Affectionate person,\" \"affectionate behavior,\" \"being affectionate\"",
+      "register": "Positive; describes desirable relational quality",
+      "raw_content": "- **Primary Definition**: Showing or expressing tender feelings; demonstrating care and love\n- **Secondary Meanings**: Loving, tender, caring, warm, demonstrative, fond\n- **Colloquial Usage**: \"Affectionate person,\" \"affectionate behavior,\" \"being affectionate\"\n- **Register**: Positive; describes desirable relational quality\n- **Frequency Trend**: Stable; valued in relationships and social connections\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Connected to healthy relationshi"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating caring, tender approach and warm availability",
+      "listener_response": "Response**: Understanding loving demeanor and caring availability",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating caring, tender approach and warm availability",
+        "**Listener Response**: Understanding loving demeanor and caring availability",
+        "**Somatic Markers**: Warm approach, soft energy, caring presence, gentle availability",
+        "**Cognitive Associations**: Caring, tenderness, warmth, availability, love expression, nurturing",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Warm energy, soft approach, gentle availability throughout body",
+        "Embodied Authenticity**: Natural caring presence without performance or neediness",
+        "Kinesthetic Response**: Open posture, gentle approach, caring gestures, warm availability"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Behavioral expression of caring and tender feelings toward others",
+      "relational_context": "Context**: Creates safety, intimacy, and positive connection; builds trust",
+      "temporal_aspect": "Aspect**: Present caring behavior that implies enduring caring disposition",
+      "intensity_spectrum": "Spectrum**: From mild warmth (3-4) to deeply nurturing presence (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Personal relationship skill and individual caring capacity",
+        "**Eastern**: Compassionate presence and loving-kindness expression",
+        "**Indigenous**: Community caring and kinship relationship maintenance",
+        "**Clinical**: Healthy attachment behavior and therapeutic alliance building",
+        "**Spiritual**: Divine love expression and compassionate service",
+        "**Philosophical**: Care ethics in action and embodied loving regard"
+      ],
+      "raw_content": "- **Western**: Personal relationship skill and individual caring capacity\n- **Eastern**: Compassionate presence and loving-kindness expression\n- **Indigenous**: Community caring and kinship relationship maintenance\n- **Clinical**: Healthy attachment behavior and therapeutic alliance building\n- **Spiritual**: Divine love expression and compassionate service\n- **Philosophical**: Care ethics in action and embodied loving regard\n\n**Cultural Bridge Examples**:\n\n**Western ⇄ Eastern Bridge**:\n> \"Wester",
+      "framework_perspectives": {
+        "western": "Personal relationship skill and individual caring capacity",
+        "eastern": "Compassionate presence and loving-kindness expression",
+        "indigenous": "Community caring and kinship relationship maintenance",
+        "clinical": "Healthy attachment behavior and therapeutic alliance building",
+        "spiritual": "Divine love expression and compassionate service",
+        "philosophical": "Care ethics in action and embodied loving regard"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document behavioral expression of care and its consistency",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture quality of caring and its authentic expression",
+      "precision_level_requirements": "Requirements**: Distinguish from performative behavior or boundary violations"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "warm overall presence; Secondary: open posture, soft eyes, available energy",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: warm overall presence; Secondary: open posture, soft eyes, available energy",
+        "**Sensation Quality Descriptors**: Warm availability, soft energy, caring presence, gentle approachability",
+        "**Kinesthetic Response Patterns**: Open body language, gentle approach, caring gestures, warm facial expressions",
+        "**Neurobiological Correlates**: Care-giving systems, attachment behaviors, prosocial hormone release",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Gentle warmth with mild caring availability",
+        "6-7: Clear caring presence with warm approachability",
+        "8-9: Deep nurturing availability with strong caring energy",
+        "**Resonance Practice Integration**: Loving-kindness practice, compassion cultivation, caring presence skills",
+        "**Cultural Somatic Variations**: Western individual caring expression vs. Eastern universal compassion vs. Indigenous kinship caring behaviors"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Warm availability, soft energy, caring presence, gentle approachability"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  },
+  "translations": {
+    "fr": "affectionate-affectueux-francais.md",
+    "es": "affectionate-carinoso-espanol.md",
+    "de": "affectionate-zaertlich-deutsch.md"
+  },
+  "has_4lang_verification": true
+}

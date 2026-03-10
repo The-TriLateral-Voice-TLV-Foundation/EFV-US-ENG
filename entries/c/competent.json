@@ -1,0 +1,93 @@
+{
+  "term": "competent",
+  "source_file": "competent.md",
+  "source_hash": "d97cb4d4ac3ae17f",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"competens\" from \"competere\" (to strive together, be suitable)",
+      "original_meaning": "Meaning**: Suitable, fitting, adequate for the purpose",
+      "semantic_evolution": "Evolution**: Legal suitability → general adequacy → contemporary skill and effectiveness",
+      "cultural_shifts": "Shifts**: Legal qualification → professional competence → personal effectiveness → life skills"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Having the necessary ability, knowledge, or skill to do something successfully",
+      "colloquial_usage": "Usage**: \"Competent worker,\" \"feeling competent,\" \"competent performance\"",
+      "register": "Positive; indicates effectiveness and skill",
+      "raw_content": "- **Primary Definition**: Having the necessary ability, knowledge, or skill to do something successfully\n- **Secondary Meanings**: Capable, skilled, effective, qualified, proficient, able\n- **Colloquial Usage**: \"Competent worker,\" \"feeling competent,\" \"competent performance\"\n- **Register**: Positive; indicates effectiveness and skill\n- **Frequency Trend**: Stable; important for describing professional and personal effectiveness\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Reco"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating effective skill and confident ability to perform successfully",
+      "listener_response": "Response**: Understanding capability and effectiveness in specific areas",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating effective skill and confident ability to perform successfully",
+        "**Listener Response**: Understanding capability and effectiveness in specific areas",
+        "**Somatic Markers**: Confident capability, skilled presence, effective readiness",
+        "**Cognitive Associations**: Skill, effectiveness, capability, confidence, qualification, success",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Confident capability throughout body, skilled presence, effective activation",
+        "Embodied Authenticity**: Natural competence without arrogance or insecurity",
+        "Kinesthetic Response**: Skilled movements, competent postures, effective gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Effective skill and ability to successfully perform required tasks",
+      "relational_context": "Context**: Creates trust and reliability; enables contribution and leadership",
+      "temporal_aspect": "Aspect**: Present skill that has developed over time and continues growing",
+      "intensity_spectrum": "Spectrum**: From basic competence (5-6) to exceptional skill (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual skill development calling for education and practice for professional effectiveness",
+        "**Eastern**: Skillful action supported by wisdom awareness and appropriate effort in service",
+        "**Indigenous**: Traditional competence calling for cultural knowledge and community-oriented skill",
+        "**Clinical**: Competence building calling for gradual skill development and confidence development",
+        "**Spiritual**: Spiritual competence that benefits from gifts growth and faithful service",
+        "**Philosophical**: Excellence pursuit calling for systematic skill development and wise application"
+      ],
+      "raw_content": "- **Western**: Individual skill development calling for education and practice for professional effectiveness\n- **Eastern**: Skillful action supported by wisdom awareness and appropriate effort in service\n- **Indigenous**: Traditional competence calling for cultural knowledge and community-oriented skill\n- **Clinical**: Competence building calling for gradual skill development and confidence development\n- **Spiritual**: Spiritual competence that benefits from gifts growth and faithful service\n- ",
+      "framework_perspectives": {
+        "western": "Individual skill development calling for education and practice for professional effectiveness",
+        "eastern": "Skillful action supported by wisdom awareness and appropriate effort in service",
+        "indigenous": "Traditional competence calling for cultural knowledge and community-oriented skill",
+        "clinical": "Competence building calling for gradual skill development and confidence development",
+        "spiritual": "Spiritual competence that benefits from gifts growth and faithful service",
+        "philosophical": "Excellence pursuit calling for systematic skill development and wise application"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document specific competence areas and skill development with appropriate confidence",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture confident capability while maintaining humility and growth orientation",
+      "precision_level_requirements": "Requirements**: HIGH - assess realistic vs. unrealistic confidence; specify competence domains"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "confident capability throughout body; Secondary: skilled presence, effective readiness",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: confident capability throughout body; Secondary: skilled presence, effective readiness",
+        "**Sensation Quality Descriptors**: Confident capability, skilled presence, effective readiness, competent activation",
+        "**Kinesthetic Response Patterns**: Skilled movements, competent postures, effective gestures, capable behaviors",
+        "**Neurobiological Correlates**: Self-efficacy networks, skill circuits, competence systems, effective action networks",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "5-6: Clear competence with definite skill and effective performance capability",
+        "7-8: Strong competence with significant skill and confident effective action",
+        "9-10: Exceptional competence with mastery and inspiring skilled performance",
+        "**Resonance Practice Integration**: Skill development, competence building, effective action development",
+        "**Cultural Somatic Variations**: Western professional development vs. Eastern skillful action vs. Indigenous traditional competence"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Confident capability, skilled presence, effective readiness, competent activation"
+    }
+  },
+  "intensity_range": "5-6",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "term": "anguish",
+  "source_file": "anguish.md",
+  "source_hash": "b9bbe0e8ad8e0fb7",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"angustia\" (narrowness, constriction) from \"angustus\" (narrow)",
+      "original_meaning": "Meaning**: Physical narrowness or constriction causing distress",
+      "semantic_evolution": "Evolution**: Physical constriction → emotional distress → existential suffering",
+      "cultural_shifts": "Shifts**: Physical torment → psychological suffering → spiritual dark night"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Severe mental or physical pain and distress",
+      "colloquial_usage": "Usage**: \"In anguish over the loss,\" \"anguished cry,\" \"deep anguish\"",
+      "register": "Formal/literary; indicates severe suffering",
+      "raw_content": "- **Primary Definition**: Severe mental or physical pain and distress\n- **Secondary Meanings**: Torment, agony, suffering, distress, despair, anguished pain\n- **Colloquial Usage**: \"In anguish over the loss,\" \"anguished cry,\" \"deep anguish\"\n- **Register**: Formal/literary; indicates severe suffering\n- **Frequency Trend**: Stable in literature and clinical contexts; less common in casual speech\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recognized as embodied suffering requiri"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating severe, constricting emotional or physical pain",
+      "listener_response": "Response**: Understanding profound suffering requiring compassionate response",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating severe, constricting emotional or physical pain",
+        "**Listener Response**: Understanding profound suffering requiring compassionate response",
+        "**Somatic Markers**: Constriction, crushing weight, inability to breathe, overwhelming pain",
+        "**Cognitive Associations**: Severe suffering, existential pain, unbearable distress, desperate need",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Crushing constriction throughout body, especially chest and throat",
+        "Embodied Authenticity**: Genuine severe suffering without dramatization",
+        "Kinesthetic Response**: Protective curling, grabbing chest or throat, desperate gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Severe suffering that constricts and overwhelms normal functioning",
+      "relational_context": "Context**: Creates urgent need for support; may isolate due to intensity",
+      "temporal_aspect": "Aspect**: Present overwhelming pain, often from past trauma or future fears",
+      "intensity_spectrum": "- **Temporal Aspect**: Present overwhelming pain, often from past trauma or future fears"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual psychological crisis requiring intensive therapeutic support",
+        "**Eastern**: Severe dukkha (suffering) requiring spiritual practice and community support",
+        "**Indigenous**: Soul wound addressed through ceremonial healing and community intervention",
+        "**Clinical**: Acute psychological distress requiring immediate assessment and intervention",
+        "**Spiritual**: Dark night of the soul requiring spiritual guidance and faith community",
+        "**Philosophical**: Existential suffering revealing human vulnerability and need for meaning"
+      ],
+      "raw_content": "- **Western**: Individual psychological crisis requiring intensive therapeutic support\n- **Eastern**: Severe dukkha (suffering) requiring spiritual practice and community support\n- **Indigenous**: Soul wound addressed through ceremonial healing and community intervention\n- **Clinical**: Acute psychological distress requiring immediate assessment and intervention\n- **Spiritual**: Dark night of the soul requiring spiritual guidance and faith community\n- **Philosophical**: Existential suffering rev",
+      "framework_perspectives": {
+        "western": "Individual psychological crisis requiring intensive therapeutic support",
+        "eastern": "Severe dukkha (suffering) requiring spiritual practice and community support",
+        "indigenous": "Soul wound addressed through ceremonial healing and community intervention",
+        "clinical": "Acute psychological distress requiring immediate assessment and intervention",
+        "spiritual": "Dark night of the soul requiring spiritual guidance and faith community",
+        "philosophical": "Existential suffering revealing human vulnerability and need for meaning"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document severity and urgent need for support with appropriate gravity",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture crushing quality and overwhelming nature without minimization",
+      "precision_level_requirements": "Requirements**: CRITICAL - assess suicide risk and immediate intervention needs"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "chest, throat, solar plexus; Secondary: entire body constriction",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: chest, throat, solar plexus; Secondary: entire body constriction",
+        "**Sensation Quality Descriptors**: Crushing constriction, suffocation, overwhelming pressure, desperate pain",
+        "**Kinesthetic Response Patterns**: Protective curling, clutching chest/throat, desperate reaching, collapse",
+        "**Neurobiological Correlates**: Severe stress response, trauma activation, pain networks, distress signals",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "7–8: Severe constriction with significant suffering and functional impact",
+        "9–10: Overwhelming crushing sensation with extreme distress and potential collapse",
+        "**Resonance Practice Integration**: Crisis support, trauma-informed care, spiritual companionship",
+        "**Cultural Somatic Variations**: Western clinical assessment vs. Eastern spiritual support vs. Indigenous ceremonial healing"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Crushing constriction, suffocation, overwhelming pressure, desperate pain"
+    }
+  },
+  "intensity_range": "7-10",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

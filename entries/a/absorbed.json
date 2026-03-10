@@ -1,0 +1,101 @@
+{
+  "term": "absorbed",
+  "source_file": "absorbed.md",
+  "source_hash": "b27045775686e656",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"absorbēre\" from \"ab-\" (away) + \"sorbēre\" (to suck in)",
+      "original_meaning": "Meaning**: Physical process of liquid being drawn into material (like sponge absorption)",
+      "semantic_evolution": "Evolution**: Physical absorption → mental concentration → complete engagement",
+      "cultural_shifts": "Shifts**: Mechanical process → psychological state → contemporary \"flow state\""
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Completely engrossed or deeply involved in something; concentrated attention",
+      "colloquial_usage": "Usage**: \"Absorbed in a book,\" \"completely absorbed,\" \"absorbed in thought\"",
+      "register": "Neutral; used across formal and informal contexts",
+      "raw_content": "- **Primary Definition**: Completely engrossed or deeply involved in something; concentrated attention\n- **Secondary Meanings**: Preoccupied, immersed, captivated, engrossed, in flow state\n- **Colloquial Usage**: \"Absorbed in a book,\" \"completely absorbed,\" \"absorbed in thought\"\n- **Register**: Neutral; used across formal and informal contexts\n- **Frequency Trend**: Stable; increasingly relevant with attention/mindfulness focus\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Connect"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating complete mental/emotional immersion in activity or thought",
+      "listener_response": "Response**: Understanding deep concentration and full engagement",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating complete mental/emotional immersion in activity or thought",
+        "**Listener Response**: Understanding deep concentration and full engagement",
+        "**Somatic Markers**: Relaxed alertness, soft focus, open receptivity",
+        "**Cognitive Associations**: Flow state, mindfulness, deep learning, creative engagement",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Soft focus, relaxed attention, open body",
+        "Embodied Authenticity: Whole-person engagement without effort",
+        "Kinesthetic Response: Still alertness, receptive posture, expanded awareness"
+      ],
+      "authenticity_markers": "Whole-person engagement without effort"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Complete mental and emotional immersion in present-moment experience",
+      "relational_context": "Context**: Creates intimacy with activity/subject; may reduce social awareness",
+      "temporal_aspect": "Aspect**: Present-moment focused; temporal boundaries dissolve",
+      "intensity_spectrum": "Spectrum**: From focused attention (4-5) to complete absorption (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual psychological state of optimal attention/performance",
+        "**Eastern**: Meditative absorption (samadhi, jhana) leading to spiritual insight",
+        "**Indigenous**: Sacred attention connecting to spirit of place/activity",
+        "**Clinical**: Positive mental health indicator; opposite of dissociation",
+        "**Spiritual**: Contemplative union with divine/sacred through focused attention",
+        "**Philosophical**: Phenomenological reduction allowing direct experience of essence"
+      ],
+      "raw_content": "- **Western**: Individual psychological state of optimal attention/performance\n- **Eastern**: Meditative absorption (samadhi, jhana) leading to spiritual insight\n- **Indigenous**: Sacred attention connecting to spirit of place/activity\n- **Clinical**: Positive mental health indicator; opposite of dissociation\n- **Spiritual**: Contemplative union with divine/sacred through focused attention\n- **Philosophical**: Phenomenological reduction allowing direct experience of essence\n\n**Cultural Bridge Ex",
+      "framework_perspectives": {
+        "western": "Individual psychological state of optimal attention/performance",
+        "eastern": "Meditative absorption (samadhi, jhana) leading to spiritual insight",
+        "indigenous": "Sacred attention connecting to spirit of place/activity",
+        "clinical": "Positive mental health indicator; opposite of dissociation",
+        "spiritual": "Contemplative union with divine/sacred through focused attention",
+        "philosophical": "Phenomenological reduction allowing direct experience of essence"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document quality and depth of attention/engagement",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture sense of fulfillment and natural ease in absorption",
+      "precision_level_requirements": "Requirements**: Distinguish from dissociation or escapism; involves present-moment engagement"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "relaxed alertness throughout body; Secondary: soft eyes, open chest",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: relaxed alertness throughout body; Secondary: soft eyes, open chest",
+        "**Sensation Quality Descriptors**: Soft focus, relaxed availability, effortless attention",
+        "**Kinesthetic Response Patterns**: Still but alive posture, receptive orientation, natural breathing",
+        "**Neurobiological Correlates**: Default mode network suppression, focused attention networks, flow state markers",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Relaxed focus with comfortable engagement",
+        "6-7: Deep attention with reduced body awareness",
+        "8-9: Complete immersion with effortless absorption",
+        "**Resonance Practice Integration**: Mindfulness cultivation, attention training, presence practices",
+        "**Cultural Somatic Variations**: Western performance focus vs. Eastern spiritual absorption vs. Indigenous sacred attention"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Soft focus, relaxed availability, effortless attention"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  },
+  "translations": {
+    "fr": "absorbed-absorbé-français.md",
+    "es": "absorbed-absorto-español.md",
+    "de": "absorbed-versunken-deutsch.md",
+    "zh": "absorbed-专注-标准普通话.md"
+  },
+  "has_4lang_verification": true
+}

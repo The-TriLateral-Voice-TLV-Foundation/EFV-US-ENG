@@ -1,0 +1,93 @@
+{
+  "term": "vulnerable",
+  "source_file": "vulnerable.md",
+  "source_hash": "77fed1b75dd53a72",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"vulnerabilis\" from \"vulnerare\" (to wound)",
+      "original_meaning": "Meaning**: Capable of being wounded; open to injury and harm",
+      "semantic_evolution": "Evolution**: Physical woundability → emotional exposure → contemporary open authenticity and courageous transparency",
+      "cultural_shifts": "Shifts**: Physical wounding → emotional exposure → courageous openness → strength understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling emotionally exposed and open; showing authentic transparency despite risk",
+      "colloquial_usage": "Usage**: \"Feeling vulnerable,\" \"vulnerable moment,\" \"being vulnerable\"",
+      "register": "Complex (negative/positive); indicates both exposure risk and authentic strength",
+      "raw_content": "- **Primary Definition**: Feeling emotionally exposed and open; showing authentic transparency despite risk\n- **Secondary Meanings**: Exposed, open, transparent, authentic, defenseless, tender\n- **Colloquial Usage**: \"Feeling vulnerable,\" \"vulnerable moment,\" \"being vulnerable\"\n- **Register**: Complex (negative/positive); indicates both exposure risk and authentic strength\n- **Frequency Trend**: High; valued for describing authentic openness and emotional courage\n- **Contemporary Somatic Usage**"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating authentic exposure and courageous openness despite emotional risk",
+      "listener_response": "Response**: Understanding exposure and potential need for safety support or authentic appreciation",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating authentic exposure and courageous openness despite emotional risk",
+        "**Listener Response**: Understanding exposure and potential need for safety support or authentic appreciation",
+        "**Somatic Markers**: Exposed energy, open presence, tender activation, authentic aliveness",
+        "**Cognitive Associations**: Emotional exposure, authentic openness, courageous transparency, need for safety",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Exposed energy throughout body, open presence, tender activation",
+        "**Embodied Authenticity**: Natural vulnerability calling for courage and safety while maintaining authentic openness",
+        "**Kinesthetic Response**: Open movements, vulnerable expressions, tender gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Authentic exposure and courageous openness calling for safety support and boundary wisdom",
+      "relational_context": "Context**: Requires safety support, authentic appreciation, and boundary guidance for healthy vulnerability",
+      "temporal_aspect": "Aspect**: Present exposure calling for courage and safety balance for authentic expression",
+      "intensity_spectrum": "Spectrum**: From gentle openness (4-5) to profound vulnerability (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual authenticity calling for vulnerability courage and boundary development",
+        "**Eastern**: Attachment vulnerability calling for wisdom about exposure and compassionate openness development",
+        "**Indigenous**: Community vulnerability calling for traditional protection ceremonies and collective safety support",
+        "**Clinical**: Vulnerability therapy that benefits from authenticity growth and boundary awareness",
+        "**Spiritual**: Faith vulnerability calling for divine protection and spiritual courage",
+        "**Philosophical**: Human vulnerability calling for wisdom about openness and appropriate courage development"
+      ],
+      "raw_content": "- **Western**: Individual authenticity calling for vulnerability courage and boundary development\n- **Eastern**: Attachment vulnerability calling for wisdom about exposure and compassionate openness development\n- **Indigenous**: Community vulnerability calling for traditional protection ceremonies and collective safety support\n- **Clinical**: Vulnerability therapy that benefits from authenticity growth and boundary awareness\n- **Spiritual**: Faith vulnerability calling for divine protection and ",
+      "framework_perspectives": {
+        "western": "Individual authenticity calling for vulnerability courage and boundary development",
+        "eastern": "Attachment vulnerability calling for wisdom about exposure and compassionate openness development",
+        "indigenous": "Community vulnerability calling for traditional protection ceremonies and collective safety support",
+        "clinical": "Vulnerability therapy that benefits from authenticity growth and boundary awareness",
+        "spiritual": "Faith vulnerability calling for divine protection and spiritual courage",
+        "philosophical": "Human vulnerability calling for wisdom about openness and appropriate courage development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document vulnerable experiences and authentic exposure with courage and safety focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor courage reality while exploring safety needs and authentic opportunities",
+      "precision_level_requirements": "Requirements**: CRITICAL - assess vulnerability authenticity and exposure safety; provide courage support and boundary development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "exposed energy throughout body; Secondary: open presence, tender activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: exposed energy throughout body; Secondary: open presence, tender activation",
+        "**Sensation Quality Descriptors**: Exposed energy, open presence, tender activation, authentic aliveness",
+        "**Kinesthetic Response Patterns**: Open movements, vulnerable expressions, tender gestures, authentic behaviors",
+        "**Neurobiological Correlates**: Vulnerability networks, exposure circuits, authenticity systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear vulnerable feeling with definite exposure and manageable safety needs",
+        "7-8: Strong vulnerable response with significant openness calling for courage support and safety development",
+        "9-10: Profound vulnerable state with intense exposure calling for protection and comprehensive courage support",
+        "**Resonance Practice Integration**: Vulnerability processing, authenticity development, courageous safety with protective community support",
+        "**Cultural Somatic Variations**: Western authentic courage vs. Eastern compassionate openness vs. Indigenous community protection"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Exposed energy, open presence, tender activation, authentic aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

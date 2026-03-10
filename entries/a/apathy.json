@@ -1,0 +1,94 @@
+{
+  "term": "apathy",
+  "source_file": "apathy.md",
+  "source_hash": "74f419ae37819210",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Greek \"apatheia\" (without feeling) from \"a-\" (without) + \"pathos\" (feeling)",
+      "original_meaning": "Meaning**: Freedom from emotion or passion; philosophical ideal of detachment",
+      "semantic_evolution": "Philosophical control → emotional shutdown → chronic disconnection",
+      "cultural_shifts": "Shifts**: Ancient philosophical ideal → pathological condition → contemporary epidemic"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Lack of interest, enthusiasm, or concern; indifference",
+      "colloquial_usage": "Usage**: \"Political apathy,\" \"widespread apathy,\" \"overcome apathy\"",
+      "register": "Formal; often used in social and clinical contexts",
+      "raw_content": "- **Primary Definition**: Lack of interest, enthusiasm, or concern; indifference\n- **Secondary Meanings**: Indifference, disinterest, emotional flatness, disconnection, numbness\n- **Colloquial Usage**: \"Political apathy,\" \"widespread apathy,\" \"overcome apathy\"\n- **Register**: Formal; often used in social and clinical contexts\n- **Frequency Trend**: Increasing; major concern in modern society and mental health\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognized as embodied dis"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Describing state of emotional disconnection and lack of life engagement",
+      "listener_response": "Response**: Understanding serious disconnection that may need supportive intervention and support",
+      "somatic_markers": [
+        "**Speaker Experience**: Describing state of emotional disconnection and lack of life engagement",
+        "**Listener Response**: Understanding serious disconnection that may need supportive intervention and support",
+        "**Somatic Markers**: Chronic flatness, minimal responsiveness, disconnected energy, shutdown patterns",
+        "**Cognitive Associations**: Disconnection, meaninglessness, emotional numbness, disengagement",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Chronic emotional flatness, minimal bodily activation, disconnected presence",
+        "Embodied Authenticity: Genuine protective shutdown without dramatic presentation",
+        "Kinesthetic Response: Minimal movement, flat postures, disengaged behavioral patterns"
+      ],
+      "authenticity_markers": "Genuine protective shutdown without dramatic presentation"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Chronic state of emotional disconnection and disengagement from life",
+      "relational_context": "Context**: Significantly impacts relationships and social functioning",
+      "temporal_aspect": "Aspect**: Often chronic condition requiring sustained intervention",
+      "intensity_spectrum": "Spectrum**: From mild disengagement (3-4) to severe disconnection (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual pathological condition that may benefit from therapeutic support and social support",
+        "**Eastern**: Spiritual imbalance requiring renewed engagement with compassionate action",
+        "**Indigenous**: Community soul sickness calling for collective healing and purpose restoration",
+        "**Clinical**: Symptom constellation in mood disorders requiring comprehensive treatment",
+        "**Spiritual**: Spiritual crisis requiring reconnection to sacred purpose and meaning",
+        "**Philosophical**: Modern existential crisis requiring rediscovery of authentic values"
+      ],
+      "raw_content": "- **Western**: Individual pathological condition that may benefit from therapeutic support and social support\n- **Eastern**: Spiritual imbalance requiring renewed engagement with compassionate action\n- **Indigenous**: Community soul sickness calling for collective healing and purpose restoration\n- **Clinical**: Symptom constellation in mood disorders requiring comprehensive treatment\n- **Spiritual**: Spiritual crisis requiring reconnection to sacred purpose and meaning\n- **Philosophical**: Moder",
+      "framework_perspectives": {
+        "western": "Individual pathological condition that may benefit from therapeutic support and social support",
+        "eastern": "Spiritual imbalance requiring renewed engagement with compassionate action",
+        "indigenous": "Community soul sickness calling for collective healing and purpose restoration",
+        "clinical": "Symptom constellation in mood disorders requiring comprehensive treatment",
+        "spiritual": "Spiritual crisis requiring reconnection to sacred purpose and meaning",
+        "philosophical": "Modern existential crisis requiring rediscovery of authentic values"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document chronic patterns, functional impact, and remaining areas of connection",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Explore protected emotions underneath flatness and disconnection",
+      "precision_level_requirements": "Requirements**: HIGH - assess underlying mood disorders, trauma history, and intervention needs"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "chronic shutdown throughout nervous system; Secondary: flat chest, disconnected extremities",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: chronic shutdown throughout nervous system; Secondary: flat chest, disconnected extremities",
+        "**Sensation Quality Descriptors**: Chronic flatness, persistent numbness, disconnected emptiness, absent vitality",
+        "**Kinesthetic Response Patterns**: Minimal movement, flat postures, disengaged behaviors, shutdown patterns",
+        "**Neurobiological Correlates**: Chronic hypoactivation, dysregulated reward systems, disconnected social engagement",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild chronic flatness with some engagement capacity",
+        "6-7: Significant disconnection with major functional impact",
+        "8-9: Profound apathy with severe shutdown and disability",
+        "**Resonance Practice Integration**: Comprehensive re-engagement therapy, meaning-making, community connection",
+        "**Cultural Somatic Variations**: Western individual therapy vs. Eastern spiritual practice vs. Indigenous community healing"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Chronic flatness, persistent numbness, disconnected emptiness, absent vitality"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

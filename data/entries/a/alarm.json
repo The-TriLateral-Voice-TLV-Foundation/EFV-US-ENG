@@ -1,0 +1,93 @@
+{
+  "term": "alarm",
+  "source_file": "alarm.md",
+  "source_hash": "28d19022e6d48625",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: French \"alarme\" from Italian \"all'arme\" (to arms!) - military call to arms",
+      "original_meaning": "Meaning**: Warning call to prepare for battle; call to weapons",
+      "semantic_evolution": "Evolution**: Military warning → general danger signal → emotional response to threat",
+      "cultural_shifts": "Shifts**: Military command → community warning → individual fear response"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Warning signal of danger; feeling of fear or anxiety about threat",
+      "colloquial_usage": "Usage**: \"False alarm,\" \"alarm bells,\" \"feeling alarm\"",
+      "register": "Neutral; used in both technical and emotional contexts",
+      "raw_content": "- **Primary Definition**: Warning signal of danger; feeling of fear or anxiety about threat\n- **Secondary Meanings**: Warning, alert, fear, anxiety, concern, apprehension\n- **Colloquial Usage**: \"False alarm,\" \"alarm bells,\" \"feeling alarm\"\n- **Register**: Neutral; used in both technical and emotional contexts\n- **Frequency Trend**: Stable; important for describing both warning systems and emotional responses\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recognized as alert syst"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating threat detection and need for alert response",
+      "listener_response": "Response**: Understanding danger signal and need for attention or action",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating threat detection and need for alert response",
+        "**Listener Response**: Understanding danger signal and need for attention or action",
+        "**Somatic Markers**: Alert tension, heightened awareness, readiness for action",
+        "**Cognitive Associations**: Danger, warning, threat, need for action, heightened awareness",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Alert activation, heightened awareness, ready tension",
+        "Embodied Authenticity**: Natural threat detection without paranoia",
+        "Kinesthetic Response**: Alert posture, scanning movement, readiness positioning"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Warning system activation signaling potential threat requiring attention",
+      "relational_context": "Context**: Signals need for group alertness or protective action",
+      "temporal_aspect": "Aspect**: Present-moment threat detection with future danger implications",
+      "intensity_spectrum": "Spectrum**: From mild concern (3-4) to urgent alarm (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual threat assessment and emergency response systems",
+        "**Eastern**: Mindful awareness of changing conditions requiring attention",
+        "**Indigenous**: Community warning systems and collective protection",
+        "**Clinical**: Anxiety and hypervigilance assessment in trauma treatment",
+        "**Spiritual**: Spiritual discernment and protection against harmful influences",
+        "**Philosophical**: Example that serves as warning system for survival"
+      ],
+      "raw_content": "- **Western**: Individual threat assessment and emergency response systems\n- **Eastern**: Mindful awareness of changing conditions requiring attention\n- **Indigenous**: Community warning systems and collective protection\n- **Clinical**: Anxiety and hypervigilance assessment in trauma treatment\n- **Spiritual**: Spiritual discernment and protection against harmful influences\n- **Philosophical**: Example that serves as warning system for survival\n\n**Cultural Bridge Examples**:\n\n**Western ⇄ Eastern ",
+      "framework_perspectives": {
+        "western": "Individual threat assessment and emergency response systems",
+        "eastern": "Mindful awareness of changing conditions requiring attention",
+        "indigenous": "Community warning systems and collective protection",
+        "clinical": "Anxiety and hypervigilance assessment in trauma treatment",
+        "spiritual": "Spiritual discernment and protection against harmful influences",
+        "philosophical": "Example that serves as warning system for survival"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document threat nature and response urgency clearly",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture alertness level and underlying fear or concern",
+      "precision_level_requirements": "Requirements**: Specify threat type, urgency level, and appropriate response"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "alert throughout body; Secondary: eyes, ears, nervous system",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: alert throughout body; Secondary: eyes, ears, nervous system",
+        "**Sensation Quality Descriptors**: Alert tension, heightened awareness, ready energy, scanning attention",
+        "**Kinesthetic Response Patterns**: Alert posture, scanning movements, ready positioning, heightened attention",
+        "**Neurobiological Correlates**: Sympathetic activation, hypervigilance networks, threat detection systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild alertness with manageable attention increase",
+        "6-7: Clear alarm with definite activation and awareness",
+        "8-9: Strong alarm with significant activation and urgency",
+        "**Resonance Practice Integration**: Threat assessment skills, appropriate alertness, hypervigilance management",
+        "**Cultural Somatic Variations**: Western individual alert vs. Eastern mindful awareness vs. Indigenous community scanning"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Alert tension, heightened awareness, ready energy, scanning attention"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

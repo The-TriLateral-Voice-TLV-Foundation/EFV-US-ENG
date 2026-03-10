@@ -1,0 +1,94 @@
+{
+  "term": "agitated",
+  "source_file": "agitated.md",
+  "source_hash": "9b6d078b9289ef31",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"agitatus\" from \"agitare\" (to set in motion, drive) from \"agere\" (to drive, do)",
+      "original_meaning": "Meaning**: Set in motion, stirred up, driven to movement",
+      "semantic_evolution": "Evolution**: Physical stirring → emotional disturbance → contemporary restlessness",
+      "cultural_shifts": "Shifts**: Mechanical agitation → psychological disturbance → clinical symptom"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling or appearing troubled, nervous, or restless",
+      "colloquial_usage": "Usage**: \"Feeling agitated,\" \"agitated by the news,\" \"visibly agitated\"",
+      "register": "Neutral to clinical; used in both casual and medical contexts",
+      "raw_content": "- **Primary Definition**: Feeling or appearing troubled, nervous, or restless\n- **Secondary Meanings**: Disturbed, restless, anxious, stirred up, unsettled, fidgety\n- **Colloquial Usage**: \"Feeling agitated,\" \"agitated by the news,\" \"visibly agitated\"\n- **Register**: Neutral to clinical; used in both casual and medical contexts\n- **Frequency Trend**: Stable; important for describing anxiety and restlessness states\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recognized as nervo"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating internal restlessness and inability to settle",
+      "listener_response": "Response**: Understanding disturbance and potential need for calming support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating internal restlessness and inability to settle",
+        "**Listener Response**: Understanding disturbance and potential need for calming support",
+        "**Somatic Markers**: Restless movement, internal stirring, inability to be still",
+        "**Cognitive Associations**: Disturbance, restlessness, need for movement, unsettled state",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Internal stirring, restless energy, movement impulses",
+        "Embodied Authenticity**: Natural nervous system activation without pathology",
+        "Kinesthetic Response**: Fidgeting, pacing, restless movement, position shifting"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: State of internal stirring and restless energy seeking expression",
+      "relational_context": "Context**: May create need for space to move or calming presence",
+      "temporal_aspect": "Aspect**: Present-moment restlessness often in response to recent stimulation",
+      "intensity_spectrum": "Spectrum**: From mild restlessness (3-4) to extreme agitation (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual nervous system activation requiring self-regulation",
+        "**Eastern**: Disturbed energy requiring mindfulness and grounding practice",
+        "**Indigenous**: Imbalanced energy addressed through ceremonial or community calming",
+        "**Clinical**: Symptom requiring assessment and therapeutic intervention",
+        "**Spiritual**: Restless spirit requiring prayer and spiritual grounding",
+        "**Philosophical**: Example of mind-body connection and energy dynamics"
+      ],
+      "raw_content": "- **Western**: Individual nervous system activation requiring self-regulation\n- **Eastern**: Disturbed energy requiring mindfulness and grounding practice\n- **Indigenous**: Imbalanced energy addressed through ceremonial or community calming\n- **Clinical**: Symptom requiring assessment and therapeutic intervention\n- **Spiritual**: Restless spirit requiring prayer and spiritual grounding\n- **Philosophical**: Example of mind-body connection and energy dynamics\n\n**Cultural Bridge Examples**:\n\n**West",
+      "framework_perspectives": {
+        "western": "Individual nervous system activation requiring self-regulation",
+        "eastern": "Disturbed energy requiring mindfulness and grounding practice",
+        "indigenous": "Imbalanced energy addressed through ceremonial or community calming",
+        "clinical": "Symptom requiring assessment and therapeutic intervention",
+        "spiritual": "Restless spirit requiring prayer and spiritual grounding",
+        "philosophical": "Example of mind-body connection and energy dynamics"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document agitation triggers and physical manifestations",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture restless energy and underlying disturbance",
+      "precision_level_requirements": "Requirements**: Specify agitation source, intensity, and impact on functioning"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "restless throughout body; Secondary: hands, legs, nervous system",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: restless throughout body; Secondary: hands, legs, nervous system",
+        "**Sensation Quality Descriptors**: Internal stirring, restless energy, movement impulses, unsettled feeling",
+        "**Kinesthetic Response Patterns**: Fidgeting, pacing, position shifting, restless movement",
+        "**Neurobiological Correlates**: Sympathetic activation, restless leg syndrome, ADHD markers",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild restlessness with manageable movement impulses",
+        "6-7: Clear agitation with definite need for movement",
+        "8-9: Strong agitation with overwhelming restless energy",
+        "**Resonance Practice Integration**: Calming techniques, movement therapy, nervous system regulation",
+        "**Cultural Somatic Variations**: Western self-regulation vs. Eastern energy settling vs. Indigenous ceremonial calming"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Internal stirring, restless energy, movement impulses, unsettled feeling",
+      "movement": "impulses, unsettled feeling"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

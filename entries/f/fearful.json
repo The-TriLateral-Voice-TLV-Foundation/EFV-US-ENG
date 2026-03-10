@@ -1,0 +1,93 @@
+{
+  "term": "fearful",
+  "source_file": "fearful.md",
+  "source_hash": "1f9ba0e7f635da5a",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old English \"fær\" (sudden danger) + \"-ful\"",
+      "original_meaning": "Meaning**: Full of sudden danger; characterized by fear and apprehension",
+      "semantic_evolution": "Evolution**: Danger awareness → protective apprehension → contemporary anxious concern and worry",
+      "cultural_shifts": "Shifts**: Survival fear → protective caution → anxious worry → courage understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling afraid or anxious; experiencing apprehension about potential threats",
+      "colloquial_usage": "Usage**: \"Feeling fearful,\" \"fearful of outcome,\" \"fearful attitude\"",
+      "register": "Negative; indicates anxiety calling for support and courage development",
+      "raw_content": "- **Primary Definition**: Feeling afraid or anxious; experiencing apprehension about potential threats\n- **Secondary Meanings**: Afraid, anxious, worried, apprehensive, nervous, concerned\n- **Colloquial Usage**: \"Feeling fearful,\" \"fearful of outcome,\" \"fearful attitude\"\n- **Register**: Negative; indicates anxiety calling for support and courage development\n- **Frequency Trend**: High; important for describing anxiety and protective responses\n- **Contemporary Somatic Usage**:\n  - **Body Awarenes"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating anxious apprehension and protective fear about potential threats or outcomes",
+      "listener_response": "Response**: Understanding protective anxiety and potential need for reassurance or courage support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating anxious apprehension and protective fear about potential threats or outcomes",
+        "**Listener Response**: Understanding protective anxiety and potential need for reassurance or courage support",
+        "**Somatic Markers**: Anxious energy, apprehensive presence, worried activation, fearful aliveness",
+        "**Cognitive Associations**: Protective anxiety, apprehensive concern, need for safety, courage requirement",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Anxious energy throughout body, apprehensive presence, worried activation",
+        "**Embodied Authenticity**: Natural fear calling for courage support without shame while processing anxiety",
+        "**Kinesthetic Response**: Tense movements, fearful expressions, apprehensive gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Protective anxiety and apprehensive concern calling for courage support and fear processing",
+      "relational_context": "Context**: May need reassurance, safety support, and courage encouragement from others",
+      "temporal_aspect": "Aspect**: Present anxiety that can be processed through courage building and safety work",
+      "intensity_spectrum": "Spectrum**: From mild apprehension (4-5) to overwhelming fear (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual courage calling for fear processing and anxiety management",
+        "**Eastern**: Attachment fear calling for compassionate understanding and courage development",
+        "**Indigenous**: Community fear calling for traditional courage ceremonies and collective safety support",
+        "**Clinical**: Fear therapy calling for anxiety processing and courage development",
+        "**Spiritual**: Faith fear calling for spiritual courage and divine safety trust",
+        "**Philosophical**: Human fear calling for wisdom about anxiety and appropriate courage development"
+      ],
+      "raw_content": "- **Western**: Individual courage calling for fear processing and anxiety management\n- **Eastern**: Attachment fear calling for compassionate understanding and courage development\n- **Indigenous**: Community fear calling for traditional courage ceremonies and collective safety support\n- **Clinical**: Fear therapy calling for anxiety processing and courage development\n- **Spiritual**: Faith fear calling for spiritual courage and divine safety trust\n- **Philosophical**: Human fear calling for wisd",
+      "framework_perspectives": {
+        "western": "Individual courage calling for fear processing and anxiety management",
+        "eastern": "Attachment fear calling for compassionate understanding and courage development",
+        "indigenous": "Community fear calling for traditional courage ceremonies and collective safety support",
+        "clinical": "Fear therapy calling for anxiety processing and courage development",
+        "spiritual": "Faith fear calling for spiritual courage and divine safety trust",
+        "philosophical": "Human fear calling for wisdom about anxiety and appropriate courage development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document fearful experiences and protective anxiety with courage building and safety focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor protective function while exploring courage needs and safety opportunities",
+      "precision_level_requirements": "Requirements**: HIGH - assess fear appropriateness and protective function; provide courage support and anxiety processing"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "anxious energy throughout body; Secondary: apprehensive presence, worried activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: anxious energy throughout body; Secondary: apprehensive presence, worried activation",
+        "**Sensation Quality Descriptors**: Anxious energy, apprehensive presence, worried activation, fearful aliveness",
+        "**Kinesthetic Response Patterns**: Tense movements, fearful expressions, apprehensive gestures, protective behaviors",
+        "**Neurobiological Correlates**: Fear networks, anxiety circuits, protection systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear fearful feeling with definite anxiety and manageable courage needs",
+        "7-8: Strong fearful response with significant apprehension calling for courage support and anxiety processing",
+        "9-10: Overwhelming fearful state with intense anxiety that may need supportive intervention and comprehensive courage support",
+        "**Resonance Practice Integration**: Fear processing, courage building, anxiety healing with safety community support",
+        "**Cultural Somatic Variations**: Western courage building vs. Eastern compassionate fearlessness vs. Indigenous community courage"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Anxious energy, apprehensive presence, worried activation, fearful aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "term": "foolish",
+  "source_file": "foolish.md",
+  "source_hash": "4084d998f47d990f",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old French \"fol\" from Latin \"follis\" (bellows, windbag) + \"-ish\" (having the quality of)",
+      "original_meaning": "Meaning**: Like a windbag, full of air without substance; lacking wisdom",
+      "semantic_evolution": "Empty substance → lacking wisdom → self-critical judgment",
+      "cultural_shifts": "Shifts**: Moral judgment → intellectual assessment → self-criticism → normal human learning"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Having or showing a lack of good sense or judgment; appearing unwise",
+      "colloquial_usage": "Usage**: \"Feeling foolish,\" \"foolish mistake,\" \"acting foolish\"",
+      "register": "Mildly negative; indicates self-criticism or social judgment",
+      "raw_content": "- **Primary Definition**: Having or showing a lack of good sense or judgment; appearing unwise\n- **Secondary Meanings**: Unwise, silly, imprudent, senseless, ridiculous, lacking judgment\n- **Colloquial Usage**: \"Feeling foolish,\" \"foolish mistake,\" \"acting foolish\"\n- **Register**: Mildly negative; indicates self-criticism or social judgment\n- **Frequency Trend**: Stable; common for describing perceived lack of wisdom or poor judgment\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: R"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating self-criticism about perceived lack of wisdom or poor judgment",
+      "listener_response": "Response**: Understanding self-critical feelings and potential need for reassurance or perspective",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating self-criticism about perceived lack of wisdom or poor judgment",
+        "**Listener Response**: Understanding self-critical feelings and potential need for reassurance or perspective",
+        "**Somatic Markers**: Self-critical tension, embarrassed constraint, judgment energy, diminished presence",
+        "**Cognitive Associations**: Self-criticism, embarrassment, perceived lack of wisdom, social judgment concern",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Self-critical tension throughout body, embarrassed constraint, diminished presence",
+        "Embodied Authenticity: Natural learning response without harsh self-condemnation",
+        "Kinesthetic Response: Constrained postures, embarrassed expressions, self-critical gestures"
+      ],
+      "authenticity_markers": "Natural learning response without harsh self-condemnation"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Self-critical judgment about perceived lack of wisdom or poor decision-making",
+      "relational_context": "Context**: May need reassurance and perspective about normal human learning process",
+      "temporal_aspect": "Aspect**: Present self-judgment often about recent mistakes or social missteps",
+      "intensity_spectrum": "Spectrum**: From mild self-criticism (3-4) to harsh self-judgment (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual learning calling for self-compassion and growth mindset",
+        "**Eastern**: Learning attachment calling for self-compassion and wisdom development",
+        "**Indigenous**: Community learning calling for cultural understanding and elder guidance",
+        "**Clinical**: Self-criticism calling for self-compassion therapy and cognitive restructuring",
+        "**Spiritual**: Human fallibility calling for grace and spiritual growth understanding",
+        "**Philosophical**: Learning process calling for wisdom about human mistakes and development"
+      ],
+      "raw_content": "- **Western**: Individual learning calling for self-compassion and growth mindset\n- **Eastern**: Learning attachment calling for self-compassion and wisdom development\n- **Indigenous**: Community learning calling for cultural understanding and elder guidance\n- **Clinical**: Self-criticism calling for self-compassion therapy and cognitive restructuring\n- **Spiritual**: Human fallibility calling for grace and spiritual growth understanding\n- **Philosophical**: Learning process calling for wisdom a",
+      "framework_perspectives": {
+        "western": "Individual learning calling for self-compassion and growth mindset",
+        "eastern": "Learning attachment calling for self-compassion and wisdom development",
+        "indigenous": "Community learning calling for cultural understanding and elder guidance",
+        "clinical": "Self-criticism calling for self-compassion therapy and cognitive restructuring",
+        "spiritual": "Human fallibility calling for grace and spiritual growth understanding",
+        "philosophical": "Learning process calling for wisdom about human mistakes and development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document foolish feelings and self-criticism with self-compassion development",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture self-critical quality while exploring learning opportunities and self-kindness",
+      "precision_level_requirements": "Requirements**: Explore self-criticism patterns and encourage self-compassion and learning perspective"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "self-critical tension throughout body; Secondary: embarrassed constraint, diminished presence",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: self-critical tension throughout body; Secondary: embarrassed constraint, diminished presence",
+        "**Sensation Quality Descriptors**: Self-critical tension, embarrassed constraint, judgment energy, diminished presence",
+        "**Kinesthetic Response Patterns**: Constrained postures, embarrassed expressions, self-critical gestures, diminished behaviors",
+        "**Neurobiological Correlates**: Self-criticism networks, embarrassment circuits, social judgment systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear foolish feeling with definite self-criticism and manageable embarrassment",
+        "7-8: Strong self-judgment with significant self-criticism and social embarrassment",
+        "8-9: Harsh self-condemnation with overwhelming self-judgment calling for self-compassion intervention",
+        "**Resonance Practice Integration**: Self-compassion development, learning mindset, self-criticism processing",
+        "**Cultural Somatic Variations**: Western growth mindset vs. Eastern self-compassion vs. Indigenous community learning"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Self-critical tension, embarrassed constraint, judgment energy, diminished presence"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "term": "admiration",
+  "source_file": "admiration.md",
+  "source_hash": "bf2165a0ed335438",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"admīrātio\" from \"admīrārī\" (to wonder at) from \"ad-\" (at) + \"mīrārī\" (to wonder)",
+      "original_meaning": "Meaning**: Wonder or amazement at something remarkable",
+      "semantic_evolution": "Awe response → aesthetic appreciation → inspirational uplift",
+      "cultural_shifts": "Shifts**: Religious awe → artistic/intellectual appreciation → contemporary role model respect"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Respectful appreciation or approval of excellence, skill, or achievement",
+      "colloquial_usage": "Usage**: \"I admire her courage,\" \"filled with admiration,\" \"mutual admiration\"",
+      "register": "Formal to neutral; indicates positive evaluation",
+      "raw_content": "- **Primary Definition**: Respectful appreciation or approval of excellence, skill, or achievement\n- **Secondary Meanings**: Respect, esteem, wonder, appreciation, positive regard\n- **Colloquial Usage**: \"I admire her courage,\" \"filled with admiration,\" \"mutual admiration\"\n- **Register**: Formal to neutral; indicates positive evaluation\n- **Frequency Trend**: Stable; maintained positive social/cultural function\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Connected to inspiration"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating positive regard with inspirational quality",
+      "listener_response": "Response**: Understanding respect and appreciation for excellence",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating positive regard with inspirational quality",
+        "**Listener Response**: Understanding respect and appreciation for excellence",
+        "**Somatic Markers**: Uplift, expansion, gentle awe, inspirational energy",
+        "**Cognitive Associations**: Excellence, inspiration, role models, positive qualities, aspiration",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Chest expansion, gentle uplift, brightening energy",
+        "Embodied Authenticity: Natural appreciation without comparison or envy",
+        "Kinesthetic Response**: Slight reaching toward, opening posture, energetic brightening"
+      ],
+      "authenticity_markers": "Natural appreciation without comparison or envy"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Respectful appreciation for excellence that inspires positive aspiration",
+      "relational_context": "Context**: Creates positive connection while acknowledging difference in achievement/quality",
+      "temporal_aspect": "Aspect**: Present appreciation that may inspire future development",
+      "intensity_spectrum": "Spectrum**: From mild appreciation (3-4) to profound inspiration (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual achievement recognition; meritocratic appreciation",
+        "**Eastern**: Recognition of virtue and spiritual development; honoring masters/teachers",
+        "**Indigenous**: Honoring elders and those who serve community well",
+        "**Clinical**: Positive psychology; strength identification and development",
+        "**Spiritual**: Recognizing holy qualities and spiritual advancement",
+        "**Philosophical**: Appreciation of wisdom, truth, and beautiful ideas"
+      ],
+      "raw_content": "- **Western**: Individual achievement recognition; meritocratic appreciation\n- **Eastern**: Recognition of virtue and spiritual development; honoring masters/teachers\n- **Indigenous**: Honoring elders and those who serve community well\n- **Clinical**: Positive psychology; strength identification and development\n- **Spiritual**: Recognizing holy qualities and spiritual advancement\n- **Philosophical**: Appreciation of wisdom, truth, and beautiful ideas\n\n**Cultural Bridge Examples**:\n\n**Western ⇄ E",
+      "framework_perspectives": {
+        "western": "Individual achievement recognition; meritocratic appreciation",
+        "eastern": "Recognition of virtue and spiritual development; honoring masters/teachers",
+        "indigenous": "Honoring elders and those who serve community well",
+        "clinical": "Positive psychology; strength identification and development",
+        "spiritual": "Recognizing holy qualities and spiritual advancement",
+        "philosophical": "Appreciation of wisdom, truth, and beautiful ideas"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document specific qualities being appreciated and degree of inspiration",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture uplifting quality and genuine appreciation vs. comparison",
+      "precision_level_requirements": "Requirements**: Distinguish from envy, idealization, or mere politeness"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "chest, heart region; Secondary: eyes, solar plexus, shoulders",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: chest, heart region; Secondary: eyes, solar plexus, shoulders",
+        "**Sensation Quality Descriptors**: Gentle expansion, uplift, brightening, warm appreciation, energetic rise",
+        "**Kinesthetic Response Patterns**: Chest opening, slight reaching forward, brightening posture, appreciative gaze",
+        "**Neurobiological Correlates**: Positive emotion networks, reward systems, social appreciation centers",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Gentle chest warmth with mild appreciation",
+        "6-7: Clear expansion with inspirational energy",
+        "8-9: Significant uplift with motivating impact",
+        "**Resonance Practice Integration**: Gratitude practices, inspiration cultivation, strength recognition",
+        "**Cultural Somatic Variations**: Western individual appreciation vs. Eastern reverent bowing vs. Indigenous community honoring gestures"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Gentle expansion, uplift, brightening, warm appreciation, energetic rise"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  },
+  "translations": {
+    "es": "admiration-admiración-español.md",
+    "fr": "admiration-admiration-français.md",
+    "de": "admiration-bewunderung-deutsch.md",
+    "zh": "admiration-钦佩-标准普通话.md"
+  },
+  "has_4lang_verification": true
+}

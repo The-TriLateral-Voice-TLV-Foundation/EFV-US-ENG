@@ -1,0 +1,95 @@
+{
+  "term": "glum",
+  "source_file": "glum.md",
+  "source_hash": "e55bed6b726dba43",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Middle English \"glum\" (to look displeased or sullen)",
+      "original_meaning": "Meaning**: Looking displeased, sullen, or morose",
+      "semantic_evolution": "Sullen appearance → morose mood → sad dejection",
+      "cultural_shifts": "Shifts**: Facial expression → emotional state → recognized mood → therapeutic concern"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Dejected and moody; sad and dispirited",
+      "colloquial_usage": "Usage**: \"Feeling glum,\" \"glum mood,\" \"looking glum\"",
+      "register": "Mildly negative; indicates sadness and low spirits",
+      "raw_content": "- **Primary Definition**: Dejected and moody; sad and dispirited\n- **Secondary Meanings**: Morose, dejected, downcast, sullen, melancholy, dispirited\n- **Colloquial Usage**: \"Feeling glum,\" \"glum mood,\" \"looking glum\"\n- **Register**: Mildly negative; indicates sadness and low spirits\n- **Frequency Trend**: Moderate; useful for describing dejected mood and sadness\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of glum mood as embodied sadness calling for support and mood"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating sadness and dejected mood calling for understanding or support",
+      "listener_response": "Response**: Understanding low spirits and potential need for encouragement or connection",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating sadness and dejected mood calling for understanding or support",
+        "**Listener Response**: Understanding low spirits and potential need for encouragement or connection",
+        "**Somatic Markers**: Downcast energy, dejected posture, morose presence, sullen constraint",
+        "**Cognitive Associations**: Sadness, dejection, low spirits, morose mood, need for encouragement",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Downcast energy throughout body, dejected posture, morose presence",
+        "Embodied Authenticity: Natural sad response without dramatization or self-pity",
+        "Kinesthetic Response: Downcast postures, dejected expressions, sullen movements"
+      ],
+      "authenticity_markers": "Natural sad response without dramatization or self-pity"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Dejected sadness and low spirits calling for understanding and mood support",
+      "relational_context": "Context**: May benefit from companionship, encouragement, or gentle mood lifting",
+      "temporal_aspect": "Aspect**: Present low mood that may be temporary or require support for improvement",
+      "intensity_spectrum": "Spectrum**: From mild moodiness (3-4) to significant dejection (7-8)"
+    },
+    "cultural_translation": {
+      "cross_cultural_variations": "calling for understanding and gentle support",
+      "cultural_bridge_examples": [
+        "**Western**: Individual mood calling for support and social connection for mood enhancement",
+        "**Eastern**: Temporary suffering calling for compassionate understanding and gentle mood support",
+        "**Indigenous**: Spirit sadness calling for traditional comfort and community connection",
+        "**Clinical**: Mood assessment calling for depression prevention and mood support therapy",
+        "**Spiritual**: Spiritual sadness calling for faith community comfort and prayer support",
+        "**Philosophical**: Natural human mood variation calling for understanding and gentle support"
+      ],
+      "raw_content": "- **Western**: Individual mood calling for support and social connection for mood enhancement\n- **Eastern**: Temporary suffering calling for compassionate understanding and gentle mood support\n- **Indigenous**: Spirit sadness calling for traditional comfort and community connection\n- **Clinical**: Mood assessment calling for depression prevention and mood support therapy\n- **Spiritual**: Spiritual sadness calling for faith community comfort and prayer support\n- **Philosophical**: Natural human m",
+      "framework_perspectives": {
+        "western": "Individual mood calling for support and social connection for mood enhancement",
+        "eastern": "Temporary suffering calling for compassionate understanding and gentle mood support",
+        "indigenous": "Spirit sadness calling for traditional comfort and community connection",
+        "clinical": "Mood assessment calling for depression prevention and mood support therapy",
+        "spiritual": "Spiritual sadness calling for faith community comfort and prayer support",
+        "philosophical": "Natural human mood variation calling for understanding and gentle support"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document glum mood and sadness with support and connection focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture dejected quality while exploring support needs and connection opportunities",
+      "precision_level_requirements": "Requirements**: Assess glum severity and distinguish from clinical depression; explore support needs"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "downcast energy throughout body; Secondary: dejected posture, morose presence",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: downcast energy throughout body; Secondary: dejected posture, morose presence",
+        "**Sensation Quality Descriptors**: Downcast energy, dejected posture, morose presence, sullen constraint",
+        "**Kinesthetic Response Patterns**: Downcast postures, dejected expressions, sullen movements, morose behaviors",
+        "**Neurobiological Correlates**: Dejection networks, sad mood circuits, low spirit systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear glum mood with definite dejected sadness and manageable low spirits",
+        "7-8: Strong glum dejection with significant sadness calling for support and mood intervention",
+        "8-9: High glum mood with overwhelming dejection calling for clinical assessment and intensive support",
+        "**Resonance Practice Integration**: Mood support, gentle encouragement, social connection for mood enhancement",
+        "**Cultural Somatic Variations**: Western social support vs. Eastern compassionate understanding vs. Indigenous community comfort"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Downcast energy, dejected posture, morose presence, sullen constraint"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "term": "beautiful",
+  "source_file": "beautiful.md",
+  "source_hash": "ae5fde0143717ab4",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old French \"bel/belle\" from Latin \"bellus\" (pretty, handsome)",
+      "original_meaning": "Meaning**: Having qualities that give pleasure to the senses; aesthetically pleasing",
+      "semantic_evolution": "Evolution**: Physical beauty → aesthetic appreciation → contemporary inner and outer beauty",
+      "cultural_shifts": "Shifts**: Physical appearance → aesthetic value → inner beauty → holistic appreciation"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Pleasing the senses or mind aesthetically; having beauty or attractiveness",
+      "colloquial_usage": "Usage**: \"Beautiful person,\" \"beautiful experience,\" \"feeling beautiful\"",
+      "register": "Highly positive; indicates aesthetic appreciation and attractiveness",
+      "raw_content": "- **Primary Definition**: Pleasing the senses or mind aesthetically; having beauty or attractiveness\n- **Secondary Meanings**: Attractive, lovely, gorgeous, stunning, pleasing, graceful\n- **Colloquial Usage**: \"Beautiful person,\" \"beautiful experience,\" \"feeling beautiful\"\n- **Register**: Highly positive; indicates aesthetic appreciation and attractiveness\n- **Frequency Trend**: Very high; central to aesthetic appreciation and self-image\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trend"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating aesthetic appreciation and attractiveness recognition",
+      "listener_response": "Response**: Understanding beauty appreciation and potential shared aesthetic experience",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating aesthetic appreciation and attractiveness recognition",
+        "**Listener Response**: Understanding beauty appreciation and potential shared aesthetic experience",
+        "**Somatic Markers**: Aesthetic energy, attractive presence, graceful activation, pleasing aliveness",
+        "**Cognitive Associations**: Aesthetic appreciation, attractiveness, grace, sensory pleasure, holistic beauty",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Aesthetic energy throughout body, attractive presence, graceful activation",
+        "Embodied Authenticity**: Natural beauty appreciation without vanity while maintaining holistic aesthetic awareness",
+        "Kinesthetic Response**: Graceful movements, beautiful expressions, attractive gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Aesthetic appreciation and attractiveness calling for inner and outer beauty development",
+      "relational_context": "Context**: Creates aesthetic appreciation and may inspire beauty recognition in others",
+      "temporal_aspect": "Aspect**: Present beauty that can be cultivated and appreciated through holistic awareness",
+      "intensity_spectrum": "Spectrum**: From pleasant attractiveness (5-6) to stunning beauty (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual attractiveness supported by beauty awareness and aesthetic appreciation",
+        "**Eastern**: Natural beauty calling for wisdom about impermanence and inner beauty development",
+        "**Indigenous**: Community beauty calling for traditional aesthetic wisdom and collective appreciation",
+        "**Clinical**: Body image calling for beauty therapy and holistic aesthetic appreciation",
+        "**Spiritual**: Divine beauty calling for worship appreciation and faithful aesthetic stewardship",
+        "**Philosophical**: Human aesthetics calling for wisdom about beauty and authentic appreciation"
+      ],
+      "raw_content": "- **Western**: Individual attractiveness supported by beauty awareness and aesthetic appreciation\n- **Eastern**: Natural beauty calling for wisdom about impermanence and inner beauty development\n- **Indigenous**: Community beauty calling for traditional aesthetic wisdom and collective appreciation\n- **Clinical**: Body image calling for beauty therapy and holistic aesthetic appreciation\n- **Spiritual**: Divine beauty calling for worship appreciation and faithful aesthetic stewardship\n- **Philosop",
+      "framework_perspectives": {
+        "western": "Individual attractiveness supported by beauty awareness and aesthetic appreciation",
+        "eastern": "Natural beauty calling for wisdom about impermanence and inner beauty development",
+        "indigenous": "Community beauty calling for traditional aesthetic wisdom and collective appreciation",
+        "clinical": "Body image calling for beauty therapy and holistic aesthetic appreciation",
+        "spiritual": "Divine beauty calling for worship appreciation and faithful aesthetic stewardship",
+        "philosophical": "Human aesthetics calling for wisdom about beauty and authentic appreciation"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document beautiful experiences and aesthetic appreciation with inner and outer development awareness",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture aesthetic quality while maintaining humility and holistic beauty appreciation",
+      "precision_level_requirements": "Requirements**: HIGH - assess beauty authenticity vs. vanity; explore holistic appreciation and inner beauty development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "aesthetic energy throughout body; Secondary: attractive presence, graceful activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: aesthetic energy throughout body; Secondary: attractive presence, graceful activation",
+        "**Sensation Quality Descriptors**: Aesthetic energy, attractive presence, graceful activation, pleasing aliveness",
+        "**Kinesthetic Response Patterns**: Graceful movements, beautiful expressions, attractive gestures, aesthetic behaviors",
+        "**Neurobiological Correlates**: Beauty networks, aesthetic circuits, attractiveness systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "5-6: Clear beauty with definite aesthetic appeal and sustainable attractive quality",
+        "7-8: Strong beauty with significant attractiveness calling for humility and inner development",
+        "9-10: Stunning beauty with overwhelming aesthetic appeal calling for humble stewardship and community appreciation",
+        "**Resonance Practice Integration**: Beauty development, aesthetic appreciation, holistic development with community support",
+        "**Cultural Somatic Variations**: Western aesthetic development vs. Eastern inner beauty vs. Indigenous natural aesthetics"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Aesthetic energy, attractive presence, graceful activation, pleasing aliveness"
+    }
+  },
+  "intensity_range": "5-6",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

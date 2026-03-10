@@ -1,0 +1,95 @@
+{
+  "term": "annoyance",
+  "source_file": "annoyance.md",
+  "source_hash": "abae085ce0d5f946",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old French \"anoiance\" (trouble, vexation) from \"anoier\"",
+      "original_meaning": "Meaning**: The act of troubling or the state of being troubled",
+      "semantic_evolution": "Major disturbance → minor irritation → manageable frustration",
+      "cultural_shifts": "Shifts**: Major disturbance → minor social problem → personal irritation"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: The feeling of being annoyed or the thing that causes annoyance",
+      "colloquial_usage": "Usage**: \"That's such an annoyance,\" \"source of annoyance,\" \"minor annoyance\"",
+      "register": "Casual to neutral; describes both feeling and cause",
+      "raw_content": "- **Primary Definition**: The feeling of being annoyed or the thing that causes annoyance\n- **Secondary Meanings**: Irritation, vexation, bother, frustration, nuisance\n- **Colloquial Usage**: \"That's such an annoyance,\" \"source of annoyance,\" \"minor annoyance\"\n- **Register**: Casual to neutral; describes both feeling and cause\n- **Frequency Trend**: Stable; useful for describing irritation sources and states\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of how irritati"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Identifying source of irritation or describing irritated state",
+      "listener_response": "Response**: Understanding frustration source and potential need for change",
+      "somatic_markers": [
+        "**Speaker Experience**: Identifying source of irritation or describing irritated state",
+        "**Listener Response**: Understanding frustration source and potential need for change",
+        "**Somatic Markers**: Mild tension, irritation energy, restless response to source",
+        "**Cognitive Associations**: Irritation source, minor problem, frustration cause, need for change",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Mild tension response to irritating stimulus",
+        "Embodied Authenticity: Natural response to genuine irritation source",
+        "Kinesthetic Response: Tension gestures related to irritation, restless response"
+      ],
+      "authenticity_markers": "Natural response to genuine irritation source"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Source of irritation or state of being mildly disturbed",
+      "relational_context": "Context**: Often involves external sources requiring environmental change",
+      "temporal_aspect": "Aspect**: May be chronic low-level irritation or temporary disturbance",
+      "intensity_spectrum": "Spectrum**: From minor bother (2-3) to significant irritation (6-7)"
+    },
+    "cultural_translation": {
+      "translation_challenges": "conditions\"",
+      "cultural_bridge_examples": [
+        "**Western**: Individual problem-solving focus on eliminating irritation sources",
+        "**Eastern**: Recognition of external conditions as impermanent and requiring acceptance",
+        "**Indigenous**: Community problem-solving for environmental harmony",
+        "**Clinical**: Stressor identification and environmental modification",
+        "**Spiritual**: Opportunity for patience practice and non-attachment",
+        "**Philosophical**: Example of how external conditions affect inner peace"
+      ],
+      "raw_content": "- **Western**: Individual problem-solving focus on eliminating irritation sources\n- **Eastern**: Recognition of external conditions as impermanent and requiring acceptance\n- **Indigenous**: Community problem-solving for environmental harmony\n- **Clinical**: Stressor identification and environmental modification\n- **Spiritual**: Opportunity for patience practice and non-attachment\n- **Philosophical**: Example of how external conditions affect inner peace\n\n**Cultural Bridge Examples**:\n\n**Western ",
+      "framework_perspectives": {
+        "western": "Individual problem-solving focus on eliminating irritation sources",
+        "eastern": "Recognition of external conditions as impermanent and requiring acceptance",
+        "indigenous": "Community problem-solving for environmental harmony",
+        "clinical": "Stressor identification and environmental modification",
+        "spiritual": "Opportunity for patience practice and non-attachment",
+        "philosophical": "Example of how external conditions affect inner peace"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Identify specific annoyance sources and their patterns",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture irritation level and impact on well-being",
+      "precision_level_requirements": "Requirements**: Specify source, frequency, and impact of annoyance"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "mild tension patterns; Secondary: shoulders, jaw, restless energy",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: mild tension patterns; Secondary: shoulders, jaw, restless energy",
+        "**Sensation Quality Descriptors**: Persistent mild tension, irritation energy, environmental sensitivity",
+        "**Kinesthetic Response Patterns**: Tension responses to irritants, restless adjustment movements",
+        "**Neurobiological Correlates**: Environmental sensitivity, mild stress response, irritation detection",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "2-3: Minor tension with manageable environmental sensitivity",
+        "5-6: Clear irritation response with noticeable tension patterns",
+        "7-8: Significant annoyance with affecting physical comfort and mood",
+        "**Resonance Practice Integration**: Environmental awareness, irritation management, patience practices",
+        "**Cultural Somatic Variations**: Western problem-solving focus vs. Eastern acceptance practice vs. Indigenous environmental harmony"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Persistent mild tension, irritation energy, environmental sensitivity"
+    }
+  },
+  "intensity_range": "2-3",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

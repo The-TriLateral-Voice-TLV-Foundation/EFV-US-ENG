@@ -1,0 +1,80 @@
+{
+  "term": "fine",
+  "source_file": "fine.md",
+  "source_hash": "f717f880cba3e215",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old French \"fin\" from Latin \"finis\" (end, boundary, limit of perfection)",
+      "original_meaning": "Meaning**: Finished, completed, perfected; of high quality",
+      "semantic_evolution": "Perfect completion → adequate condition → acceptable state",
+      "cultural_shifts": "Shifts**: Excellence → adequacy → social politeness → potential concealment"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Satisfactory or acceptable; in good health or spirits (often used politely)",
+      "colloquial_usage": "Usage**: \"I'm fine,\" \"everything's fine,\" \"fine with me\"",
+      "register": "Neutral; common polite response often masking true feelings",
+      "raw_content": "- **Primary Definition**: Satisfactory or acceptable; in good health or spirits (often used politely)\n- **Secondary Meanings**: Okay, acceptable, satisfactory, adequate, all right, well\n- **Colloquial Usage**: \"I'm fine,\" \"everything's fine,\" \"fine with me\"\n- **Register**: Neutral; common polite response often masking true feelings\n- **Frequency Trend**: Very high; ubiquitous polite response in social interaction\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of \"fine\" "
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating adequacy OR potentially concealing deeper emotions",
+      "listener_response": "Response**: Understanding surface adequacy OR sensing possible concealed emotions",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating adequacy OR potentially concealing deeper emotions",
+        "**Listener Response**: Understanding surface adequacy OR sensing possible concealed emotions",
+        "**Somatic Markers**: Neutral presentation, potentially constrained energy, adequate functioning",
+        "**Cognitive Associations**: Adequacy, politeness, potential concealment, surface level response",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Neutral energy or potentially constrained authentic response",
+        "Embodied Authenticity: Natural adequacy OR masked emotional state calling for exploration",
+        "Kinesthetic Response: Neutral postures, adequate functioning, possibly guarded expressions"
+      ],
+      "authenticity_markers": "Natural adequacy OR masked emotional state calling for exploration"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: State of adequacy that may be genuine contentment or concealed emotion",
+      "relational_context": "Context**: Common social response that may need gentle inquiry for authentic connection",
+      "temporal_aspect": "Aspect**: Present adequate state that may conceal ongoing emotional needs",
+      "intensity_spectrum": "Spectrum**: From genuine adequacy (4-5) to concealed distress (variable)"
+    },
+    "cultural_translation": {
+      "translation_challenges": "calling for skilled inquiry beyond surface presentation",
+      "cultural_bridge_examples": [
+        "**Western**: Social politeness calling for authentic emotion exploration and genuine connection",
+        "**Eastern**: Surface harmony calling for mindful awareness of deeper emotional truth",
+        "**Indigenous**: Community adequacy calling for traditional emotional honesty and sharing",
+        "**Clinical**: Assessment challenge calling for skilled inquiry beyond surface presentation",
+        "**Spiritual**: Spiritual adequacy calling for honest relationship with divine and community",
+        "**Philosophical**: Social convention calling for wisdom about authentic vs. polite communication"
+      ],
+      "raw_content": "- **Western**: Social politeness calling for authentic emotion exploration and genuine connection\n- **Eastern**: Surface harmony calling for mindful awareness of deeper emotional truth\n- **Indigenous**: Community adequacy calling for traditional emotional honesty and sharing\n- **Clinical**: Assessment challenge calling for skilled inquiry beyond surface presentation\n- **Spiritual**: Spiritual adequacy calling for honest relationship with divine and community\n- **Philosophical**: Social conventio",
+      "framework_perspectives": {
+        "western": "Social politeness calling for authentic emotion exploration and genuine connection",
+        "eastern": "Surface harmony calling for mindful awareness of deeper emotional truth",
+        "indigenous": "Community adequacy calling for traditional emotional honesty and sharing",
+        "clinical": "Assessment challenge calling for skilled inquiry beyond surface presentation",
+        "spiritual": "Spiritual adequacy calling for honest relationship with divine and community",
+        "philosophical": "Social convention calling for wisdom about authentic vs. polite communication"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document fine usage and explore potential concealed emotions with gentle inquiry",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Explore authenticity of fine response while respecting protective function",
+      "precision_level_requirements": "Requirements**: Assess fine authenticity vs. concealment; explore emotional safety for authentic expression"
+    }
+  },
+  "somatic_signature": {
+    "sensation_quality": {
+      "texture": "Descriptors**: Neutral presentation, potentially constrained energy, adequate functioning, possible concealment"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

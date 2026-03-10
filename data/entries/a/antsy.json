@@ -1,0 +1,95 @@
+{
+  "term": "antsy",
+  "source_file": "antsy.md",
+  "source_hash": "4ca6cc8ec1af5947",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: American English, from \"having ants in one's pants\" (restless, unable to sit still)",
+      "original_meaning": "Meaning**: Physical restlessness as if ants were crawling on skin",
+      "semantic_evolution": "Physical crawling sensation → restless energy → impatient agitation",
+      "cultural_shifts": "Shifts**: Folk expression → casual emotional vocabulary → recognized restlessness state"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Restless, impatient, unable to sit still; fidgety",
+      "colloquial_usage": "Usage**: \"Feeling antsy,\" \"getting antsy,\" \"antsy to leave\"",
+      "register": "Casual/informal; vivid colloquial expression",
+      "raw_content": "- **Primary Definition**: Restless, impatient, unable to sit still; fidgety\n- **Secondary Meanings**: Restless, fidgety, impatient, agitated, eager to move\n- **Colloquial Usage**: \"Feeling antsy,\" \"getting antsy,\" \"antsy to leave\"\n- **Register**: Casual/informal; vivid colloquial expression\n- **Frequency Trend**: Increasing; relevant to modern fast-paced lifestyle\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of restlessness as embodied impatience\n  - Clinical Integrat"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating physical restlessness and need for movement or change",
+      "listener_response": "Response**: Understanding restless energy and potential need for activity or freedom",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating physical restlessness and need for movement or change",
+        "**Listener Response**: Understanding restless energy and potential need for activity or freedom",
+        "**Somatic Markers**: Restless movement, fidgeting, internal agitation, movement urges",
+        "**Cognitive Associations**: Restlessness, impatience, confinement, need for movement, energy release",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Crawling sensation, restless energy, movement impulses",
+        "Embodied Authenticity: Natural response to confinement or waiting",
+        "Kinesthetic Response: Fidgeting, shifting position, restless movement, agitated gestures"
+      ],
+      "authenticity_markers": "Natural response to confinement or waiting"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Physical restlessness and impatience with current situation",
+      "relational_context": "Context**: May signal need for activity or freedom from constraints",
+      "temporal_aspect": "Aspect**: Present restlessness often due to waiting or confinement",
+      "intensity_spectrum": "Spectrum**: From mild fidgeting (3-4) to overwhelming restlessness (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual restlessness in fast-paced lifestyle requiring activity",
+        "**Eastern**: Agitated energy requiring calming practice and mindful stillness",
+        "**Indigenous**: Disconnection from natural movement rhythms requiring reconnection",
+        "**Clinical**: Restlessness symptom in ADHD, anxiety, or confinement responses",
+        "**Spiritual**: Spiritual restlessness requiring prayer and grounding practices",
+        "**Philosophical**: Example of mind-body connection and need for movement freedom"
+      ],
+      "raw_content": "- **Western**: Individual restlessness in fast-paced lifestyle requiring activity\n- **Eastern**: Agitated energy requiring calming practice and mindful stillness\n- **Indigenous**: Disconnection from natural movement rhythms requiring reconnection\n- **Clinical**: Restlessness symptom in ADHD, anxiety, or confinement responses\n- **Spiritual**: Spiritual restlessness requiring prayer and grounding practices\n- **Philosophical**: Example of mind-body connection and need for movement freedom\n\n**Cultur",
+      "framework_perspectives": {
+        "western": "Individual restlessness in fast-paced lifestyle requiring activity",
+        "eastern": "Agitated energy requiring calming practice and mindful stillness",
+        "indigenous": "Disconnection from natural movement rhythms requiring reconnection",
+        "clinical": "Restlessness symptom in ADHD, anxiety, or confinement responses",
+        "spiritual": "Spiritual restlessness requiring prayer and grounding practices",
+        "philosophical": "Example of mind-body connection and need for movement freedom"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document restlessness triggers and movement needs",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture agitated energy and impatience quality",
+      "precision_level_requirements": "Requirements**: Specify restlessness source and movement needs"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "restless throughout body; Secondary: legs, hands, fidgeting areas",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: restless throughout body; Secondary: legs, hands, fidgeting areas",
+        "**Sensation Quality Descriptors**: Crawling sensation, restless energy, movement urges, agitated fidgeting",
+        "**Kinesthetic Response Patterns**: Fidgeting movements, position shifting, restless gestures, agitated activity",
+        "**Neurobiological Correlates**: Restless energy, dopamine seeking, movement drive networks",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild fidgeting with manageable restlessness",
+        "6-7: Clear antsy feeling with strong movement urges",
+        "8-9: Overwhelming restlessness with inability to remain still",
+        "**Resonance Practice Integration**: Movement practices, restlessness management, activity planning",
+        "**Cultural Somatic Variations**: Western activity breaks vs. Eastern movement meditation vs. Indigenous natural rhythm connection"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Crawling sensation, restless energy, movement urges, agitated fidgeting",
+      "movement": "urges, agitated fidgeting"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

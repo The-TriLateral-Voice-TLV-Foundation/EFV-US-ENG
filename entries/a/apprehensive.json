@@ -1,0 +1,94 @@
+{
+  "term": "apprehensive",
+  "source_file": "apprehensive.md",
+  "source_hash": "6fda04144883cb0e",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"apprehendere\" (to seize, grasp, understand) from \"ad-\" (to) + \"prehendere\" (to grasp)",
+      "original_meaning": "Meaning**: To grasp mentally, understand, or anticipate",
+      "semantic_evolution": "Mental grasping → emotional reaching → anxious anticipation",
+      "cultural_shifts": "Shifts**: Intellectual comprehension → emotional anticipation → anxious expectation"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Anxious or fearful that something bad or unpleasant will happen",
+      "colloquial_usage": "Usage**: \"Apprehensive about the meeting,\" \"feeling apprehensive,\" \"apprehensive mood\"",
+      "register": "Neutral to formal; indicates anticipatory anxiety",
+      "raw_content": "- **Primary Definition**: Anxious or fearful that something bad or unpleasant will happen\n- **Secondary Meanings**: Worried, concerned, uneasy, nervous, fearful, anxious\n- **Colloquial Usage**: \"Apprehensive about the meeting,\" \"feeling apprehensive,\" \"apprehensive mood\"\n- **Register**: Neutral to formal; indicates anticipatory anxiety\n- **Frequency Trend**: Stable; useful for describing anticipatory worry\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognized as anticipatory an"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating anticipatory worry and need for preparation or reassurance",
+      "listener_response": "Response**: Understanding anxious anticipation and potential need for support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating anticipatory worry and need for preparation or reassurance",
+        "**Listener Response**: Understanding anxious anticipation and potential need for support",
+        "**Somatic Markers**: Anticipatory tension, nervous energy, cautious alertness, worry activation",
+        "**Cognitive Associations**: Future concerns, potential problems, need for preparation, cautious anticipation",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Anticipatory tension, nervous energy, cautious alertness",
+        "Embodied Authenticity: Natural anticipatory anxiety without catastrophizing",
+        "Kinesthetic Response: Cautious postures, anticipatory positioning, nervous movements"
+      ],
+      "authenticity_markers": "Natural anticipatory anxiety without catastrophizing"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Anxious anticipation of potential negative future events",
+      "relational_context": "Context**: May seek information or reassurance; can affect decision-making",
+      "temporal_aspect": "Aspect**: Future-focused worry with present-moment activation",
+      "intensity_spectrum": "Spectrum**: From mild caution (3-4) to significant anxiety (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual anxiety management requiring preparation and coping strategies",
+        "**Eastern**: Anticipatory attachment requiring mindful acceptance of uncertainty",
+        "**Indigenous**: Community concern requiring collective preparation and support",
+        "**Clinical**: Anticipatory anxiety requiring cognitive-behavioral intervention",
+        "**Spiritual**: Spiritual concern requiring faith and surrender practices",
+        "**Philosophical**: Natural human response to uncertainty requiring wisdom"
+      ],
+      "raw_content": "- **Western**: Individual anxiety management requiring preparation and coping strategies\n- **Eastern**: Anticipatory attachment requiring mindful acceptance of uncertainty\n- **Indigenous**: Community concern requiring collective preparation and support\n- **Clinical**: Anticipatory anxiety requiring cognitive-behavioral intervention\n- **Spiritual**: Spiritual concern requiring faith and surrender practices\n- **Philosophical**: Natural human response to uncertainty requiring wisdom\n\n**Cultural Bri",
+      "framework_perspectives": {
+        "western": "Individual anxiety management requiring preparation and coping strategies",
+        "eastern": "Anticipatory attachment requiring mindful acceptance of uncertainty",
+        "indigenous": "Community concern requiring collective preparation and support",
+        "clinical": "Anticipatory anxiety requiring cognitive-behavioral intervention",
+        "spiritual": "Spiritual concern requiring faith and surrender practices",
+        "philosophical": "Natural human response to uncertainty requiring wisdom"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document specific concerns and preparation needs",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture anticipatory worry quality and underlying fears",
+      "precision_level_requirements": "Requirements**: Specify concerns and distinguish from generalized anxiety"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "anticipatory tension in chest, stomach; Secondary: cautious posture, nervous energy",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: anticipatory tension in chest, stomach; Secondary: cautious posture, nervous energy",
+        "**Sensation Quality Descriptors**: Anticipatory tension, nervous energy, cautious alertness, worry activation",
+        "**Kinesthetic Response Patterns**: Cautious postures, anticipatory positioning, nervous movements, preparatory behaviors",
+        "**Neurobiological Correlates**: Anticipatory anxiety networks, worry circuits, preparation systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild anticipatory tension with manageable worry",
+        "6-7: Clear apprehension with noticeable anxiety and preparation needs",
+        "7-8: Strong apprehension with significant worry and activation",
+        "**Resonance Practice Integration**: Anticipatory anxiety management, preparation skills, uncertainty tolerance",
+        "**Cultural Somatic Variations**: Western preparation focus vs. Eastern acceptance practice vs. Indigenous community support"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Anticipatory tension, nervous energy, cautious alertness, worry activation"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "term": "shocked",
+  "source_file": "shocked.md",
+  "source_hash": "12cb4282399dcc20",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: French \"choquer\" from \"choc\" (violent collision)",
+      "original_meaning": "Meaning**: Violent collision; experiencing sudden impact and jarring disruption",
+      "semantic_evolution": "Evolution**: Violent collision → sudden impact → contemporary startled surprise and traumatic disruption",
+      "cultural_shifts": "Shifts**: Violent collision → sudden impact → startled surprise → integration understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Experiencing startled surprise and traumatic disruption; feeling jolted by sudden unexpected impact",
+      "colloquial_usage": "Usage**: \"Feeling shocked,\" \"shocked by news,\" \"in shock\"",
+      "register": "Serious negative/neutral; indicates disruption calling for integration and processing support",
+      "raw_content": "- **Primary Definition**: Experiencing startled surprise and traumatic disruption; feeling jolted by sudden unexpected impact\n- **Secondary Meanings**: Startled, jolted, stunned, traumatized, amazed, astounded\n- **Colloquial Usage**: \"Feeling shocked,\" \"shocked by news,\" \"in shock\"\n- **Register**: Serious negative/neutral; indicates disruption calling for integration and processing support\n- **Frequency Trend**: High; important for describing sudden disruption and surprising events\n- **Contempor"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating startled surprise and traumatic sudden disruption",
+      "listener_response": "Response**: Understanding disruption and potential need for integration support or processing guidance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating startled surprise and traumatic sudden disruption",
+        "**Listener Response**: Understanding disruption and potential need for integration support or processing guidance",
+        "**Somatic Markers**: Jolted energy, shocked presence, disrupted activation, startled aliveness",
+        "**Cognitive Associations**: Startled surprise, traumatic disruption, sudden impact, need for integration",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Jolted energy throughout body, shocked presence, disrupted activation",
+        "**Embodied Authenticity**: Natural shock calling for integration without suppression while seeking processing",
+        "**Kinesthetic Response**: Frozen movements, shocked expressions, startled gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Startled surprise and traumatic disruption calling for integration support and processing intervention",
+      "relational_context": "Context**: May need integration assistance, processing support, and understanding for shock resolution",
+      "temporal_aspect": "Aspect**: Present disruption that benefits from integration growth and processing development",
+      "intensity_spectrum": "Spectrum**: From mild surprise (4-5) to severe shock (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual processing calling for shock integration and trauma support",
+        "**Eastern**: Attachment shock calling for mindful processing and compassionate integration development",
+        "**Indigenous**: Community shock calling for traditional integration ceremonies and collective processing support",
+        "**Clinical**: Shock therapy calling for trauma processing and integration intervention",
+        "**Spiritual**: Faith shock calling for divine integration and spiritual processing",
+        "**Philosophical**: Human shock calling for wisdom about disruption and appropriate integration development"
+      ],
+      "raw_content": "- **Western**: Individual processing calling for shock integration and trauma support\n- **Eastern**: Attachment shock calling for mindful processing and compassionate integration development\n- **Indigenous**: Community shock calling for traditional integration ceremonies and collective processing support\n- **Clinical**: Shock therapy calling for trauma processing and integration intervention\n- **Spiritual**: Faith shock calling for divine integration and spiritual processing\n- **Philosophical**:",
+      "framework_perspectives": {
+        "western": "Individual processing calling for shock integration and trauma support",
+        "eastern": "Attachment shock calling for mindful processing and compassionate integration development",
+        "indigenous": "Community shock calling for traditional integration ceremonies and collective processing support",
+        "clinical": "Shock therapy calling for trauma processing and integration intervention",
+        "spiritual": "Faith shock calling for divine integration and spiritual processing",
+        "philosophical": "Human shock calling for wisdom about disruption and appropriate integration development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document shocked experiences and startled disruption with integration and processing focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor disruption reality while exploring integration needs and processing opportunities",
+      "precision_level_requirements": "Requirements**: HIGH - assess shock severity and disruption patterns; provide integration support and processing development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "jolted energy throughout entire body; Secondary: shocked presence, disrupted activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: jolted energy throughout entire body; Secondary: shocked presence, disrupted activation",
+        "**Sensation Quality Descriptors**: Jolted energy, shocked presence, disrupted activation, startled aliveness",
+        "**Kinesthetic Response Patterns**: Frozen movements, shocked expressions, startled gestures, disrupted behaviors",
+        "**Neurobiological Correlates**: Shock networks, disruption circuits, trauma systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear shocked feeling with definite disruption and manageable integration needs",
+        "7-8: Strong shocked response with significant trauma calling for integration support and processing development",
+        "8-9: Severe shocked state with overwhelming disruption that may need supportive intervention and comprehensive integration",
+        "**Resonance Practice Integration**: Shock processing, disruption integration, trauma healing with supportive community care",
+        "**Cultural Somatic Variations**: Western trauma processing vs. Eastern mindful integration vs. Indigenous community processing"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Jolted energy, shocked presence, disrupted activation, startled aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "term": "anxious",
+  "source_file": "anxious.md",
+  "source_hash": "dfb0493b8247bb6b",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"anxius\" from \"angere\" (to choke, constrict)",
+      "original_meaning": "Meaning**: Choked and constricted; experiencing tight distress and worried apprehension",
+      "semantic_evolution": "Evolution**: Physical constriction → mental distress → contemporary worried fear and apprehensive concern",
+      "cultural_shifts": "Shifts**: Physical constriction → mental distress → anxiety recognition → peace understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling worried fear and apprehensive distress; experiencing anticipatory anxiety about uncertain outcomes",
+      "colloquial_usage": "Usage**: \"Feeling anxious,\" \"anxious about future,\" \"highly anxious\"",
+      "register": "Serious negative; indicates distress requiring support and intervention",
+      "raw_content": "- **Primary Definition**: Feeling worried fear and apprehensive distress; experiencing anticipatory anxiety about uncertain outcomes\n- **Secondary Meanings**: Worried, fearful, apprehensive, distressed, concerned, agitated\n- **Colloquial Usage**: \"Feeling anxious,\" \"anxious about future,\" \"highly anxious\"\n- **Register**: Serious negative; indicates distress requiring support and intervention\n- **Frequency Trend**: Very high; critical for describing anxiety and worried states\n- **Contemporary Som"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating worried fear and apprehensive distress about uncertain or threatening situations",
+      "listener_response": "Response**: Understanding anxiety and urgent need for support or therapeutic intervention",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating worried fear and apprehensive distress about uncertain or threatening situations",
+        "**Listener Response**: Understanding anxiety and urgent need for support or therapeutic intervention",
+        "**Somatic Markers**: Constricted energy, worried presence, apprehensive activation, distressed aliveness",
+        "**Cognitive Associations**: Worried fear, apprehensive distress, need for support, therapeutic requirement",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Constricted energy throughout body, worried presence, apprehensive activation",
+        "**Embodied Authenticity**: Natural anxiety requiring support without shame while seeking therapeutic assistance",
+        "**Kinesthetic Response**: Tense movements, anxious expressions, constricted gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Worried fear and apprehensive distress requiring comprehensive therapeutic support and anxiety intervention",
+      "relational_context": "Context**: May create urgent need for therapeutic support and comprehensive anxiety intervention",
+      "temporal_aspect": "Aspect**: Present distress often focused on future uncertainties requiring therapeutic support and anxiety management",
+      "intensity_spectrum": "Spectrum**: From mild concern (4-5) to overwhelming anxiety (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual anxiety that may benefit from therapeutic support and support development",
+        "**Eastern**: Attachment anxiety requiring compassionate understanding and peace cultivation",
+        "**Indigenous**: Community anxiety requiring traditional healing ceremonies and collective support",
+        "**Clinical**: Anxiety disorder requiring specialized therapeutic assessment and intervention",
+        "**Spiritual**: Faith anxiety requiring divine peace and spiritual support",
+        "**Philosophical**: Human anxiety requiring wisdom about worry and appropriate therapeutic development"
+      ],
+      "raw_content": "- **Western**: Individual anxiety that may benefit from therapeutic support and support development\n- **Eastern**: Attachment anxiety requiring compassionate understanding and peace cultivation\n- **Indigenous**: Community anxiety requiring traditional healing ceremonies and collective support\n- **Clinical**: Anxiety disorder requiring specialized therapeutic assessment and intervention\n- **Spiritual**: Faith anxiety requiring divine peace and spiritual support\n- **Philosophical**: Human anxiety ",
+      "framework_perspectives": {
+        "western": "Individual anxiety that may benefit from therapeutic support and support development",
+        "eastern": "Attachment anxiety requiring compassionate understanding and peace cultivation",
+        "indigenous": "Community anxiety requiring traditional healing ceremonies and collective support",
+        "clinical": "Anxiety disorder requiring specialized therapeutic assessment and intervention",
+        "spiritual": "Faith anxiety requiring divine peace and spiritual support",
+        "philosophical": "Human anxiety requiring wisdom about worry and appropriate therapeutic development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document anxious experiences and worried distress with therapeutic support and intervention focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor anxiety reality while exploring support needs and therapeutic opportunities",
+      "precision_level_requirements": "Requirements**: CRITICAL - assess anxiety severity and distress patterns; mobilize therapeutic intervention and comprehensive support"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "constricted energy throughout entire body; Secondary: worried presence, apprehensive activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: constricted energy throughout entire body; Secondary: worried presence, apprehensive activation",
+        "**Sensation Quality Descriptors**: Constricted energy, worried presence, apprehensive activation, distressed aliveness",
+        "**Kinesthetic Response Patterns**: Tense movements, anxious expressions, constricted gestures, worried behaviors",
+        "**Neurobiological Correlates**: Anxiety networks, worry circuits, distress systems, intervention need activation",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear anxious feeling with definite worry and manageable support needs",
+        "7-8: Strong anxious response with significant distress requiring therapeutic support and intervention",
+        "9-10: Overwhelming anxious state with intense distress requiring immediate therapeutic intervention and comprehensive support",
+        "**Resonance Practice Integration**: Anxiety processing, therapeutic support, peace development with professional and community intervention",
+        "**Cultural Somatic Variations**: Western therapeutic intervention vs. Eastern compassionate peace vs. Indigenous community healing"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Constricted energy, worried presence, apprehensive activation, distressed aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

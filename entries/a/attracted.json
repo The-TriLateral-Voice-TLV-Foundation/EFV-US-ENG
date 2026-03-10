@@ -1,0 +1,94 @@
+{
+  "term": "attracted",
+  "source_file": "attracted.md",
+  "source_hash": "1f51b5855a0a2214",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"attractus\" from \"attrahere\" (to draw toward) from \"ad-\" (to) + \"trahere\" (to draw, pull)",
+      "original_meaning": "Meaning**: Drawn toward, pulled in the direction of something",
+      "semantic_evolution": "Physical magnetism → emotional pull → interest and desire",
+      "cultural_shifts": "Shifts**: Physical magnetism → romantic attraction → broader interest and appeal"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Having interest in or being drawn toward someone or something",
+      "colloquial_usage": "Usage**: \"Attracted to the idea,\" \"romantically attracted,\" \"attracted by the offer\"",
+      "register": "Neutral; used across various contexts from romantic to general interest",
+      "raw_content": "- **Primary Definition**: Having interest in or being drawn toward someone or something\n- **Secondary Meanings**: Interested, drawn to, appealing, fascinated, allured, charmed\n- **Colloquial Usage**: \"Attracted to the idea,\" \"romantically attracted,\" \"attracted by the offer\"\n- **Register**: Neutral; used across various contexts from romantic to general interest\n- **Frequency Trend**: Stable; important for describing interest and appeal\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends:"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating interest and magnetic pull toward person, idea, or situation",
+      "listener_response": "Response**: Understanding appeal and magnetic interest",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating interest and magnetic pull toward person, idea, or situation",
+        "**Listener Response**: Understanding appeal and magnetic interest",
+        "**Somatic Markers**: Forward energy, interest activation, magnetic pull sensation, approach energy",
+        "**Cognitive Associations**: Interest, appeal, magnetic pull, desire for connection, fascination",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Forward-drawing energy, magnetic pull throughout body, interest activation",
+        "Embodied Authenticity: Natural interest and appeal without forced attraction",
+        "Kinesthetic Response: Approach movements, interest gestures, magnetic orientation"
+      ],
+      "authenticity_markers": "Natural interest and appeal without forced attraction"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: State of being drawn toward or interested in person, object, or experience",
+      "relational_context": "Context**: Creates approach behavior and interest in connection or engagement",
+      "temporal_aspect": "Aspect**: Present interest that may develop into deeper connection or involvement",
+      "intensity_spectrum": "Spectrum**: From mild interest (3-4) to strong attraction (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual choice and autonomy in attraction requiring healthy boundaries",
+        "**Eastern**: Attachment and desire requiring mindful awareness and non-clinging",
+        "**Indigenous**: Natural affinity and harmony requiring appropriate cultural expression",
+        "**Clinical**: Healthy attraction patterns and attachment in relationship development",
+        "**Spiritual**: Divine attraction and spiritual magnetism requiring discernment",
+        "**Philosophical**: Natural human capacity for beauty and truth appreciation"
+      ],
+      "raw_content": "- **Western**: Individual choice and autonomy in attraction requiring healthy boundaries\n- **Eastern**: Attachment and desire requiring mindful awareness and non-clinging\n- **Indigenous**: Natural affinity and harmony requiring appropriate cultural expression\n- **Clinical**: Healthy attraction patterns and attachment in relationship development\n- **Spiritual**: Divine attraction and spiritual magnetism requiring discernment\n- **Philosophical**: Natural human capacity for beauty and truth appreci",
+      "framework_perspectives": {
+        "western": "Individual choice and autonomy in attraction requiring healthy boundaries",
+        "eastern": "Attachment and desire requiring mindful awareness and non-clinging",
+        "indigenous": "Natural affinity and harmony requiring appropriate cultural expression",
+        "clinical": "Healthy attraction patterns and attachment in relationship development",
+        "spiritual": "Divine attraction and spiritual magnetism requiring discernment",
+        "philosophical": "Natural human capacity for beauty and truth appreciation"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document attraction type and intensity with context",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture magnetic pull quality and interest energy",
+      "precision_level_requirements": "Requirements**: Specify attraction type and context clearly"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "forward energy throughout body; Secondary: magnetic pull sensation, approach activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: forward energy throughout body; Secondary: magnetic pull sensation, approach activation",
+        "**Sensation Quality Descriptors**: Forward-drawing energy, magnetic pull, interest activation, approach energy",
+        "**Kinesthetic Response Patterns**: Approach movements, interest gestures, magnetic orientation, forward-leaning postures",
+        "**Neurobiological Correlates**: Interest networks, approach systems, attraction circuits, dopamine activation",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild interest with manageable approach energy",
+        "6-7: Clear attraction with definite magnetic pull and interest activation",
+        "8-9: Strong attraction with significant draw and approach energy",
+        "**Resonance Practice Integration**: Healthy attraction awareness, conscious choice skills, appropriate expression",
+        "**Cultural Somatic Variations**: Western individual choice awareness vs. Eastern mindful appreciation vs. Indigenous natural harmony expression"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Forward-drawing energy, magnetic pull, interest activation, approach energy"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

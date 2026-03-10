@@ -1,0 +1,94 @@
+{
+  "term": "amicable",
+  "source_file": "amicable.md",
+  "source_hash": "46a36626ee4cbd72",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"amīcābilis\" from \"amīcus\" (friend) from \"amāre\" (to love)",
+      "original_meaning": "Meaning**: Friendly, loving, characteristic of friendship",
+      "semantic_evolution": "Friendly warmth → diplomatic neutrality → professional courtesy",
+      "cultural_shifts": "Shifts**: Personal friendship → social diplomacy → legal/business harmony"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Friendly and pleasant; characterized by goodwill and absence of hostility",
+      "colloquial_usage": "Usage**: \"Amicable divorce,\" \"amicable solution,\" \"amicable discussion\"",
+      "register": "Formal; often used in legal, business, or diplomatic contexts",
+      "raw_content": "- **Primary Definition**: Friendly and pleasant; characterized by goodwill and absence of hostility\n- **Secondary Meanings**: Peaceful, cordial, harmonious, diplomatic, cooperative\n- **Colloquial Usage**: \"Amicable divorce,\" \"amicable solution,\" \"amicable discussion\"\n- **Register**: Formal; often used in legal, business, or diplomatic contexts\n- **Frequency Trend**: Stable; valued in conflict resolution and professional settings\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Connec"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating peaceful, friendly approach to interactions",
+      "listener_response": "Response**: Understanding cooperative spirit and absence of hostility",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating peaceful, friendly approach to interactions",
+        "**Listener Response**: Understanding cooperative spirit and absence of hostility",
+        "**Somatic Markers**: Relaxed openness, gentle availability, peaceful energy",
+        "**Cognitive Associations**: Friendship, peace, cooperation, diplomacy, harmony, goodwill",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Relaxed warmth, open posture, peaceful energy",
+        "Embodied Authenticity: Genuine goodwill without false pleasantness",
+        "Kinesthetic Response**: Open gestures, relaxed posture, approaching movement"
+      ],
+      "authenticity_markers": "Genuine goodwill without false pleasantness"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Friendly disposition promoting peaceful and cooperative relations",
+      "relational_context": "Context**: Creates safety and cooperation; reduces conflict and tension",
+      "temporal_aspect": "Aspect**: Present harmonious state that supports ongoing positive relations",
+      "intensity_spectrum": "Spectrum**: From basic politeness (3-4) to warm cooperation (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Professional diplomacy and conflict resolution skills",
+        "**Eastern**: Harmony cultivation and peaceful coexistence",
+        "**Indigenous**: Community peace-keeping and relationship maintenance",
+        "**Clinical**: Therapeutic alliance and cooperative treatment relationships",
+        "**Spiritual**: Peacemaking and harmonious community building",
+        "**Philosophical**: Ideal of rational discourse and cooperative truth-seeking"
+      ],
+      "raw_content": "- **Western**: Professional diplomacy and conflict resolution skills\n- **Eastern**: Harmony cultivation and peaceful coexistence\n- **Indigenous**: Community peace-keeping and relationship maintenance\n- **Clinical**: Therapeutic alliance and cooperative treatment relationships\n- **Spiritual**: Peacemaking and harmonious community building\n- **Philosophical**: Ideal of rational discourse and cooperative truth-seeking\n\n**Cultural Bridge Examples**:\n\n**Western ⇄ Eastern Bridge**:\n> \"Western diplomat",
+      "framework_perspectives": {
+        "western": "Professional diplomacy and conflict resolution skills",
+        "eastern": "Harmony cultivation and peaceful coexistence",
+        "indigenous": "Community peace-keeping and relationship maintenance",
+        "clinical": "Therapeutic alliance and cooperative treatment relationships",
+        "spiritual": "Peacemaking and harmonious community building",
+        "philosophical": "Ideal of rational discourse and cooperative truth-seeking"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document cooperative intent and conflict resolution approach",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture peaceful energy and genuine goodwill",
+      "precision_level_requirements": "Requirements**: Distinguish from mere politeness or conflict avoidance"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "chest, arms, face; Secondary: relaxed overall posture",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: chest, arms, face; Secondary: relaxed overall posture",
+        "**Sensation Quality Descriptors**: Warm openness, relaxed availability, peaceful energy, gentle expansion",
+        "**Kinesthetic Response Patterns**: Open arms, relaxed shoulders, approaching gestures, peaceful facial expressions",
+        "**Neurobiological Correlates**: Social cooperation networks, oxytocin release, peaceful arousal states",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Basic openness with mild cooperative energy",
+        "6-7: Clear warmth with genuine cooperative spirit",
+        "8-9: Deep peaceful presence with strong harmony-building capacity",
+        "**Resonance Practice Integration**: Peace-building skills, diplomatic communication, harmony cultivation",
+        "**Cultural Somatic Variations**: Western professional courtesy vs. Eastern harmony preservation vs. Indigenous circle-making gestures"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Warm openness, relaxed availability, peaceful energy, gentle expansion"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

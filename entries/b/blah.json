@@ -1,0 +1,95 @@
+{
+  "term": "blah",
+  "source_file": "blah.md",
+  "source_hash": "5aabf9184c8a91f8",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Onomatopoeia expressing dismissive or uninterested sound",
+      "original_meaning": "Meaning**: Meaningless talk, empty chatter, expression of indifference",
+      "semantic_evolution": "Vocal flatness → emotional flatness → embodied disconnection",
+      "cultural_shifts": "Shifts**: Dismissive expression → emotional state descriptor → casual mental health language"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling uninterested, flat, or mildly depressed; emotionally bland",
+      "colloquial_usage": "Usage**: \"Feeling blah today,\" \"just blah,\" \"blah mood\"",
+      "register": "Very casual; indicates mild emotional flatness",
+      "raw_content": "- **Primary Definition**: Feeling uninterested, flat, or mildly depressed; emotionally bland\n- **Secondary Meanings**: Flat, uninterested, disconnected, ho-hum, meh, listless\n- **Colloquial Usage**: \"Feeling blah today,\" \"just blah,\" \"blah mood\"\n- **Register**: Very casual; indicates mild emotional flatness\n- **Frequency Trend**: Common; useful for describing mild depression and emotional flatness\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of emotional flatness as i"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating emotional flatness and lack of interest or energy",
+      "listener_response": "Response**: Understanding mild depression or disconnection",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating emotional flatness and lack of interest or energy",
+        "**Listener Response**: Understanding mild depression or disconnection",
+        "**Somatic Markers**: Flat energy, minimal activation, disconnected presence",
+        "**Cognitive Associations**: Emotional flatness, mild depression, disconnection, lack of interest",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Flat energy throughout body, minimal activation, disconnected sensation",
+        "Embodied Authenticity: Natural emotional flatness without drama or performance",
+        "Kinesthetic Response: Flat gestures, minimal movement, disconnected postures"
+      ],
+      "authenticity_markers": "Natural emotional flatness without drama or performance"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: State of emotional flatness and mild disconnection from engagement",
+      "relational_context": "Context**: May signal need for stimulation, connection, or rest",
+      "temporal_aspect": "Aspect**: Present flatness that may be temporary or signal underlying mood issue",
+      "intensity_spectrum": "Spectrum**: From mild flatness (2-3) to significant disconnection (6-7)"
+    },
+    "cultural_translation": {
+      "cross_cultural_variations": "in engagement calling for acceptance and gentle care",
+      "cultural_bridge_examples": [
+        "**Western**: Individual mood awareness calling for self-care and possible professional support",
+        "**Eastern**: Minor energy imbalance calling for gentle rebalancing and mindful attention",
+        "**Indigenous**: Spirit tiredness calling for rest and reconnection with nature",
+        "**Clinical**: Mild depression assessment calling for monitoring and possible intervention",
+        "**Spiritual**: Spiritual dryness calling for renewed connection to meaning and purpose",
+        "**Philosophical**: Natural human variation in engagement calling for acceptance and gentle care"
+      ],
+      "raw_content": "- **Western**: Individual mood awareness calling for self-care and possible professional support\n- **Eastern**: Minor energy imbalance calling for gentle rebalancing and mindful attention\n- **Indigenous**: Spirit tiredness calling for rest and reconnection with nature\n- **Clinical**: Mild depression assessment calling for monitoring and possible intervention\n- **Spiritual**: Spiritual dryness calling for renewed connection to meaning and purpose\n- **Philosophical**: Natural human variation in en",
+      "framework_perspectives": {
+        "western": "Individual mood awareness calling for self-care and possible professional support",
+        "eastern": "Minor energy imbalance calling for gentle rebalancing and mindful attention",
+        "indigenous": "Spirit tiredness calling for rest and reconnection with nature",
+        "clinical": "Mild depression assessment calling for monitoring and possible intervention",
+        "spiritual": "Spiritual dryness calling for renewed connection to meaning and purpose",
+        "philosophical": "Natural human variation in engagement calling for acceptance and gentle care"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document blah quality and underlying needs",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture flatness without minimizing or dramatizing",
+      "precision_level_requirements": "Requirements**: Distinguish from clinical depression; assess duration and impact"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "flat energy throughout body; Secondary: minimal activation, disconnected presence",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: flat energy throughout body; Secondary: minimal activation, disconnected presence",
+        "**Sensation Quality Descriptors**: Flat energy, minimal activation, disconnected sensation, mild numbness",
+        "**Kinesthetic Response Patterns**: Flat gestures, minimal movement, disconnected postures, low-energy behaviors",
+        "**Neurobiological Correlates**: Mild hypoactivation, reduced motivation networks, temporary disconnection",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "2-3: Mild flatness with manageable low energy",
+        "4-6: Clear blah feeling with noticeable disconnection and flatness",
+        "6-7: Strong flatness with significant disengagement calling for attention",
+        "**Resonance Practice Integration**: Gentle self-care, energy development, mild depression prevention",
+        "**Cultural Somatic Variations**: Western individual self-care vs. Eastern gentle rebalancing vs. Indigenous natural rhythm recognition"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Flat energy, minimal activation, disconnected sensation, mild numbness"
+    }
+  },
+  "intensity_range": "2-3",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

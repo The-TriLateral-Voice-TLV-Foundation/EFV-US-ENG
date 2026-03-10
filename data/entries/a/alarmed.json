@@ -1,0 +1,93 @@
+{
+  "term": "alarmed",
+  "source_file": "alarmed.md",
+  "source_hash": "fecf52104f36fbc1",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: French \"alarme\" + \"-ed\" suffix (affected by alarm)",
+      "original_meaning": "Meaning**: Affected by warning call; put into state of alert or fear",
+      "semantic_evolution": "Evolution**: Military alert state → general fearful state → contemporary anxiety response",
+      "cultural_shifts": "Shifts**: Combat readiness → civilian fear response → psychological condition"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: In a state of fear or anxiety due to perceived threat or danger",
+      "colloquial_usage": "Usage**: \"I'm alarmed by this news,\" \"looking alarmed,\" \"becoming alarmed\"",
+      "register": "Neutral to formal; indicates concerning emotional state",
+      "raw_content": "- **Primary Definition**: In a state of fear or anxiety due to perceived threat or danger\n- **Secondary Meanings**: Frightened, worried, concerned, anxious, fearful, disturbed\n- **Colloquial Usage**: \"I'm alarmed by this news,\" \"looking alarmed,\" \"becoming alarmed\"\n- **Register**: Neutral to formal; indicates concerning emotional state\n- **Frequency Trend**: Stable; important for describing fear and anxiety states\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recognized as activ"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating activated fear state and concern about threat",
+      "listener_response": "Response**: Understanding fear activation and potential need for reassurance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating activated fear state and concern about threat",
+        "**Listener Response**: Understanding fear activation and potential need for reassurance",
+        "**Somatic Markers**: Fear activation, alert tension, anxious energy, protective positioning",
+        "**Cognitive Associations**: Threat perception, fear activation, need for safety, concern",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Activated fear energy, alert tension, protective readiness",
+        "Embodied Authenticity**: Natural fear response to perceived threat",
+        "Kinesthetic Response**: Protective positioning, alert posture, anxious movement"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Current state of activated fear and anxiety in response to threat",
+      "relational_context": "Context**: May seek reassurance or support; signals need for safety",
+      "temporal_aspect": "Aspect**: Present activated state in response to recent threat information",
+      "intensity_spectrum": "Spectrum**: From mild concern (3-4) to high alarm (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual anxiety state requiring coping strategies or reassurance",
+        "**Eastern**: Disturbed mental state requiring mindful calming and perspective",
+        "**Indigenous**: Community concern requiring collective response and support",
+        "**Clinical**: Activated anxiety requiring assessment and calming intervention",
+        "**Spiritual**: Spiritual concern requiring prayer and divine protection",
+        "**Philosophical**: Example of how information creates emotional states requiring wisdom"
+      ],
+      "raw_content": "- **Western**: Individual anxiety state requiring coping strategies or reassurance\n- **Eastern**: Disturbed mental state requiring mindful calming and perspective\n- **Indigenous**: Community concern requiring collective response and support\n- **Clinical**: Activated anxiety requiring assessment and calming intervention\n- **Spiritual**: Spiritual concern requiring prayer and divine protection\n- **Philosophical**: Example of how information creates emotional states requiring wisdom\n\n**Cultural Bri",
+      "framework_perspectives": {
+        "western": "Individual anxiety state requiring coping strategies or reassurance",
+        "eastern": "Disturbed mental state requiring mindful calming and perspective",
+        "indigenous": "Community concern requiring collective response and support",
+        "clinical": "Activated anxiety requiring assessment and calming intervention",
+        "spiritual": "Spiritual concern requiring prayer and divine protection",
+        "philosophical": "Example of how information creates emotional states requiring wisdom"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document alarm source and current activation level",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture fear activation and need for calming or reassurance",
+      "precision_level_requirements": "Requirements**: Specify alarm trigger and intensity with appropriate response"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "activated throughout body; Secondary: chest, stomach, alert systems",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: activated throughout body; Secondary: chest, stomach, alert systems",
+        "**Sensation Quality Descriptors**: Fear activation, alert tension, anxious energy, protective alertness",
+        "**Kinesthetic Response Patterns**: Alert posture, protective positioning, anxious movement, scanning behavior",
+        "**Neurobiological Correlates**: Fear activation networks, stress response, hypervigilance systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild activation with manageable concern",
+        "6-7: Clear alarm with definite fear activation",
+        "8-9: Strong alarm with significant activated fear and anxiety",
+        "**Resonance Practice Integration**: Calming techniques, reassurance seeking, threat assessment skills",
+        "**Cultural Somatic Variations**: Western individual calming vs. Eastern equanimity practice vs. Indigenous community support"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Fear activation, alert tension, anxious energy, protective alertness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

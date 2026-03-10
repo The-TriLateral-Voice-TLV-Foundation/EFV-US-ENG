@@ -5,7 +5,7 @@
 ---
 ## Document Information
 **Version Number:** RC0001.1
-**Release Status:** Public Draft and Release Canidate 
+**Release Status:** Public Draft and Release Candidate 
 **Language Version:** US English  
 **Version Date:** 1/01/2026 
 **Document Type:** License Notice

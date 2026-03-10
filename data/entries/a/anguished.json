@@ -1,0 +1,93 @@
+{
+  "term": "anguished",
+  "source_file": "anguished.md",
+  "source_hash": "678d3216db469399",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"angustia\" + \"-ed\" suffix (characterized by anguish)",
+      "original_meaning": "Meaning**: Currently experiencing or showing severe distress and constriction",
+      "semantic_evolution": "Visible physical affliction → emotional torment expression → trauma manifestation",
+      "cultural_shifts": "Shifts**: Physical affliction → psychological state → recognizable clinical condition"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Currently experiencing or expressing severe mental or physical distress",
+      "colloquial_usage": "Usage**: \"Anguished expression,\" \"anguished cry,\" \"looking anguished\"",
+      "register": "Formal/dramatic; indicates visible severe suffering",
+      "raw_content": "- **Primary Definition**: Currently experiencing or expressing severe mental or physical distress\n- **Secondary Meanings**: Tormented, in agony, suffering intensely, showing distress\n- **Colloquial Usage**: \"Anguished expression,\" \"anguished cry,\" \"looking anguished\"\n- **Register**: Formal/dramatic; indicates visible severe suffering\n- **Frequency Trend**: Stable in dramatic and clinical contexts\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of visible trauma and suffe"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating visible state of severe suffering and distress",
+      "listener_response": "Response**: Recognition of crisis and need for immediate compassionate response",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating visible state of severe suffering and distress",
+        "**Listener Response**: Recognition of crisis and need for immediate compassionate response",
+        "**Somatic Markers**: Visible distress, constricted posture, pain expression, suffering display",
+        "**Cognitive Associations**: Visible crisis, urgent suffering, need for help, trauma expression",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Visible constriction and distress throughout body",
+        "Embodied Authenticity: Genuine crisis expression without performance",
+        "Kinesthetic Response: Distressed postures, pain expressions, crisis movements"
+      ],
+      "authenticity_markers": "Genuine crisis expression without performance"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Current state of severe suffering that is visible to others",
+      "relational_context": "Context**: Creates urgent need for intervention and compassionate response",
+      "temporal_aspect": "Aspect**: Present crisis state requiring immediate attention",
+      "intensity_spectrum": "Spectrum**: Inherently high intensity (7-10 range)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual crisis requiring immediate mental health intervention",
+        "**Eastern**: Visible suffering requiring compassionate community response",
+        "**Indigenous**: Community member in soul crisis calling for collective healing",
+        "**Clinical**: Acute distress requiring crisis assessment and intervention",
+        "**Spiritual**: Soul in dark night requiring spiritual support and prayer",
+        "**Philosophical**: Visible human suffering calling for ethical response"
+      ],
+      "raw_content": "- **Western**: Individual crisis requiring immediate mental health intervention\n- **Eastern**: Visible suffering requiring compassionate community response\n- **Indigenous**: Community member in soul crisis calling for collective healing\n- **Clinical**: Acute distress requiring crisis assessment and intervention\n- **Spiritual**: Soul in dark night requiring spiritual support and prayer\n- **Philosophical**: Visible human suffering calling for ethical response\n\n**Cultural Bridge Examples**:\n\n**West",
+      "framework_perspectives": {
+        "western": "Individual crisis requiring immediate mental health intervention",
+        "eastern": "Visible suffering requiring compassionate community response",
+        "indigenous": "Community member in soul crisis calling for collective healing",
+        "clinical": "Acute distress requiring crisis assessment and intervention",
+        "spiritual": "Soul in dark night requiring spiritual support and prayer",
+        "philosophical": "Visible human suffering calling for ethical response"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document crisis severity and visible distress with urgency",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture overwhelming suffering without minimization",
+      "precision_level_requirements": "Requirements**: CRITICAL - immediate crisis assessment and intervention"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "visible throughout body; Secondary: facial expression, posture, gestures",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: visible throughout body; Secondary: facial expression, posture, gestures",
+        "**Sensation Quality Descriptors**: Visible constriction, expressed pain, crisis posture, suffering display",
+        "**Kinesthetic Response Patterns**: Distressed postures, pain expressions, crisis movements, collapse responses",
+        "**Neurobiological Correlates**: Visible trauma response, crisis activation, acute stress display",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "7–8: Visible severe distress with clear crisis expression",
+        "9–10: Overwhelming visible crisis with extreme suffering display",
+        "**Resonance Practice Integration**: Crisis intervention, trauma support, compassionate response",
+        "**Cultural Somatic Variations**: Western clinical assessment vs. Eastern community care vs. Indigenous healing mobilization"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Visible constriction, expressed pain, crisis posture, suffering display"
+    }
+  },
+  "intensity_range": "7-10",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

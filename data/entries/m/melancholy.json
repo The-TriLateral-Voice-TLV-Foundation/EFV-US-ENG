@@ -1,0 +1,93 @@
+{
+  "term": "melancholy",
+  "source_file": "melancholy.md",
+  "source_hash": "a68b00ea946e179b",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Greek \"melancholia\" from \"melas\" (black) + \"chole\" (bile)",
+      "original_meaning": "Meaning**: Black bile; ancient humor believed to cause pensive sadness",
+      "semantic_evolution": "Evolution**: Bodily humor → pensive sadness → contemporary contemplative sorrow and reflective melancholy",
+      "cultural_shifts": "Shifts**: Medical humor → emotional temperament → artistic melancholy → depth understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling pensively sad; experiencing contemplative sorrow and reflective sadness",
+      "colloquial_usage": "Usage**: \"Melancholy mood,\" \"feeling melancholy,\" \"melancholy beauty\"",
+      "register": "Neutral to positive; indicates depth and contemplative capacity",
+      "raw_content": "- **Primary Definition**: Feeling pensively sad; experiencing contemplative sorrow and reflective sadness\n- **Secondary Meanings**: Pensive, wistful, contemplative, sorrowful, reflective, brooding\n- **Colloquial Usage**: \"Melancholy mood,\" \"feeling melancholy,\" \"melancholy beauty\"\n- **Register**: Neutral to positive; indicates depth and contemplative capacity\n- **Frequency Trend**: Moderate; used for describing contemplative sadness and pensive states\n- **Contemporary Somatic Usage**:\n  - **Body"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating pensive sadness and contemplative reflective depth",
+      "listener_response": "Response**: Understanding contemplative state and potential appreciation for depth or creative resonance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating pensive sadness and contemplative reflective depth",
+        "**Listener Response**: Understanding contemplative state and potential appreciation for depth or creative resonance",
+        "**Somatic Markers**: Pensive energy, contemplative presence, reflective activation, wistful aliveness",
+        "**Cognitive Associations**: Pensive sadness, contemplative depth, reflective sorrow, artistic melancholy",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Pensive energy throughout body, contemplative presence, reflective activation",
+        "**Embodied Authenticity**: Natural melancholy without overwhelming sadness while appreciating contemplative depth",
+        "**Kinesthetic Response**: Contemplative movements, melancholy expressions, pensive gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Contemplative sadness and pensive depth calling for balance with creative expression and depth appreciation",
+      "relational_context": "Context**: May inspire depth appreciation and artistic expression while calling for balance guidance for healthy melancholy",
+      "temporal_aspect": "Aspect**: Present contemplation that can be balanced through creative expression and depth appreciation",
+      "intensity_spectrum": "Spectrum**: From gentle pensiveness (4-5) to overwhelming melancholy (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual depth calling for melancholy appreciation and creative expression",
+        "**Eastern**: Attachment melancholy calling for wisdom about sorrow and compassionate contemplation development",
+        "**Indigenous**: Community depth calling for traditional contemplation ceremonies and collective melancholy support",
+        "**Clinical**: Melancholy therapy calling for depth processing and creative development",
+        "**Spiritual**: Divine melancholy calling for faithful contemplation and spiritual depth stewardship",
+        "**Philosophical**: Human melancholy calling for wisdom about depth and appropriate contemplative development"
+      ],
+      "raw_content": "- **Western**: Individual depth calling for melancholy appreciation and creative expression\n- **Eastern**: Attachment melancholy calling for wisdom about sorrow and compassionate contemplation development\n- **Indigenous**: Community depth calling for traditional contemplation ceremonies and collective melancholy support\n- **Clinical**: Melancholy therapy calling for depth processing and creative development\n- **Spiritual**: Divine melancholy calling for faithful contemplation and spiritual depth",
+      "framework_perspectives": {
+        "western": "Individual depth calling for melancholy appreciation and creative expression",
+        "eastern": "Attachment melancholy calling for wisdom about sorrow and compassionate contemplation development",
+        "indigenous": "Community depth calling for traditional contemplation ceremonies and collective melancholy support",
+        "clinical": "Melancholy therapy calling for depth processing and creative development",
+        "spiritual": "Divine melancholy calling for faithful contemplation and spiritual depth stewardship",
+        "philosophical": "Human melancholy calling for wisdom about depth and appropriate contemplative development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document melancholy experiences and contemplative depth with creative expression and balance focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture pensive quality while maintaining depth appreciation and creative rather than overwhelming melancholy",
+      "precision_level_requirements": "Requirements**: HIGH - assess melancholy appropriateness vs. depression; explore contemplative depth and creative development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "pensive energy throughout body; Secondary: contemplative presence, reflective activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: pensive energy throughout body; Secondary: contemplative presence, reflective activation",
+        "**Sensation Quality Descriptors**: Pensive energy, contemplative presence, reflective activation, wistful aliveness",
+        "**Kinesthetic Response Patterns**: Contemplative movements, melancholy expressions, pensive gestures, reflective behaviors",
+        "**Neurobiological Correlates**: Melancholy networks, contemplation circuits, depth systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear melancholy feeling with definite contemplative sadness and manageable reflective depth",
+        "7-8: Strong melancholy response with significant pensiveness supported by creative awareness and depth appreciation",
+        "8-9: Overwhelming melancholy state with intense contemplation calling for creative balance and depth integration",
+        "**Resonance Practice Integration**: Melancholy development, depth appreciation, contemplative creativity with artistic community support",
+        "**Cultural Somatic Variations**: Western artistic depth vs. Eastern compassionate contemplation vs. Indigenous community depth"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Pensive energy, contemplative presence, reflective activation, wistful aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

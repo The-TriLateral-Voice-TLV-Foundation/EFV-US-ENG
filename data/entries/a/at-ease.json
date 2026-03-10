@@ -1,0 +1,94 @@
+{
+  "term": "at-ease",
+  "source_file": "at-ease.md",
+  "source_hash": "7108c0efdb0b262a",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Military command from French \"à l'aise\" (at comfort) from \"aise\" (comfort, ease)",
+      "original_meaning": "Meaning**: Military position of relaxed readiness; state of comfortable alertness",
+      "semantic_evolution": "Military relaxation → social comfort → personal ease state",
+      "cultural_shifts": "Shifts**: Military discipline → social relaxation → personal comfort state"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Free from worry, tension, or formality; comfortable and relaxed",
+      "colloquial_usage": "Usage**: \"Feeling at ease,\" \"put someone at ease,\" \"at ease with situation\"",
+      "register": "Neutral to positive; indicates comfortable state",
+      "raw_content": "- **Primary Definition**: Free from worry, tension, or formality; comfortable and relaxed\n- **Secondary Meanings**: Comfortable, relaxed, calm, peaceful, natural, unworried\n- **Colloquial Usage**: \"Feeling at ease,\" \"put someone at ease,\" \"at ease with situation\"\n- **Register**: Neutral to positive; indicates comfortable state\n- **Frequency Trend**: Stable; important for describing comfort and relaxation\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of ease as natural "
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating state of comfortable relaxation and natural presence",
+      "listener_response": "Response**: Understanding relaxed state and comfortable social atmosphere",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating state of comfortable relaxation and natural presence",
+        "**Listener Response**: Understanding relaxed state and comfortable social atmosphere",
+        "**Somatic Markers**: Relaxed posture, natural breathing, comfortable presence, peaceful energy",
+        "**Cognitive Associations**: Comfort, relaxation, natural state, peaceful presence, social comfort",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Relaxed throughout body, natural posture, comfortable presence",
+        "Embodied Authenticity: Natural ease without forced relaxation or performance",
+        "Kinesthetic Response: Natural postures, relaxed movements, comfortable gestures"
+      ],
+      "authenticity_markers": "Natural ease without forced relaxation or performance"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: State of comfortable relaxation and natural presence without tension or worry",
+      "relational_context": "Context**: Creates comfortable social atmosphere and natural interaction",
+      "temporal_aspect": "Aspect**: Present comfortable state that can be cultivated and maintained",
+      "intensity_spectrum": "Spectrum**: From basic comfort (4-5) to profound ease (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual comfort and social ease requiring confidence and relaxation skills",
+        "**Eastern**: Natural state of non-struggling and acceptance that benefits from mindful practices",
+        "**Indigenous**: Harmony with natural rhythms and community requiring cultural connection",
+        "**Clinical**: Target state in anxiety treatment and stress reduction requiring therapeutic skills",
+        "**Spiritual**: Peace and comfort in divine presence requiring faith and surrender",
+        "**Philosophical**: Natural human state of comfortable being requiring wisdom and acceptance"
+      ],
+      "raw_content": "- **Western**: Individual comfort and social ease requiring confidence and relaxation skills\n- **Eastern**: Natural state of non-struggling and acceptance that benefits from mindful practices\n- **Indigenous**: Harmony with natural rhythms and community requiring cultural connection\n- **Clinical**: Target state in anxiety treatment and stress reduction requiring therapeutic skills\n- **Spiritual**: Peace and comfort in divine presence requiring faith and surrender\n- **Philosophical**: Natural huma",
+      "framework_perspectives": {
+        "western": "Individual comfort and social ease requiring confidence and relaxation skills",
+        "eastern": "Natural state of non-struggling and acceptance that benefits from mindful practices",
+        "indigenous": "Harmony with natural rhythms and community requiring cultural connection",
+        "clinical": "Target state in anxiety treatment and stress reduction requiring therapeutic skills",
+        "spiritual": "Peace and comfort in divine presence requiring faith and surrender",
+        "philosophical": "Natural human state of comfortable being requiring wisdom and acceptance"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document comfort level and ease factors",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture relaxed quality and natural presence",
+      "precision_level_requirements": "Requirements**: Distinguish from apathy or disconnection; specify active comfortable engagement"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "relaxed throughout body; Secondary: natural posture, comfortable breathing",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: relaxed throughout body; Secondary: natural posture, comfortable breathing",
+        "**Sensation Quality Descriptors**: Comfortable relaxation, natural ease, peaceful presence, relaxed alertness",
+        "**Kinesthetic Response Patterns**: Natural postures, relaxed movements, comfortable gestures, ease expressions",
+        "**Neurobiological Correlates**: Parasympathetic activation, relaxation response, comfort networks, natural ease systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Basic comfort with relaxed presence and manageable ease",
+        "7-8: Strong ease with profound comfort and natural mastery",
+        "8-9: Complete ease with perfect natural comfort and peaceful presence",
+        "**Resonance Practice Integration**: Relaxation training, comfort cultivation, natural ease practices",
+        "**Cultural Somatic Variations**: Western confidence posture vs. Eastern natural mind ease vs. Indigenous earth connection comfort"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Comfortable relaxation, natural ease, peaceful presence, relaxed alertness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

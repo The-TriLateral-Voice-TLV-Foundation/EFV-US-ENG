@@ -1,0 +1,94 @@
+{
+  "term": "apprehension",
+  "source_file": "apprehension.md",
+  "source_hash": "e2bb4cc99741a819",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"apprehensio\" (a seizing, grasping) from \"apprehendere\"",
+      "original_meaning": "Meaning**: Act of grasping, understanding, or anticipating",
+      "semantic_evolution": "Mental grasping → emotional anticipation → anxious tension",
+      "cultural_shifts": "Shifts**: Intellectual process → emotional state → anxiety condition"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Anxiety or fear that something bad or unpleasant will happen",
+      "colloquial_usage": "Usage**: \"Filled with apprehension,\" \"sense of apprehension,\" \"growing apprehension\"",
+      "register": "Formal; describes state of anticipatory anxiety",
+      "raw_content": "- **Primary Definition**: Anxiety or fear that something bad or unpleasant will happen\n- **Secondary Meanings**: Worry, concern, unease, nervousness, fearful anticipation\n- **Colloquial Usage**: \"Filled with apprehension,\" \"sense of apprehension,\" \"growing apprehension\"\n- **Register**: Formal; describes state of anticipatory anxiety\n- **Frequency Trend**: Stable; important for describing anticipatory worry states\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognized as embodied"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Describing state of anxious anticipation and worry about future",
+      "listener_response": "Response**: Understanding anticipatory anxiety and potential need for reassurance",
+      "somatic_markers": [
+        "**Speaker Experience**: Describing state of anxious anticipation and worry about future",
+        "**Listener Response**: Understanding anticipatory anxiety and potential need for reassurance",
+        "**Somatic Markers**: Anticipatory tension, nervous activation, worry energy",
+        "**Cognitive Associations**: Future worry, anticipatory anxiety, concern about outcomes",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Anticipatory tension throughout body, nervous activation",
+        "Embodied Authenticity: Natural anticipatory anxiety without dramatization",
+        "Kinesthetic Response: Nervous behaviors, anticipatory postures, worry expressions"
+      ],
+      "authenticity_markers": "Natural anticipatory anxiety without dramatization"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: State of anxious anticipation about potential future negative events",
+      "relational_context": "Context**: May affect decision-making and social interactions",
+      "temporal_aspect": "Aspect**: Future-focused anxiety with present activation",
+      "intensity_spectrum": "Spectrum**: From mild concern (3-4) to strong anxiety (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual anxiety state requiring coping and preparation strategies",
+        "**Eastern**: Anticipatory suffering requiring mindful acceptance and non-attachment",
+        "**Indigenous**: Community concern requiring collective support and wisdom",
+        "**Clinical**: Anticipatory anxiety that may benefit from therapeutic support and skills",
+        "**Spiritual**: Spiritual anxiety requiring faith and trust development",
+        "**Philosophical**: Natural human response to uncertainty requiring equanimity"
+      ],
+      "raw_content": "- **Western**: Individual anxiety state requiring coping and preparation strategies\n- **Eastern**: Anticipatory suffering requiring mindful acceptance and non-attachment\n- **Indigenous**: Community concern requiring collective support and wisdom\n- **Clinical**: Anticipatory anxiety that may benefit from therapeutic support and skills\n- **Spiritual**: Spiritual anxiety requiring faith and trust development\n- **Philosophical**: Natural human response to uncertainty requiring equanimity\n\n**Cultural",
+      "framework_perspectives": {
+        "western": "Individual anxiety state requiring coping and preparation strategies",
+        "eastern": "Anticipatory suffering requiring mindful acceptance and non-attachment",
+        "indigenous": "Community concern requiring collective support and wisdom",
+        "clinical": "Anticipatory anxiety that may benefit from therapeutic support and skills",
+        "spiritual": "Spiritual anxiety requiring faith and trust development",
+        "philosophical": "Natural human response to uncertainty requiring equanimity"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document apprehension sources and anticipatory patterns",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture nervous anticipation quality and worry intensity",
+      "precision_level_requirements": "Requirements**: Specify anticipatory concerns and distinguish from other anxiety types"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "anticipatory activation throughout nervous system; Secondary: chest, stomach, shoulders",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: anticipatory activation throughout nervous system; Secondary: chest, stomach, shoulders",
+        "**Sensation Quality Descriptors**: Anticipatory tension, nervous energy, worry activation, uncertain alertness",
+        "**Kinesthetic Response Patterns**: Nervous behaviors, anticipatory postures, worry gestures, cautious movements",
+        "**Neurobiological Correlates**: Anticipatory anxiety circuits, worry networks, uncertainty response systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild anticipatory tension with manageable nervous energy",
+        "6-7: Clear apprehension with noticeable worry activation",
+        "7-8: Strong apprehension with significant anticipatory anxiety",
+        "**Resonance Practice Integration**: Anticipatory anxiety skills, uncertainty tolerance, mindful preparation",
+        "**Cultural Somatic Variations**: Western coping strategies vs. Eastern mindful acceptance vs. Indigenous community wisdom"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Anticipatory tension, nervous energy, worry activation, uncertain alertness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

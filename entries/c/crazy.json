@@ -1,0 +1,94 @@
+{
+  "term": "crazy",
+  "source_file": "crazy.md",
+  "source_hash": "1b9b239e433ff446",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Middle English \"craze\" (to break, shatter) from Old Norse \"krasa\" (to shatter)",
+      "original_meaning": "Meaning**: Broken, shattered, flawed or cracked",
+      "semantic_evolution": "Physical breakage → mental fragmentation → intense activation",
+      "cultural_shifts": "Shifts**: Physical damage → mental illness stigma → intense enthusiasm → creative unconventionality"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Extremely enthusiastic, unconventional, or (problematically) mentally ill",
+      "colloquial_usage": "Usage**: \"Crazy about it,\" \"crazy idea,\" \"going crazy,\" \"crazy person\" (problematic)",
+      "register": "Highly variable; from positive enthusiasm to problematic stigma",
+      "raw_content": "- **Primary Definition**: Extremely enthusiastic, unconventional, or (problematically) mentally ill\n- **Secondary Meanings**: Intense, wild, unconventional, enthusiastic, irrational, mentally ill (stigmatizing)\n- **Colloquial Usage**: \"Crazy about it,\" \"crazy idea,\" \"going crazy,\" \"crazy person\" (problematic)\n- **Register**: Highly variable; from positive enthusiasm to problematic stigma\n- **Frequency Trend**: High but problematic; requires careful context awareness\n- **Contemporary Somatic Usag"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating intense enthusiasm OR (problematically) describing mental health issues",
+      "listener_response": "Response**: Understanding either enthusiasm or (unfortunately) stigmatizing mental health reference",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating intense enthusiasm OR (problematically) describing mental health issues",
+        "**Listener Response**: Understanding either enthusiasm or (unfortunately) stigmatizing mental health reference",
+        "**Somatic Markers**: Intense activation OR mental health stigma (context-dependent)",
+        "**Cognitive Associations**: Intensity, unconventionality, enthusiasm, OR mental health stigma",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Intense activation (positive) OR fragmented energy (stigmatizing)",
+        "Embodied Authenticity: Genuine enthusiasm without stigmatizing mental health conditions",
+        "Kinesthetic Response: Intense movements OR stigmatizing gestures (context-dependent)"
+      ],
+      "authenticity_markers": "Genuine enthusiasm without stigmatizing mental health conditions"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: High-intensity experience or unconventional approach (avoiding stigmatizing mental health usage)",
+      "relational_context": "Context**: Can create excitement or concern depending on context and stigma",
+      "temporal_aspect": "Aspect**: Present intensity that may be temporary or characteristic",
+      "intensity_spectrum": "experience or unconventional approach (avoiding stigmatizing mental health usage)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual intensity calling for balance between enthusiasm and social appropriateness",
+        "**Eastern**: Intense energy calling for wisdom about appropriate expression and moderation",
+        "**Indigenous**: Spirit intensity addressed through ceremonial channeling and community guidance",
+        "**Clinical**: Intensity assessment calling for distinction from mental health stigma and pathology",
+        "**Spiritual**: Spiritual intensity calling for discernment and appropriate channeling",
+        "**Philosophical**: Creative unconventionality calling for wisdom about social innovation and boundaries"
+      ],
+      "raw_content": "- **Western**: Individual intensity calling for balance between enthusiasm and social appropriateness\n- **Eastern**: Intense energy calling for wisdom about appropriate expression and moderation\n- **Indigenous**: Spirit intensity addressed through ceremonial channeling and community guidance\n- **Clinical**: Intensity assessment calling for distinction from mental health stigma and pathology\n- **Spiritual**: Spiritual intensity calling for discernment and appropriate channeling\n- **Philosophical*",
+      "framework_perspectives": {
+        "western": "Individual intensity calling for balance between enthusiasm and social appropriateness",
+        "eastern": "Intense energy calling for wisdom about appropriate expression and moderation",
+        "indigenous": "Spirit intensity addressed through ceremonial channeling and community guidance",
+        "clinical": "Intensity assessment calling for distinction from mental health stigma and pathology",
+        "spiritual": "Spiritual intensity calling for discernment and appropriate channeling",
+        "philosophical": "Creative unconventionality calling for wisdom about social innovation and boundaries"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document intensity type and avoid stigmatizing mental health language",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture enthusiastic intensity while avoiding harmful mental health stigma",
+      "precision_level_requirements": "Requirements**: HIGH - distinguish enthusiasm from mental health stigma; specify positive intensity"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "intense activation throughout body (positive usage); Secondary: enthusiastic energy, creative aliveness",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: intense activation throughout body (positive usage); Secondary: enthusiastic energy, creative aliveness",
+        "**Sensation Quality Descriptors**: Intense activation, enthusiastic energy, creative aliveness, unconventional vitality",
+        "**Kinesthetic Response Patterns**: Intense movements, enthusiastic gestures, creative expressions, unconventional behaviors",
+        "**Neurobiological Correlates**: Intense activation networks, enthusiasm circuits, creative systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear intensity with definite enthusiasm and creative energy",
+        "7-8: Strong intensity with significant enthusiasm and unconventional creativity",
+        "9-10: Extreme intensity with overwhelming enthusiasm calling for modulation and wisdom",
+        "**Resonance Practice Integration**: Intensity modulation, creative expression, enthusiasm channeling",
+        "**Cultural Somatic Variations**: Western creative enthusiasm vs. Eastern passionate engagement vs. Indigenous ceremonial intensity"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Intense activation, enthusiastic energy, creative aliveness, unconventional vitality"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

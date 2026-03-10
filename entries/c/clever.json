@@ -1,0 +1,93 @@
+{
+  "term": "clever",
+  "source_file": "clever.md",
+  "source_hash": "43b6335dd9661d95",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Middle English \"cliver\" possibly from Old Norse \"kleifr\" (skillful with hands)",
+      "original_meaning": "Meaning**: Skillful with hands, dexterous, quick and light in movement",
+      "semantic_evolution": "Evolution**: Manual dexterity → mental quickness → contemporary intelligence and wit",
+      "cultural_shifts": "Shifts**: Physical skill → mental agility → intellectual appreciation → creative intelligence"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Quick to understand, learn, and devise solutions; showing intelligence and skill",
+      "colloquial_usage": "Usage**: \"Clever solution,\" \"very clever person,\" \"clever idea\"",
+      "register": "Generally positive; indicates intelligence and ingenuity",
+      "raw_content": "- **Primary Definition**: Quick to understand, learn, and devise solutions; showing intelligence and skill\n- **Secondary Meanings**: Smart, intelligent, quick-witted, ingenious, skillful, bright\n- **Colloquial Usage**: \"Clever solution,\" \"very clever person,\" \"clever idea\"\n- **Register**: Generally positive; indicates intelligence and ingenuity\n- **Frequency Trend**: Stable; valued for describing intelligence and creative problem-solving\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trend"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating intelligence, wit, and skillful problem-solving ability",
+      "listener_response": "Response**: Understanding mental agility and creative intelligence",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating intelligence, wit, and skillful problem-solving ability",
+        "**Listener Response**: Understanding mental agility and creative intelligence",
+        "**Somatic Markers**: Quick mental energy, agile thinking, intelligent alertness",
+        "**Cognitive Associations**: Intelligence, wit, ingenuity, mental agility, creative solutions",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Quick mental energy throughout body, agile thinking, intelligent activation",
+        "Embodied Authenticity**: Natural intelligence without arrogance or intellectual superiority",
+        "Kinesthetic Response**: Quick movements, agile gestures, intelligent expressions"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Quick intelligence and skillful ability to understand and solve problems creatively",
+      "relational_context": "Context**: Can impress others but may create distance if perceived as superiority",
+      "temporal_aspect": "Aspect**: Present mental capacity that can be developed and applied over time",
+      "intensity_spectrum": "Spectrum**: From basic intelligence (4-5) to exceptional cleverness (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual intelligence calling for education and creative problem-solving skills",
+        "**Eastern**: Wisdom intelligence calling for balance between cleverness and compassionate application",
+        "**Indigenous**: Traditional intelligence calling for cultural wisdom and practical skill",
+        "**Clinical**: Cognitive enhancement supported by intelligence awareness and creative thinking",
+        "**Spiritual**: Spiritual intelligence calling for wisdom application for service",
+        "**Philosophical**: Intellectual virtue calling for wise application of mental gifts"
+      ],
+      "raw_content": "- **Western**: Individual intelligence calling for education and creative problem-solving skills\n- **Eastern**: Wisdom intelligence calling for balance between cleverness and compassionate application\n- **Indigenous**: Traditional intelligence calling for cultural wisdom and practical skill\n- **Clinical**: Cognitive enhancement supported by intelligence awareness and creative thinking\n- **Spiritual**: Spiritual intelligence calling for wisdom application for service\n- **Philosophical**: Intellec",
+      "framework_perspectives": {
+        "western": "Individual intelligence calling for education and creative problem-solving skills",
+        "eastern": "Wisdom intelligence calling for balance between cleverness and compassionate application",
+        "indigenous": "Traditional intelligence calling for cultural wisdom and practical skill",
+        "clinical": "Cognitive enhancement supported by intelligence awareness and creative thinking",
+        "spiritual": "Spiritual intelligence calling for wisdom application for service",
+        "philosophical": "Intellectual virtue calling for wise application of mental gifts"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document intelligence application and creative problem-solving context",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture mental agility while maintaining humility and service orientation",
+      "precision_level_requirements": "Requirements**: Distinguish healthy intelligence from arrogance; assess service vs. superiority"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "quick mental energy throughout body; Secondary: agile thinking, intelligent alertness",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: quick mental energy throughout body; Secondary: agile thinking, intelligent alertness",
+        "**Sensation Quality Descriptors**: Quick mental energy, agile thinking, intelligent activation, creative aliveness",
+        "**Kinesthetic Response Patterns**: Quick movements, agile gestures, intelligent expressions, creative behaviors",
+        "**Neurobiological Correlates**: Intelligence networks, creative thinking circuits, mental agility systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear intelligence with definite mental agility and creative thinking",
+        "7-8: Strong cleverness with significant intelligence and creative problem-solving",
+        "8-9: High cleverness with exceptional mental agility and innovative intelligence",
+        "**Resonance Practice Integration**: Intelligence development, creative problem-solving, wisdom application",
+        "**Cultural Somatic Variations**: Western individual creativity vs. Eastern wisdom intelligence vs. Indigenous traditional knowledge"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Quick mental energy, agile thinking, intelligent activation, creative aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

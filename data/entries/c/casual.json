@@ -1,0 +1,94 @@
+{
+  "term": "casual",
+  "source_file": "casual.md",
+  "source_hash": "58943b23ce67a3c6",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"casualis\" from \"casus\" (chance, accident)",
+      "original_meaning": "Meaning**: By chance; having relaxed informality and easygoing presence with informal ease",
+      "semantic_evolution": "Evolution**: By chance → relaxed informality → contemporary easygoing presence and casual relaxation with informal comfort",
+      "cultural_shifts": "Shifts**: By chance → relaxed informality → easygoing presence → informal understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Having easygoing presence and casual relaxation; showing relaxed informality and informal comfort with casual ease",
+      "colloquial_usage": "Usage**: \"Being casual,\" \"casual attitude,\" \"casual conversation\"",
+      "register": "Neutral/positive; indicates relaxation and informal comfort with easygoing presence",
+      "raw_content": "- **Primary Definition**: Having easygoing presence and casual relaxation; showing relaxed informality and informal comfort with casual ease\n- **Secondary Meanings**: Relaxed, informal, easygoing, comfortable, laid-back, unconcerned\n- **Colloquial Usage**: \"Being casual,\" \"casual attitude,\" \"casual conversation\"\n- **Register**: Neutral/positive; indicates relaxation and informal comfort with easygoing presence\n- **Frequency Trend**: Very high; fundamental for describing relaxed attitudes and inf"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating easygoing presence and relaxed informal casual comfortable ease",
+      "listener_response": "Response**: Understanding relaxation and potential shared casualness or informal appreciation",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating easygoing presence and relaxed informal casual comfortable ease",
+        "**Listener Response**: Understanding relaxation and potential shared casualness or informal appreciation",
+        "**Somatic Markers**: Relaxed energy, casual presence, easygoing activation, comfortable aliveness",
+        "**Cognitive Associations**: Easygoing presence, casual relaxation, relaxed informality, informal comfort",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Relaxed energy throughout body with ease sensation, casual presence, easygoing activation",
+        "**Embodied Authenticity**: Natural casualness with relaxed informality and easygoing authenticity",
+        "**Kinesthetic Response**: Relaxed movements, casual expressions, easygoing gestures"
+      ],
+      "authenticity_markers": "- **Kinesthetic Response**: Relaxed movements, casual expressions, easygoing gestures"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Easygoing presence and casual relaxation with relaxed informality and informal casual comfort",
+      "relational_context": "Context**: May provide comfort and creates relaxed response with casual informality",
+      "temporal_aspect": "Aspect**: Present relaxation with easygoing presence and casual informal comfort",
+      "intensity_spectrum": "Spectrum**: From gentle informality (3-4) to profound casualness (6-7)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual relaxation with casual informality and easygoing comfort",
+        "**Eastern**: Relaxed informality with mindful casualness and easygoing development",
+        "**Indigenous**: Natural casual connection with traditional relaxed understanding and informal comfort",
+        "**Clinical**: Minimal clinical significance; primarily positive relaxation and informality",
+        "**Spiritual**: Divine casual connection with relaxed spiritual informality and easygoing presence",
+        "**Philosophical**: Human casual capacity for easygoing relaxation and informal comfort experience"
+      ],
+      "raw_content": "- **Western**: Individual relaxation with casual informality and easygoing comfort\n- **Eastern**: Relaxed informality with mindful casualness and easygoing development\n- **Indigenous**: Natural casual connection with traditional relaxed understanding and informal comfort\n- **Clinical**: Minimal clinical significance; primarily positive relaxation and informality\n- **Spiritual**: Divine casual connection with relaxed spiritual informality and easygoing presence\n- **Philosophical**: Human casual c",
+      "framework_perspectives": {
+        "western": "Individual relaxation with casual informality and easygoing comfort",
+        "eastern": "Relaxed informality with mindful casualness and easygoing development",
+        "indigenous": "Natural casual connection with traditional relaxed understanding and informal comfort",
+        "clinical": "Minimal clinical significance; primarily positive relaxation and informality",
+        "spiritual": "Divine casual connection with relaxed spiritual informality and easygoing presence",
+        "philosophical": "Human casual capacity for easygoing relaxation and informal comfort experience"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document casual experiences and easygoing presence with relaxation and informality focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor relaxation while maintaining appropriate casualness and authentic informality",
+      "precision_level_requirements": "Requirements**: LOW - minimal processing needs; primarily positive relaxation and informality"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "relaxed energy throughout body with ease sensation; Secondary: casual presence, easygoing activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: relaxed energy throughout body with ease sensation; Secondary: casual presence, easygoing activation",
+        "**Sensation Quality Descriptors**: Relaxed energy, casual presence, easygoing activation, comfortable aliveness",
+        "**Kinesthetic Response Patterns**: Relaxed movements, casual expressions, easygoing gestures, informal behaviors",
+        "**Neurobiological Correlates**: Relaxation networks, informality circuits, casualness systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear casual feeling with definite relaxation and manageable easygoing comfort",
+        "6-7: Strong casual response with significant informality and inspiring relaxed presence",
+        "7-8: Overwhelming casual state with excessive informality calling for appropriateness and balance",
+        "**Resonance Practice Integration**: Casualness development, relaxation balance, informal comfort with easygoing community support",
+        "**Cultural Somatic Variations**: Western informal culture vs. Eastern mindful ease vs. Indigenous natural casual connection"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Relaxed energy, casual presence, easygoing activation, comfortable aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

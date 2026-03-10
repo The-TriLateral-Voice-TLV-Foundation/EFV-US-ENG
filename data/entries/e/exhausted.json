@@ -1,0 +1,93 @@
+{
+  "term": "exhausted",
+  "source_file": "exhausted.md",
+  "source_hash": "e44c7b0a9e76c2e1",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"exhaustus\" from \"ex-\" (out) + \"haurire\" (to draw)",
+      "original_meaning": "Meaning**: Drawn out completely; having all energy and resources fully depleted",
+      "semantic_evolution": "Evolution**: Complete drawing out → total depletion → contemporary extreme fatigue and profound weariness",
+      "cultural_shifts": "Shifts**: Complete drawing out → total depletion → extreme fatigue → restoration understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Experiencing extreme fatigue and total depletion; feeling profoundly weary and completely drained",
+      "colloquial_usage": "Usage**: \"Feeling exhausted,\" \"completely exhausted,\" \"exhausted from work\"",
+      "register": "Serious negative; indicates severe depletion calling for rest and restoration intervention",
+      "raw_content": "- **Primary Definition**: Experiencing extreme fatigue and total depletion; feeling profoundly weary and completely drained\n- **Secondary Meanings**: Drained, depleted, weary, tired, spent, worn out\n- **Colloquial Usage**: \"Feeling exhausted,\" \"completely exhausted,\" \"exhausted from work\"\n- **Register**: Serious negative; indicates severe depletion calling for rest and restoration intervention\n- **Frequency Trend**: Very high; critical for describing extreme fatigue and energy depletion\n- **Cont"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating extreme fatigue and complete profound energy depletion",
+      "listener_response": "Response**: Understanding severe depletion and urgent need for rest support or restoration intervention",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating extreme fatigue and complete profound energy depletion",
+        "**Listener Response**: Understanding severe depletion and urgent need for rest support or restoration intervention",
+        "**Somatic Markers**: Depleted energy, drained presence, weary activation, spent aliveness",
+        "**Cognitive Associations**: Extreme fatigue, total depletion, profound weariness, need for restoration",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Depleted energy throughout body, drained presence, weary activation",
+        "**Embodied Authenticity**: Natural exhaustion calling for restoration without shame while seeking comprehensive rest",
+        "**Kinesthetic Response**: Heavy movements, exhausted expressions, depleted gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Extreme fatigue and total depletion calling for comprehensive restoration and rest intervention",
+      "relational_context": "Context**: May create urgent need for rest support and comprehensive restoration intervention",
+      "temporal_aspect": "Aspect**: Present severe depletion calling for immediate rest and extended restoration process",
+      "intensity_spectrum": "Spectrum**: From significant fatigue (6-7) to complete exhaustion (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual restoration calling for exhaustion intervention and rest development",
+        "**Eastern**: Attachment exhaustion calling for wisdom about depletion and compassionate restoration development",
+        "**Indigenous**: Community exhaustion calling for traditional restoration ceremonies and collective rest support",
+        "**Clinical**: Exhaustion therapy calling for fatigue management and restoration intervention",
+        "**Spiritual**: Faith exhaustion calling for divine restoration and spiritual rest",
+        "**Philosophical**: Human exhaustion calling for wisdom about depletion and appropriate restoration development"
+      ],
+      "raw_content": "- **Western**: Individual restoration calling for exhaustion intervention and rest development\n- **Eastern**: Attachment exhaustion calling for wisdom about depletion and compassionate restoration development\n- **Indigenous**: Community exhaustion calling for traditional restoration ceremonies and collective rest support\n- **Clinical**: Exhaustion therapy calling for fatigue management and restoration intervention\n- **Spiritual**: Faith exhaustion calling for divine restoration and spiritual res",
+      "framework_perspectives": {
+        "western": "Individual restoration calling for exhaustion intervention and rest development",
+        "eastern": "Attachment exhaustion calling for wisdom about depletion and compassionate restoration development",
+        "indigenous": "Community exhaustion calling for traditional restoration ceremonies and collective rest support",
+        "clinical": "Exhaustion therapy calling for fatigue management and restoration intervention",
+        "spiritual": "Faith exhaustion calling for divine restoration and spiritual rest",
+        "philosophical": "Human exhaustion calling for wisdom about depletion and appropriate restoration development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document exhausted experiences and extreme fatigue with restoration and rest focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor depletion reality while exploring restoration needs and rest opportunities",
+      "precision_level_requirements": "Requirements**: HIGH - assess exhaustion severity and depletion patterns; provide restoration support and rest development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "depleted energy throughout entire body; Secondary: drained presence, weary activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: depleted energy throughout entire body; Secondary: drained presence, weary activation",
+        "**Sensation Quality Descriptors**: Depleted energy, drained presence, weary activation, spent aliveness",
+        "**Kinesthetic Response Patterns**: Heavy movements, exhausted expressions, depleted gestures, drained behaviors",
+        "**Neurobiological Correlates**: Exhaustion networks, depletion circuits, fatigue systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "6-7: Clear exhausted feeling with definite depletion and manageable restoration needs",
+        "8-9: Strong exhausted response with significant drain calling for restoration intervention and comprehensive rest",
+        "9-10: Complete exhausted state with total depletion calling for immediate restoration intervention and comprehensive recovery",
+        "**Resonance Practice Integration**: Exhaustion processing, depletion healing, comprehensive restoration with restorative community support",
+        "**Cultural Somatic Variations**: Western energy management vs. Eastern compassionate restoration vs. Indigenous community rest"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Depleted energy, drained presence, weary activation, spent aliveness"
+    }
+  },
+  "intensity_range": "6-7",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

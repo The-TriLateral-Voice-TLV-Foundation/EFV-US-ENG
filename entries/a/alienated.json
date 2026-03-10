@@ -1,0 +1,93 @@
+{
+  "term": "alienated",
+  "source_file": "alienated.md",
+  "source_hash": "35456b1f0d52fd37",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"alienatus\" from \"alienare\" (to make foreign) from \"alienus\" (belonging to another)",
+      "original_meaning": "Meaning**: Made foreign, separated from one's own, transferred to another",
+      "semantic_evolution": "Evolution**: Legal property transfer → social separation → psychological isolation",
+      "cultural_shifts": "Shifts**: Property law → social displacement → existential condition"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling isolated, estranged, or disconnected from others or society",
+      "colloquial_usage": "Usage**: \"Feeling alienated,\" \"alienated from family,\" \"socially alienated\"",
+      "register": "Formal to clinical; indicates serious disconnection",
+      "raw_content": "- **Primary Definition**: Feeling isolated, estranged, or disconnected from others or society\n- **Secondary Meanings**: Estranged, isolated, disconnected, separated, excluded, withdrawn\n- **Colloquial Usage**: \"Feeling alienated,\" \"alienated from family,\" \"socially alienated\"\n- **Register**: Formal to clinical; indicates serious disconnection\n- **Frequency Trend**: Stable; important for describing modern isolation experiences\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recogni"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating profound disconnection and isolation from others",
+      "listener_response": "Response**: Understanding serious isolation and need for reconnection support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating profound disconnection and isolation from others",
+        "**Listener Response**: Understanding serious isolation and need for reconnection support",
+        "**Somatic Markers**: Withdrawal energy, disconnection sensation, isolation tension",
+        "**Cognitive Associations**: Isolation, disconnection, exclusion, foreignness, separation",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Withdrawal energy, disconnected sensation, isolated feeling",
+        "Embodied Authenticity**: Genuine isolation experience without self-pity",
+        "Kinesthetic Response**: Withdrawal postures, disconnected movement, isolation positioning"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Profound disconnection from social relationships and belonging",
+      "relational_context": "Context**: Creates barriers to intimacy; may generate cycles of isolation",
+      "temporal_aspect": "Aspect**: Often chronic condition affecting identity and belonging",
+      "intensity_spectrum": "Spectrum**: From mild disconnection (4-5) to profound alienation (8-9)"
+    },
+    "cultural_translation": {
+      "universal_elements": "compassion resonates with Indigenous soul displacement through shared understanding of belonging restoration\"",
+      "cultural_bridge_examples": [
+        "**Western**: Individual psychological condition requiring therapeutic reconnection",
+        "**Eastern**: Karmic separation requiring compassionate reconnection with all beings",
+        "**Indigenous**: Soul displacement addressed through ceremonial healing and tribal reconnection",
+        "**Clinical**: Social isolation requiring community integration and support",
+        "**Spiritual**: Spiritual separation requiring divine reconnection and community healing",
+        "**Philosophical**: Existential condition of modern life requiring meaning-making"
+      ],
+      "framework_perspectives": {
+        "western": "Individual psychological condition requiring therapeutic reconnection",
+        "eastern": "Karmic separation requiring compassionate reconnection with all beings",
+        "indigenous": "Soul displacement addressed through ceremonial healing and tribal reconnection",
+        "clinical": "Social isolation requiring community integration and support",
+        "spiritual": "Spiritual separation requiring divine reconnection and community healing",
+        "philosophical": "Existential condition of modern life requiring meaning-making"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document disconnection sources and impact on functioning",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture isolation pain and longing for connection",
+      "precision_level_requirements": "Requirements**: HIGH - assess suicide risk and intervention needs"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "withdrawal throughout body; Secondary: chest, arms, protective positioning",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: withdrawal throughout body; Secondary: chest, arms, protective positioning",
+        "**Sensation Quality Descriptors**: Disconnection, withdrawal energy, isolation tension, foreign feeling",
+        "**Kinesthetic Response Patterns**: Withdrawal postures, disconnected movement, protective isolation, turning away",
+        "**Neurobiological Correlates**: Social pain networks, isolation stress, attachment disruption",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Mild disconnection with manageable social distance",
+        "7-8: Strong alienation with significant withdrawal and isolation pain",
+        "8-9: Profound alienation with overwhelming disconnection and despair",
+        "**Resonance Practice Integration**: Reconnection therapy, community building, belonging cultivation",
+        "**Cultural Somatic Variations**: Western individual isolation vs. Eastern compassion practice vs. Indigenous tribal reintegration"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Disconnection, withdrawal energy, isolation tension, foreign feeling"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 14
+    }
+  }
+}

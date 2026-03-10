@@ -1,0 +1,99 @@
+{
+  "term": "affection",
+  "source_file": "affection.md",
+  "source_hash": "ca37b5aceab9e400",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"affectiō\" from \"afficere\" (to influence, affect) from \"ad-\" (to) + \"facere\" (to do)",
+      "original_meaning": "Meaning**: State of being influenced or disposed toward something",
+      "semantic_evolution": "Evolution**: General influence → emotional disposition → tender feeling → love expression",
+      "cultural_shifts": "Shifts**: Emotional tendency → family bonds → romantic/friendship expression"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Tender feeling of fondness, care, and warm attachment",
+      "colloquial_usage": "Usage**: \"Show affection,\" \"family affection,\" \"affectionate gesture\"",
+      "register": "Neutral to warm; widely acceptable across contexts",
+      "raw_content": "- **Primary Definition**: Tender feeling of fondness, care, and warm attachment\n- **Secondary Meanings**: Love, fondness, care, attachment, tenderness, warm regard\n- **Colloquial Usage**: \"Show affection,\" \"family affection,\" \"affectionate gesture\"\n- **Register**: Neutral to warm; widely acceptable across contexts\n- **Frequency Trend**: Stable; fundamental to relationships and emotional expression\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Connected to attachment theory and p"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating warm, tender feeling and caring attachment",
+      "listener_response": "Response**: Understanding loving care and positive emotional bond",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating warm, tender feeling and caring attachment",
+        "**Listener Response**: Understanding loving care and positive emotional bond",
+        "**Somatic Markers**: Warmth, softness, gentle expansion, tender energy",
+        "**Cognitive Associations**: Care, tenderness, attachment, security, love, warmth",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Heart warmth, gentle expansion, soft energy throughout body",
+        "Embodied Authenticity**: Natural tender feeling without performance or manipulation",
+        "Kinesthetic Response**: Gentle reaching, soft approach, tender touch impulses"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Tender caring feeling that creates warm emotional bonds",
+      "relational_context": "Context**: Builds intimacy, security, and positive connection",
+      "temporal_aspect": "Aspect**: Present warmth that implies enduring care and attachment",
+      "intensity_spectrum": "Spectrum**: From mild fondness (3-4) to deep tender love (7-8)"
+    },
+    "cultural_translation": {
+      "universal_elements": "compassion practice\"",
+      "cultural_bridge_examples": [
+        "**Western**: Personal emotional bonds in family and romantic relationships",
+        "**Eastern**: Compassionate care and loving-kindness toward all beings",
+        "**Indigenous**: Caring relationships within community and kinship systems",
+        "**Clinical**: Secure attachment and healthy relationship functioning",
+        "**Spiritual**: Divine love and compassionate care for creation",
+        "**Philosophical**: Care ethics and loving regard as foundation for morality"
+      ],
+      "framework_perspectives": {
+        "western": "Personal emotional bonds in family and romantic relationships",
+        "eastern": "Compassionate care and loving-kindness toward all beings",
+        "indigenous": "Caring relationships within community and kinship systems",
+        "clinical": "Secure attachment and healthy relationship functioning",
+        "spiritual": "Divine love and compassionate care for creation",
+        "philosophical": "Care ethics and loving regard as foundation for morality"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document quality and expression of caring attachment",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture warmth and tenderness with appropriate intensity",
+      "precision_level_requirements": "Requirements**: Distinguish from passion, infatuation, or mere pleasantness"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "heart, chest; Secondary: arms, hands, full body warmth",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: heart, chest; Secondary: arms, hands, full body warmth",
+        "**Sensation Quality Descriptors**: Gentle warmth, soft expansion, tender energy, secure settling",
+        "**Kinesthetic Response Patterns**: Heart opening, gentle reaching, soft approach, caring touch gestures",
+        "**Neurobiological Correlates**: Attachment systems, oxytocin release, care-giving networks",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild heart warmth with gentle positive feeling",
+        "6-7: Clear tender warmth with caring energy",
+        "8-9: Deep affectionate response with strong attachment feeling",
+        "**Resonance Practice Integration**: Loving-kindness meditation, heart-centered practices, affection expression skills",
+        "**Cultural Somatic Variations**: Western individual warmth vs. Eastern universal compassion vs. Indigenous kinship care expressions"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Gentle warmth, soft expansion, tender energy, secure settling"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 14
+    }
+  },
+  "translations": {
+    "es": "affection-afecto-espanol.md",
+    "fr": "affection-affection-francais.md",
+    "de": "affection-zuneigung-deutsch.md"
+  },
+  "has_4lang_verification": true
+}

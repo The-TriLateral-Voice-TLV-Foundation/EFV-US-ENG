@@ -1,0 +1,94 @@
+{
+  "term": "afflicted",
+  "source_file": "afflicted.md",
+  "source_hash": "3050714a72477346",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"afflīctus\" from \"afflīgere\" (to strike down, damage) from \"ad-\" (to) + \"flīgere\" (to strike)",
+      "original_meaning": "Meaning**: Struck down, damaged, or beaten down by force",
+      "semantic_evolution": "Evolution**: Physical striking → suffering under hardship → being burdened by misfortune",
+      "cultural_shifts": "Shifts**: Divine punishment → medical condition → contemporary struggle with adversity"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Suffering from pain, distress, or hardship; burdened by difficulty",
+      "colloquial_usage": "Usage**: \"Afflicted with illness,\" \"afflicted by grief,\" \"the afflicted\"",
+      "register": "Formal/literary; often medical or religious contexts",
+      "raw_content": "- **Primary Definition**: Suffering from pain, distress, or hardship; burdened by difficulty\n- **Secondary Meanings**: Troubled, distressed, burdened, suffering, tormented, pained\n- **Colloquial Usage**: \"Afflicted with illness,\" \"afflicted by grief,\" \"the afflicted\"\n- **Register**: Formal/literary; often medical or religious contexts\n- **Frequency Trend**: Declining in casual use; maintained in medical/religious contexts\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Connected t"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating significant suffering and burden beyond normal difficulties",
+      "listener_response": "Response**: Understanding serious hardship requiring compassion and support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating significant suffering and burden beyond normal difficulties",
+        "**Listener Response**: Understanding serious hardship requiring compassion and support",
+        "**Somatic Markers**: Burden-carrying posture, fatigue, protective responses, endurance patterns",
+        "**Cognitive Associations**: Suffering, hardship, burden, endurance, vulnerability, need for support",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Weight-carrying sensation, protective tension, fatigue patterns",
+        "Embodied Authenticity**: Genuine suffering without self-pity or performance",
+        "Kinesthetic Response**: Protective posturing, energy conservation, burden-bearing stance"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Significant suffering or burden that affects multiple aspects of well-being",
+      "relational_context": "Context**: Creates need for support; may generate compassion or avoidance",
+      "temporal_aspect": "Aspect**: Often chronic or recurring; past causes affecting present experience",
+      "intensity_spectrum": "Spectrum**: From manageable difficulty (5-6) to overwhelming suffering (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual suffering requiring medical/psychological intervention",
+        "**Eastern**: Karmic consequences or spiritual testing addressed through purification practices",
+        "**Indigenous**: Spiritual/community imbalance addressed through ceremonial healing",
+        "**Clinical**: Chronic conditions requiring medical management and psychological support",
+        "**Spiritual**: Divine testing, purification, or call to deeper faith",
+        "**Philosophical**: Existential suffering as part of human condition requiring wisdom"
+      ],
+      "raw_content": "- **Western**: Individual suffering requiring medical/psychological intervention\n- **Eastern**: Karmic consequences or spiritual testing addressed through purification practices\n- **Indigenous**: Spiritual/community imbalance addressed through ceremonial healing\n- **Clinical**: Chronic conditions requiring medical management and psychological support\n- **Spiritual**: Divine testing, purification, or call to deeper faith\n- **Philosophical**: Existential suffering as part of human condition requir",
+      "framework_perspectives": {
+        "western": "Individual suffering requiring medical/psychological intervention",
+        "eastern": "Karmic consequences or spiritual testing addressed through purification practices",
+        "indigenous": "Spiritual/community imbalance addressed through ceremonial healing",
+        "clinical": "Chronic conditions requiring medical management and psychological support",
+        "spiritual": "Divine testing, purification, or call to deeper faith",
+        "philosophical": "Existential suffering as part of human condition requiring wisdom"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document nature and severity of affliction with appropriate gravity",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture suffering while maintaining dignity and hope",
+      "precision_level_requirements": "Requirements**: HIGH - distinguish from temporary distress; involves chronic/severe quality"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "shoulders, back, chest; Secondary: overall posture, energy systems",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: shoulders, back, chest; Secondary: overall posture, energy systems",
+        "**Sensation Quality Descriptors**: Heaviness, burden-carrying, protective tension, chronic fatigue, endurance patterns",
+        "**Kinesthetic Response Patterns**: Burden-bearing posture, protective positioning, energy conservation, careful movement",
+        "**Neurobiological Correlates**: Chronic stress patterns, pain systems, adaptation mechanisms",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "5-6: Noticeable burden with manageable adaptation",
+        "7-8: Significant suffering affecting posture and energy",
+        "8-9: Severe affliction with major impact on physical functioning",
+        "**Resonance Practice Integration**: Compassion practices, endurance cultivation, support-seeking skills",
+        "**Cultural Somatic Variations**: Western medical management focus vs. Eastern spiritual purification vs. Indigenous ceremonial healing approaches"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Heaviness, burden-carrying, protective tension, chronic fatigue, endurance patterns",
+      "movement": "- **Neurobiological Correlates**: Chronic stress patterns, pain systems, adaptation mechanisms"
+    }
+  },
+  "intensity_range": "5-6",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

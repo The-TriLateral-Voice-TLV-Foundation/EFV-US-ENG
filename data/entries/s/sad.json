@@ -1,0 +1,93 @@
+{
+  "term": "sad",
+  "source_file": "sad.md",
+  "source_hash": "3e88e0824790bdf8",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old English \"sæd\" (satisfied, weary)",
+      "original_meaning": "Meaning**: Satisfied to weariness; having experienced enough leading to melancholy",
+      "semantic_evolution": "Evolution**: Satisfied weariness → melancholy → contemporary sorrowful unhappiness and downcast feeling",
+      "cultural_shifts": "Shifts**: Satisfied weariness → melancholy → sorrowful unhappiness → support understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling sorrowful and unhappy; experiencing downcast melancholy and low spirits",
+      "colloquial_usage": "Usage**: \"Feeling sad,\" \"sad about loss,\" \"so sad\"",
+      "register": "Negative; indicates sorrow calling for support and comfort",
+      "raw_content": "- **Primary Definition**: Feeling sorrowful and unhappy; experiencing downcast melancholy and low spirits\n- **Secondary Meanings**: Sorrowful, unhappy, downcast, melancholy, dejected, gloomy\n- **Colloquial Usage**: \"Feeling sad,\" \"sad about loss,\" \"so sad\"\n- **Register**: Negative; indicates sorrow calling for support and comfort\n- **Frequency Trend**: Very high; fundamental for expressing sorrow and unhappiness\n- **Contemporary Somatic Usage**:\n  - **Body Awareness Trends**: Recognition of sadn"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating sorrowful unhappiness and downcast melancholy feeling",
+      "listener_response": "Response**: Understanding sorrow and potential need for support or comfort guidance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating sorrowful unhappiness and downcast melancholy feeling",
+        "**Listener Response**: Understanding sorrow and potential need for support or comfort guidance",
+        "**Somatic Markers**: Sorrowful energy, sad presence, downcast activation, melancholy aliveness",
+        "**Cognitive Associations**: Sorrowful unhappiness, downcast melancholy, low spirits, need for support",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Sorrowful energy throughout body, sad presence, downcast activation",
+        "**Embodied Authenticity**: Natural sadness calling for support without suppression while seeking comfort",
+        "**Kinesthetic Response**: Heavy movements, sad expressions, downcast gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Sorrowful unhappiness and downcast melancholy calling for support and comfort development",
+      "relational_context": "Context**: May need support assistance, comfort guidance, and understanding for sorrow processing",
+      "temporal_aspect": "Aspect**: Present sorrow that benefits from support growth and comfort development",
+      "intensity_spectrum": "Spectrum**: From gentle melancholy (3-4) to deep sadness (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual support calling for sadness processing and comfort development",
+        "**Eastern**: Attachment sadness calling for mindful support and compassionate comfort development",
+        "**Indigenous**: Community sadness calling for traditional support ceremonies and collective comfort guidance",
+        "**Clinical**: Sadness therapy calling for sorrow processing and support development",
+        "**Spiritual**: Faith sadness calling for divine comfort and spiritual support",
+        "**Philosophical**: Human sadness calling for wisdom about sorrow and appropriate support development"
+      ],
+      "raw_content": "- **Western**: Individual support calling for sadness processing and comfort development\n- **Eastern**: Attachment sadness calling for mindful support and compassionate comfort development\n- **Indigenous**: Community sadness calling for traditional support ceremonies and collective comfort guidance\n- **Clinical**: Sadness therapy calling for sorrow processing and support development\n- **Spiritual**: Faith sadness calling for divine comfort and spiritual support\n- **Philosophical**: Human sadness",
+      "framework_perspectives": {
+        "western": "Individual support calling for sadness processing and comfort development",
+        "eastern": "Attachment sadness calling for mindful support and compassionate comfort development",
+        "indigenous": "Community sadness calling for traditional support ceremonies and collective comfort guidance",
+        "clinical": "Sadness therapy calling for sorrow processing and support development",
+        "spiritual": "Faith sadness calling for divine comfort and spiritual support",
+        "philosophical": "Human sadness calling for wisdom about sorrow and appropriate support development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document sad experiences and sorrowful melancholy with support and comfort focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor sorrow signal while exploring support needs and comfort opportunities",
+      "precision_level_requirements": "Requirements**: Explore sadness appropriateness and sorrow patterns; assess support needs and comfort development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "sorrowful energy throughout body; Secondary: sad presence, downcast activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: sorrowful energy throughout body; Secondary: sad presence, downcast activation",
+        "**Sensation Quality Descriptors**: Sorrowful energy, sad presence, downcast activation, melancholy aliveness",
+        "**Kinesthetic Response Patterns**: Heavy movements, sad expressions, downcast gestures, melancholy behaviors",
+        "**Neurobiological Correlates**: Sadness networks, sorrow circuits, melancholy systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear sad feeling with definite sorrow and manageable support needs",
+        "7-8: Strong sad response with significant melancholy calling for support and comfort development",
+        "8-9: Overwhelming sad state with deep sorrow that may need supportive intervention and comprehensive support",
+        "**Resonance Practice Integration**: Sadness processing, sorrow support, comfort with caring community guidance",
+        "**Cultural Somatic Variations**: Western emotional support vs. Eastern compassionate comfort vs. Indigenous community comfort"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Sorrowful energy, sad presence, downcast activation, melancholy aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

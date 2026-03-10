@@ -1,0 +1,101 @@
+{
+  "term": "aching",
+  "source_file": "aching.md",
+  "source_hash": "9b7e37ad78b2ad65",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old English \"acan\" meaning \"to ache, suffer pain\"",
+      "original_meaning": "Meaning**: Physical pain, especially dull, persistent pain",
+      "semantic_evolution": "Physical sensation → metaphor for emotional pain → integrated mind-body experience",
+      "cultural_shifts": "Shifts**: Medical symptom → poetic metaphor → contemporary emotional literacy"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Experiencing persistent dull pain, either physical or emotional",
+      "colloquial_usage": "Usage**: \"Aching heart,\" \"my back is aching,\" \"aching for home\"",
+      "register": "Neutral to poetic; bridges medical and emotional expression",
+      "raw_content": "- **Primary Definition**: Experiencing persistent dull pain, either physical or emotional\n- **Secondary Meanings**: Longing, yearning, deep sadness, persistent discomfort\n- **Colloquial Usage**: \"Aching heart,\" \"my back is aching,\" \"aching for home\"\n- **Register**: Neutral to poetic; bridges medical and emotional expression\n- **Frequency Trend**: Stable; maintained connection between physical and emotional pain\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recognition of emotional"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating persistent discomfort with yearning quality",
+      "listener_response": "Response**: Understanding both pain and longing aspects",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating persistent discomfort with yearning quality",
+        "**Listener Response**: Understanding both pain and longing aspects",
+        "**Somatic Markers**: Deep chest sensations, persistent tension, gentle sadness",
+        "**Cognitive Associations**: Longing, loss, yearning, persistent discomfort, bittersweet sadness",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Deep chest awareness, gentle heaviness, persistent sensation",
+        "Embodied Authenticity: Integrated physical-emotional experience",
+        "**Kinesthetic Response**: Gentle holding, protective gestures, inward focus"
+      ],
+      "authenticity_markers": "Integrated physical-emotional experience"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Persistent discomfort combining physical and emotional dimensions",
+      "relational_context": "Context**: Often involves separation, loss, or unfulfilled longing",
+      "temporal_aspect": "Aspect**: Past orientation (missing something); present discomfort; hope for future relief",
+      "intensity_spectrum": "Spectrum**: From mild longing (3-4) to deep persistent pain (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual pain management; psychological and medical treatment",
+        "**Eastern**: Qi blockage or heart-mind disturbance requiring energy healing",
+        "**Indigenous**: Soul pain requiring community support and ceremonial healing",
+        "**Clinical**: Chronic pain or depression requiring integrated treatment approach",
+        "**Spiritual**: Spiritual longing or purification through sacred suffering",
+        "**Philosophical**: Existential longing and the human condition of separation"
+      ],
+      "raw_content": "- **Western**: Individual pain management; psychological and medical treatment\n- **Eastern**: Qi blockage or heart-mind disturbance requiring energy healing\n- **Indigenous**: Soul pain requiring community support and ceremonial healing\n- **Clinical**: Chronic pain or depression requiring integrated treatment approach\n- **Spiritual**: Spiritual longing or purification through sacred suffering\n- **Philosophical**: Existential longing and the human condition of separation\n\n**Cultural Bridge Example",
+      "framework_perspectives": {
+        "western": "Individual pain management; psychological and medical treatment",
+        "eastern": "Qi blockage or heart-mind disturbance requiring energy healing",
+        "indigenous": "Soul pain requiring community support and ceremonial healing",
+        "clinical": "Chronic pain or depression requiring integrated treatment approach",
+        "spiritual": "Spiritual longing or purification through sacred suffering",
+        "philosophical": "Existential longing and the human condition of separation"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document quality of discomfort and its physical-emotional integration",
+      "usage_in_emotional_somatic_voice": "integration",
+      "precision_level_requirements": "Requirements**: Maintain connection between physical and emotional aspects"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "chest, heart region; Secondary: throat, shoulders, arms",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: chest, heart region; Secondary: throat, shoulders, arms",
+        "**Sensation Quality Descriptors**: Dull heaviness, gentle pressure, persistent tenderness, yearning emptiness",
+        "**Kinesthetic Response Patterns**: Hand to heart, gentle rocking, inward holding, protective curling",
+        "**Neurobiological Correlates**: Shared pain networks for physical and emotional pain",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Gentle chest awareness with mild longing",
+        "6-7: Clear heart-centered aching with emotional component",
+        "8-9: Deep persistent pain affecting breathing and energy",
+        "**Resonance Practice Integration**: Heart-centered meditation, grief work, gentle body awareness",
+        "**Cultural Somatic Variations**: Western individual pain focus vs. Eastern energy meridian work vs. Indigenous community healing support"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Dull heaviness, gentle pressure, persistent tenderness, yearning emptiness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  },
+  "translations": {
+    "es": "aching-dolorido-español.md",
+    "fr": "aching-douloureux-français.md",
+    "de": "aching-schmerzend-deutsch.md",
+    "zh": "aching-隐痛-标准普通话.md"
+  },
+  "has_4lang_verification": true
+}

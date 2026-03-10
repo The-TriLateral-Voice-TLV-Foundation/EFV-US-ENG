@@ -1,0 +1,101 @@
+{
+  "term": "admired",
+  "source_file": "admired.md",
+  "source_hash": "0f7dcfad1ccb1330",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"admīrārī\" (to wonder at) - passive voice: \"to be wondered at\"",
+      "original_meaning": "Meaning**: Being the object of wonder or amazement from others",
+      "semantic_evolution": "External recognition → internal sense of worth → integrated self-appreciation",
+      "cultural_shifts": "Shifts**: Divine favor → social recognition → contemporary validation/appreciation"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Receiving respect, appreciation, or positive regard from others",
+      "colloquial_usage": "Usage**: \"She is widely admired,\" \"I feel admired,\" \"admired leader\"",
+      "register": "Neutral to positive; indicates social recognition",
+      "raw_content": "- **Primary Definition**: Receiving respect, appreciation, or positive regard from others\n- **Secondary Meanings**: Respected, appreciated, valued, esteemed, recognized\n- **Colloquial Usage**: \"She is widely admired,\" \"I feel admired,\" \"admired leader\"\n- **Register**: Neutral to positive; indicates social recognition\n- **Frequency Trend**: Stable; important for social bonding and self-esteem\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Connected to healthy self-worth and social c"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating receipt of positive regard and appreciation",
+      "listener_response": "Response**: Understanding social recognition and its personal impact",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating receipt of positive regard and appreciation",
+        "**Listener Response**: Understanding social recognition and its personal impact",
+        "**Somatic Markers**: Expansion, confidence, warmth, grounded presence",
+        "**Cognitive Associations**: Recognition, validation, worth, social connection, positive self-regard",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Gentle expansion, confident posture, warm settling",
+        "Embodied Authenticity: Natural confidence without arrogance or inflation",
+        "Kinesthetic Response: Grounded standing, open posture, relaxed availability"
+      ],
+      "authenticity_markers": "Natural confidence without arrogance or inflation"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Experience of receiving positive recognition that supports healthy self-worth",
+      "relational_context": "Context**: Creates positive social bonds and reinforces beneficial behaviors/qualities",
+      "temporal_aspect": "Aspect**: Present experience that validates past efforts and encourages future development",
+      "intensity_spectrum": "Spectrum**: From casual recognition (3-4) to profound appreciation (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual achievement recognition supporting self-esteem",
+        "**Eastern**: Recognition of virtue and contribution to harmony",
+        "**Indigenous**: Community acknowledgment of service and proper relationships",
+        "**Clinical**: Positive social feedback supporting mental health and development",
+        "**Spiritual**: Recognition of spiritual qualities or service to others",
+        "**Philosophical**: Appreciation of wisdom contributions and noble character"
+      ],
+      "raw_content": "- **Western**: Individual achievement recognition supporting self-esteem\n- **Eastern**: Recognition of virtue and contribution to harmony\n- **Indigenous**: Community acknowledgment of service and proper relationships\n- **Clinical**: Positive social feedback supporting mental health and development\n- **Spiritual**: Recognition of spiritual qualities or service to others\n- **Philosophical**: Appreciation of wisdom contributions and noble character\n\n**Cultural Bridge Examples**:\n\n**Western ⇄ Easter",
+      "framework_perspectives": {
+        "western": "Individual achievement recognition supporting self-esteem",
+        "eastern": "Recognition of virtue and contribution to harmony",
+        "indigenous": "Community acknowledgment of service and proper relationships",
+        "clinical": "Positive social feedback supporting mental health and development",
+        "spiritual": "Recognition of spiritual qualities or service to others",
+        "philosophical": "Appreciation of wisdom contributions and noble character"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document type and quality of recognition received",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture emotional impact and internal response to being appreciated",
+      "precision_level_requirements": "Requirements**: Distinguish from narcissistic inflation or external validation dependency"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "chest, solar plexus, shoulders; Secondary: posture, facial expression",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: chest, solar plexus, shoulders; Secondary: posture, facial expression",
+        "**Sensation Quality Descriptors**: Warm expansion, confident settling, grounded strength, gentle pride",
+        "**Kinesthetic Response Patterns**: Upright posture, open chest, grounded stance, available presence",
+        "**Neurobiological Correlates**: Social reward systems, confidence networks, positive self-regard areas",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Gentle warmth with mild confidence boost",
+        "6-7: Clear expansion with grounded confidence",
+        "8-9: Significant uplift with strong sense of worth and social connection",
+        "**Resonance Practice Integration**: Healthy pride cultivation, gratitude for recognition, confident presence",
+        "**Cultural Somatic Variations**: Western individual confidence vs. Eastern humble recognition vs. Indigenous community-supported dignity"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Warm expansion, confident settling, grounded strength, gentle pride"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  },
+  "translations": {
+    "es": "admired-admirado-español.md",
+    "fr": "admired-admiré-français.md",
+    "de": "admired-bewundert-deutsch.md",
+    "zh": "admired-受钦佩的-标准普通话.md"
+  },
+  "has_4lang_verification": true
+}

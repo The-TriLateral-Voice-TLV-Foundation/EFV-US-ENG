@@ -1,0 +1,93 @@
+{
+  "term": "cold",
+  "source_file": "cold.md",
+  "source_hash": "7175f253120a6838",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old English \"ceald\" (lacking warmth, frigid)",
+      "original_meaning": "Meaning**: Lacking warmth; having low temperature",
+      "semantic_evolution": "Evolution**: Physical temperature → emotional distance → contemporary detachment and aloofness",
+      "cultural_shifts": "Shifts**: Temperature description → emotional metaphor → relational distance → attachment understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Lacking affection or warmth; emotionally distant or unresponsive",
+      "colloquial_usage": "Usage**: \"Cold behavior,\" \"feeling cold,\" \"cold response\"",
+      "register": "Negative; indicates emotional distance calling for warmth or understanding",
+      "raw_content": "- **Primary Definition**: Lacking affection or warmth; emotionally distant or unresponsive\n- **Secondary Meanings**: Aloof, distant, unfeeling, detached, unfriendly, remote\n- **Colloquial Usage**: \"Cold behavior,\" \"feeling cold,\" \"cold response\"\n- **Register**: Negative; indicates emotional distance calling for warmth or understanding\n- **Frequency Trend**: High; common for describing emotional detachment and relational distance\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Reco"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating emotional distance and detached unresponsiveness",
+      "listener_response": "Response**: Understanding detachment and potential need for warmth development or connection support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating emotional distance and detached unresponsiveness",
+        "**Listener Response**: Understanding detachment and potential need for warmth development or connection support",
+        "**Somatic Markers**: Distant energy, detached presence, cold activation, withdrawn aliveness",
+        "**Cognitive Associations**: Emotional distance, detached response, need for warmth, connection requirement",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Distant energy throughout body, detached presence, cold activation",
+        "Embodied Authenticity**: Natural protection calling for warmth without forced connection while seeking appropriate attachment",
+        "Kinesthetic Response**: Withdrawn movements, cold expressions, distant gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Emotional distance and detachment supported by warmth awareness and connection support",
+      "relational_context": "Context**: May need warmth encouragement, connection support, or attachment understanding",
+      "temporal_aspect": "Aspect**: Present distance that can be addressed through warmth development and gradual connection building",
+      "intensity_spectrum": "Spectrum**: From mild distance (3-4) to severe coldness (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual attachment that benefits from warmth growth and connection development",
+        "**Eastern**: Attachment coldness calling for compassionate understanding and warmth development",
+        "**Indigenous**: Community connection calling for traditional warmth ceremonies and collective attachment support",
+        "**Clinical**: Attachment therapy calling for coldness healing and emotional warmth development",
+        "**Spiritual**: Spiritual coldness calling for divine warmth and faith connection development",
+        "**Philosophical**: Human attachment calling for wisdom about coldness and appropriate warmth development"
+      ],
+      "raw_content": "- **Western**: Individual attachment that benefits from warmth growth and connection development\n- **Eastern**: Attachment coldness calling for compassionate understanding and warmth development\n- **Indigenous**: Community connection calling for traditional warmth ceremonies and collective attachment support\n- **Clinical**: Attachment therapy calling for coldness healing and emotional warmth development\n- **Spiritual**: Spiritual coldness calling for divine warmth and faith connection developmen",
+      "framework_perspectives": {
+        "western": "Individual attachment that benefits from warmth growth and connection development",
+        "eastern": "Attachment coldness calling for compassionate understanding and warmth development",
+        "indigenous": "Community connection calling for traditional warmth ceremonies and collective attachment support",
+        "clinical": "Attachment therapy calling for coldness healing and emotional warmth development",
+        "spiritual": "Spiritual coldness calling for divine warmth and faith connection development",
+        "philosophical": "Human attachment calling for wisdom about coldness and appropriate warmth development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document cold feelings and emotional distance with warmth development and connection focus",
+      "usage_in_emotional_somatic_voice": "distance with warmth development and connection focus",
+      "precision_level_requirements": "Requirements**: Explore coldness appropriateness and protection function; assess warmth needs and attachment development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "distant energy throughout body; Secondary: detached presence, cold activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: distant energy throughout body; Secondary: detached presence, cold activation",
+        "**Sensation Quality Descriptors**: Distant energy, detached presence, cold activation, withdrawn aliveness",
+        "**Kinesthetic Response Patterns**: Withdrawn movements, cold expressions, distant gestures, detached behaviors",
+        "**Neurobiological Correlates**: Distance networks, detachment circuits, coldness systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear cold state with definite distance and manageable warmth needs",
+        "7-8: Strong cold response with significant detachment supported by warmth awareness and connection support",
+        "8-9: Severe cold state with overwhelming distance that may need supportive intervention and attachment therapy",
+        "**Resonance Practice Integration**: Warmth development, connection building, attachment development with compassionate community support",
+        "**Cultural Somatic Variations**: Western attachment healing vs. Eastern compassionate warmth vs. Indigenous community connection"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Distant energy, detached presence, cold activation, withdrawn aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "term": "focused",
+  "source_file": "focused.md",
+  "source_hash": "17ff55ec48a6abee",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Latin \"focus\" (hearth, fireplace)",
+      "original_meaning": "Meaning**: Centered like a hearth fire; having concentrated energy in one place",
+      "semantic_evolution": "Evolution**: Fire concentration → attention gathering → contemporary mental concentration and directed awareness",
+      "cultural_shifts": "Shifts**: Physical center → attention center → mental concentration → mindfulness understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Having concentrated attention; directing mental energy toward specific target",
+      "colloquial_usage": "Usage**: \"Feeling focused,\" \"focused attention,\" \"staying focused\"",
+      "register": "Positive; indicates concentration and mental clarity",
+      "raw_content": "- **Primary Definition**: Having concentrated attention; directing mental energy toward specific target\n- **Secondary Meanings**: Concentrated, attentive, directed, absorbed, centered, mindful\n- **Colloquial Usage**: \"Feeling focused,\" \"focused attention,\" \"staying focused\"\n- **Register**: Positive; indicates concentration and mental clarity\n- **Frequency Trend**: Very high; valued for describing attention and productivity\n- **Contemporary Somatic Usage**:\n  - **Body Awareness Trends**: Recognit"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating concentrated attention and directed mental energy toward specific goals",
+      "listener_response": "Response**: Understanding mental clarity and potential appreciation for concentration or focus support",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating concentrated attention and directed mental energy toward specific goals",
+        "**Listener Response**: Understanding mental clarity and potential appreciation for concentration or focus support",
+        "**Somatic Markers**: Concentrated energy, directed presence, attentive activation, centered aliveness",
+        "**Cognitive Associations**: Mental concentration, directed attention, clarity, productive engagement",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Concentrated energy throughout body, directed presence, attentive activation",
+        "**Embodied Authenticity**: Natural focus without forced concentration while maintaining sustainable attention",
+        "**Kinesthetic Response**: Directed movements, focused expressions, concentrated gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Mental concentration and directed attention calling for with sustainable practices and mindful awareness",
+      "relational_context": "Context**: May enhance productivity and requires balance guidance for sustainable focus and attention health",
+      "temporal_aspect": "Aspect**: Present concentration that can be sustained through mindfulness and appropriate attention management",
+      "intensity_spectrum": "Spectrum**: From gentle attention (4-5) to intense focus (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual productivity that benefits from focus growth and attention development",
+        "**Eastern**: Attachment focus calling for mindful concentration and compassionate attention development",
+        "**Indigenous**: Community focus calling for traditional concentration ceremonies and collective attention support",
+        "**Clinical**: Focus therapy that benefits from attention growth and concentration training",
+        "**Spiritual**: Divine focus calling for faithful concentration and spiritual attention stewardship",
+        "**Philosophical**: Human focus calling for wisdom about attention and appropriate concentration development"
+      ],
+      "raw_content": "- **Western**: Individual productivity that benefits from focus growth and attention development\n- **Eastern**: Attachment focus calling for mindful concentration and compassionate attention development\n- **Indigenous**: Community focus calling for traditional concentration ceremonies and collective attention support\n- **Clinical**: Focus therapy that benefits from attention growth and concentration training\n- **Spiritual**: Divine focus calling for faithful concentration and spiritual attention",
+      "framework_perspectives": {
+        "western": "Individual productivity that benefits from focus growth and attention development",
+        "eastern": "Attachment focus calling for mindful concentration and compassionate attention development",
+        "indigenous": "Community focus calling for traditional concentration ceremonies and collective attention support",
+        "clinical": "Focus therapy that benefits from attention growth and concentration training",
+        "spiritual": "Divine focus calling for faithful concentration and spiritual attention stewardship",
+        "philosophical": "Human focus calling for wisdom about attention and appropriate concentration development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document focused experiences and concentrated attention with sustainability and mindfulness focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture concentrated quality while maintaining balance wisdom and sustainable rather than forced focus",
+      "precision_level_requirements": "Requirements**: HIGH - assess focus authenticity vs. obsession; explore sustainable concentration and mindful attention development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "concentrated energy throughout body; Secondary: directed presence, attentive activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: concentrated energy throughout body; Secondary: directed presence, attentive activation",
+        "**Sensation Quality Descriptors**: Concentrated energy, directed presence, attentive activation, centered aliveness",
+        "**Kinesthetic Response Patterns**: Directed movements, focused expressions, concentrated gestures, attentive behaviors",
+        "**Neurobiological Correlates**: Focus networks, attention circuits, concentration systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear focused feeling with definite concentration and manageable directed attention",
+        "7-8: Strong focused response with significant concentration calling for balance support and sustainable attention",
+        "9-10: Intense focused state with overwhelming concentration calling for balance intervention and attention rest",
+        "**Resonance Practice Integration**: Focus development, attention development, mindful concentration with balanced community support",
+        "**Cultural Somatic Variations**: Western productive concentration vs. Eastern mindful awareness vs. Indigenous community concentration"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Concentrated energy, directed presence, attentive activation, centered aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

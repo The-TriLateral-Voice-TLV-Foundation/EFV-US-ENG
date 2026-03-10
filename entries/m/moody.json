@@ -1,0 +1,93 @@
+{
+  "term": "moody",
+  "source_file": "moody.md",
+  "source_hash": "f4f162070bf7aa5e",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: \"Mood\" from Old English \"mod\" (mind, heart, spirit)",
+      "original_meaning": "Meaning**: Full of changing spirit; having variable mind and fluctuating emotional state",
+      "semantic_evolution": "Evolution**: Variable spirit → fluctuating emotion → contemporary temperamental variability and unpredictable mood changes",
+      "cultural_shifts": "Shifts**: Variable spirit → fluctuating emotion → temperamental variability → balance understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Having temperamental variability and unpredictable mood changes; experiencing emotional fluctuation and changeable disposition",
+      "colloquial_usage": "Usage**: \"Being moody,\" \"moody person,\" \"moody behavior\"",
+      "register": "Mildly negative; indicates temperament calling for stability and emotional balance support",
+      "raw_content": "- **Primary Definition**: Having temperamental variability and unpredictable mood changes; experiencing emotional fluctuation and changeable disposition\n- **Secondary Meanings**: Temperamental, changeable, unpredictable, variable, volatile, fluctuating\n- **Colloquial Usage**: \"Being moody,\" \"moody person,\" \"moody behavior\"\n- **Register**: Mildly negative; indicates temperament calling for stability and emotional balance support\n- **Frequency Trend**: High; common for describing emotional variabi"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating temperamental variability and unpredictable emotional fluctuation",
+      "listener_response": "Response**: Understanding variability and potential need for stability support or balance guidance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating temperamental variability and unpredictable emotional fluctuation",
+        "**Listener Response**: Understanding variability and potential need for stability support or balance guidance",
+        "**Somatic Markers**: Variable energy, fluctuating presence, changeable activation, unpredictable aliveness",
+        "**Cognitive Associations**: Temperamental variability, emotional fluctuation, unpredictable changes, need for balance",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Variable energy throughout body, fluctuating presence, changeable activation",
+        "**Embodied Authenticity**: Natural moodiness calling for balance without suppression while seeking stability",
+        "**Kinesthetic Response**: Variable movements, moody expressions, fluctuating gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Temperamental variability and emotional fluctuation calling for stability support and balance development",
+      "relational_context": "Context**: May need stability assistance, balance support, and understanding for emotional fluctuation management",
+      "temporal_aspect": "Aspect**: Present variability that benefits from stability growth and balance development",
+      "intensity_spectrum": "Spectrum**: From mild changeability (3-4) to overwhelming volatility (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual balance calling for moodiness processing and stability development",
+        "**Eastern**: Attachment moodiness calling for mindful balance and compassionate stability development",
+        "**Indigenous**: Community moodiness calling for traditional balance ceremonies and collective stability support",
+        "**Clinical**: Mood therapy calling for emotional stability and balance development",
+        "**Spiritual**: Faith moodiness calling for divine stability and spiritual balance",
+        "**Philosophical**: Human moodiness calling for wisdom about variability and appropriate balance development"
+      ],
+      "raw_content": "- **Western**: Individual balance calling for moodiness processing and stability development\n- **Eastern**: Attachment moodiness calling for mindful balance and compassionate stability development\n- **Indigenous**: Community moodiness calling for traditional balance ceremonies and collective stability support\n- **Clinical**: Mood therapy calling for emotional stability and balance development\n- **Spiritual**: Faith moodiness calling for divine stability and spiritual balance\n- **Philosophical**:",
+      "framework_perspectives": {
+        "western": "Individual balance calling for moodiness processing and stability development",
+        "eastern": "Attachment moodiness calling for mindful balance and compassionate stability development",
+        "indigenous": "Community moodiness calling for traditional balance ceremonies and collective stability support",
+        "clinical": "Mood therapy calling for emotional stability and balance development",
+        "spiritual": "Faith moodiness calling for divine stability and spiritual balance",
+        "philosophical": "Human moodiness calling for wisdom about variability and appropriate balance development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document moody experiences and temperamental variability with balance and stability focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor fluctuation signal while exploring stability needs and balance opportunities",
+      "precision_level_requirements": "Requirements**: Explore moodiness appropriateness and variability patterns; assess stability needs and balance development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "variable energy throughout body; Secondary: fluctuating presence, changeable activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: variable energy throughout body; Secondary: fluctuating presence, changeable activation",
+        "**Sensation Quality Descriptors**: Variable energy, fluctuating presence, changeable activation, unpredictable aliveness",
+        "**Kinesthetic Response Patterns**: Variable movements, moody expressions, fluctuating gestures, changeable behaviors",
+        "**Neurobiological Correlates**: Mood networks, variability circuits, balance systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear moody feeling with definite variability and manageable balance needs",
+        "7-8: Strong moody response with significant fluctuation calling for stability support and balance development",
+        "8-9: Overwhelming moody state with chaotic variability that may need supportive intervention and comprehensive stability",
+        "**Resonance Practice Integration**: Moodiness processing, emotional regulation, balance with supportive community stability",
+        "**Cultural Somatic Variations**: Western emotional regulation vs. Eastern mindful balance vs. Indigenous community balance"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Variable energy, fluctuating presence, changeable activation, unpredictable aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

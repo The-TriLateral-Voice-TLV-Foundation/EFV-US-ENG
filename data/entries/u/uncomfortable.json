@@ -1,0 +1,93 @@
+{
+  "term": "uncomfortable",
+  "source_file": "uncomfortable.md",
+  "source_hash": "f4d3932da1400a77",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: \"Un-\" (not) + \"comfort\" from Old French \"confort\" (strength, support)",
+      "original_meaning": "Meaning**: Not having support; lacking strength and experiencing unease without comfort",
+      "semantic_evolution": "Evolution**: Lacking support → experiencing unease → contemporary physical discomfort and emotional awkwardness",
+      "cultural_shifts": "Shifts**: Lacking support → experiencing unease → physical discomfort → balance understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling physically ill at ease and emotionally awkward; experiencing discomfort and unpleasant unease",
+      "colloquial_usage": "Usage**: \"Feeling uncomfortable,\" \"uncomfortable situation,\" \"physically uncomfortable\"",
+      "register": "Negative; indicates discomfort calling for ease and comfort support",
+      "raw_content": "- **Primary Definition**: Feeling physically ill at ease and emotionally awkward; experiencing discomfort and unpleasant unease\n- **Secondary Meanings**: Uneasy, awkward, ill at ease, distressed, bothered, troubled\n- **Colloquial Usage**: \"Feeling uncomfortable,\" \"uncomfortable situation,\" \"physically uncomfortable\"\n- **Register**: Negative; indicates discomfort calling for ease and comfort support\n- **Frequency Trend**: Very high; fundamental for describing physical and emotional discomfort\n- *"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating physical unease and emotionally awkward discomfort",
+      "listener_response": "Response**: Understanding discomfort and potential need for comfort support or ease guidance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating physical unease and emotionally awkward discomfort",
+        "**Listener Response**: Understanding discomfort and potential need for comfort support or ease guidance",
+        "**Somatic Markers**: Uneasy energy, uncomfortable presence, awkward activation, disturbed aliveness",
+        "**Cognitive Associations**: Physical discomfort, emotional awkwardness, unpleasant unease, need for comfort",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Uneasy energy throughout body, uncomfortable presence, awkward activation",
+        "**Embodied Authenticity**: Natural discomfort calling for comfort without avoidance while seeking ease",
+        "**Kinesthetic Response**: Shifting movements, uncomfortable expressions, awkward gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Physical discomfort and emotional awkwardness calling for comfort support and ease development",
+      "relational_context": "Context**: May need comfort assistance, ease support, and understanding for discomfort management",
+      "temporal_aspect": "Aspect**: Present unease that benefits from comfort growth and ease development",
+      "intensity_spectrum": "Spectrum**: From mild unease (3-4) to severe discomfort (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual comfort calling for discomfort processing and ease development",
+        "**Eastern**: Attachment discomfort calling for mindful comfort and compassionate ease development",
+        "**Indigenous**: Community discomfort calling for traditional comfort ceremonies and collective ease support",
+        "**Clinical**: Discomfort therapy that benefits from ease growth and comfort support",
+        "**Spiritual**: Faith discomfort calling for divine comfort and spiritual ease",
+        "**Philosophical**: Human discomfort calling for wisdom about unease and appropriate comfort development"
+      ],
+      "raw_content": "- **Western**: Individual comfort calling for discomfort processing and ease development\n- **Eastern**: Attachment discomfort calling for mindful comfort and compassionate ease development\n- **Indigenous**: Community discomfort calling for traditional comfort ceremonies and collective ease support\n- **Clinical**: Discomfort therapy that benefits from ease growth and comfort support\n- **Spiritual**: Faith discomfort calling for divine comfort and spiritual ease\n- **Philosophical**: Human discomfo",
+      "framework_perspectives": {
+        "western": "Individual comfort calling for discomfort processing and ease development",
+        "eastern": "Attachment discomfort calling for mindful comfort and compassionate ease development",
+        "indigenous": "Community discomfort calling for traditional comfort ceremonies and collective ease support",
+        "clinical": "Discomfort therapy that benefits from ease growth and comfort support",
+        "spiritual": "Faith discomfort calling for divine comfort and spiritual ease",
+        "philosophical": "Human discomfort calling for wisdom about unease and appropriate comfort development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document uncomfortable experiences and physical discomfort with comfort and ease focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor discomfort signal while exploring comfort needs and ease opportunities",
+      "precision_level_requirements": "Requirements**: Explore discomfort appropriateness and unease patterns; assess comfort needs and ease development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "uneasy energy throughout body; Secondary: uncomfortable presence, awkward activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: uneasy energy throughout body; Secondary: uncomfortable presence, awkward activation",
+        "**Sensation Quality Descriptors**: Uneasy energy, uncomfortable presence, awkward activation, disturbed aliveness",
+        "**Kinesthetic Response Patterns**: Shifting movements, uncomfortable expressions, awkward gestures, uneasy behaviors",
+        "**Neurobiological Correlates**: Discomfort networks, unease circuits, awkwardness systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear uncomfortable feeling with definite discomfort and manageable comfort needs",
+        "7-8: Strong uncomfortable response with significant unease calling for comfort support and ease development",
+        "8-9: Overwhelming uncomfortable state with severe discomfort that may need supportive intervention and comprehensive comfort",
+        "**Resonance Practice Integration**: Discomfort processing, unease acceptance, comfort with supportive community ease",
+        "**Cultural Somatic Variations**: Western comfort seeking vs. Eastern mindful acceptance vs. Indigenous community ease"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Uneasy energy, uncomfortable presence, awkward activation, disturbed aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

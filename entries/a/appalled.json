@@ -1,0 +1,94 @@
+{
+  "term": "appalled",
+  "source_file": "appalled.md",
+  "source_hash": "69c5bcd373ec24b0",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old French \"apalir\" (to grow pale) from \"a-\" (to) + \"palir\" (become pale)",
+      "original_meaning": "Meaning**: To cause to grow pale, especially from shock or horror",
+      "semantic_evolution": "Physical pallor response → emotional shock → moral revulsion",
+      "cultural_shifts": "Shifts**: Physical symptom → moral response → social judgment expression"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Greatly dismayed or horrified by something shocking or unacceptable",
+      "colloquial_usage": "Usage**: \"Appalled by the behavior,\" \"absolutely appalled,\" \"appalling conditions\"",
+      "register": "Formal to emphatic; indicates strong moral or emotional reaction",
+      "raw_content": "- **Primary Definition**: Greatly dismayed or horrified by something shocking or unacceptable\n- **Secondary Meanings**: Horrified, shocked, dismayed, outraged, disgusted, revolted\n- **Colloquial Usage**: \"Appalled by the behavior,\" \"absolutely appalled,\" \"appalling conditions\"\n- **Register**: Formal to emphatic; indicates strong moral or emotional reaction\n- **Frequency Trend**: Stable; important for expressing strong disapproval\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends: Recog"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating profound shock and moral disapproval at unacceptable situation",
+      "listener_response": "Response**: Understanding serious moral outrage and shared concern about standards",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating profound shock and moral disapproval at unacceptable situation",
+        "**Listener Response**: Understanding serious moral outrage and shared concern about standards",
+        "**Somatic Markers**: Pallor, recoil response, moral revulsion, shock activation",
+        "**Cognitive Associations**: Moral violation, unacceptable behavior, standards breach, serious disapproval",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Pallor, recoil response, shock throughout body, moral revulsion",
+        "Embodied Authenticity: Genuine moral shock without performance or exaggeration",
+        "Kinesthetic Response: Recoiling movements, protective gestures, shock postures"
+      ],
+      "authenticity_markers": "Genuine moral shock without performance or exaggeration"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Profound shock and moral disapproval at seriously unacceptable behavior or conditions",
+      "relational_context": "Context**: Signals serious breach of moral or social standards",
+      "temporal_aspect": "Aspect**: Present shock response often to recently discovered information",
+      "intensity_spectrum": "Spectrum**: From strong disapproval (5-6) to profound horror (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual moral response requiring social action or boundary-setting",
+        "**Eastern**: Violation of dharma requiring compassionate correction and restoration",
+        "**Indigenous**: Community standards violation requiring collective response and healing",
+        "**Clinical**: Moral injury assessment and trauma response to ethical violations",
+        "**Spiritual**: Sin or ethical violation calling for repentance and community restoration",
+        "**Philosophical**: Breach of ethical principles requiring moral reasoning and response"
+      ],
+      "raw_content": "- **Western**: Individual moral response requiring social action or boundary-setting\n- **Eastern**: Violation of dharma requiring compassionate correction and restoration\n- **Indigenous**: Community standards violation requiring collective response and healing\n- **Clinical**: Moral injury assessment and trauma response to ethical violations\n- **Spiritual**: Sin or ethical violation calling for repentance and community restoration\n- **Philosophical**: Breach of ethical principles requiring moral ",
+      "framework_perspectives": {
+        "western": "Individual moral response requiring social action or boundary-setting",
+        "eastern": "Violation of dharma requiring compassionate correction and restoration",
+        "indigenous": "Community standards violation requiring collective response and healing",
+        "clinical": "Moral injury assessment and trauma response to ethical violations",
+        "spiritual": "Sin or ethical violation calling for repentance and community restoration",
+        "philosophical": "Breach of ethical principles requiring moral reasoning and response"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document specific violations and moral standards breached",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture moral shock intensity and underlying values threatened",
+      "precision_level_requirements": "Requirements**: HIGH - specify violation type and appropriate response level"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "face pallor, shock throughout body; Secondary: recoil patterns, protective positioning",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: face pallor, shock throughout body; Secondary: recoil patterns, protective positioning",
+        "**Sensation Quality Descriptors**: Shock, pallor, recoil energy, moral revulsion, protective activation",
+        "**Kinesthetic Response Patterns**: Recoiling movements, protective gestures, shock postures, withdrawing behaviors",
+        "**Neurobiological Correlates**: Moral shock networks, disgust response, social violation detection systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "5-6: Clear shock with noticeable physical response and moral activation",
+        "7-8: Profound shock with significant physical recoil and moral outrage",
+        "9-10: Overwhelming horror with complete moral revulsion and potential trauma response",
+        "**Resonance Practice Integration**: Moral injury processing, values clarification, social action skills",
+        "**Cultural Somatic Variations**: Western individual outrage vs. Eastern compassionate correction vs. Indigenous community healing"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Shock, pallor, recoil energy, moral revulsion, protective activation"
+    }
+  },
+  "intensity_range": "5-6",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "term": "ashamed",
+  "source_file": "ashamed.md",
+  "source_hash": "388f16219aad4633",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old English \"ascamian\" (to feel shame) from Proto-Germanic \"skamo\" (shame)",
+      "original_meaning": "Meaning**: To feel disgrace, dishonor, or humiliation",
+      "semantic_evolution": "Public shame displays → internalized shame patterns → trauma responses",
+      "cultural_shifts": "Shifts**: Public humiliation → private shame → psychological symptom → trauma response"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling embarrassed or guilty because of one's actions, characteristics, or associations",
+      "colloquial_usage": "Usage**: \"Ashamed of behavior,\" \"deeply ashamed,\" \"feeling ashamed\"",
+      "register": "Universal; used across contexts from mild to severe shame",
+      "raw_content": "- **Primary Definition**: Feeling embarrassed or guilty because of one's actions, characteristics, or associations\n- **Secondary Meanings**: Embarrassed, humiliated, disgraced, mortified, guilty, regretful\n- **Colloquial Usage**: \"Ashamed of behavior,\" \"deeply ashamed,\" \"feeling ashamed\"\n- **Register**: Universal; used across contexts from mild to severe shame\n- **Frequency Trend**: Increasing awareness; central to trauma and mental health discourse\n- **Contemporary Somatic Usage**:\n  - Body Awa"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating painful self-judgment and desire to hide or disappear",
+      "listener_response": "Response**: Understanding deep painful self-criticism and need for compassion",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating painful self-judgment and desire to hide or disappear",
+        "**Listener Response**: Understanding deep painful self-criticism and need for compassion",
+        "**Somatic Markers**: Shrinking posture, face covering, withdrawal, collapse energy",
+        "**Cognitive Associations**: Self-judgment, inadequacy, failure, desire to hide, self-criticism",
+        "**Somatic Evocation**:",
+        "Physical Resonance: Shrinking, collapsing, withdrawal throughout body",
+        "Embodied Authenticity: Genuine shame pain without self-punishment",
+        "Kinesthetic Response: Head hanging, face covering, body shrinking, withdrawal movements"
+      ],
+      "authenticity_markers": "Genuine shame pain without self-punishment"
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Painful self-judgment and feeling of being fundamentally flawed or bad",
+      "relational_context": "Context**: Creates isolation and withdrawal; damages self-worth and relationships",
+      "temporal_aspect": "Aspect**: Often rooted in past experiences with present-moment activation",
+      "intensity_spectrum": "Spectrum**: From mild embarrassment (3-4) to overwhelming shame (9-10)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual psychological condition requiring therapy and shame resilience building",
+        "**Eastern**: Karmic burden requiring compassionate self-forgiveness and merit cultivation",
+        "**Indigenous**: Soul wound addressed through ceremonial healing and community restoration",
+        "**Clinical**: Core trauma symptom requiring specialized therapeutic approaches",
+        "**Spiritual**: Spiritual wound requiring divine forgiveness and grace",
+        "**Philosophical**: Existential condition requiring self-compassion and worth recognition"
+      ],
+      "raw_content": "- **Western**: Individual psychological condition requiring therapy and shame resilience building\n- **Eastern**: Karmic burden requiring compassionate self-forgiveness and merit cultivation\n- **Indigenous**: Soul wound addressed through ceremonial healing and community restoration\n- **Clinical**: Core trauma symptom requiring specialized therapeutic approaches\n- **Spiritual**: Spiritual wound requiring divine forgiveness and grace\n- **Philosophical**: Existential condition requiring self-compass",
+      "framework_perspectives": {
+        "western": "Individual psychological condition requiring therapy and shame resilience building",
+        "eastern": "Karmic burden requiring compassionate self-forgiveness and merit cultivation",
+        "indigenous": "Soul wound addressed through ceremonial healing and community restoration",
+        "clinical": "Core trauma symptom requiring specialized therapeutic approaches",
+        "spiritual": "Spiritual wound requiring divine forgiveness and grace",
+        "philosophical": "Existential condition requiring self-compassion and worth recognition"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document shame sources and self-judgment patterns with compassion",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture collapse quality and pain without reinforcing self-criticism",
+      "precision_level_requirements": "Requirements**: CRITICAL - assess suicide risk, self-harm, and trauma history"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "collapse throughout body; Secondary: head, chest, protective positioning",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: collapse throughout body; Secondary: head, chest, protective positioning",
+        "**Sensation Quality Descriptors**: Shrinking, collapsing, withdrawal, desire to disappear, protective covering",
+        "**Kinesthetic Response Patterns**: Head hanging, face covering, body shrinking, withdrawal movements, collapse postures",
+        "**Neurobiological Correlates**: Social pain networks, attachment disruption, self-criticism circuits, collapse responses",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "3-4: Mild shrinking with manageable self-consciousness",
+        "6-7: Clear collapse with noticeable shame and withdrawal",
+        "8-9: Severe shame with overwhelming collapse and desire to disappear",
+        "**Resonance Practice Integration**: Shame resilience therapy, self-compassion practices, somatic trauma healing",
+        "**Cultural Somatic Variations**: Western individual therapy vs. Eastern compassion cultivation vs. Indigenous community restoration"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Shrinking, collapsing, withdrawal, desire to disappear, protective covering"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

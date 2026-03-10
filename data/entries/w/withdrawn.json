@@ -1,0 +1,93 @@
+{
+  "term": "withdrawn",
+  "source_file": "withdrawn.md",
+  "source_hash": "a907bbea42a37f92",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: \"With-\" (away) + \"draw\" from Old English \"dragan\" (to pull)",
+      "original_meaning": "Meaning**: Pulled away; removed from engagement and retreated from connection",
+      "semantic_evolution": "Evolution**: Pulled away → removed engagement → contemporary social isolation and emotional detachment",
+      "cultural_shifts": "Shifts**: Pulled away → removed engagement → social isolation → connection understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Being socially isolated and emotionally detached; experiencing retreat from connection and disengaged withdrawal",
+      "colloquial_usage": "Usage**: \"Feeling withdrawn,\" \"withdrawn behavior,\" \"emotionally withdrawn\"",
+      "register": "Serious negative; indicates isolation calling for connection and engagement support",
+      "raw_content": "- **Primary Definition**: Being socially isolated and emotionally detached; experiencing retreat from connection and disengaged withdrawal\n- **Secondary Meanings**: Isolated, detached, reclusive, distant, disengaged, removed\n- **Colloquial Usage**: \"Feeling withdrawn,\" \"withdrawn behavior,\" \"emotionally withdrawn\"\n- **Register**: Serious negative; indicates isolation calling for connection and engagement support\n- **Frequency Trend**: High; important for describing social withdrawal and emotiona"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating social isolation and emotionally detached retreat from connection",
+      "listener_response": "Response**: Understanding isolation and potential need for connection support or engagement guidance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating social isolation and emotionally detached retreat from connection",
+        "**Listener Response**: Understanding isolation and potential need for connection support or engagement guidance",
+        "**Somatic Markers**: Isolated energy, withdrawn presence, detached activation, removed aliveness",
+        "**Cognitive Associations**: Social isolation, emotional detachment, retreat from connection, need for engagement",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Isolated energy throughout body, withdrawn presence, detached activation",
+        "**Embodied Authenticity**: Natural withdrawal calling for connection without forcing while seeking gentle engagement",
+        "**Kinesthetic Response**: Contracted movements, withdrawn expressions, isolated gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Social isolation and emotional detachment calling for connection support and engagement development intervention",
+      "relational_context": "Context**: May need connection assistance, engagement support, and understanding for withdrawal processing",
+      "temporal_aspect": "Aspect**: Present isolation that benefits from connection growth and engagement development",
+      "intensity_spectrum": "Spectrum**: From mild detachment (4-5) to severe withdrawal (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual connection calling for withdrawal processing and engagement development",
+        "**Eastern**: Attachment withdrawal calling for compassionate understanding and connection development",
+        "**Indigenous**: Community withdrawal calling for traditional connection ceremonies and collective engagement support",
+        "**Clinical**: Withdrawal therapy calling for social reconnection and engagement intervention",
+        "**Spiritual**: Faith withdrawal calling for divine connection and spiritual engagement",
+        "**Philosophical**: Human withdrawal calling for wisdom about isolation and appropriate connection development"
+      ],
+      "raw_content": "- **Western**: Individual connection calling for withdrawal processing and engagement development\n- **Eastern**: Attachment withdrawal calling for compassionate understanding and connection development\n- **Indigenous**: Community withdrawal calling for traditional connection ceremonies and collective engagement support\n- **Clinical**: Withdrawal therapy calling for social reconnection and engagement intervention\n- **Spiritual**: Faith withdrawal calling for divine connection and spiritual engage",
+      "framework_perspectives": {
+        "western": "Individual connection calling for withdrawal processing and engagement development",
+        "eastern": "Attachment withdrawal calling for compassionate understanding and connection development",
+        "indigenous": "Community withdrawal calling for traditional connection ceremonies and collective engagement support",
+        "clinical": "Withdrawal therapy calling for social reconnection and engagement intervention",
+        "spiritual": "Faith withdrawal calling for divine connection and spiritual engagement",
+        "philosophical": "Human withdrawal calling for wisdom about isolation and appropriate connection development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document withdrawn experiences and social isolation with connection and engagement focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor protection reality while exploring connection needs and engagement opportunities",
+      "precision_level_requirements": "Requirements**: HIGH - assess withdrawal severity and isolation patterns; provide connection support and engagement development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "isolated energy throughout body; Secondary: withdrawn presence, detached activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: isolated energy throughout body; Secondary: withdrawn presence, detached activation",
+        "**Sensation Quality Descriptors**: Isolated energy, withdrawn presence, detached activation, removed aliveness",
+        "**Kinesthetic Response Patterns**: Contracted movements, withdrawn expressions, isolated gestures, detached behaviors",
+        "**Neurobiological Correlates**: Withdrawal networks, isolation circuits, detachment systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear withdrawn feeling with definite isolation and manageable connection needs",
+        "7-8: Strong withdrawn response with significant detachment calling for connection support and engagement development",
+        "8-9: Severe withdrawn state with complete isolation that may need supportive intervention and comprehensive connection",
+        "**Resonance Practice Integration**: Withdrawal processing, isolation healing, connection with engaging community support",
+        "**Cultural Somatic Variations**: Western social reconnection vs. Eastern compassionate engagement vs. Indigenous community connection"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Isolated energy, withdrawn presence, detached activation, removed aliveness"
+    }
+  },
+  "intensity_range": "4-5",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "term": "panicked",
+  "source_file": "panicked.md",
+  "source_hash": "b230fb6948166c1f",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Greek \"panikos\" from \"Pan\" (god of nature who caused sudden fear)",
+      "original_meaning": "Meaning**: Sudden overwhelming fear attributed to the god Pan",
+      "semantic_evolution": "Evolution**: Divine terror → sudden fear → contemporary extreme anxiety and crisis",
+      "cultural_shifts": "Shifts**: Divine fear → unexplained terror → panic disorder → anxiety understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Affected by sudden uncontrollable fear or anxiety; in a state of panic",
+      "colloquial_usage": "Usage**: \"Feeling panicked,\" \"panicked response,\" \"absolutely panicked\"",
+      "register": "Crisis; indicates extreme anxiety calling for immediate intervention",
+      "raw_content": "- **Primary Definition**: Affected by sudden uncontrollable fear or anxiety; in a state of panic\n- **Secondary Meanings**: Terrified, frantic, hysterical, alarmed, frenzied, terror-stricken\n- **Colloquial Usage**: \"Feeling panicked,\" \"panicked response,\" \"absolutely panicked\"\n- **Register**: Crisis; indicates extreme anxiety calling for immediate intervention\n- **Frequency Trend**: High; central to anxiety disorders and crisis response\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends*"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating extreme fear and overwhelming anxiety crisis",
+      "listener_response": "Response**: Understanding crisis state and urgent need for grounding or professional help",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating extreme fear and overwhelming anxiety crisis",
+        "**Listener Response**: Understanding crisis state and urgent need for grounding or professional help",
+        "**Somatic Markers**: Terror activation, panic energy, crisis fear, overwhelming anxiety",
+        "**Cognitive Associations**: Extreme fear, panic attack, crisis anxiety, need for immediate grounding",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Terror activation throughout body, panic energy, overwhelming anxiety",
+        "Embodied Authenticity**: Genuine panic crisis calling for immediate grounding without shame",
+        "Kinesthetic Response**: Frantic movements, panicked expressions, terror gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Extreme anxiety crisis calling for immediate grounding and professional intervention",
+      "relational_context": "Context**: Creates urgent need for grounding support and potentially professional intervention",
+      "temporal_aspect": "Aspect**: Present crisis calling for immediate stabilization and anxiety management",
+      "intensity_spectrum": "Spectrum**: Inherently high intensity (8-10) representing extreme anxiety crisis"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual anxiety calling for immediate panic management and professional intervention",
+        "**Eastern**: Extreme fear calling for immediate mindfulness grounding and compassionate crisis support",
+        "**Indigenous**: Spirit terror calling for traditional grounding and community crisis intervention",
+        "**Clinical**: Panic disorder calling for immediate assessment and specialized anxiety intervention",
+        "**Spiritual**: Spiritual crisis calling for faith community grounding and divine protection",
+        "**Philosophical**: Human fear calling for immediate understanding and crisis support"
+      ],
+      "raw_content": "- **Western**: Individual anxiety calling for immediate panic management and professional intervention\n- **Eastern**: Extreme fear calling for immediate mindfulness grounding and compassionate crisis support\n- **Indigenous**: Spirit terror calling for traditional grounding and community crisis intervention\n- **Clinical**: Panic disorder calling for immediate assessment and specialized anxiety intervention\n- **Spiritual**: Spiritual crisis calling for faith community grounding and divine protecti",
+      "framework_perspectives": {
+        "western": "Individual anxiety calling for immediate panic management and professional intervention",
+        "eastern": "Extreme fear calling for immediate mindfulness grounding and compassionate crisis support",
+        "indigenous": "Spirit terror calling for traditional grounding and community crisis intervention",
+        "clinical": "Panic disorder calling for immediate assessment and specialized anxiety intervention",
+        "spiritual": "Spiritual crisis calling for faith community grounding and divine protection",
+        "philosophical": "Human fear calling for immediate understanding and crisis support"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document panic triggers and crisis anxiety with immediate grounding focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture terror intensity while providing immediate grounding and stabilization",
+      "precision_level_requirements": "Requirements**: CRITICAL - assess panic attack severity and need for immediate professional intervention"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "terror activation throughout entire body; Secondary: panic energy, overwhelming anxiety",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: terror activation throughout entire body; Secondary: panic energy, overwhelming anxiety",
+        "**Sensation Quality Descriptors**: Terror activation, panic energy, crisis fear, overwhelming anxiety",
+        "**Kinesthetic Response Patterns**: Frantic movements, panicked expressions, terror gestures, crisis behaviors",
+        "**Neurobiological Correlates**: Panic networks, terror circuits, extreme anxiety systems, crisis activation",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "8-9: Clear panic with extreme anxiety calling for immediate grounding and intervention",
+        "10: Complete panic with overwhelming terror calling for emergency professional support and crisis management",
+        "**Resonance Practice Integration**: Panic management, crisis grounding, immediate stabilization with professional support",
+        "**Cultural Somatic Variations**: Western panic intervention vs. Eastern compassionate grounding vs. Indigenous community crisis support"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Terror activation, panic energy, crisis fear, overwhelming anxiety"
+    }
+  },
+  "intensity_range": "8-10",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

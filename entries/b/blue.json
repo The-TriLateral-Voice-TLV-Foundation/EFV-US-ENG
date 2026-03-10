@@ -1,0 +1,93 @@
+{
+  "term": "blue",
+  "source_file": "blue.md",
+  "source_hash": "17fb3236c881ddcc",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Middle English via Old French \"bleu\" (color of sky and sea)",
+      "original_meaning": "Meaning**: Having the color of clear sky; resembling deep water",
+      "semantic_evolution": "Evolution**: Color description → melancholy mood → contemporary sadness and depression",
+      "cultural_shifts": "Shifts**: Color reference → emotional metaphor → recognized mood → mental health awareness"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Feeling sad or melancholy; experiencing low mood or mild depression",
+      "colloquial_usage": "Usage**: \"Feeling blue,\" \"having the blues,\" \"blue mood\"",
+      "register": "Mildly negative; indicates sadness calling for attention",
+      "raw_content": "- **Primary Definition**: Feeling sad or melancholy; experiencing low mood or mild depression\n- **Secondary Meanings**: Sad, melancholy, downhearted, dejected, gloomy, morose\n- **Colloquial Usage**: \"Feeling blue,\" \"having the blues,\" \"blue mood\"\n- **Register**: Mildly negative; indicates sadness calling for attention\n- **Frequency Trend**: High; common for describing mild sadness and low mood\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recognition of blue feelings as embodied"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating mild sadness and melancholy mood",
+      "listener_response": "Response**: Understanding low mood and potential need for comfort or companionship",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating mild sadness and melancholy mood",
+        "**Listener Response**: Understanding low mood and potential need for comfort or companionship",
+        "**Somatic Markers**: Melancholy energy, downcast presence, low activation, gloomy aliveness",
+        "**Cognitive Associations**: Mild sadness, low mood, melancholy feeling, need for comfort",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Melancholy energy throughout body, downcast presence, low activation",
+        "Embodied Authenticity**: Natural sadness response calling for comfort without wallowing while seeking appropriate support",
+        "Kinesthetic Response**: Downcast postures, blue expressions, melancholy movements"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Mild sadness and melancholy mood calling for compassionate support and gentle care",
+      "relational_context": "Context**: May need gentle support, companionship, or mood-lifting activities",
+      "temporal_aspect": "Aspect**: Present mild sadness that can be processed through comfort and gentle care",
+      "intensity_spectrum": "Spectrum**: From mild melancholy (3-4) to significant blue mood (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual mood calling for sadness support and depression awareness",
+        "**Eastern**: Melancholy attachment calling for mindful awareness and compassionate mood care",
+        "**Indigenous**: Community sadness calling for traditional comfort and collective support",
+        "**Clinical**: Mood assessment calling for depression evaluation and sadness therapy",
+        "**Spiritual**: Soul melancholy calling for faith comfort and divine emotional support",
+        "**Philosophical**: Human sadness calling for wisdom about melancholy and appropriate emotional care"
+      ],
+      "raw_content": "- **Western**: Individual mood calling for sadness support and depression awareness\n- **Eastern**: Melancholy attachment calling for mindful awareness and compassionate mood care\n- **Indigenous**: Community sadness calling for traditional comfort and collective support\n- **Clinical**: Mood assessment calling for depression evaluation and sadness therapy\n- **Spiritual**: Soul melancholy calling for faith comfort and divine emotional support\n- **Philosophical**: Human sadness calling for wisdom ab",
+      "framework_perspectives": {
+        "western": "Individual mood calling for sadness support and depression awareness",
+        "eastern": "Melancholy attachment calling for mindful awareness and compassionate mood care",
+        "indigenous": "Community sadness calling for traditional comfort and collective support",
+        "clinical": "Mood assessment calling for depression evaluation and sadness therapy",
+        "spiritual": "Soul melancholy calling for faith comfort and divine emotional support",
+        "philosophical": "Human sadness calling for wisdom about melancholy and appropriate emotional care"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document blue feelings and melancholy with comfort and support focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor sadness without judgment while exploring comfort needs and support opportunities",
+      "precision_level_requirements": "Requirements**: Explore blue appropriateness and mood patterns; assess comfort needs and depression screening if needed"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "melancholy energy throughout body; Secondary: downcast presence, low activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: melancholy energy throughout body; Secondary: downcast presence, low activation",
+        "**Sensation Quality Descriptors**: Melancholy energy, downcast presence, low activation, gloomy aliveness",
+        "**Kinesthetic Response Patterns**: Downcast postures, blue expressions, melancholy movements, low-energy behaviors",
+        "**Neurobiological Correlates**: Sadness networks, melancholy circuits, mood regulation systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear blue feeling with definite melancholy and manageable comfort needs",
+        "7-8: Strong blue response with significant sadness calling for support and mood care",
+        "8-9: Severe blue mood with intense melancholy calling for depression assessment and professional support",
+        "**Resonance Practice Integration**: Mood care, gentle support, sadness processing with compassionate community assistance",
+        "**Cultural Somatic Variations**: Western mood support vs. Eastern compassionate awareness vs. Indigenous community comfort"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Melancholy energy, downcast presence, low activation, gloomy aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

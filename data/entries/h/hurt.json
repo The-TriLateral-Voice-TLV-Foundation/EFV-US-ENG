@@ -1,0 +1,93 @@
+{
+  "term": "hurt",
+  "source_file": "hurt.md",
+  "source_hash": "1aabeb93dd2a6e3f",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old English \"hyrt\" (harm, injury)",
+      "original_meaning": "Meaning**: Physical harm; experiencing injury and painful damage",
+      "semantic_evolution": "Evolution**: Physical harm → emotional injury → contemporary pain experience and wounded feeling",
+      "cultural_shifts": "Shifts**: Physical harm → emotional injury → pain experience → healing understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Experiencing pain and injury; feeling wounded and damaged emotionally or physically",
+      "colloquial_usage": "Usage**: \"Feeling hurt,\" \"deeply hurt,\" \"hurt by words\"",
+      "register": "Negative; indicates pain supported by healing awareness and comfort support",
+      "raw_content": "- **Primary Definition**: Experiencing pain and injury; feeling wounded and damaged emotionally or physically\n- **Secondary Meanings**: Pained, injured, wounded, damaged, aching, suffering\n- **Colloquial Usage**: \"Feeling hurt,\" \"deeply hurt,\" \"hurt by words\"\n- **Register**: Negative; indicates pain supported by healing awareness and comfort support\n- **Frequency Trend**: Very high; fundamental for describing pain and injury experience\n- **Contemporary Somatic Usage**:\n  - **Body Awareness Trend"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating pain experience and wounded injured feeling",
+      "listener_response": "Response**: Understanding pain and potential need for healing support or comfort assistance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating pain experience and wounded injured feeling",
+        "**Listener Response**: Understanding pain and potential need for healing support or comfort assistance",
+        "**Somatic Markers**: Pained energy, wounded presence, injured activation, aching aliveness",
+        "**Cognitive Associations**: Pain experience, wounded feeling, injured state, need for healing",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Pained energy throughout body, wounded presence, injured activation",
+        "**Embodied Authenticity**: Natural hurt supported by healing awareness without shame while seeking comfort support",
+        "**Kinesthetic Response**: Protective movements, hurt expressions, wounded gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Pain experience and wounded feeling supported by healing awareness support and comfort intervention",
+      "relational_context": "Context**: May need healing assistance, comfort support, and understanding for pain processing",
+      "temporal_aspect": "Aspect**: Present pain that benefits from healing growth and comfort development",
+      "intensity_spectrum": "Spectrum**: From mild discomfort (3-4) to severe hurt (8-9)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual healing calling for hurt processing and pain management",
+        "**Eastern**: Attachment hurt calling for wisdom about suffering and compassionate healing development",
+        "**Indigenous**: Community hurt calling for traditional healing ceremonies and collective pain support",
+        "**Clinical**: Hurt therapy calling for pain processing and healing development",
+        "**Spiritual**: Faith hurt calling for divine healing and spiritual comfort",
+        "**Philosophical**: Human hurt calling for wisdom about pain and appropriate healing development"
+      ],
+      "raw_content": "- **Western**: Individual healing calling for hurt processing and pain management\n- **Eastern**: Attachment hurt calling for wisdom about suffering and compassionate healing development\n- **Indigenous**: Community hurt calling for traditional healing ceremonies and collective pain support\n- **Clinical**: Hurt therapy calling for pain processing and healing development\n- **Spiritual**: Faith hurt calling for divine healing and spiritual comfort\n- **Philosophical**: Human hurt calling for wisdom a",
+      "framework_perspectives": {
+        "western": "Individual healing calling for hurt processing and pain management",
+        "eastern": "Attachment hurt calling for wisdom about suffering and compassionate healing development",
+        "indigenous": "Community hurt calling for traditional healing ceremonies and collective pain support",
+        "clinical": "Hurt therapy calling for pain processing and healing development",
+        "spiritual": "Faith hurt calling for divine healing and spiritual comfort",
+        "philosophical": "Human hurt calling for wisdom about pain and appropriate healing development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document hurt experiences and pain feeling with healing and comfort focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor pain reality while exploring healing needs and comfort opportunities",
+      "precision_level_requirements": "Requirements**: HIGH - assess hurt severity and pain patterns; provide healing support and comfort development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "pained energy throughout body; Secondary: wounded presence, injured activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: pained energy throughout body; Secondary: wounded presence, injured activation",
+        "**Sensation Quality Descriptors**: Pained energy, wounded presence, injured activation, aching aliveness",
+        "**Kinesthetic Response Patterns**: Protective movements, hurt expressions, wounded gestures, pained behaviors",
+        "**Neurobiological Correlates**: Hurt networks, pain circuits, injury systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear hurt feeling with definite pain and manageable healing needs",
+        "7-8: Strong hurt response with significant injury supported by healing awareness support and comfort development",
+        "8-9: Severe hurt state with overwhelming pain that may need supportive intervention and comprehensive healing",
+        "**Resonance Practice Integration**: Hurt processing, pain healing, comfort with supportive community care",
+        "**Cultural Somatic Variations**: Western pain management vs. Eastern compassionate healing vs. Indigenous community care"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Pained energy, wounded presence, injured activation, aching aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

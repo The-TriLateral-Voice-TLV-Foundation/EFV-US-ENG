@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TLV Emotional &amp; Feeling Vocabulary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════════
+   TLV BRAND SYSTEM — DESIGN TOKENS
+   Trilateral Voice · Brand Identity v1.0
+   ═══════════════════════════════════════════════════════ */
+:root {
+  /* ── Primitive Palette ── */
+  --tv-ivory-white:       #fffdf9;
+  --tv-parchment-cream:   #f5eedf;
+  --tv-warm-linen:        #e7ddcb;
+  --tv-sandstone:         #e0caaa;
+  --tv-gilded-sand:       #c4a98b;
+  --tv-antique-bronze:    #a98f79;
+  --tv-clay:              #b99d80;
+  --tv-mist-gray:         #cdcbc6;
+  --tv-stone:             #bfbbb6;
+  --tv-cool-slate:        #aaabae;
+  --tv-twilight-mauve:    #9093a3;
+  --tv-mystic-lavender:   #76678a;
+  --tv-dusk-violet:       #574c6e;
+  --tv-midnight-indigo:   #3e3955;
+  --tv-deep-charcoal:     #2a2530;
+
+  /* ── Semantic — Light Theme ── */
+  --tv-bg:                var(--tv-parchment-cream);
+  --tv-surface:           var(--tv-ivory-white);
+  --tv-surface-alt:       var(--tv-warm-linen);
+  --tv-border:            var(--tv-sandstone);
+  --tv-border-subtle:     rgba(196,169,139,0.15);
+  --tv-text:              var(--tv-deep-charcoal);
+  --tv-text-secondary:    var(--tv-dusk-violet);
+  --tv-text-muted:        var(--tv-twilight-mauve);
+  --tv-text-inverse:      var(--tv-parchment-cream);
+  --tv-accent-primary:    var(--tv-dusk-violet);
+  --tv-accent-primary-hover: var(--tv-midnight-indigo);
+  --tv-accent-warm:       var(--tv-gilded-sand);
+  --tv-accent-cool:       var(--tv-mystic-lavender);
+  --tv-hero-gradient:     linear-gradient(135deg, #3e3955 0%, #574c6e 40%, #76678a 70%, #c4a98b 100%);
+
+  /* ── Status Colors ── */
+  --tv-intensity:         var(--tv-dusk-violet);
+  --tv-somatic:           #c07852;
+  --tv-verified:          var(--tv-gilded-sand);
+  --tv-tier:              var(--tv-mystic-lavender);
+
+  /* ── Typography ── */
+  --font-serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+  --font-sans:  'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono:  'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+
+  /* ── Spacing & Shape ── */
+  --radius:    14px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+  --shadow:    0 4px 24px rgba(42,37,48,0.08);
+  --shadow-lg: 0 12px 40px rgba(62,57,85,0.12);
+  --ease:      cubic-bezier(0.16, 1, 0.3, 1);
+  --speed:     0.3s;
+}
+
+/* ── Dark Theme ── */
+[data-theme="dark"] {
+  --tv-bg:                #1a1620;
+  --tv-surface:           #242030;
+  --tv-surface-alt:       #2e2940;
+  --tv-border:            #3e3955;
+  --tv-border-subtle:     rgba(118,103,138,0.2);
+  --tv-text:              #f0eae0;
+  --tv-text-secondary:    #bfbbb6;
+  --tv-text-muted:        #9093a3;
+  --tv-text-inverse:      #1a1620;
+  --tv-accent-primary:    #c4a98b;
+  --tv-accent-primary-hover: #e0caaa;
+  --tv-accent-warm:       #c4a98b;
+  --tv-accent-cool:       #9d8fb5;
+  --tv-hero-gradient:     linear-gradient(135deg, #1a1620 0%, #2e2940 40%, #3e3955 70%, #574c6e 100%);
+  --tv-intensity:         #c4a98b;
+  --tv-somatic:           #d4956e;
+  --tv-verified:          #c4a98b;
+  --tv-tier:              #9d8fb5;
+  --shadow:               0 4px 24px rgba(0,0,0,0.25);
+  --shadow-lg:            0 12px 40px rgba(0,0,0,0.35);
+}
+
+/* ═══════════════════════════════════════════════════════
+   RESET & BASE
+   ═══════════════════════════════════════════════════════ */
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body {
+  font-family: var(--font-sans);
+  background: var(--tv-bg);
+  color: var(--tv-text);
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background var(--speed), color var(--speed);
+}
+a { color: var(--tv-accent-cool); text-decoration: none; transition: color var(--speed); }
+a:hover { color: var(--tv-accent-primary); }
+
+/* ═══════════════════════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════════════════════ */
+.app { display: flex; flex-direction: column; min-height: 100vh; }
+
+/* ── Header ── */
+header {
+  background: var(--tv-hero-gradient);
+  border-bottom: 1px solid var(--tv-border-subtle);
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header .inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  height: 68px;
+}
+.logo {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--tv-parchment-cream);
+}
+.logo span { color: var(--tv-gilded-sand); }
+.logo small {
+  font-size: 10px;
+  font-weight: 400;
+  display: block;
+  letter-spacing: 1.5px;
+  color: rgba(245,238,223,0.5);
+  margin-top: 1px;
+}
+
+/* ── Search ── */
+.search-wrap { flex: 1; max-width: 480px; position: relative; }
+.search-wrap input {
+  width: 100%;
+  padding: .7rem 1rem .7rem 2.6rem;
+  border: 1px solid rgba(245,238,223,0.15);
+  border-radius: var(--radius-sm);
+  background: rgba(245,238,223,0.08);
+  color: var(--tv-parchment-cream);
+  font-family: var(--font-sans);
+  font-size: .9rem;
+  outline: none;
+  transition: all var(--speed);
+  backdrop-filter: blur(8px);
+}
+.search-wrap input::placeholder { color: rgba(245,238,223,0.4); }
+.search-wrap input:focus { border-color: var(--tv-gilded-sand); background: rgba(245,238,223,0.12); }
+.search-wrap .icon { position: absolute; left: .85rem; top: 50%; transform: translateY(-50%); color: rgba(245,238,223,0.4); font-size: 1rem; }
+.search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0; right: 0;
+  background: var(--tv-surface);
+  border: 1px solid var(--tv-border);
+  border-radius: var(--radius);
+  max-height: 360px;
+  overflow-y: auto;
+  display: none;
+  z-index: 200;
+  box-shadow: var(--shadow-lg);
+}
+.search-results.active { display: block; }
+.search-results .sr-item {
+  padding: .65rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--tv-border-subtle);
+  transition: background .15s;
+}
+.search-results .sr-item:last-child { border: 0; }
+.search-results .sr-item:hover { background: var(--tv-surface-alt); }
+.sr-item .sr-term { font-family: var(--font-serif); font-weight: 600; font-size: .95rem; color: var(--tv-text); }
+.sr-item .sr-def { font-size: .8rem; color: var(--tv-text-muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.stats-badge {
+  font-size: .8rem;
+  color: rgba(245,238,223,0.5);
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: var(--font-mono);
+}
+.stats-badge b { color: var(--tv-gilded-sand); }
+
+/* ── Theme Toggle ── */
+.theme-toggle {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(245,238,223,0.15);
+  background: rgba(245,238,223,0.08);
+  color: var(--tv-parchment-cream);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+  transition: all var(--speed);
+  flex-shrink: 0;
+}
+.theme-toggle:hover { background: rgba(245,238,223,0.18); }
+
+/* ── Main ── */
+main { max-width: 1280px; margin: 0 auto; padding: 2rem; flex: 1; width: 100%; }
+
+/* ── Alphabet Bar ── */
+.alpha-bar { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: 1.8rem; justify-content: center; }
+.alpha-bar button {
+  background: var(--tv-surface);
+  border: 1px solid var(--tv-border-subtle);
+  color: var(--tv-text-muted);
+  width: 38px; height: 38px;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: .85rem;
+  cursor: pointer;
+  transition: all .15s;
+}
+.alpha-bar button:hover,
+.alpha-bar button.active {
+  background: var(--tv-accent-primary);
+  color: var(--tv-text-inverse);
+  border-color: var(--tv-accent-primary);
+}
+[data-theme="dark"] .alpha-bar button.active {
+  color: var(--tv-text-inverse);
+}
+.alpha-bar button .count {
+  display: block;
+  font-size: .55rem;
+  font-weight: 400;
+  margin-top: -2px;
+}
+
+/* ── Two-column layout ── */
+.content { display: grid; grid-template-columns: 280px 1fr; gap: 2rem; }
+@media(max-width:768px) { .content { grid-template-columns: 1fr; } }
+
+/* ── Sidebar term list ── */
+.term-list {
+  background: var(--tv-surface);
+  border: 1px solid var(--tv-border-subtle);
+  border-radius: var(--radius);
+  padding: .6rem;
+  max-height: calc(100vh - 240px);
+  overflow-y: auto;
+  position: sticky;
+  top: 100px;
+  transition: background var(--speed), border-color var(--speed);
+}
+.term-list h3 {
+  font-family: var(--font-sans);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--tv-accent-warm);
+  padding: .5rem .6rem;
+  margin-bottom: .2rem;
+  font-weight: 700;
+}
+.tl-item {
+  padding: .5rem .7rem;
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  font-family: var(--font-serif);
+  font-size: .88rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background .12s;
+  color: var(--tv-text);
+}
+.tl-item:hover { background: var(--tv-surface-alt); }
+.tl-item.active { background: var(--tv-accent-primary); color: var(--tv-text-inverse); }
+[data-theme="dark"] .tl-item.active { color: var(--tv-text-inverse); }
+.tl-item .badge {
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  background: var(--tv-surface-alt);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--tv-text-muted);
+  font-weight: 500;
+}
+.tl-item.active .badge { background: rgba(255,255,255,.18); color: var(--tv-text-inverse); }
+[data-theme="dark"] .tl-item.active .badge { background: rgba(0,0,0,.25); color: var(--tv-parchment-cream); }
+
+/* ── Detail Panel ── */
+.detail {
+  background: var(--tv-surface);
+  border: 1px solid var(--tv-border-subtle);
+  border-radius: var(--radius);
+  padding: 2rem;
+  min-height: 400px;
+  transition: background var(--speed), border-color var(--speed);
+}
+.detail-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  color: var(--tv-text-muted);
+  flex-direction: column;
+  gap: 1rem;
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+.detail-empty .big { font-size: 3rem; }
+
+.dt-header { margin-bottom: 2rem; }
+.dt-term {
+  font-family: var(--font-serif);
+  font-size: 2.4rem;
+  font-weight: 600;
+  background: var(--tv-hero-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.dt-badges { display: flex; gap: .5rem; margin-top: .7rem; flex-wrap: wrap; }
+.dt-badges span {
+  font-family: var(--font-sans);
+  font-size: .7rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.badge-intensity { background: rgba(87,76,110,0.1); color: var(--tv-intensity); }
+.badge-tier      { background: rgba(118,103,138,0.1); color: var(--tv-tier); }
+.badge-lang      { background: rgba(196,169,139,0.12); color: var(--tv-verified); }
+.badge-somatic   { background: rgba(192,120,82,0.1); color: var(--tv-somatic); }
+[data-theme="dark"] .badge-intensity { background: rgba(196,169,139,0.12); }
+[data-theme="dark"] .badge-tier      { background: rgba(157,143,181,0.15); }
+[data-theme="dark"] .badge-lang      { background: rgba(196,169,139,0.12); }
+[data-theme="dark"] .badge-somatic   { background: rgba(212,149,110,0.12); }
+
+.dt-def {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin-top: .8rem;
+  color: var(--tv-text);
+}
+.dt-usage {
+  font-family: var(--font-serif);
+  font-size: .9rem;
+  color: var(--tv-text-secondary);
+  font-style: italic;
+  margin-top: .3rem;
+  line-height: 1.6;
+}
+
+/* ── Sections ── */
+.section { margin-top: 1.8rem; }
+.section-title {
+  font-family: var(--font-sans);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--tv-accent-warm);
+  margin-bottom: .8rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 700;
+}
+.section-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--tv-border), transparent);
+}
+
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.info-card {
+  background: var(--tv-surface-alt);
+  border: 1px solid var(--tv-border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  transition: background var(--speed), border-color var(--speed);
+}
+.info-card .label {
+  font-family: var(--font-sans);
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--tv-text-muted);
+  margin-bottom: .35rem;
+  font-weight: 600;
+}
+.info-card .value {
+  font-family: var(--font-serif);
+  font-size: .9rem;
+  line-height: 1.55;
+  color: var(--tv-text);
+}
+
+.cult-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .8rem; }
+.cult-card {
+  background: var(--tv-surface-alt);
+  border-left: 3px solid var(--tv-accent-cool);
+  border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
+  padding: .8rem 1rem;
+  transition: background var(--speed);
+}
+.cult-card .cl {
+  font-family: var(--font-sans);
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--tv-accent-cool);
+  margin-bottom: .25rem;
+  font-weight: 700;
+}
+.cult-card .cv {
+  font-family: var(--font-serif);
+  font-size: .84rem;
+  color: var(--tv-text-secondary);
+  line-height: 1.45;
+}
+
+.somatic-box {
+  background: var(--tv-surface-alt);
+  border: 1px solid var(--tv-border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 1.2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  transition: background var(--speed);
+}
+.somatic-box .sb-col { flex: 1; min-width: 200px; }
+.somatic-box .sb-label {
+  font-family: var(--font-sans);
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--tv-somatic);
+  margin-bottom: .3rem;
+  font-weight: 700;
+}
+.somatic-box .sb-val {
+  font-family: var(--font-serif);
+  font-size: .88rem;
+  line-height: 1.55;
+  color: var(--tv-text);
+}
+
+.translations { display: flex; gap: .6rem; flex-wrap: wrap; }
+.translations .tr {
+  background: var(--tv-surface-alt);
+  border: 1px solid var(--tv-border-subtle);
+  padding: .45rem .9rem;
+  border-radius: 999px;
+  font-family: var(--font-serif);
+  font-size: .82rem;
+  color: var(--tv-text);
+  transition: background var(--speed);
+}
+.translations .tr .lang {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  color: var(--tv-accent-warm);
+  text-transform: uppercase;
+  margin-right: .3rem;
+  font-size: .7rem;
+  letter-spacing: .05em;
+}
+
+/* ── Footer ── */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--tv-text-muted);
+  font-family: var(--font-sans);
+  font-size: .72rem;
+  letter-spacing: .05em;
+  border-top: 1px solid var(--tv-border-subtle);
+  transition: color var(--speed), border-color var(--speed);
+}
+footer strong { color: var(--tv-accent-warm); font-weight: 600; }
+
+/* ── Welcome Section ── */
+.welcome { text-align: center; padding: 3rem 1rem; }
+.welcome h2 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: .8rem;
+  background: var(--tv-hero-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.01em;
+}
+.welcome p {
+  font-family: var(--font-serif);
+  color: var(--tv-text-secondary);
+  max-width: 600px;
+  margin: 0 auto .5rem;
+  line-height: 1.65;
+  font-size: .95rem;
+}
+.feat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 2rem auto 0;
+}
+.feat {
+  background: var(--tv-surface);
+  border: 1px solid var(--tv-border-subtle);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  text-align: center;
+  transition: all var(--speed);
+}
+.feat:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+.feat .fi { font-size: 1.8rem; margin-bottom: .5rem; }
+.feat h4 {
+  font-family: var(--font-sans);
+  font-size: .85rem;
+  font-weight: 600;
+  margin-bottom: .3rem;
+  color: var(--tv-text);
+}
+.feat p {
+  font-size: .75rem;
+  color: var(--tv-text-muted);
+  line-height: 1.5;
+}
+
+/* ── Random btn ── */
+.btn-random {
+  background: rgba(245,238,223,0.08);
+  border: 1px solid rgba(245,238,223,0.15);
+  color: var(--tv-parchment-cream);
+  padding: .5rem 1rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: .82rem;
+  font-weight: 500;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.btn-random:hover {
+  background: rgba(245,238,223,0.18);
+  border-color: var(--tv-gilded-sand);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--tv-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--tv-accent-warm); }
+
+/* ── Responsive ── */
+@media(max-width:900px) {
+  header .inner { height: auto; padding: .8rem 0; gap: .8rem; }
+  .stats-badge { display: none; }
+}
+@media(max-width:640px) {
+  main { padding: 1rem; }
+  .dt-term { font-size: 1.8rem; }
+  .welcome h2 { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<!-- ── Header ── -->
+<header>
+  <div class="inner">
+    <div class="logo">Trilateral <span>Voice</span><small>Emotional &amp; Feeling Vocabulary</small></div>
+    <div class="search-wrap">
+      <span class="icon">🔍</span>
+      <input id="searchInput" type="text" placeholder="Search 999 emotions &amp; feelings…" autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+    <button class="btn-random" id="btnRandom">🎲 Random</button>
+    <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode" aria-label="Toggle theme">☀️</button>
+    <div class="stats-badge" id="statsInfo">Loading…</div>
+  </div>
+</header>
+
+<!-- ── Main ── -->
+<main>
+  <div class="alpha-bar" id="alphaBar"></div>
+
+  <div id="welcomePanel" class="welcome">
+    <h2>Explore the Full Spectrum of Human Emotion</h2>
+    <p>A comprehensive vocabulary of <b>999 emotions and feelings</b>, each analyzed across six dimensions: etymology, contemporary usage, somatic signatures, cultural translations, and more.</p>
+    <p style="font-size:.85rem;color:var(--tv-text-muted);">Click a letter above, search, or try a random entry to begin.</p>
+    <div class="feat-grid">
+      <div class="feat"><div class="fi">📖</div><h4>Seven Dimensions</h4><p>Etymology, usage, evocation, conceptual, cultural, TLV application</p></div>
+      <div class="feat"><div class="fi">🫀</div><h4>Somatic Signatures</h4><p>Body mapping, sensation quality, kinesthetic responses</p></div>
+      <div class="feat"><div class="fi">🌍</div><h4>Cultural Bridges</h4><p>Western, Eastern, Indigenous, Clinical, Spiritual, Philosophical</p></div>
+      <div class="feat"><div class="fi">🌡️</div><h4>Intensity Ranges</h4><p>Calibrated 1-10 intensity mappings for each entry</p></div>
+    </div>
+  </div>
+
+  <div id="contentPanel" class="content" style="display:none">
+    <aside class="term-list" id="termList">
+      <h3 id="termListTitle">Terms</h3>
+    </aside>
+    <div id="detailPanel" class="detail">
+      <div class="detail-empty"><div class="big">👈</div><div>Select a term from the list</div></div>
+    </div>
+  </div>
+</main>
+
+<footer>TLV Emotional &amp; Feeling Vocabulary · <strong>ISA Version TLV-EFV-ISA-RC0001</strong> · 999 Entries · Trilateral Voice Foundation</footer>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════
+   THEME TOGGLE
+   ═══════════════════════════════════════════ */
+let currentTheme = 'light';
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', currentTheme);
+  themeToggle.textContent = currentTheme === 'light' ? '☀️' : '🌙';
+});
+
+/* ═══════════════════════════════════════════
+   API & DATA
+   ═══════════════════════════════════════════ */
+const API = window.location.origin;
+let debounceTimer;
+
+async function api(path) {
+  const r = await fetch(API + path);
+  if (!r.ok) throw new Error(r.statusText);
+  return r.json();
+}
+
+async function init() {
+  const stats = await api('/api/stats');
+  document.getElementById('statsInfo').innerHTML =
+    `<b>${stats.total_entries}</b> entries · <b>${stats.letters.length}</b> letters`;
+
+  const bar = document.getElementById('alphaBar');
+  stats.letters.forEach(l => {
+    const b = document.createElement('button');
+    b.innerHTML = `${l.toUpperCase()}<span class="count">${stats.letter_counts[l] || ''}</span>`;
+    b.onclick = () => loadLetter(l, b);
+    bar.appendChild(b);
+  });
+}
+
+let activeLetterBtn = null;
+async function loadLetter(letter, btn) {
+  if (activeLetterBtn) activeLetterBtn.classList.remove('active');
+  btn.classList.add('active');
+  activeLetterBtn = btn;
+
+  document.getElementById('welcomePanel').style.display = 'none';
+  document.getElementById('contentPanel').style.display = 'grid';
+
+  const data = await api(`/api/letters/${letter}`);
+  const list = document.getElementById('termList');
+  list.innerHTML = `<h3 id="termListTitle">${letter.toUpperCase()} · ${data.count} terms</h3>`;
+
+  data.entries.forEach(e => {
+    const d = document.createElement('div');
+    d.className = 'tl-item';
+    d.innerHTML = `<span>${e.term}</span><span class="badge">${e.intensity_range}</span>`;
+    d.onclick = () => loadEntry(e.term, d);
+    list.appendChild(d);
+  });
+}
+
+let activeTermEl = null;
+async function loadEntry(term, el) {
+  if (activeTermEl) activeTermEl.classList.remove('active');
+  if (el) { el.classList.add('active'); activeTermEl = el; }
+
+  document.getElementById('welcomePanel').style.display = 'none';
+  document.getElementById('contentPanel').style.display = 'grid';
+
+  const e = await api(`/api/entries/${encodeURIComponent(term)}`);
+  const p = document.getElementById('detailPanel');
+
+  const ct = e.cultural_translation || {};
+  const cultHTML = Object.entries(ct).map(([k,v]) =>
+    `<div class="cult-card"><div class="cl">${k}</div><div class="cv">${v}</div></div>`
+  ).join('');
+
+  const trHTML = Object.entries(e.translations || {}).map(([l,v]) =>
+    `<span class="tr"><span class="lang">${l}</span>${v}</span>`
+  ).join('');
+
+  p.innerHTML = `
+    <div class="dt-header">
+      <div class="dt-term">${e.term}</div>
+      <div class="dt-badges">
+        <span class="badge-intensity">⚡ Intensity ${e.intensity_range}</span>
+        ${e.has_4lang_verification ? '<span class="badge-lang">✓ 4-Language Verified</span>' : ''}
+        <span class="badge-somatic">🫀 Somatic Mapped</span>
+        <span class="badge-tier">★ Tier ${(e.meta?.conversion_quality?.tier)||1}</span>
+      </div>
+      <div class="dt-def">${e.etymology.original_meaning || ''}</div>
+      <div class="dt-usage">${e.etymology.semantic_evolution || ''}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Etymology &amp; History</div>
+      <div class="info-grid">
+        <div class="info-card"><div class="label">Root Language</div><div class="value">${e.etymology.root_language}</div></div>
+        <div class="info-card"><div class="label">Original Meaning</div><div class="value">${e.etymology.original_meaning}</div></div>
+        <div class="info-card"><div class="label">Semantic Evolution</div><div class="value">${e.etymology.semantic_evolution}</div></div>
+        <div class="info-card"><div class="label">Cultural Shifts</div><div class="value">${e.etymology.cultural_shifts}</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Somatic Signature</div>
+      <div class="somatic-box">
+        <div class="sb-col"><div class="sb-label">Primary Body Region</div><div class="sb-val">${e.somatic_signature.primary_region}</div></div>
+        <div class="sb-col"><div class="sb-label">Sensation Quality</div><div class="sb-val">${e.somatic_signature.sensation_quality}</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Precise Evocation</div>
+      <div class="info-grid">
+        <div class="info-card"><div class="label">Speaker Experience</div><div class="value">${e.evocation.speaker_experience}</div></div>
+        <div class="info-card"><div class="label">Listener Response</div><div class="value">${e.evocation.listener_response}</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Conceptual Framework</div>
+      <div class="info-grid">
+        <div class="info-card"><div class="label">Core Concept</div><div class="value">${e.conceptual.core_concept}</div></div>
+        <div class="info-card"><div class="label">Relational Context</div><div class="value">${e.conceptual.relational_context}</div></div>
+        <div class="info-card"><div class="label">Temporal Aspect</div><div class="value">${e.conceptual.temporal_aspect}</div></div>
+        <div class="info-card"><div class="label">Intensity Spectrum</div><div class="value">${e.conceptual.intensity_spectrum}</div></div>
+      </div>
+    </div>
+
+    ${cultHTML ? `<div class="section"><div class="section-title">Cultural Translation</div><div class="cult-grid">${cultHTML}</div></div>` : ''}
+
+    <div class="section">
+      <div class="section-title">TLV Application</div>
+      <div class="info-grid">
+        <div class="info-card"><div class="label">Speaker's Voice</div><div class="value">${e.tlv_application.speakers_voice}</div></div>
+        <div class="info-card"><div class="label">Emotional Somatic Voice</div><div class="value">${e.tlv_application.emotional_voice}</div></div>
+        <div class="info-card"><div class="label">Precision Requirements</div><div class="value">${e.tlv_application.precision_reqs}</div></div>
+      </div>
+    </div>
+
+    ${trHTML ? `<div class="section"><div class="section-title">Translations</div><div class="translations">${trHTML}</div></div>` : ''}
+  `;
+}
+
+/* ═══════════════════════════════════════════
+   SEARCH
+   ═══════════════════════════════════════════ */
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+
+searchInput.addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  const q = searchInput.value.trim();
+  if (!q) { searchResults.classList.remove('active'); return; }
+  debounceTimer = setTimeout(async () => {
+    const data = await api(`/api/search?q=${encodeURIComponent(q)}&limit=15`);
+    if (!data.results.length) { searchResults.classList.remove('active'); return; }
+    searchResults.innerHTML = data.results.map(r =>
+      `<div class="sr-item" data-term="${r.term}">
+        <div class="sr-term">${r.term}</div>
+        <div class="sr-def">${r.definition || ''}</div>
+      </div>`
+    ).join('');
+    searchResults.classList.add('active');
+    searchResults.querySelectorAll('.sr-item').forEach(el => {
+      el.onclick = () => {
+        loadEntry(el.dataset.term, null);
+        searchResults.classList.remove('active');
+        searchInput.value = el.dataset.term;
+      };
+    });
+  }, 200);
+});
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.search-wrap')) searchResults.classList.remove('active');
+});
+
+/* ═══════════════════════════════════════════
+   RANDOM
+   ═══════════════════════════════════════════ */
+document.getElementById('btnRandom').onclick = async () => {
+  const e = await api('/api/random');
+  searchInput.value = e.term;
+  loadEntry(e.term, null);
+};
+
+/* ═══════════════════════════════════════════
+   INIT
+   ═══════════════════════════════════════════ */
+init();
+</script>
+</body>
+</html>

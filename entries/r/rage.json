@@ -1,0 +1,91 @@
+{
+  "term": "rage",
+  "source_file": "rage.md",
+  "source_hash": "db5474ca065f7a2e",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: Old French \"rage\" from Latin \"rabies\" (madness, fury)",
+      "original_meaning": "Meaning**: Madness, violent fury, uncontrolled anger",
+      "semantic_evolution": "Evolution**: Violent madness → uncontrolled fury → contemporary extreme anger",
+      "cultural_shifts": "Shifts**: Divine madness → violent fury → anger disorder → managed expression"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Violent, uncontrolled anger; furious, unrestrained passion",
+      "colloquial_usage": "Usage**: \"Filled with rage,\" \"rage response,\" \"uncontrollable rage\"",
+      "register": "Crisis; indicates extreme anger calling for immediate management",
+      "raw_content": "- **Primary Definition**: Violent, uncontrolled anger; furious, unrestrained passion\n- **Secondary Meanings**: Fury, wrath, violent anger, uncontrolled emotion, explosive anger\n- **Colloquial Usage**: \"Filled with rage,\" \"rage response,\" \"uncontrollable rage\"\n- **Register**: Crisis; indicates extreme anger calling for immediate management\n- **Frequency Trend**: Moderate; important for describing extreme anger states\n- **Contemporary Somatic Usage**:\n  - Body Awareness Trends**: Recognition of ra"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating violent, uncontrolled anger calling for immediate attention",
+      "listener_response": "Response**: Understanding extreme anger crisis and urgent need for safety and professional intervention",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating violent, uncontrolled anger calling for immediate attention",
+        "**Listener Response**: Understanding extreme anger crisis and urgent need for safety and professional intervention",
+        "**Somatic Markers**: Violent activation, uncontrolled energy, fury presence, explosive anger",
+        "**Cognitive Associations**: Extreme anger, violent fury, uncontrolled emotion, immediate safety concern",
+        "**Somatic Evocation**:",
+        "Physical Resonance**: Violent activation throughout body, uncontrolled energy, explosive anger",
+        "Embodied Authenticity**: Genuine extreme anger calling for immediate safety and professional rage management",
+        "Kinesthetic Response**: Violent movements, rage expressions, explosive gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Violent, uncontrolled extreme anger calling for immediate safety and professional management",
+      "relational_context": "Context**: Creates immediate safety concern and requires professional rage intervention",
+      "temporal_aspect": "Aspect**: Present extreme anger calling for immediate safety assessment and professional management",
+      "intensity_spectrum": "Spectrum**: Inherently extreme intensity (9-10) representing dangerous anger states"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual anger calling for immediate rage management and professional crisis intervention",
+        "**Eastern**: Extreme anger calling for immediate mindfulness intervention and compassionate rage transformation",
+        "**Indigenous**: Warrior rage addressed through ceremonial containment and community rage processing",
+        "**Clinical**: Rage disorder calling for immediate assessment and specialized anger management",
+        "**Spiritual**: Violent anger calling for divine intervention and faith community crisis support",
+        "**Philosophical**: Extreme human anger calling for immediate wisdom and crisis management"
+      ],
+      "raw_content": "- **Western**: Individual anger calling for immediate rage management and professional crisis intervention\n- **Eastern**: Extreme anger calling for immediate mindfulness intervention and compassionate rage transformation\n- **Indigenous**: Warrior rage addressed through ceremonial containment and community rage processing\n- **Clinical**: Rage disorder calling for immediate assessment and specialized anger management\n- **Spiritual**: Violent anger calling for divine intervention and faith communit",
+      "framework_perspectives": {
+        "western": "Individual anger calling for immediate rage management and professional crisis intervention",
+        "eastern": "Extreme anger calling for immediate mindfulness intervention and compassionate rage transformation",
+        "indigenous": "Warrior rage addressed through ceremonial containment and community rage processing",
+        "clinical": "Rage disorder calling for immediate assessment and specialized anger management",
+        "spiritual": "Violent anger calling for divine intervention and faith community crisis support",
+        "philosophical": "Extreme human anger calling for immediate wisdom and crisis management"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document rage triggers and violent anger with immediate safety assessment focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Capture fury intensity while maintaining safety priority and professional intervention needs",
+      "precision_level_requirements": "Requirements**: CRITICAL - assess violence risk immediately and mobilize professional crisis intervention"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "violent activation throughout entire body; Secondary: uncontrolled energy, explosive anger",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: violent activation throughout entire body; Secondary: uncontrolled energy, explosive anger",
+        "**Sensation Quality Descriptors**: Violent activation, uncontrolled energy, fury presence, explosive anger",
+        "**Kinesthetic Response Patterns**: Violent movements, rage expressions, explosive gestures, potentially dangerous behaviors",
+        "**Neurobiological Correlates**: Rage networks, violent anger circuits, extreme fury systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "9-10: Complete rage with violent fury calling for immediate safety intervention and professional crisis management",
+        "**Resonance Practice Integration**: Rage management, violence prevention, extreme anger processing with immediate professional support",
+        "**Cultural Somatic Variations**: Western crisis intervention vs. Eastern compassionate transformation vs. Indigenous ceremonial containment"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Violent activation, uncontrolled energy, fury presence, explosive anger"
+    }
+  },
+  "intensity_range": "9-10",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}

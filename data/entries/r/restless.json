@@ -1,0 +1,93 @@
+{
+  "term": "restless",
+  "source_file": "restless.md",
+  "source_hash": "9b062a318a359b79",
+  "six_dimensions": {
+    "etymology_and_history": {
+      "root_language": "Language**: \"Rest\" + \"-less\" (without rest)",
+      "original_meaning": "Meaning**: Without rest; lacking peace and having constant motion or agitation",
+      "semantic_evolution": "Evolution**: Lacking peace → constant agitation → contemporary unable to settle and fidgety unease",
+      "cultural_shifts": "Shifts**: Lacking peace → constant agitation → unable to settle → balance understanding"
+    },
+    "contemporary_usage": {
+      "primary_definition": "Definition**: Unable to settle and remain still; experiencing fidgety unease and constant movement urge",
+      "colloquial_usage": "Usage**: \"Feeling restless,\" \"restless energy,\" \"restless night\"",
+      "register": "Mildly negative; indicates unease calling for settling and calm support",
+      "raw_content": "- **Primary Definition**: Unable to settle and remain still; experiencing fidgety unease and constant movement urge\n- **Secondary Meanings**: Fidgety, unsettled, agitated, uneasy, impatient, anxious\n- **Colloquial Usage**: \"Feeling restless,\" \"restless energy,\" \"restless night\"\n- **Register**: Mildly negative; indicates unease calling for settling and calm support\n- **Frequency Trend**: High; common for describing inability to settle and fidgety states\n- **Contemporary Somatic Usage**:\n  - **Bod"
+    },
+    "precise_evocation": {
+      "speaker_experience": "Experience**: Communicating fidgety unease and unable-to-settle constant agitation",
+      "listener_response": "Response**: Understanding agitation and potential need for settling support or calm guidance",
+      "somatic_markers": [
+        "**Speaker Experience**: Communicating fidgety unease and unable-to-settle constant agitation",
+        "**Listener Response**: Understanding agitation and potential need for settling support or calm guidance",
+        "**Somatic Markers**: Agitated energy, restless presence, fidgety activation, unsettled aliveness",
+        "**Cognitive Associations**: Fidgety unease, unable to settle, constant agitation, need for calm",
+        "**Somatic Evocation**:",
+        "**Physical Resonance**: Agitated energy throughout body, restless presence, fidgety activation",
+        "**Embodied Authenticity**: Natural restlessness calling for settling without suppression while seeking calm",
+        "**Kinesthetic Response**: Fidgety movements, restless expressions, agitated gestures"
+      ]
+    },
+    "conceptual_explanation": {
+      "core_concept": "Concept**: Fidgety unease and constant agitation calling for settling support and calm development",
+      "relational_context": "Context**: May need settling assistance, calm support, and understanding for agitation management",
+      "temporal_aspect": "Aspect**: Present agitation that benefits from settling growth and calm development",
+      "intensity_spectrum": "Spectrum**: From mild fidgeting (3-4) to overwhelming restlessness (7-8)"
+    },
+    "cultural_translation": {
+      "cultural_bridge_examples": [
+        "**Western**: Individual calm calling for restlessness processing and settling development",
+        "**Eastern**: Attachment restlessness calling for mindful settling and compassionate calm development",
+        "**Indigenous**: Community restlessness calling for traditional settling ceremonies and collective calm support",
+        "**Clinical**: Restlessness therapy calling for agitation management and settling development",
+        "**Spiritual**: Faith restlessness calling for divine calm and spiritual settling",
+        "**Philosophical**: Human restlessness calling for wisdom about agitation and appropriate settling development"
+      ],
+      "raw_content": "- **Western**: Individual calm calling for restlessness processing and settling development\n- **Eastern**: Attachment restlessness calling for mindful settling and compassionate calm development\n- **Indigenous**: Community restlessness calling for traditional settling ceremonies and collective calm support\n- **Clinical**: Restlessness therapy calling for agitation management and settling development\n- **Spiritual**: Faith restlessness calling for divine calm and spiritual settling\n- **Philosophi",
+      "framework_perspectives": {
+        "western": "Individual calm calling for restlessness processing and settling development",
+        "eastern": "Attachment restlessness calling for mindful settling and compassionate calm development",
+        "indigenous": "Community restlessness calling for traditional settling ceremonies and collective calm support",
+        "clinical": "Restlessness therapy calling for agitation management and settling development",
+        "spiritual": "Faith restlessness calling for divine calm and spiritual settling",
+        "philosophical": "Human restlessness calling for wisdom about agitation and appropriate settling development"
+      }
+    },
+    "tlv_application": {
+      "usage_in_speakers_voice": "Usage**: Document restless experiences and fidgety agitation with settling and calm focus",
+      "usage_in_emotional_somatic_voice": "Voice Usage**: Honor energy signal while exploring settling needs and calm opportunities",
+      "precision_level_requirements": "Requirements**: Explore restlessness appropriateness and agitation patterns; assess settling needs and calm development"
+    }
+  },
+  "somatic_signature": {
+    "physical_location": {
+      "primary_region": "agitated energy throughout body; Secondary: restless presence, fidgety activation",
+      "secondary_regions": [
+        "**Physical Location Mapping**: Primary: agitated energy throughout body; Secondary: restless presence, fidgety activation",
+        "**Sensation Quality Descriptors**: Agitated energy, restless presence, fidgety activation, unsettled aliveness",
+        "**Kinesthetic Response Patterns**: Fidgety movements, restless expressions, agitated gestures, unsettled behaviors",
+        "**Neurobiological Correlates**: Restlessness networks, agitation circuits, fidgeting systems",
+        "**Intensity Mapping with Somatic Calibration**:",
+        "4-5: Clear restless feeling with definite agitation and manageable settling needs",
+        "7-8: Strong restless response with significant fidgeting calling for settling support and calm development",
+        "8-9: Overwhelming restless state with constant agitation that may need supportive intervention and comprehensive settling",
+        "**Resonance Practice Integration**: Restlessness processing, agitation management, settling with calming community support",
+        "**Cultural Somatic Variations**: Western stress management vs. Eastern mindful stillness vs. Indigenous community calm"
+      ]
+    },
+    "sensation_quality": {
+      "texture": "Descriptors**: Agitated energy, restless presence, fidgety activation, unsettled aliveness"
+    }
+  },
+  "intensity_range": "3-4",
+  "_meta": {
+    "isa_version": "TLV-EFV-ISA-RC0001",
+    "converted_at": "",
+    "conversion_quality": {
+      "tier": 1,
+      "label": "COMPLETE",
+      "fields_populated": 13
+    }
+  }
+}
