@@ -51,12 +51,12 @@ echo "→ Installing Python dependencies…"
 pip install fastapi uvicorn aiofiles python-multipart 2>/dev/null || pip3 install fastapi uvicorn aiofiles python-multipart
 
 # 4. Launch
-echo ""
-echo "✅ Setup complete!"
-echo ""
-echo "→ Starting API server…"
-echo "  API:      http://localhost:8000/api/stats"
-echo "  Frontend: http://localhost:8000"
-echo "  Docs:     http://localhost:8000/docs"
-echo ""
-uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+# echo ""
+# echo "✅ Setup complete!"
+# echo ""
+# echo "→ Starting API server…"
+# echo "  API:      http://localhost:8000/api/stats"
+# echo "  Frontend: http://localhost:8000"
+# echo "  Docs:     http://localhost:8000/docs"
+# echo ""
+# uvicorn api:app --host 0.0.0.0 --port 8000 --reload
