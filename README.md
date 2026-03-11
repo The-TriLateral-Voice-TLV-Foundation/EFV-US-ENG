@@ -5,7 +5,7 @@
      Brand Identity v1.0 — Parchment · Violet · Gold
      ═══════════════════════════════════════════════════════════ -->
 
-<img src="post-image-hori-2.jpg" alt="Trilateral Voice — Three voices. Complete communication." width="100%">
+<img src="post-image (hori).png" alt="Trilateral Voice — Three voices. Complete communication." width="100%">
 
 <br>
 
